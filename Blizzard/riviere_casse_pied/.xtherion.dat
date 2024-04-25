@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 689.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 98.03m (from A57@riviere_casse_pieds.2-Soeurs at 98.03m to A00@riviere_casse_pieds.2-Soeurs at 0.00m)\nnorth-south range: 380.85m (from B61@riviere_casse_pieds.2-Soeurs at 1.43m to A60@riviere_casse_pieds.2-Soeurs at -379.42m)\neast-west range: 209.31m (from A00@riviere_casse_pieds.2-Soeurs at 0.00m to A53@riviere_casse_pieds.2-Soeurs at -209.31m)\nnumber of shots: 72\nnumber of stations: 73"
+xth_cp_data_tree_insert 51 1 1 2-Soeurs 2-Soeurs "2-Soeurs" "2-Soeurs" "length: 689.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 98.03m (from A57@riviere_casse_pieds.2-Soeurs at 98.03m to A00@riviere_casse_pieds.2-Soeurs at 0.00m)\nnorth-south range: 380.85m (from B61@riviere_casse_pieds.2-Soeurs at 1.43m to A60@riviere_casse_pieds.2-Soeurs at -379.42m)\neast-west range: 209.31m (from A00@riviere_casse_pieds.2-Soeurs at 0.00m to A53@riviere_casse_pieds.2-Soeurs at -209.31m)\nnumber of shots: 72\nnumber of stations: 73"
+xth_cp_data_tree_insert 53 51 2 riviere_casse_pieds riviere_casse_pieds.2-Soeurs "Rivière casse-pieds" "Riviere casse-pieds" "length: 689.74m (surface 0.00m, duplicated 0.00m)\nvertical range: 98.03m (from A57@riviere_casse_pieds.2-Soeurs at 98.03m to A00@riviere_casse_pieds.2-Soeurs at 0.00m)\nnorth-south range: 380.85m (from B61@riviere_casse_pieds.2-Soeurs at 1.43m to A60@riviere_casse_pieds.2-Soeurs at -379.42m)\neast-west range: 209.31m (from A00@riviere_casse_pieds.2-Soeurs at 0.00m to A53@riviere_casse_pieds.2-Soeurs at -209.31m)\nnumber of shots: 72\nnumber of stations: 73"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 230X1 p1 1 MP-RCP-tot MP-RCP-tot@2-Soeurs "riviere\_casse\_pieds" "riviere\_casse\_pieds"
+xth_cp_map_tree_create
+xth_cp_comp_stat 690 2
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1713947853
+

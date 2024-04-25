@@ -1,0 +1,10 @@
+encoding  utf-8
+map MP-2-Soeurs-plan-tot -title "2-Soeurs"
+  SP-2S-1
+endmap
+
+
+map MC-2-Soeurs-coupe-tot -title "2-Soeurs"
+  SC-2S-1
+
+endmap

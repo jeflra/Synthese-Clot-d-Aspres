@@ -1,0 +1,11 @@
+encoding  utf-8
+
+survey collecteur_bourrasque -title "collecteur_bourrasque"
+   input Data/collecteur_bourrasque.th
+
+
+   # input Data/collecteur_bourrasque.th2
+	# input collecteur_bourrasque-maps.th
+	# input Data/2_soeurs-1s.th2
+	
+endsurvey

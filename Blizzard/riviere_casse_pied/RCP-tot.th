@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey riviere_casse_pieds -title "riviere_casse_pieds"
+   input Data/riviere_casse_pieds.th   
+
+   input Data/riviere_casse_pieds.th2
+	input RCP-maps.th
+	
+	
+endsurvey

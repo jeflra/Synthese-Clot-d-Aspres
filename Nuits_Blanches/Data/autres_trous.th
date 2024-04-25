@@ -1,0 +1,75 @@
+encoding  utf-8
+survey autres_trous -title "autres_trous"
+
+
+
+
+centerline
+
+
+
+
+# ou "units compass clino grad"
+                       # si les deux centesimalles
+                       # ou rien si les 2 sexa
+
+
+
+
+units compass clino degree
+
+data normal to  from length compass clino
+#fix  1  855000  308000  0 #1760
+#fix  2  856000  308000  0 #1760
+#fix	3	855500	308200 0
+#fix	4	855500	308500 0
+#fix	5	855500	308000 0
+
+
+#fix  1   855080.592	2008164.111 0 #1760
+#fix  2   855080.592	2008164.111 0 #1760
+#fix  3   855080.592	2008164.111 0 #1760
+#fix  4   855080.592	2008164.111 0 #1760
+#fix  5   855080.592	2008164.111 0 #1760
+
+
+
+
+#fix	CAF130	855825	308888	1557 
+fix	CAF130	855904.208	2009053.954	1557 
+
+#fix CAF93, 88,796 x 308,810 x 1572
+
+
+#fix	CAF131	855522	308310	1593
+fix	CAF131	855602.189	2008475.192	1593
+
+#fix	CAF7.012 855587 308769 1550 
+fix	CAF7.012 855666.351	2008934.468 1550 
+
+#fix	YB03-28	855311	308203	1602 
+fix	YB03-28	855391.317	2008367.761	1602 
+
+#fix	YB03-32	855326	308121	1592
+fix	YB03-32	855406.476	2008285.762 1592
+
+
+#fix	YB03-31	855373	308093	1631 
+fix	YB03-31	855453.544	2008257.840 1631 
+
+
+ 
+
+
+  
+endcenterline
+
+ surface 
+      #bitmap fauge.png [237 635  855074 20009166 704 100 856087 20008163]
+      bitmap fauge.png [548 855  855074 2009166 1015 335 856087 2008163]
+
+   endsurface
+
+input autres_trous.th2 
+endsurvey
+

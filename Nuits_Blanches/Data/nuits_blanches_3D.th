@@ -1,0 +1,20 @@
+encoding  utf-8
+survey nuits_blanches -title "Scialet des Nuits Blanches"
+
+
+input grosse_galerie.th
+input vlad.th
+#input reseau_classique.th
+input patayoyo.th
+
+equate 1_7@vlad 000@grosse_galerie 
+#equate 1_1@vlad 1@reseau_classique
+equate 29@patayoyo2.patayoyo 19@grosse_galerie 
+
+
+#input grosse_galerie_coupe.th2
+
+
+
+endsurvey
+

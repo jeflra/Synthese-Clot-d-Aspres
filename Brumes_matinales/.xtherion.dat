@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1995.45m (surface 0.00m, duplicated 0.00m)\nvertical range: 745.65m (from 0@brumes_matinales at 1769.00m to A@brumes_matinales at 1023.35m)\nnorth-south range: 226.00m (from 438@brumes_matinales at 4988703.84m to 28@brumes_matinales at 4988477.84m)\neast-west range: 331.13m (from 401@brumes_matinales at 703250.13m to 0@brumes_matinales at 702919.00m)\nnumber of shots: 208\nnumber of stations: 209"
+xth_cp_data_tree_insert 53 1 1 brumes_matinales brumes_matinales "Réseau 1991" "Reseau 1991" "length: 1995.45m (surface 0.00m, duplicated 0.00m)\nvertical range: 745.65m (from 0@brumes_matinales at 1769.00m to A@brumes_matinales at 1023.35m)\nnorth-south range: 226.00m (from 438@brumes_matinales at 4988703.84m to 28@brumes_matinales at 4988477.84m)\neast-west range: 331.13m (from 401@brumes_matinales at 703250.13m to 0@brumes_matinales at 702919.00m)\nnumber of shots: 208\nnumber of stations: 209"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 1995 4
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1713991204
+

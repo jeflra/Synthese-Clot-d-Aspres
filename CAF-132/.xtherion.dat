@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 794.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 280.57m (from CAF131@CAF-131.CAF-132 at 1573.00m to 2_140@CAF-132 at 1292.43m)\nnorth-south range: 196.57m (from 2_134@CAF-132 at 4989637.27m to 2-1@CAF-131.CAF-132 at 4989440.69m)\neast-west range: 106.09m (from 02_4_1@CAF-132 at 703303.45m to 2_135@CAF-132 at 703197.36m)\nnumber of shots: 257\nnumber of stations: 261"
+xth_cp_data_tree_insert 22 1 1 CAF-132 CAF-132 "CAF-132 La Chambre froide" "CAF-132 La Chambre froide" "length: 794.20m (surface 0.00m, duplicated 0.00m)\nvertical range: 280.57m (from CAF131@CAF-131.CAF-132 at 1573.00m to 2_140@CAF-132 at 1292.43m)\nnorth-south range: 196.57m (from 2_134@CAF-132 at 4989637.27m to 2-1@CAF-131.CAF-132 at 4989440.69m)\neast-west range: 106.09m (from 02_4_1@CAF-132 at 703303.45m to 2_135@CAF-132 at 703197.36m)\nnumber of shots: 257\nnumber of stations: 261"
+xth_cp_data_tree_insert 563 22 2 CAF-131 CAF-131.CAF-132 "CAF-131" "CAF-131" "length: 18.57m (surface 0.00m, duplicated 0.00m)\nvertical range: 6.65m (from CAF131@CAF-131.CAF-132 at 1573.00m to 5@CAF-131.CAF-132 at 1566.35m)\nnorth-south range: 9.85m (from 5@CAF-131.CAF-132 at 4989450.54m to 2-1@CAF-131.CAF-132 at 4989440.69m)\neast-west range: 7.51m (from CAF131@CAF-131.CAF-132 at 703218.00m to 4@CAF-131.CAF-132 at 703210.49m)\nnumber of shots: 6\nnumber of stations: 7"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 592X1 p1 1 map_1 map_1 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 794 12
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1713954899
+

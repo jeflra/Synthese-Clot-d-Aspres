@@ -1,0 +1,7 @@
+encoding  utf-8
+
+map MP-RCP-tot -title "riviere_casse_pieds"
+  casse-pied_1
+  break
+  casse-pieds_dessous
+endmap

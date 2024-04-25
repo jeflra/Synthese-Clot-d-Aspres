@@ -1,0 +1,51 @@
+encoding  utf-8
+survey vlad -title "Réseau de Vlad"
+
+centerline
+
+ declination -2.28 grad 
+  date 2002
+  team "Martin Gerbaux"
+  team "Jean Héraud"
+ 
+
+# ou "units compass clino grad"
+                       # si les deux centesimalles
+                       # ou rien si les 2 sexa
+units count cm
+
+
+data topofil from to fromcount tocount backcompass backclino 
+#sd clino -100 grad
+calibrate clino 90
+1_1	1_2	73455.0	74174.0	217.0	90.0   
+1_2	1_3	74202.0	74937.0	187.0	59.0   
+1_3	1_4	74937.0	76173.0	235.0	85.0     
+1_4	1_5	76173.0	78039.0	190.0	90.0    
+1_5	1_6	78039.0	79534.0	149.0	74.0     
+1_6	1_7	79534.0	80194.0	170.0	48.0     
+extend left   
+1_7	1_8	80194.0	81553.0	127.0	53.0     
+1_7	1_9	81536.0	82729.0	67.0	119.0 
+1_9	1_10	82729.0	83147.0	172.0	74.0     
+1_10	1_11	83147.0	83729.0	184.0	111.0  
+1_11	1_12	83729.0	84229.0	130.0	90.0     
+1_10	1_13	84229.0	84729.0	53.0	43.0     
+1_13	1_14	84729.0	85392.0	170.0	5.0     
+1_14	1_15	85392.0	85704.0	100.0	32.0     
+1_15	1_16	85704.0	86117.0	127.0	38.0      
+1_16	1_17	86117.0	86763.0	125.0	85.0      
+1_17	1_18	86763.0	87895.0	120.0	91.0      
+1_18	1_19	87895.0	88523.0	125.0	88.0
+#station 1_19  continuation explored 40
+
+extend right      
+1_17	1_20	88523.0	88667.0	8.0	45.0      
+1_20	1_21	88667.0	89029.0	185.0	25.0      
+1_21	1_22	89029.0	89800.0	232.0	91.0
+
+  
+endcenterline
+input vlad.th2
+
+endsurvey

@@ -1,0 +1,30 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 1169.64 -29.37 4575.248 6368.3656
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {2959.26 1 1.0} {3068.88 29@patayoyo2.patayoyo.nuits_blanches} Nuits_Blanches_plan.xvi 0 {}
+
+
+
+scrap autres_trous -projection plan -scale [-128.0 -128.0 5364.2233 -128.0 0.0 0.0 139.50247182 0.0 m]
+
+point 2671.0 3431.0 label -text "CAF 131" -align left
+
+point 2724.0 3426.0 station -name CAF131
+point 2724.0 3426.0 entrance
+
+
+point 1893.71 3003.94 entrance
+
+point 1930.0 3003.0 label -text "YB 03-28 <br>Scialet Candy"
+
+point 1985.0 2682.0 label -text "YB 03-32"
+
+point 1952.76 2681.1 entrance
+
+point 2198.0 2570.0 label -text "YB 03-31 <br>Scialet de la Malléole"
+
+point 2137.8 2570.87 entrance
+point 2137.8 2570.87 station -name YB03-31
+endscrap
+
+

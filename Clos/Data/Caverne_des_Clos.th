@@ -1,0 +1,56 @@
+encoding  utf-8
+survey Caverne_des_clos -title "Caverne des Clos"
+
+centerline
+
+  declination -1.5 degree # (calcul avec logiciel declimag) + gisement UTM
+  date 2018.09.08
+  team "Raphaël Charuel"
+  team "Vianney Gadiolet"
+   team "Martin Gerbaux"
+
+cs EPSG:3945
+fix Entree_1 621272 5622945 1880 #RGF93 CC45
+
+units compass clino degree
+data normal from to length compass clino right left up down
+
+
+#Entree_1   Entree_1         0.00    0.00    0.00      0      0      0      0 # ;Entrée
+Entree_1   24               8.61  289.20  -55.30   2.00   3.30   1.70   0.70 # ;Frac, pilier
+24         23               9.33  286.30  -54.30   2.00   2.00   3.00   1.00 # ;Bas du puits de sortie
+23         22              13.27  266.40  -24.50   2.00   2.00   2.00   1.00 #
+22         21              13.25  255.10  -16.00   1.00   1.00   1.00   1.00 # ;Chatière vers petite salle d'où vient le courant d'air
+21         20               7.96  117.20   11.00   1.70  16.90  22.70   1.80 #
+22         22b             25.01  163.80    3.30      0      0      0      0 # ;Bout Sud
+22         22a             10.21  337.50   11.60      0      0      0      0 # ;Bout Nord
+20         11               5.40  160.80  -11.30  19.70   0.90  12.00   1.00 # ;Dans la salle
+11         10               3.67  282.00    6.90   0.40   0.50   0.80   0.40 # ;Etroiture, chatière
+10         9                1.51  199.30    9.50   0.40   0.50   0.80   0.40 #
+9          8                2.18  313.50   28.40   0.60   0.60   0.60   1.00 # ;Dans Méandre
+8          7                4.06  289.80   43.60   0.70   1.00   0.70   0.40 # ;Etroiture
+7          6                4.30    9.70   28.50   1.50   1.50   1.50   1.50 # ;Bas du P6
+6          5                6.25    1.60   87.20   1.50   1.50   1.50   1.50 # ;Haut du Puits
+5          4                1.96  192.90   29.90   4.60   0.90   8.80   1.00 # ;Début de la corde
+4          3               11.91  263.90   32.00   0.70   5.50  18.50   0.90 #
+3          2                8.19  182.00    2.90   2.00   2.00   2.00   2.00 #
+11         12              14.20  135.10   14.90   1.40   1.80   3.50   1.00 # ;Bas de l'escalade menant au puits
+12         13               5.91  274.10   33.30   0.10   0.10   0.10   0.10 # ;Dans le Puits
+13         14              22.74   73.30   85.40   0.10   0.10   0.10   1.00 # ;Puits 1
+4          4a              23.11   52.20  -16.40   3.00   3.00   3.00   3.00 # ;Dans la salle d'entrée
+2          0a              15.20  307.10   46.00   2.00   2.00   2.00   2.00 #
+0a         0                0.05  180.50   -0.50      0      0      0      0 #
+0a         1                8.51   73.30   14.30   2.00   2.00   2.00   2.00 # ;Début de la vire montante
+0a         1b               9.72   61.10   75.70      0      0      0      0 # ;Plafond le plus haut
+0a         1a              13.73  116.90   25.40   2.00   2.00   2.00   2.00 #
+13         16               1.12  168.80    0.50   0.10   0.10   0.10   1.00 #
+13         18               0.80  271.50    4.30   0.10   0.10   0.10   1.00 #
+13         15               7.28  352.30    3.70   0.10   0.10   0.10   1.00 #
+13         17               3.12   85.70    2.60   0.10   0.10   0.10   1.00 # ;Visée
+
+
+Entree_1 entree_2           70   202    0   0   0   0   0
+endcenterline
+
+input Caverne_des_Clos.th2
+endsurvey

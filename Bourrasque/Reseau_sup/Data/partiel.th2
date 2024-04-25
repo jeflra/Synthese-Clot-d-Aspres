@@ -1,0 +1,3082 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 5669.292000 3188.976400
+##XTHERION## xth_me_area_zoom_to 100
+
+
+
+scrap Clot_d'Aspres_08 -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+
+
+
+point 4791.3165 2447.4122 station -name 2soeurs
+
+point 558.1958 1324.5507 station -name pre_achard
+
+point 3176.3391 1215.1343 label -text "Galerie Bob et Nico" -align tr -scale l
+
+point 1545.625 1954.6081 label -text "Développement : 17 858 m Dénivelé : 707 m (- 633 + 74)<br>Topo : Individuels de la Petite République Libre du Vercors" -align tr -scale l
+
+point 2309.375 2202.7331 label -text Y -align tr -scale l
+
+point 2261.875 2030.8581 label -text "3 306,700" -align tr -scale l
+
+point 2261.875 2060.8581 label -text "3 305,550" -align tr -scale l
+
+point 2261.875 2090.8581 label -text "3 306,363" -align tr -scale l
+
+point 2261.875 2120.8581 label -text "3 305,782" -align tr -scale l
+
+point 2261.875 2150.8581 label -text "3 305,793" -align tr -scale l
+
+point 2065.0 2202.7331 label -text X -align tr -scale l
+
+point 2029.375 2030.8581 label -text "855,360" -align tr -scale l
+
+point 2029.375 2060.8581 label -text "855,750" -align tr -scale l
+
+point 2029.375 2090.8581 label -text "855,340" -align tr -scale l
+
+point 2029.375 2120.8581 label -text "855,690" -align tr -scale l
+
+point 2029.375 2150.8581 label -text "855,342" -align tr -scale l
+
+point 1541.875 2029.6081 label -text "Le Pré de l'Achard" -align tr -scale l
+
+point 1541.875 2059.6081 label -text "La Grotte des Deux Sœurs" -align tr -scale l
+
+point 1541.875 2089.6081 label -text "La Bourrasque" -align tr -scale l
+
+point 1541.875 2119.6081 label -text "L'Oréade" -align tr -scale l
+
+point 1541.875 2149.6081 label -text "La Nymphe Émue" -align tr -scale l
+
+line wall
+  1941.25 2191.4837
+  2924.3763 2191.4837
+endline
+
+line wall
+  2192.5 2231.4837
+  2192.5 2006.7962
+endline
+
+line wall
+  1941.5625 2231.7962
+  1941.5625 2007.1087
+endline
+
+line wall -close on
+  2924.3763 2006.4837
+  1524.375 2006.4837
+  1524.375 2231.4837
+  2924.3763 2231.4837
+  2924.3763 2006.4837
+endline
+
+point 2703.133 2202.1033 label -text Commune -align tr -scale l
+
+point 2665.008 2058.3533 label -text "Le Guâ<br>Villard-de-Lans" -align tr -scale l
+
+point 2491.3971 2028.3533 label -text "1 821 m<br>Villard-de-Lans<br>Villard-de-Lans<br>Villard-de-Lans" -align tr -scale l
+
+point 2491.3971 2058.3533 label -text "1 840 m" -align tr -scale l
+
+point 2491.3971 2088.3533 label -text "1 885 m" -align tr -scale l
+
+point 2491.3971 2118.3533 label -text "2 017 m" -align tr -scale l
+
+point 2491.3971 2148.3533 label -text "2 030 m" -align tr -scale l
+
+point 2529.383 2201.4783 label -text Z -align tr -scale l
+
+line wall
+  2649.6955 2228.9783
+  2649.6955 2004.2908
+endline
+
+line wall
+  2410.008 2228.6658
+  2410.008 2003.9783
+endline
+
+point 4402.8125 1693.977 label -text "N M 1989" -align tr -scale l
+
+point 4479.0732 1770.9586 label -orientation 271.336817211 -text N -align tr -scale xl
+
+line wall
+  4571.9907 1801.0305
+  4557.8234 1801.3593
+endline
+
+line wall
+  4454.9065 1721.094
+  4455.8716 1762.4042
+endline
+
+line wall
+  4457.8077 1845.3874
+  4458.7729 1886.7005
+endline
+
+line wall
+  4399.6388 1811.945
+  4403.7006 1840.7196 4428.613 1862.5302 4458.1904 1861.8413
+  4485.4861 1861.2059 4507.9149 1841.6158 4513.3506 1815.8671
+  smooth off
+endline
+
+line wall
+  4512.7523 1789.0565
+  4506.1592 1763.5278 4482.8157 1744.9514 4455.4802 1745.5877
+  4425.917 1746.2777 4402.0607 1769.1971 4399.3249 1798.1042
+  smooth off
+endline
+
+line wall -close on
+  4275.5664 1807.9441
+  4563.2503 1784.7754
+  4564.027 1818.04
+  4275.5664 1807.9441
+endline
+
+line wall -close on
+  4275.5664 1807.9441
+  4563.2503 1784.7754
+  4564.027 1818.04
+  4275.5664 1807.9441
+endline
+
+point 5324.375 1410.852 label -text "HAUT DES<br>FALAISES" -align tr -scale l
+
+point 5111.875 1484.602 label -text "Branche Sud" -align tr -scale l
+
+point 5056.25 1171.7895 label -text "Réseau des Enragés<br>Puits de la Vire" -align tr -scale l
+
+point 5091.875 1218.977 label -text "Alt. : 2 056" -align tr -scale l
+
+point 5091.875 1248.977 label -text "Col des Deux Sœurs" -align tr -scale l
+
+point 5068.75 893.6645 label -text "Réseau Goujons Goujats" -align tr -scale l
+
+point 5310.3125 808.0395 label -text "- 204" -align tr -scale l
+
+point 5257.1875 661.477 label -text "E 60" -align tr -scale l
+
+point 5067.5 600.227 label -text "- 318" -align tr -scale l
+
+point 4593.4375 434.9145 label -text "Réseau des Grenoblois" -align tr -scale l
+
+line wall
+  4440.0 743.0395
+  4440.0 708.6645
+endline
+
+line wall
+  4422.5 726.7895
+  4457.5 726.7895
+endline
+
+point 4465.625 1140.227 label -text "Puits du Lion<br>Réseau de la Verna" -align tr -scale l
+
+point 4545.9375 1371.1645 label -text "P 15<br>P 23<br>P 37<br>P 5<br>P 43" -align tr -scale l
+
+point 4426.25 1481.7895 label -text "Puits de la Verna" -align tr -scale l
+
+line wall
+  4448.4375 1458.6645
+  4448.4375 1424.2895
+endline
+
+line wall
+  4430.9375 1442.4145
+  4465.9375 1442.4145
+endline
+
+point 4694.6875 1503.6645 label -orientation 34.7241505511 -text "Salle de la Douche" -align tr -scale l
+
+point 4734.0625 1543.977 label -text "Branche Est" -align tr -scale l
+
+point 5305.625 2088.0395 label -text "BAS DES<br>FALAISES<br>P 14<br>P 15" -align tr -scale l
+
+point 4998.4375 1965.227 label -text "Réseau Lesdiguières" -align tr -scale l
+
+point 4771.5625 2149.2895 label -text "R 6" -align tr -scale l
+
+point 4071.25 633.1421 label -text "Galerie des P'tits Loups" -align tr -scale l
+
+point 4127.4987 924.3921 label -text "- 370" -align tr -scale l
+
+point 4041.6663 806.4758 label -text "Sale Bite" -align tr -scale l
+
+point 4120.8325 1000.6421 label -text "La galerie Sud" -align tr -scale l
+
+point 4061.0694 1049.3921 label -text "entre les nuages" -align tr -scale l
+
+point 4010.8496 1079.3921 label -text "Réseau de l'Espace bleu" -align tr -scale l
+
+point 3849.5837 1202.7258 label -text "Puits Astier" -align tr -scale l
+
+point 3930.0 1257.727 label -text "Réseau des Frangines" -align tr -scale l
+
+point 3904.5813 1323.1434 label -text "ème" -align tr -scale l
+
+point 3771.2487 1313.5596 label -text "Puits du 3 Espoir" -align tr -scale l
+
+point 3818.3337 1423.5608 label -text "Puits Renaud" -align tr -scale l
+
+point 3813.75 1453.1421 label -text "Fond normal de - 341" -align tr -scale l
+
+point 4011.25 1657.3096 label -text "Méandre à Sam" -align tr -scale l
+
+point 3998.3328 1870.2252 label -orientation 108.966726033 -text Ginger -align tr -scale l
+
+point 3944.1687 2013.1438 label -orientation 55.6039575358 -text "Méandre" -align tr -scale l
+
+point 3979.1663 2017.3096 label -text "Puits de la Guinde" -align tr -scale l
+
+point 3445.0 1302.3096 label -text "Fond de - 368" -align tr -scale l
+
+point 3510.0 1569.3921 label -text "Méandre Fausty" -align tr -scale l
+
+point 3812.0837 1737.7266 label -orientation 245.94385212 -text "Réseau" -align tr -scale l
+
+point 3774.5837 1901.0589 label -orientation 281.540003364 -text Futur -align tr -scale l
+
+point 3787.5001 2014.8105 label -orientation 245.498941693 -text Cherche -align tr -scale l
+
+point 3749.166 2168.5583 label -orientation 318.99985539 -text Soleil -align tr -scale l
+
+point 3710.2685 2280.2264 label -text "du Marteau Pilon" -align tr -scale l
+
+point 3765.8289 2310.2264 label -text "Étroiture" -align tr -scale l
+
+point 3595.8337 2367.309 label -text "Cote : - 13" -align tr -scale l
+
+point 3595.8337 2397.309 label -text "Alt. : 2 017" -align tr -scale l
+
+point 3595.8337 2427.309 label -text "L'ORÉADE" -align tr -scale l
+
+point 4412.5013 2341.8097 label -text "Cote : - 190" -align tr -scale l
+
+point 4412.5013 2371.8097 label -text "Alt. : 1 840" -align tr -scale l
+
+point 4412.5013 2401.8097 label -text "DEUX SŒURS" -align tr -scale l
+
+point 4412.5013 2449.8096 label -text "LA GROTTE DES" -align tr -scale l
+
+point 4137.5 2323.9764 label -text "des Ailes du Désir" -align tr -scale l
+
+point 4137.5 2353.9764 label -text Escalade -align tr -scale l
+
+point 4302.0837 2033.1427 label -text "Alt. : 2 162" -align tr -scale l
+
+point 4147.9163 2061.4764 label -text "Petite Sœur Sophie" -align tr -scale l
+
+point 4281.2487 2280.6427 label -text "+ 74" -align tr -scale l
+
+point 3890.0 2365.6434 label -text "- 13" -align tr -scale l
+
+point 4146.6663 2155.2259 label -text "- 158" -align tr -scale l
+
+point 4201.6663 2273.559 label -text "E 29" -align tr -scale l
+
+point 4098.3337 2261.0596 label -text "R 10" -align tr -scale l
+
+point 4084.9987 2285.2259 label -text "E 7" -align tr -scale l
+
+point 4007.9163 2153.559 label -text "35<br>P 21" -align tr -scale l
+
+point 4011.2513 2168.9764 label -text P -align tr -scale l
+
+point 3908.7487 2191.8927 label -text P16 -align tr -scale l
+
+point 3860.4175 2146.8934 label -text P15 -align tr -scale l
+
+point 3811.25 2148.1427 label -text "- 65" -align tr -scale l
+
+point 3853.3337 2207.3096 label -text "P10<br>P 60" -align tr -scale l
+
+point 3942.9163 1731.0596 label -text "- 238<br>P 25<br>P 10<br>P 12<br>P 68" -align tr -scale l
+
+point 3751.6675 1351.8921 label -text "R 4<br>P 12<br>P 8<br>P 20<br>P 8<br>P 20<br>P 29<br>P 23<br>P 9<br>P 12<br>P 15<br>P 115<br>P 3<br>P 10<br>P R<br>P 34" -align tr -scale l
+
+point 3744.1675 1333.9759 label -text "R 4" -align tr -scale l
+
+point 3879.1663 1258.9759 label -text "- 162<br>P 8<br>P 9<br>P 26" -align tr -scale l
+
+point 3839.1663 1257.727 label -text P8 -align tr -scale l
+
+point 3824.1663 1220.6433 label -text "P5<br>P 10<br>P 19" -align tr -scale l
+
+point 3793.3337 1218.5596 label -text "P12<br>P 12" -align tr -scale l
+
+point 3815.4163 1143.1433 label -text "E 3<br>P 9<br>P 18" -align tr -scale l
+
+point 3832.0825 1118.977 label -text "E 5" -align tr -scale l
+
+point 3811.6663 1060.6433 label -text "R 6" -align tr -scale l
+
+point 3955.0013 1070.2258 label -text "E 37<br>P 12<br>P 12<br>P 10<br>P 3<br>P 45" -align tr -scale l
+
+point 3999.1663 1021.8933 label -text "E 28<br>P 13" -align tr -scale l
+
+point 4012.9163 951.8933 label -text "20<br>P 9<br>P 17" -align tr -scale l
+
+point 4017.5 964.8096 label -text P -align tr -scale l
+
+point 3971.25 866.4758 label -text "R 5" -align tr -scale l
+
+point 3990.0 891.477 label -text "- 380" -align tr -scale l
+
+point 3943.3337 1016.0596 label -text "E 6<br>P 19<br>P 9" -align tr -scale l
+
+point 3854.1663 804.3933 label -text "P 6<br>P 10<br>P 34<br>P 25" -align tr -scale l
+
+point 3847.5 386.8921 label -text "La Mystérieuse Lucarne" -align tr -scale l
+
+point 3768.3325 349.3921 label -text "- 332<br>P 20<br>P 35" -align tr -scale l
+
+point 3812.0825 434.3933 label -text "E 7" -align tr -scale l
+
+point 3777.0825 510.227 label -text "R 2" -align tr -scale l
+
+point 3786.6663 690.2258 label -text "P13<br>P 10" -align tr -scale l
+
+point 3748.3337 786.477 label -text P6 -align tr -scale l
+
+point 3738.75 828.9758 label -text "P20<br>P11" -align tr -scale l
+
+point 3738.3337 842.7258 label -text P11 -align tr -scale l
+
+point 3600.8337 946.8933 label -text "Galerie Nakanai" -align tr -scale l
+
+point 3652.5 814.8096 label -text "Décors" -align tr -scale l
+
+point 3625.0 839.3933 label -text "Dédal" -align tr -scale l
+
+point 3597.0837 792.727 label -text "- 475" -align tr -scale l
+
+point 3529.5837 640.227 label -text "C 3" -align tr -scale l
+
+point 3619.1675 267.7258 label -text "- 340" -align tr -scale l
+
+point 3161.6675 336.4758 label -text "Galerie du Provençal" -align tr -scale l
+
+point 3536.2501 546.477 label -orientation 37.990519727 -text "Crac Boum Hue" -align tr -scale l
+
+point 3436.2487 496.8938 label -orientation 317.207640139 -text Galerie -align tr -scale l
+
+point 3303.3337 509.3921 label -text "R 2" -align tr -scale l
+
+point 3340.4163 611.0596 label -text "E 5" -align tr -scale l
+
+point 3360.8325 749.8096 label -text "P 9" -align tr -scale l
+
+point 3291.25 946.0596 label -text "Cote : 0" -align tr -scale l
+
+point 3291.25 976.0596 label -text "Alt. : 2 030" -align tr -scale l
+
+point 3291.25 1006.0596 label -text "LA NYMPHE ÉMUE" -align tr -scale l
+
+point 3306.2231 647.7258 label -text Nakanai -align tr -scale l
+
+point 3311.7774 677.7258 label -text Galerie -align tr -scale l
+
+point 3286.7895 793.9758 label -text "Bagdad Café" -align tr -scale l
+
+point 3302.7441 823.9758 label -text "Galerie de" -align tr -scale l
+
+point 3198.3337 740.6421 label -text "R 5" -align tr -scale l
+
+point 3145.0 836.4758 label -text "R 20" -align tr -scale l
+
+point 3017.7495 657.7388 label -orientation 51.6143895211 -text "First Fuck Playa Club" -align tr -scale l
+
+point 3086.5515 619.2005 label -orientation 51.6143895211 -text "Galerie du" -align tr -scale l
+
+point 2782.0824 742.7247 label -orientation 317.129148377 -text "Le vrai faux P 50" -align tr -scale l
+
+point 2752.9166 752.7256 label -orientation 317.007545465 -text "L'Étage d'en bas" -align tr -scale l
+
+point 3080.4163 726.4758 label -text 6 -align tr -scale l
+
+point 3075.4169 741.0596 label -text R -align tr -scale l
+
+point 3058.3331 670.6433 label -text "R 9" -align tr -scale l
+
+point 3030.4163 685.6433 label -text "R 5" -align tr -scale l
+
+point 2849.5831 773.5596 label -text "E 34<br>P 14" -align tr -scale l
+
+point 2933.3331 790.2258 label -text "E 10" -align tr -scale l
+
+point 2977.9163 1462.309 label -text "- 430<br>P 50" -align tr -scale l
+
+point 2729.5837 892.3083 label -text "R 10" -align tr -scale l
+
+point 2836.6663 700.6433 label -text "E 20" -align tr -scale l
+
+point 2781.6669 609.2273 label -text "R 5" -align tr -scale l
+
+point 2781.6669 627.2266 label -text "R 8" -align tr -scale l
+
+point 2781.6669 645.227 label -text "R 4" -align tr -scale l
+
+point 2755.8325 402.7287 label -orientation 313.205006438 -text "Dernière séance du SCAL" -align tr -scale l
+
+point 2760.9375 284.2895 label -text "- 380" -align tr -scale l
+
+point 2400.3125 522.102 label -text "- 315" -align tr -scale l
+
+point 2443.125 551.7895 label -text "P R" -align tr -scale l
+
+point 2389.375 865.5395 label -text "Réseau du Trou Noir" -align tr -scale l
+
+point 2554.375 1034.2895 label -text "- 262" -align tr -scale l
+
+point 2514.375 1046.1645 label -text "P R" -align tr -scale l
+
+point 2613.125 1051.477 label -text "Galerie du Wilderness" -align tr -scale l
+
+point 2247.1875 379.602 label -text "100 m" -align tr -scale l
+
+point 2077.1875 379.2895 label -text 50 -align tr -scale l
+
+point 1907.1875 379.602 label -text 0 -align tr -scale l
+
+point 2810.625 1473.352 label -text "Salle Baffi" -align tr -scale l
+
+point 2589.1144 1416.7405 label -orientation 25.5703029135 -text "Gallerie Nakanai" -align tr -scale l
+
+point 2463.75 1552.102 label -text "C 20<br>P 13" -align tr -scale l
+
+point 1959.0625 1655.852 label -text "Passage sup. des Terres Creuses" -align tr -scale l
+
+point 2258.125 1381.477 label -text "E 6" -align tr -scale l
+
+point 2223.125 1208.977 label -text "La Quête du Graal" -align tr -scale l
+
+point 2277.5 1337.727 label -text "Le Graal direct" -align tr -scale l
+
+point 2272.5 1409.602 label -text "Salle de l'Éden de l'Est" -align tr -scale l
+
+point 2010.0 1162.102 label -text "P 27<br>P 15<br>P 9<br>P 11" -align tr -scale l
+
+point 1891.25 1094.602 label -text "Salle « Noir c'est Noir »" -align tr -scale l
+
+point 1812.5 1313.0395 label -text "E 12<br>P 65<br>P 40" -align tr -scale l
+
+point 1766.25 1167.4145 label -text 20 -align tr -scale l
+
+point 1762.8125 1152.727 label -text 10 -align tr -scale l
+
+point 1773.75 1202.102 label -text R5 -align tr -scale l
+
+point 1774.6875 1188.0395 label -text 23 -align tr -scale l
+
+point 1725.2087 1202.3108 label -text "E4<br>P 12" -align tr -scale l
+
+point 1735.2087 1213.5608 label -text P48 -align tr -scale l
+
+point 1708.8544 1172.102 label -text 10 -align tr -scale l
+
+point 1714.4794 1187.102 label -text P -align tr -scale l
+
+point 1725.0 1089.9145 label -text "P 10<br>P 12<br>P 10" -align tr -scale l
+
+point 1664.9266 1131.0659 label -orientation 355.185886168 -text "P 9" -align tr -scale l
+
+point 1678.9587 1101.6858 label -text "P 59" -align tr -scale l
+
+point 1895.5286 1270.2842 label -orientation 318.627677074 -text "Galerie des Fleurs du Mal" -align tr -scale l
+
+point 1786.9885 1448.5608 label -text "Réseau<br>de l'Aventure intérieure" -align tr -scale l
+
+point 1449.6875 1210.957 label -text C12 -align tr -scale l
+
+point 1504.8956 1233.1445 label -text "C 6" -align tr -scale l
+
+point 1475.1044 1263.1433 label -text "- 633" -align tr -scale l
+
+point 1363.125 1294.4971 label -text "E 165" -align tr -scale l
+
+point 1469.7156 1284.1846 label -text "des cascades du fond" -align tr -scale l
+
+point 1555.8423 1314.1846 label -text "Réseau" -align tr -scale l
+
+point 1199.6875 1321.6846 label -text "Puits Débris de Rèves" -align tr -scale l
+
+point 1486.25 1169.3945 label -text "- 398" -align tr -scale l
+
+point 1499.0625 1183.457 label -text PR -align tr -scale l
+
+point 1460.4169 1119.2895 label -text "E 9" -align tr -scale l
+
+point 1396.1456 1163.977 label -text "E 20" -align tr -scale l
+
+point 1620.5212 1058.7683 label -text "E 11<br>P 50" -align tr -scale l
+
+point 1697.0831 937.7258 label -text "Cote : - 145" -align tr -scale l
+
+point 1697.0831 967.7258 label -text "Alt. : 1 885" -align tr -scale l
+
+point 1697.0831 1027.7258 label -text "LA BOURRASQUE" -align tr -scale l
+
+point 1448.0206 764.602 label -text "L'Argenterie" -align tr -scale l
+
+point 1410.2081 1103.7695 label -text "E 8<br>P 20" -align tr -scale l
+
+point 1293.0206 1111.7895 label -text "Galerie<br>des Passagers du Vent" -align tr -scale l
+
+point 1197.7081 1109.602 label -text "- 604" -align tr -scale l
+
+point 612.6044 1861.477 label -text "- 434<br>P 21" -align tr -scale l
+
+point 1031.9794 1942.3101 label -text "E 22<br>P 20" -align tr -scale l
+
+point 1162.1875 1990.227 label -text "R 16" -align tr -scale l
+
+point 1180.0 1938.352 label -text R6 -align tr -scale l
+
+point 1192.1875 1860.227 label -text "E 12" -align tr -scale l
+
+point 1232.8125 1893.6645 label -text "Salle du Godmiché" -align tr -scale l
+
+point 1214.6875 1932.4145 label -text "E 46" -align tr -scale l
+
+point 1214.0625 1976.477 label -text "- 88" -align tr -scale l
+
+point 1208.4375 1998.977 label -text "R 9" -align tr -scale l
+
+point 847.1875 1787.4145 label -text E10 -align tr -scale l
+
+point 405.625 983.1958 label -text "Alt. : 1 807" -align tr -scale l
+
+point 405.4688 1015.6958 label -text "Point coté" -align tr -scale l
+
+point 1521.8671 2430.232 label -text "DU CLOT D'ASPRES" -align tr -scale l
+
+point 1521.8671 2670.232 label -text "RÉSEAU SUPÉRIEUR" -align tr -scale l
+
+point 843.8098 1539.5956 label -orientation 315.0 -text "Méandre de Croc'Combine" -align tr -scale l
+
+point 294.6875 1673.0395 label -text "Puits Dicentime<br>Vers les<br>BRUMES MATINALES" -align tr -scale l
+
+point 635.0 1632.4145 label -text "- 289" -align tr -scale l
+
+point 588.75 1364.9145 label -text "R 3<br>P 23<br>P 78<br>P 17<br>P 16<br>P 100" -align tr -scale l
+
+point 573.125 1332.102 label -text "R 4" -align tr -scale l
+
+point 579.6875 1381.1645 label -text "R 4<br>P 20" -align tr -scale l
+
+point 484.0625 1348.352 label -text "P 34<br>P 5<br>P 8" -align tr -scale l
+
+point 345.3125 1307.727 label -text "Puits ressaut" -align tr -scale l
+
+point 359.6875 1087.4145 label -text "Cote : - 24" -align tr -scale l
+
+point 359.6875 1117.4145 label -text "Alt. : 1 821" -align tr -scale l
+
+point 359.6875 1177.4145 label -text "PRÉ DE L'ACHARD" -align tr -scale l
+
+line wall
+  4915.2087 996.5808
+  4913.7134 995.1611 4911.7823 994.3103 4910.1123 993.1262
+  4907.6037 991.3477 4905.1562 989.4849 4902.5904 987.7893
+  4900.2979 986.2756 4897.97 984.7473 4896.2549 982.5586
+  4894.248 979.9988 4892.8809 976.9958 4891.875 973.9197
+  4890.9716 971.1572 4890.249 966.9958 4892.9467 965.0342
+  4895.4516 963.2104 4898.6596 961.8787 4901.7712 961.6858
+  smooth off
+endline
+
+line wall
+  4914.7913 998.352
+  4913.1079 997.9993 4911.7285 996.8836 4910.2172 996.1328
+  4908.6987 995.3784 4907.1033 994.8169 4905.6568 993.9136
+  4903.6962 992.6904 4901.8921 991.2378 4900.1319 989.7473
+  4894.7779 985.2087 4889.364 978.8562 4889.1138 971.4331
+  4889.0363 969.1309 4889.4409 966.687 4890.5884 964.6655
+  4892.5293 961.2463 4898.1006 960.4321 4901.5625 959.8108
+  smooth off
+endline
+
+line wall
+  4722.5 511.1646
+  4722.5 508.8635 4721.7969 505.3931 4723.4375 503.6646
+  smooth off
+endline
+
+line wall
+  4693.125 501.7896
+  4696.1255 502.5061 4697.937 503.4302 4699.0625 506.4771
+  smooth off
+endline
+
+line wall
+  4689.0625 519.602
+  4687.0166 517.3377 4684.5569 514.292 4684.6875 511.1646
+  smooth off
+endline
+
+line wall
+  2753.4375 304.602
+  2752.5622 302.0935 2753.0822 297.2693 2756.25 296.477
+  smooth off
+endline
+
+line wall
+  5327.8125 1094.9145
+  5327.8125 1060.5395
+endline
+
+line wall
+  5310.3125 1078.6645
+  5345.3125 1078.6645
+endline
+
+line wall
+  5326.5625 2168.6645
+  5326.5625 2134.2895
+endline
+
+line wall
+  5309.0625 2152.4145
+  5344.0625 2152.4145
+endline
+
+line wall
+  5326.875 1812.727
+  5326.875 1778.352
+endline
+
+line wall
+  5309.375 1796.477
+  5344.375 1796.477
+endline
+
+line wall -close on
+  5283.6463 1415.0184
+  5284.7913 1417.9346
+  5286.0413 1416.7884
+  5285.4163 1414.9134
+  5283.6463 1415.0184
+endline
+
+line wall -close on
+  5280.7287 1415.7471
+  5282.3962 1417.7259
+  5282.6037 1415.3309
+  5280.7287 1415.7471
+endline
+
+line wall -close on
+  5277.3963 1416.4759
+  5279.2713 1419.0809
+  5279.4788 1415.9559
+  5277.3963 1416.4759
+endline
+
+line wall -close on
+  5274.1662 1418.0384
+  5276.1462 1420.0184
+  5276.25 1417.1009
+  5274.1662 1418.0384
+endline
+
+line wall -close on
+  5271.0412 1420.9559
+  5273.6462 1421.8934
+  5272.5 1419.0809
+  5271.0412 1420.9559
+endline
+
+line wall -close on
+  5269.8963 1425.6434
+  5273.3338 1425.7471
+  5270.4163 1423.3509
+  5269.8963 1425.6434
+endline
+
+line wall
+  5327.1875 1453.977
+  5327.1875 1419.602
+endline
+
+line wall
+  5309.6875 1437.727
+  5344.6875 1437.727
+endline
+
+line wall -close on
+  4583.9066 1429.0567
+  4580.0 1425.9466
+  4576.0934 1429.0567
+  4580.0 1407.0786
+  4583.9066 1429.0567
+endline
+
+line wall
+  4580.1562 1447.7551
+  4580.1562 1419.6301
+endline
+
+line wall -close on
+  4147.897 980.391
+  4142.9354 980.9542
+  4142.3722 985.9157
+  4129.5937 967.6124
+  4147.897 980.391
+endline
+
+line wall
+  4158.4669 996.2647
+  4138.5794 976.3772
+endline
+
+line wall -close on
+  4020.397 1054.141
+  4015.4354 1054.7042
+  4014.8722 1059.6657
+  4002.0937 1041.3624
+  4020.397 1054.141
+endline
+
+line wall
+  4030.9669 1070.0147
+  4011.0794 1050.1272
+endline
+
+line wall -close on
+  3834.3221 952.6796
+  3833.759 947.7181
+  3828.7974 947.1549
+  3847.1007 934.3764
+  3834.3221 952.6796
+endline
+
+line wall
+  3818.4484 963.2496
+  3838.3359 943.3621
+endline
+
+line wall -close on
+  4020.7047 810.6955
+  4017.5946 814.602
+  4020.7047 818.5086
+  3998.7266 814.602
+  4020.7047 810.6955
+endline
+
+line wall
+  4039.4031 814.4458
+  4011.2781 814.4458
+endline
+
+line wall -close on
+  3864.7776 422.7389
+  3868.6841 425.849
+  3872.5907 422.7389
+  3868.6841 444.717
+  3864.7776 422.7389
+endline
+
+line wall
+  3868.5279 404.0405
+  3868.5279 432.1655
+endline
+
+line wall -close on
+  4046.3297 638.1955
+  4043.2196 642.102
+  4046.3297 646.0086
+  4024.3516 642.102
+  4046.3297 638.1955
+endline
+
+line wall
+  4065.0281 641.9458
+  4036.9031 641.9458
+endline
+
+line wall -close on
+  3152.5529 1246.5244
+  3153.116 1251.486
+  3158.0776 1252.0491
+  3139.7743 1264.8277
+  3152.5529 1246.5244
+endline
+
+line wall
+  3168.4266 1235.9545
+  3148.5391 1255.8419
+endline
+
+line wall -close on
+  2884.9471 805.8046
+  2884.384 800.8431
+  2879.4224 800.2799
+  2897.7257 787.5014
+  2884.9471 805.8046
+endline
+
+line wall
+  2869.0734 816.3746
+  2888.9609 796.4871
+endline
+
+line wall -close on
+  2955.4684 654.5224
+  2959.375 657.6325
+  2963.2816 654.5224
+  2959.375 676.5005
+  2955.4684 654.5224
+endline
+
+line wall
+  2959.2188 635.824
+  2959.2188 663.949
+endline
+
+line wall -close on
+  2733.7026 387.7799
+  2728.741 388.3431
+  2728.1779 393.3046
+  2715.3993 375.0014
+  2733.7026 387.7799
+endline
+
+line wall
+  2744.2725 403.6536
+  2724.3851 383.7661
+endline
+
+line wall -close on
+  3616.3297 823.1955
+  3613.2196 827.102
+  3616.3297 831.0086
+  3594.3516 827.102
+  3616.3297 823.1955
+endline
+
+line wall
+  3635.0281 826.9458
+  3606.9031 826.9458
+endline
+
+line wall -close on
+  3737.4471 798.3046
+  3736.884 793.3431
+  3731.9224 792.7799
+  3750.2257 780.0014
+  3737.4471 798.3046
+endline
+
+line wall
+  3721.5734 808.8746
+  3741.4609 788.9871
+endline
+
+line wall -close on
+  3725.5721 410.8046
+  3725.009 405.8431
+  3720.0474 405.2799
+  3738.3507 392.5014
+  3725.5721 410.8046
+endline
+
+line wall
+  3709.6984 421.3746
+  3729.5859 401.4871
+endline
+
+line wall -close on
+  3413.8297 483.8205
+  3410.7196 487.727
+  3413.8297 491.6336
+  3391.8516 487.727
+  3413.8297 483.8205
+endline
+
+line wall
+  3432.5281 487.5708
+  3404.4031 487.5708
+endline
+
+line wall -close on
+  3261.9547 681.3205
+  3258.8446 685.227
+  3261.9547 689.1336
+  3239.9766 685.227
+  3261.9547 681.3205
+endline
+
+line wall
+  3280.6531 685.0708
+  3252.5281 685.0708
+endline
+
+line wall -close on
+  3442.4471 668.3046
+  3441.884 663.3431
+  3436.9224 662.7799
+  3455.2257 650.0014
+  3442.4471 668.3046
+endline
+
+line wall
+  3426.5734 678.8746
+  3446.4609 658.9871
+endline
+
+line wall
+  5384.1332 640.1807
+  5386.9506 641.8543 5390.0074 642.4426 5393.3313 642.9382
+  5395.293 643.2312 5397.4293 643.0396 5399.4263 643.0396
+  5401.4563 643.0396 5403.3875 643.1983 5405.2149 642.4146
+  5405.4846 642.2986 5405.6763 642.2584 5405.9375 642.1021
+  smooth off
+endline
+
+line wall
+  5386.2378 644.4446
+  5388.4924 645.0268 5390.7593 645.4114 5393.125 645.8582
+  5396.5161 646.4978 5399.8511 645.6433 5403.2287 645.6433
+  smooth off
+endline
+
+line wall
+  5404.6875 645.5395
+  5406.4588 644.8914 5408.4864 645.7642 5408.877 647.6001
+  5409.1186 648.7354 5409.0625 649.9585 5409.0625 651.1645
+  5409.0625 652.8918 5408.9257 654.6289 5409.075 656.3538
+  5409.1512 657.2461 5408.8601 659.397 5409.8978 659.8108
+  5410.6716 660.1196 5411.6921 659.9805 5412.5234 660.3076
+  5414.7329 661.1755 5417.8786 661.2378 5419.0799 663.5523
+  smooth off
+  5420.541 661.8543 5423.0545 662.3157 5425.1296 662.5208
+  5427.2292 662.7283 5429.4705 663.2739 5431.5627 663.3569
+  5435.8596 663.5278 5436.1465 659.0088 5436.1465 655.7422
+  5436.1465 654.2163 5436.1465 652.6904 5436.1465 651.1646
+  smooth off
+endline
+
+line wall
+  5381.875 638.1433
+  5381.9325 637.6294 5381.5381 637.2363 5381.6455 636.7493
+  5381.897 635.5933 5384.1137 634.7827 5385.0207 634.3176
+  5386.9824 633.3093 5388.6901 632.2327 5390.3809 630.8227
+  5392.9285 628.6975 5394.3884 628.5339 5397.2106 630.2112
+  5399.0479 631.3025 5400.8691 632.4341 5402.5489 633.761
+  5403.4009 634.4348 5404.2188 635.1562 5404.9805 635.9326
+  5406.0986 637.0727 5410.1831 639.812 5407.2913 641.5808
+  smooth off
+endline
+
+line wall
+  5300.8338 628.2483
+  5301.7969 628.2153 5302.8589 627.5403 5303.877 627.3132
+  5305.0927 627.0422 5306.3574 626.9018 5307.5415 626.6858
+  5310.5176 626.1426 5313.3765 625.7275 5316.3648 625.227
+  5326.427 623.5413 5336.145 620.7117 5346.4454 621.1133
+  5349.3848 621.228 5352.5 621.9312 5354.768 619.5239
+  5358.9258 615.1086 5361.5064 606.5137 5368.9026 606.8274
+  5372.1924 606.9665 5374.707 609.6082 5376.571 612.0557
+  5378.0994 614.0613 5379.4457 616.1963 5380.7214 618.3691
+  5381.5454 619.7729 5381.8043 621.6223 5382.8417 622.8882
+  5384.6642 625.1123 5386.9165 622.511 5388.4155 621.3477
+  5390.221 619.9438 5390.5884 617.6331 5390.8105 615.4968
+  5391.1181 612.5354 5391.7688 607.2803 5395.188 606.2317
+  5398.435 605.2356 5402.085 605.9875 5405.0318 607.5195
+  5409.3933 609.7876 5412.7111 614.7681 5413.4399 619.602
+  5413.9038 622.6916 5413.125 625.7983 5413.125 628.8733
+  5413.125 630.1575 5413.125 631.4429 5413.125 632.727
+  5413.125 633.844 5413.0175 635.3564 5414.0649 636.04
+  5415.188 636.7712 5416.2426 635.5701 5416.7798 634.6948
+  5417.6563 633.2666 5417.2693 632.2046 5417.5159 630.6592
+  smooth off
+  5418.772 630.4028 5421.0302 632.2693 5421.897 633.2251
+  5423.7646 635.2856 5421.7882 635.6189 5420.415 636.7017
+  5418.8745 637.9163 5419.2908 639.4714 5421.04 640.0928
+  5423.0469 640.8044 5425.5225 640.2576 5427.6025 640.3308
+  5429.7974 640.4077 5432.6709 640.6665 5434.5069 641.7615
+  5436.0828 642.7002 5436.2769 644.2188 5436.4588 645.9558
+  smooth off
+endline
+
+line wall
+  5325.9362 738.352
+  5325.9362 729.9634 5325.9362 706.9983 5325.9362 706.9983
+  smooth off
+endline
+
+line wall
+  5316.9787 725.1233
+  5327.3389 725.1233 5343.4362 725.1233 5343.4362 725.1233
+  smooth off
+endline
+
+line wall -close on
+  5464.1662 721.9983
+  5463.5412 719.8108
+  5465.7287 721.1645
+  5464.1662 721.9983
+endline
+
+line wall -close on
+  5462.1875 724.2895
+  5460.8338 721.8933
+  5463.3338 722.9358
+  5462.1875 724.2895
+endline
+
+line wall -close on
+  5460.2088 726.6858
+  5459.1663 724.4983
+  5461.3538 725.1233
+  5460.2088 726.6858
+endline
+
+line wall -close on
+  5458.3338 729.3933
+  5457.2913 726.9983
+  5459.4788 727.6233
+  5458.3338 729.3933
+endline
+
+line wall -close on
+  5468.75 727.102
+  5467.6037 725.1233
+  5470.1037 725.6433
+  5468.75 727.1021
+  5468.75 727.102
+endline
+
+line wall -close on
+  5467.0838 729.8108
+  5465.625 727.3108
+  5468.0213 728.1433
+  5467.0838 729.8108
+endline
+
+line wall -close on
+  5465.7287 732.4145
+  5464.2712 730.227
+  5466.6662 730.9558
+  5465.7287 732.4145
+endline
+
+line wall -close on
+  5463.8537 735.4358
+  5462.6037 733.2483
+  5464.8962 733.8733
+  5463.8537 735.4358
+endline
+
+line wall
+  5466.9787 689.602
+  5466.9612 688.0359 5468.3204 685.7996 5468.9294 684.3103
+  5469.7802 682.229 5470.6324 680.0879 5471.377 677.9321
+  5472.7149 674.0662 5474.5239 670.2979 5475.8374 666.5845
+  5476.831 663.772 5477.041 660.8032 5478.5412 658.1433
+  smooth off
+endline
+
+line wall
+  5465.4162 684.7058
+  5466.6504 681.3757 5467.9162 678.0749 5469.2431 674.8084
+  5469.8719 673.2581 5470.5407 671.5527 5471.0351 669.9902
+  5471.5722 668.2983 5471.6309 666.5076 5472.2887 664.8132
+  5472.7331 663.6694 5473.2275 662.5037 5473.7305 661.3733
+  5474.1186 660.4993 5474.8046 659.209 5474.7913 658.2483
+  smooth off
+endline
+
+line wall
+  5457.9162 730.4358
+  5459.3701 728.7366 5460.581 726.8884 5462.0044 725.1001
+  5463.6792 722.9944 5464.6875 721.2549 5467.5 720.852
+  smooth off
+endline
+
+line wall
+  5464.8963 734.2895
+  5465.6885 732.5989 5466.9458 731.4356 5467.6562 729.6582
+  5468.3716 727.865 5469.5984 725.8289 5471.6662 725.4358
+  smooth off
+endline
+
+line wall
+  5456.9787 842.8308
+  5456.9787 840.8716 5456.5612 839.1064 5456.4587 837.2034
+  5456.3375 834.9695 5456.4587 832.6953 5456.4587 830.4578
+  5456.4587 826.2134 5456.228 821.8604 5457.0776 817.8259
+  5457.2412 817.052 5457.8455 816.4746 5457.6099 815.6433
+  5457.3364 814.6863 5456.6186 814.1748 5456.5625 813.0396
+  5456.4575 810.9241 5457.268 808.9929 5458.0005 807.1021
+  5459.5154 803.1885 5462.7051 800.3076 5465.1074 796.9971
+  5467.5195 793.6743 5470.2149 790.5762 5471.7944 786.7896
+  5472.6794 784.6704 5473.6621 782.7002 5474.0369 780.4639
+  5474.4751 777.8552 5474.8986 775.2515 5475.31 772.6514
+  5475.6445 770.5359 5475.5176 768.3911 5475.8399 766.2683
+  5476.123 764.3958 5476.3891 762.4756 5476.4819 760.5457
+  5476.8786 752.2888 5481.0717 743.971 5479.1162 735.6482
+  5478.5474 733.2275 5477.2802 730.9802 5475.4639 729.2761
+  5474.4239 728.3008 5473.158 727.6111 5472.2254 726.5198
+  5471.3061 725.4419 5470.6909 724.1309 5469.6435 723.1567
+  5468.3886 721.9922 5467.1619 721.1108 5466.604 719.4202
+  5466.0889 717.8638 5466.1767 716.1768 5465.9009 714.5715
+  5465.5444 712.4939 5465.1904 710.4163 5464.5264 708.4107
+  5463.8989 706.5112 5463.3471 704.6594 5462.9504 702.7136
+  5462.5195 700.5994 5462.2095 699.574 5462.8491 697.4988
+  5463.1775 696.4356 5463.5315 695.3723 5463.999 694.3616
+  5464.5117 693.2544 5465.3515 692.5012 5465.9375 691.477
+  smooth off
+endline
+
+line wall -close on
+  5418.9588 647.6233
+  5416.6663 646.9983
+  5418.8538 645.7483
+  5418.9588 647.6233
+endline
+
+line wall -close on
+  5419.1662 650.0183
+  5416.7712 649.3933
+  5418.8537 648.352
+  5419.1662 650.0183
+endline
+
+line wall
+  5419.6875 650.7483
+  5419.2969 649.4202 5418.7524 647.3535 5419.2713 645.9558
+  smooth off
+endline
+
+line wall
+  5464.6875 686.8933
+  5464.7 688.1811 5463.2984 691.2634 5461.8604 691.416
+  5460.0659 691.6052 5460.0805 688.5706 5459.9659 687.417
+  5459.6204 683.8867 5459.3543 680.2393 5460.1038 676.7432
+  5460.5151 674.823 5461.2769 672.9736 5461.9506 671.1353
+  5462.8711 668.6279 5463.4826 666.0657 5464.5996 663.6255
+  5465.8154 660.9705 5467.019 658.3106 5468.6548 655.8814
+  5469.8438 654.1138 5472.7075 650.1086 5475.3051 651.2634
+  5477.0374 652.0349 5476.6248 655.5164 5475.3176 656.5808
+  smooth off
+endline
+
+line wall
+  5419.375 646.0608
+  5423.772 646.0608 5428.186 647.0215 5432.688 646.5857
+  5434.7998 646.3818 5436.9751 646.3342 5439.0845 646.1414
+  5441.7065 645.9009 5445.0953 645.6518 5447.6294 646.2964
+  5449.0197 646.6504 5450.4126 647.2339 5451.6663 647.9126
+  5452.4194 648.3203 5453.4229 649.0076 5454.2713 649.1931
+  5456.853 649.7595 5459.9926 648.7061 5462.5244 648.3753
+  5463.8623 648.1995 5464.8438 647.7026 5466.062 647.3315
+  5467.3205 646.9482 5468.8074 646.9202 5470.1001 646.6882
+  5472.561 646.2463 5475.133 645.9216 5477.6294 646.3733
+  5483.1396 647.3706 5481.0961 652.5098 5479.4788 656.1645
+  smooth off
+endline
+
+line wall
+  5453.2287 841.9983
+  5454.3115 839.1235 5453.8537 835.0684 5453.8537 831.8933
+  5453.8537 829.2188 5453.9338 826.5332 5453.6901 823.866
+  5453.4595 821.3367 5453.3617 818.8355 5452.9919 816.3159
+  5452.5976 813.6291 5452.168 810.9033 5452.5097 808.1848
+  5453.1225 803.3166 5456.7456 798.645 5459.9157 795.0793
+  5464.1089 790.3638 5469.5984 786.4648 5470.9436 779.9145
+  5472.0654 774.4543 5471.8115 768.6145 5472.0837 763.0395
+  5472.2582 759.4739 5472.937 755.9497 5473.8207 752.4976
+  5474.657 749.2273 5476.0425 745.9351 5476.0474 742.5183
+  5476.0474 740.6604 5474.331 739.9634 5472.998 738.9539
+  5471.4136 737.7539 5469.8584 736.7383 5468.4082 735.4273
+  5467.8247 734.8987 5467.0971 734.2774 5466.3452 734.0149
+  5465.1929 733.6121 5465.116 734.7315 5464.6265 735.4285
+  5463.645 736.8298 5462.8821 735.9229 5461.875 735.0183
+  5460.2784 733.584 5458.6742 732.2766 5457.3962 730.5371
+  5456.3147 729.0649 5455.3832 727.8052 5454.6704 726.0852
+  5453.8281 724.0601 5453.4009 722.1143 5453.1481 719.9121
+  5452.893 717.6819 5453.1206 715.2905 5453.518 713.1433
+  5453.9282 710.9314 5454.95 709.0967 5455.6079 707.0007
+  5456.7541 703.3447 5457.1314 699.4116 5456.9116 695.5933
+  5456.6944 691.8018 5455.4126 688.0823 5455.4162 684.2896
+  5455.4162 682.5086 5455.2685 680.6177 5455.5225 678.8782
+  5455.8301 676.759 5456.554 674.8987 5457.1631 672.9077
+  5457.5561 671.6174 5457.6537 670.238 5458.0212 668.8965
+  5458.3727 667.6123 5459.0454 666.3477 5459.5044 665.0134
+  5460.7105 661.5088 5462.0556 658.1836 5462.8027 654.5142
+  smooth off
+  5461.3989 654.5605 5459.8827 654.9951 5458.4472 655.1233
+  5457.063 655.2465 5455.6957 655.3955 5454.2895 655.459
+  5453.1616 655.5102 5452.0581 655.686 5451.0497 655.1001
+  5450.1319 654.5654 5449.602 653.8135 5448.667 653.269
+  5444.7656 650.9961 5441.0596 650.7483 5436.466 650.7483
+  5430.835 650.7483 5425.2539 650.4358 5419.6875 650.4358
+  smooth off
+endline
+
+line wall
+  5442.9162 852.6233
+  5443.1629 853.6841 5444.0991 855.0366 5444.5044 856.0376
+  5445.3614 858.1531 5446.5392 860.4285 5447.0605 862.6465
+  5447.3645 863.9429 5447.4585 865.2942 5447.8174 866.5967
+  smooth off
+  5448.3471 864.4275 5449.6447 862.616 5450.31 860.5139
+  5450.8532 858.7976 5451.8604 857.323 5452.6782 855.7385
+  5453.4765 854.1907 5453.3325 852.5244 5453.7195 850.8508
+  5454.0722 849.3237 5453.9551 847.3572 5453.4375 845.852
+  smooth off
+endline
+
+line wall
+  5440.1037 853.2483
+  5440.7251 854.8022 5441.7615 856.1108 5442.1642 857.8308
+  5442.5574 859.5105 5443.3716 860.9155 5443.9649 862.5183
+  5445.1855 865.8264 5445.57 868.9282 5445.8337 872.5183
+  5445.915 873.6328 5446.0059 876.8188 5447.6012 876.792
+  5449.0015 876.7676 5449.6435 874.0601 5449.8986 873.042
+  5450.31 871.4026 5450.1806 869.5605 5450.4175 867.832
+  5450.6274 866.2939 5451.4539 865.3211 5452.373 864.0576
+  5453.0981 863.0615 5453.5632 862.0581 5454.0369 860.9302
+  5454.519 859.7852 5455.155 858.7195 5455.393 857.4951
+  5456.0645 854.0393 5457.1875 851.0889 5457.1875 847.5183
+  smooth off
+endline
+
+line wall
+  5510.0 906.477
+  5509.6289 904.9182 5509.4263 903.1982 5509.1626 901.5808
+  5508.8978 899.9487 5508.2544 898.4705 5507.7124 896.969
+  5506.8494 894.5874 5505.6445 892.3279 5504.7351 889.9609
+  5503.855 887.6697 5502.7075 885.47 5501.4587 883.352
+  5500.5225 881.7639 5499.7949 880.0513 5499.1675 878.3215
+  5498.5095 876.5003 5498.2849 875.7214 5496.7712 874.5032
+  5494.4824 872.6611 5491.7932 871.9446 5489.2529 870.6433
+  5487.6977 869.8462 5485.2564 868.6316 5484.1955 867.3047
+  5483.1678 866.0181 5483.5241 863.8818 5482.8881 862.4378
+  5481.3867 859.0357 5477.7111 857.8992 5474.4812 856.5552
+  5472.9736 855.9265 5471.4136 855.3296 5469.9951 854.4751
+  5468.4913 853.5718 5466.5796 852.8638 5465.1074 851.7957
+  5461.2256 848.9795 5457.4182 847.0862 5452.9199 845.4334
+  5450.376 844.4983 5447.666 844.8547 5445.0269 844.9866
+  5442.4194 845.1172 5439.7864 845.2661 5437.2009 845.7068
+  5434.0259 846.2476 5430.8691 846.9055 5427.7087 847.5232
+  5425.9644 847.865 5424.4921 848.3936 5422.7319 848.6878
+  5421.5771 848.8794 5419.0796 849.7412 5418.1225 848.794
+  5417.677 848.3533 5417.2974 847.0411 5417.3975 846.3733
+  5417.5597 845.2711 5418.2507 845.3638 5419.1662 845.2295
+  5421.1255 844.9415 5423.1006 844.7559 5425.0049 844.3934
+  5428.96 843.6402 5433.2214 843.1837 5437.395 842.6002
+  5441.897 841.9715 5446.4721 841.5308 5451.0205 841.7933
+  5457.4659 842.1656 5462.9761 846.0279 5467.9224 849.8365
+  5469.1944 850.8167 5471.1987 852.1045 5472.8125 852.3975
+  5473.7219 852.5623 5474.7131 852.2608 5475.625 852.4146
+  5476.4526 852.5538 5476.9409 852.9444 5477.7062 853.3265
+  5479.989 854.4666 5481.803 855.7606 5483.7756 857.1827
+  5484.6057 857.7809 5485.5164 858.2398 5486.2475 858.8758
+  5486.9067 859.4508 5487.3609 860.4615 5488.0029 860.8692
+  smooth off
+  5488.8929 862.1082 5488.252 863.9881 5488.877 865.4127
+  5489.4946 866.8202 5491.195 867.2181 5492.6025 867.7223
+  5494.2211 868.3021 5495.8594 869.0333 5497.185 870.0685
+  5498.8294 871.3514 5499.9292 873.0506 5501.1206 874.8097
+  5502.229 876.4491 5503.6793 878.108 5504.563 879.8048
+  5505.6921 881.9752 5506.3635 884.4544 5507.2949 886.7408
+  5509.0332 891.0096 5511.0754 895.4029 5512.3901 899.8853
+  5512.9882 901.9239 5513.1885 904.0431 5513.75 906.0609
+  smooth off
+endline
+
+line wall
+  5412.5 799.7058
+  5413.0127 799.1467 5414.1199 798.0127 5415.0 798.1433
+  smooth off
+endline
+
+line wall
+  5415.625 807.6233
+  5416.2622 806.8506 5417.2705 806.4172 5418.0213 805.852
+  smooth off
+endline
+
+line wall
+  5422.8125 818.7683
+  5423.4375 818.7988 5423.8562 818.28 5424.4787 818.1433
+  smooth off
+endline
+
+line wall
+  5400.2088 777.6233
+  5402.0715 776.9385 5403.8904 779.4385 5404.4531 780.9814
+  5405.0318 782.5671 5404.5444 784.4128 5405.0976 786.0193
+  5405.8996 788.3484 5408.4424 787.4939 5409.9708 786.3452
+  5411.2671 785.3711 5412.699 784.4238 5414.0881 783.3777
+  5415.8716 782.0349 5418.4521 780.553 5418.9087 778.1116
+  5419.5996 774.4055 5416.1219 773.3643 5413.1324 774.1138
+  5410.9864 774.6509 5409.5776 777.1313 5407.2705 777.1069
+  5405.5712 777.0886 5404.5704 774.7888 5403.7549 773.5864
+  5402.5756 771.8457 5401.4245 770.0977 5400.625 768.1433
+  smooth off
+endline
+
+line wall
+  5429.2713 823.7683
+  5429.2263 822.2546 5428.612 820.636 5427.4194 819.6826
+  5426.4282 818.8904 5424.4654 817.9321 5424.1637 816.6846
+  5423.4497 813.7183 5424.2475 809.6204 5420.9667 807.8101
+  5419.4629 806.9812 5418.2203 806.8347 5418.125 804.9145
+  5418.0438 803.2532 5417.9626 801.6174 5417.085 800.2295
+  5416.3281 799.0308 5415.1562 798.9453 5414.7436 797.4622
+  5414.2859 795.813 5414.4031 794.0711 5413.8599 792.4145
+  5413.4521 791.178 5412.7856 790.0098 5412.2851 788.7744
+  5411.9214 787.8723 5411.7126 786.7419 5411.1645 785.874
+  smooth off
+endline
+
+line wall
+  5426.6662 826.2683
+  5425.3222 826.416 5423.606 825.2222 5422.9931 824.1321
+  5422.6171 823.4656 5422.3889 822.6794 5422.3975 821.8933
+  5422.3975 821.189 5423.0958 820.1062 5422.7954 819.4116
+  5422.4121 818.5278 5419.9426 817.4853 5419.0917 817.0727
+  5417.7869 816.4416 5416.4551 815.6787 5416.0387 814.1931
+  5415.6079 812.6562 5416.6406 808.5156 5415.3991 807.5366
+  smooth off
+  5414.2077 807.1435 5413.2935 805.4858 5412.6037 804.4983
+  5411.4234 802.8101 5411.9347 801.8628 5412.48 800.1257
+  5412.851 798.9392 5412.8242 798.241 5411.8794 797.4976
+  5411.1775 796.9446 5410.4047 796.4136 5409.6894 795.8264
+  5408.5346 794.8792 5407.4811 793.4912 5407.2908 791.9983
+  5407.1162 790.625 5407.2908 789.1126 5407.2908 787.727
+  smooth off
+endline
+
+line wall
+  5423.916 840.6201
+  5424.0528 839.1028 5424.3786 837.5867 5424.5874 836.0889
+  5424.8865 833.9368 5425.8227 831.3916 5427.4951 829.9145
+  5429.9744 827.727 5433.6438 829.0637 5435.3906 831.4539
+  5436.4099 832.8491 5436.8066 834.4666 5437.4487 836.0364
+  5437.8735 837.0752 5438.1824 838.0737 5438.4595 839.0845
+  smooth off
+endline
+
+line wall -close on
+  5423.8537 683.6645
+  5425.4162 681.8933
+  5426.0412 684.1858
+  5423.8537 683.6645
+endline
+
+line wall -close on
+  5421.0412 683.6645
+  5422.2912 681.5808
+  5423.0212 683.6645
+  5421.0412 683.6645
+endline
+
+line wall -close on
+  5418.0213 683.6645
+  5418.9588 681.3733
+  5420.2088 683.6645
+  5418.0213 683.6645
+endline
+
+line wall -close on
+  5415.625 684.4983
+  5415.5213 681.9983
+  5417.1875 683.7683
+  5415.625 684.4983
+endline
+
+line wall
+  5415.7287 684.9145
+  5416.8445 683.7781 5419.2895 684.0808 5420.8569 684.0808
+  5422.5756 684.0808 5424.6509 683.8477 5426.0412 684.7058
+  smooth off
+endline
+
+line wall
+  5361.875 652.4145
+  5362.5648 651.676 5365.9034 651.936 5366.4588 652.727
+  smooth off
+endline
+
+line wall
+  5364.1662 671.5808
+  5366.471 672.7026 5368.7659 671.7139 5370.9375 670.852
+  smooth off
+endline
+
+line wall
+  5362.7088 686.6858
+  5364.0113 687.5513 5365.4321 688.4595 5367.0838 688.6414
+  5368.0005 688.7427 5368.9698 688.6634 5369.8963 688.6646
+  5370.8264 688.6658 5371.4759 688.335 5372.2913 688.2484
+  smooth off
+endline
+
+line wall
+  5385.3125 699.1858
+  5385.22 700.4126 5382.6184 701.792 5381.5625 701.8933
+  5379.7424 702.0666 5377.7418 700.9399 5376.6455 699.6253
+  5374.0869 696.5503 5373.2349 693.0029 5372.5976 688.9978
+  5372.2436 686.7651 5371.853 684.5166 5371.5369 682.2876
+  5371.2305 680.1282 5371.3537 677.8674 5371.3537 675.6641
+  5371.3537 673.4229 5370.9485 671.1633 5370.4126 669.0088
+  5369.8486 666.7383 5368.5535 664.7253 5368.1299 662.4145
+  5367.4341 658.6121 5367.096 654.6692 5366.3476 650.852
+  5366.0034 649.093 5366.2501 647.041 5366.2501 645.227
+  5366.2501 643.4485 5365.9302 641.6699 5367.2742 640.52
+  5368.7842 639.2261 5372.5685 639.1565 5374.5839 639.6777
+  5376.0939 640.0684 5377.4635 640.8533 5378.8722 641.4099
+  5380.0539 641.8774 5381.1487 643.02 5382.3964 643.2483
+  smooth off
+endline
+
+line wall -close on
+  5422.3963 726.7895
+  5419.5838 726.3733
+  5422.0838 724.7058
+  5422.3963 726.7896
+  5422.3963 726.7895
+endline
+
+line wall -close on
+  5423.0213 731.7895
+  5419.8963 730.6433
+  5422.7088 729.1858
+  5423.0213 731.7895
+endline
+
+line wall -close on
+  5422.7088 736.1645
+  5420.2088 735.227
+  5422.9163 733.977
+  5422.7088 736.1645
+endline
+
+line wall -close on
+  5419.375 720.227
+  5419.375 722.8308
+  5421.6662 722.6233
+  5421.1462 721.0608
+  5419.375 720.227
+endline
+
+line wall -close on
+  5414.6875 718.8733
+  5415.5213 721.8933
+  5417.3963 719.602
+  5414.6875 718.8733
+endline
+
+line wall -close on
+  5410.4162 718.977
+  5412.0837 721.1645
+  5412.9162 718.7683
+  5410.4162 718.977
+endline
+
+line wall -close on
+  5406.0412 721.0608
+  5408.125 722.5183
+  5408.0213 719.9145
+  5406.0413 721.0608
+  5406.0412 721.0608
+endline
+
+line wall -close on
+  5404.5838 726.2683
+  5407.8125 725.852
+  5405.0 724.0808
+  5404.5838 726.2683
+endline
+
+line wall -close on
+  5403.3338 731.477
+  5406.3538 731.1645
+  5404.375 729.2895
+  5403.3338 731.477
+endline
+
+line wall -close on
+  5402.3975 736.9983
+  5405.5212 735.4358
+  5402.3962 734.3933
+  5402.3975 736.9983
+endline
+
+line wall -close on
+  5404.8963 741.5808
+  5406.4588 739.2895
+  5403.4375 739.3933
+  5404.8963 741.5808
+endline
+
+line wall -close on
+  5422.0838 742.3108
+  5419.8963 740.5395
+  5422.3963 739.8108
+  5422.0838 742.3108
+endline
+
+line wall -close on
+  5418.6463 746.7895
+  5418.3338 744.3933
+  5420.8338 745.9558
+  5418.6463 746.7895
+endline
+
+line wall -close on
+  5413.3338 745.7483
+  5414.4788 743.4558
+  5415.7288 746.3733
+  5413.3338 745.7483
+endline
+
+line wall -close on
+  5408.0213 744.9145
+  5409.8963 742.9358
+  5410.2088 745.5395
+  5408.0213 744.9145
+endline
+
+line wall -close on
+  5420.2088 751.1645
+  5418.75 749.4983
+  5421.0412 749.0808
+  5420.2087 751.1646
+  5420.2088 751.1645
+endline
+
+line wall -close on
+  5418.2287 753.2483
+  5417.3962 750.852
+  5419.4787 751.7895
+  5418.2287 753.2483
+endline
+
+line wall -close on
+  5415.5213 755.1233
+  5415.1038 752.4145
+  5417.1875 753.977
+  5415.5213 755.1233
+endline
+
+line wall -close on
+  5412.7088 756.2683
+  5412.1875 753.7683
+  5414.2713 755.4358
+  5412.7088 756.2683
+endline
+
+line wall -close on
+  5410.0 757.727
+  5409.5838 755.3308
+  5411.6663 756.7895
+  5410.0 757.727
+endline
+
+line wall -close on
+  5406.4588 760.4358
+  5406.1463 757.6233
+  5408.0213 759.0808
+  5406.4588 760.4358
+endline
+
+line wall -close on
+  5403.5412 762.4145
+  5403.3337 759.8108
+  5405.2087 761.1645
+  5403.5412 762.4145
+endline
+
+line wall -close on
+  5402.7088 745.3308
+  5405.1038 744.9145
+  5403.0213 743.4558
+  5402.7088 745.3308
+endline
+
+line wall -close on
+  5402.2912 748.4558
+  5404.5837 748.2483
+  5402.7087 746.477
+  5402.2912 748.4558
+endline
+
+line wall -close on
+  5401.1463 752.102
+  5403.6463 751.8933
+  5401.7713 749.7058
+  5401.1463 752.102
+endline
+
+line wall -close on
+  5400.8338 755.3308
+  5403.0213 755.0183
+  5401.1463 753.2483
+  5400.8338 755.3308
+endline
+
+line wall -close on
+  5400.5213 759.2895
+  5402.8125 758.2483
+  5400.7287 757.3108
+  5400.5212 759.2895
+  5400.5213 759.2895
+endline
+
+line wall
+  5404.8963 722.3108
+  5405.9778 719.5215 5411.77 718.3997 5414.4775 718.6645
+  5416.1365 718.8269 5417.7771 719.6338 5419.375 720.227
+  5420.9765 720.8227 5422.4585 721.5234 5422.3963 723.4558
+  smooth off
+endline
+
+line wall
+  5402.6037 731.8933
+  5402.6037 733.6194 5402.2412 735.3052 5402.3975 736.9983
+  5402.5464 738.6121 5403.3471 740.2503 5404.2992 741.5576
+  5405.1734 742.7551 5406.477 744.5093 5407.8076 745.21
+  5409.3494 746.0205 5411.4917 745.5383 5413.1225 745.9582
+  5414.9329 746.4258 5416.8701 747.2143 5418.8537 747.102
+  5420.4357 747.0129 5421.9629 745.5835 5422.6037 744.2895
+  smooth off
+endline
+
+line wall -close on
+  5397.3681 748.6792
+  5396.6626 746.7798 5395.8435 744.9243 5395.1025 743.0395
+  5394.5971 741.7541 5394.021 739.4971 5394.375 738.0395
+  5394.8071 736.2646 5397.1729 736.3574 5398.6463 736.5808
+  5400.7654 736.9006 5402.0971 737.5818 5402.395 739.939
+  5402.6514 741.9543 5402.4613 744.2615 5402.395 746.2891
+  5402.3387 748.0518 5401.6625 749.4299 5401.1511 751.0657
+  5400.6945 752.5244 5400.675 753.9551 5400.52 755.5395
+  5400.3699 757.063 5400.48 758.7207 5399.9109 760.1685
+  5399.5641 761.0547 5399.2969 762.5928 5398.7719 763.3447
+  smooth off
+  5398.8606 761.9665 5398.5571 760.5676 5398.6438 759.1589
+  5398.8561 755.6946 5398.5875 751.9605 5397.3669 748.6792
+  smooth off
+  5397.3681 748.6792
+endline
+
+line wall
+  5386.9787 700.7483
+  5385.3637 702.7539 5386.6114 704.1382 5386.2244 706.3428
+  5385.918 708.0847 5385.7556 709.8438 5385.3991 711.5808
+  5384.8242 714.3811 5384.143 717.229 5384.248 720.1086
+  5384.3442 722.7332 5385.4711 724.9512 5386.7114 727.2083
+  5388.4301 730.3357 5391.5149 731.7017 5394.9316 732.1411
+  5397.1191 732.4231 5399.414 732.9578 5401.5564 732.1045
+  5403.9234 731.1621 5403.9819 728.8403 5404.2456 726.648
+  5404.6424 723.3508 5405.0074 720.05 5405.4907 716.7639
+  5405.9155 713.8733 5406.1609 710.9448 5406.8384 708.0957
+  5407.5244 705.2063 5408.7451 702.4914 5409.956 699.7913
+  5410.7434 698.0347 5411.4147 696.2268 5412.2485 694.4897
+  5412.9675 692.9919 5414.1895 691.7725 5414.7717 690.2039
+  5415.3784 688.5693 5415.0402 686.7358 5415.7287 685.1233
+  smooth off
+endline
+
+line wall
+  5419.8963 844.8108
+  5420.0574 843.0835 5419.4751 841.3867 5419.1552 839.7107
+  5418.5523 836.5515 5417.9468 833.3166 5416.8433 830.2857
+  5416.0974 828.2324 5414.8511 823.7341 5411.8043 824.9316
+  5408.9099 826.0693 5407.7833 830.1282 5406.7688 832.7246
+  5406.0486 834.5593 5406.4257 839.1125 5403.1299 837.0752
+  5402.2046 836.5039 5401.4819 835.802 5400.625 835.1233
+  5399.2041 833.9966 5397.7234 833.0847 5396.377 831.7834
+  5394.6729 830.1367 5392.7149 828.689 5391.0425 827.0215
+  5388.1324 824.1199 5387.5635 820.0488 5387.3401 816.1304
+  5387.124 812.3328 5387.4926 807.7832 5384.9524 804.6411
+  5382.268 801.322 5379.021 797.6294 5379.1004 793.103
+  5379.1929 787.8235 5383.6572 786.0791 5387.5512 783.7512
+  5389.0234 782.8711 5390.3857 781.759 5391.9946 781.1255
+  5394.6386 780.083 5397.0276 780.6592 5399.209 778.3594
+  5401.3501 776.1011 5400.6714 772.6355 5400.4749 769.8437
+  5400.249 766.6333 5401.2902 764.0637 5404.1724 762.3938
+  5407.0495 760.7263 5409.4531 758.5486 5412.4585 757.0471
+  5414.967 755.7935 5417.6184 754.6606 5419.5556 752.5586
+  5420.7019 751.3135 5421.4611 749.8474 5421.82 748.186
+  5422.4242 745.3979 5422.5537 742.4646 5422.9236 739.6374
+  5423.3716 736.2073 5423.6475 732.8101 5423.302 729.3555
+  5422.8565 724.9023 5421.6882 720.5627 5421.2329 716.1145
+  5420.7397 711.3025 5420.2954 706.6492 5421.1691 701.814
+  5421.8356 698.1299 5423.9549 694.8364 5425.2146 691.3757
+  5426.0349 689.1199 5426.3205 686.831 5426.5622 684.3933
+  smooth off
+endline
+
+line wall
+  5304.1662 636.1645
+  5305.8789 636.1279 5307.2887 635.1416 5308.9649 636.245
+  5311.0498 637.6183 5313.0932 637.5561 5315.4834 637.6806
+  5318.4619 637.8356 5321.416 638.2909 5324.3994 638.363
+  5332.7856 638.5656 5341.0571 636.7675 5349.4409 637.0153
+  5352.677 637.1106 5355.8569 637.8198 5359.0699 638.1652
+  5362.7331 638.5595 5361.7712 643.2067 5361.7712 645.7482
+  5361.7712 648.3764 5361.6762 651.1645 5361.6712 653.8427
+  5361.6712 657.3742 5362.6589 660.7946 5363.318 664.237
+  5364.1994 668.8305 5363.8624 673.496 5364.3605 678.1249
+  5364.7389 681.6381 5363.6525 684.6533 5362.6051 687.9357
+  5360.4297 694.7534 5368.0116 699.6655 5372.671 703.0676
+  5374.214 704.1931 5375.8131 705.736 5375.9376 707.81
+  5376.0514 709.696 5375.3395 710.7543 5374.5802 712.4121
+  5374.0772 713.5095 5373.6207 714.602 5373.5414 715.852
+  5373.3375 719.1015 5375.2785 721.4684 5377.0972 723.933
+  5381.526 729.934 5385.1674 736.5087 5389.8244 742.3437
+  5390.8411 743.6181 5392.2572 744.4689 5393.0226 745.9497
+  5393.7355 747.3229 5393.8185 748.9135 5393.8356 750.4321
+  5393.8606 752.5854 5394.3861 754.6801 5394.7047 756.8005
+  5395.215 760.1989 5395.7581 763.7268 5395.2247 767.1545
+  5394.3946 772.4816 5390.5116 775.1171 5386.4979 778.1506
+  5384.8756 779.3774 5383.1385 780.4601 5381.6078 781.8066
+  5380.11 783.1237 5378.8856 784.7033 5377.5709 786.1962
+  5375.4348 788.623 5372.2694 790.1135 5375.0221 793.4618
+  5377.1303 796.0253 5376.9069 799.464 5378.1019 802.4145
+  5379.3654 805.5358 5383.5963 807.1227 5383.5414 810.7482
+  5383.5126 812.5988 5382.1754 813.8708 5382.4953 815.9301
+  5382.765 817.6659 5384.5851 818.7377 5384.9976 820.4272
+  5385.5068 822.5158 5385.8693 824.3762 5386.6408 826.372
+  5387.0265 827.3705 5387.2096 828.2446 5387.2681 829.3932
+  5387.3406 830.8032 5387.1388 831.8688 5388.5378 832.5976
+  5390.0685 833.3959 5392.0558 833.4387 5393.7269 833.6877
+  5395.9658 834.0209 5396.6029 835.0927 5398.0519 836.8981
+  5399.0406 838.1298 5400.0941 839.4628 5401.5858 839.8107
+  5403.0653 840.1562 5404.9318 840.1367 5406.028 841.3464
+  5407.1119 842.5439 5407.7785 844.2577 5408.4156 845.7201
+  5409.1554 847.4218 5410.3956 848.413 5411.5724 849.746
+  5412.5929 850.9045 5413.6146 852.7099 5415.4164 852.6232
+  5416.83 852.5548 5418.235 850.8483 5418.7501 849.602
+  smooth off
+endline
+
+line wall -close on
+  5307.1875 675.4358
+  5305.1037 673.4558
+  5308.2287 672.9358
+  5307.1875 675.4358
+endline
+
+line wall -close on
+  5308.75 671.6858
+  5306.4588 670.4358
+  5308.9588 669.2895
+  5308.75 671.6858
+endline
+
+line wall -close on
+  5307.5 665.1233
+  5306.1463 667.8308
+  5308.9588 667.3108
+  5307.5 665.1233
+endline
+
+line wall -close on
+  5303.2287 662.8308
+  5303.75 665.7483
+  5305.7287 663.4558
+  5303.2287 662.8308
+endline
+
+line wall -close on
+  5298.75 661.9983
+  5300.1037 664.602
+  5301.4587 662.4145
+  5298.75 661.9983
+endline
+
+line wall -close on
+  5294.6875 663.0395
+  5296.9787 665.0183
+  5296.875 662.3108
+  5294.6875 663.0395
+endline
+
+line wall -close on
+  5292.9162 666.6858
+  5295.625 666.8933
+  5293.4375 664.1858
+  5292.9162 666.6858
+endline
+
+line wall -close on
+  5295.625 670.9558
+  5296.875 668.7683
+  5293.6463 669.1858
+  5295.625 670.9558
+endline
+
+line wall -close on
+  5300.0 674.4983
+  5300.1037 671.1645
+  5298.125 672.8308
+  5300.0 674.4983
+endline
+
+line wall -close on
+  5301.875 676.8933
+  5303.125 674.0808
+  5300.625 675.1233
+  5301.875 676.8933
+endline
+
+line wall
+  5305.5213 662.9358
+  5305.78 661.8811 5305.5713 660.7385 5305.7373 659.6692
+  5305.8863 658.6902 5306.0449 657.7148 5306.311 656.7578
+  5307.1289 653.8147 5306.3285 649.9963 5305.6542 647.0727
+  5305.2759 645.4358 5305.0366 643.584 5304.3494 642.0215
+  5304.0649 641.3745 5303.6914 640.7471 5303.4375 640.1233
+  smooth off
+endline
+
+line wall
+  5299.4787 661.5808
+  5299.4787 658.8464 5299.1601 656.4697 5298.772 653.8733
+  5298.5535 652.4109 5298.5804 650.9741 5298.5205 649.5056
+  5298.4805 648.5303 5298.2372 646.3574 5297.3962 645.7483
+  smooth off
+endline
+
+line wall -close on
+  5327.273 743.3496
+  5325.459 741.6675 5323.5351 740.0928 5321.936 738.1995
+  5319.502 735.3174 5316.7933 731.8616 5315.8338 728.1433
+  5315.2833 726.0095 5314.7851 723.4058 5314.7913 721.1645
+  5314.7913 719.1846 5314.69 717.146 5314.978 715.2295
+  5315.2295 713.5437 5315.6836 711.7944 5315.7288 710.1282
+  5315.7875 707.9456 5315.2221 705.6262 5314.187 703.7683
+  5312.8223 701.3184 5310.3784 699.4446 5310.1038 696.4819
+  5309.9183 694.4824 5310.6176 692.4963 5309.5044 690.658
+  5308.5913 689.1528 5307.102 688.1775 5306.9788 686.2683
+  5306.7541 682.7954 5306.9138 679.1711 5307.6099 675.9619
+  5308.1384 673.5168 5309.5581 671.3586 5309.5203 668.7805
+  5309.4703 665.3735 5306.6504 663.3069 5303.6206 662.4622
+  5301.3086 661.8176 5298.7426 661.2744 5296.3574 661.8127
+  5293.5461 662.4463 5291.7639 665.2393 5292.6831 668.1689
+  5293.2373 669.9377 5295.21 671.3037 5296.6663 672.356
+  5298.2984 673.5364 5299.6118 674.7497 5300.9546 676.2585
+  5302.3181 677.7893 5302.5318 679.6509 5302.915 681.4746
+  5303.6585 684.9976 5304.1858 688.6877 5304.9194 692.2815
+  5306.3868 699.4678 5312.1094 705.2881 5312.5171 712.7576
+  5312.7246 716.5796 5309.8413 720.188 5306.2659 721.4978
+  smooth off
+  5306.7529 722.8516 5308.103 724.2065 5308.9551 725.3308
+  5310.1379 726.8909 5311.6614 728.1409 5312.9248 729.6289
+  5314.3469 731.3037 5314.6972 733.2507 5315.8032 735.0659
+  5317.522 737.8882 5319.9183 740.2075 5322.0581 742.7002
+  5324.7167 745.7971 5327.8821 748.4107 5330.5505 751.499
+  5332.6319 753.9075 5334.4885 756.5527 5336.9214 758.6316
+  5338.291 759.8022 5339.834 760.7666 5341.5527 761.3293
+  5342.4987 761.6382 5343.5694 761.7078 5344.1919 762.5732
+  5344.939 763.6133 5344.9439 765.404 5345.0696 766.6186
+  5345.4687 770.5029 5345.2026 774.4031 5345.2564 778.2983
+  5345.3201 782.8784 5346.4721 787.0203 5347.3145 791.4795
+  5347.9137 794.646 5349.4091 797.2632 5350.6055 800.1965
+  5351.626 802.6978 5351.1475 805.658 5350.723 808.2422
+  5350.2457 811.1523 5349.5024 815.7849 5352.078 817.8516
+  5353.2145 818.7634 5354.556 820.1868 5356.0416 820.3308
+  5357.8531 820.5054 5359.8831 819.4934 5361.2735 818.4827
+  5362.8677 817.323 5363.6722 816.2207 5362.8934 814.1834
+  5362.2855 812.5915 5361.1612 811.4441 5360.4399 809.9951
+  5358.5282 806.156 5355.087 803.3887 5353.1144 799.6204
+  5350.4704 794.5691 5349.7929 787.8088 5349.6756 782.1765
+  5349.6281 779.9475 5349.9381 777.7161 5349.7644 775.4883
+  5349.602 773.4045 5348.7354 771.46 5348.5901 769.3799
+  5348.4339 767.135 5348.794 764.8474 5348.1739 762.6477
+  5347.7075 760.9961 5346.665 759.585 5345.7959 758.1299
+  5344.0502 755.2087 5342.5341 750.7617 5338.4557 750.6311
+  5336.8872 750.5811 5336.1829 751.2537 5334.8511 750.3235
+  5332.356 748.5803 5330.3161 746.3025 5328.1519 744.1846
+  5327.8637 743.9026 5327.5696 743.6243 5327.273 743.3496
+endline
+
+line wall -close on
+  4985.3112 595.957
+  4987.2912 595.957
+  4985.52 594.2908
+  4985.3112 595.957
+endline
+
+line wall -close on
+  4960.5212 760.1233
+  4960.5212 762.3718 4961.062 764.6582 4960.5962 766.8957
+  4960.4351 767.666 4960.2092 769.0478 4959.1509 769.0124
+  4958.1206 768.9783 4958.0132 767.6453 4957.8691 766.853
+  4957.4981 764.8083 4957.6982 762.7051 4957.4956 760.6433
+  4957.3856 759.5227 4955.7439 751.842 4958.211 752.5366
+  smooth off
+  4959.124 753.3679 4960.1079 753.9819 4960.4155 755.4358
+  4960.7207 756.8701 4960.5217 758.6108 4960.5217 760.1233
+  smooth off
+  4960.5212 760.1233
+endline
+
+line wall
+  5019.8962 639.602
+  5021.4014 639.4714 5023.1519 640.188 5024.707 640.2734
+  5032.6147 640.708 5040.7886 640.4382 5048.352 637.8711
+  5052.4219 636.4893 5056.0425 634.1247 5059.9145 632.3059
+  5064.0161 630.3784 5068.2812 629.4983 5072.8125 629.4983
+  smooth off
+endline
+
+line wall
+  4989.1663 614.0808
+  4989.6583 612.2546 4992.6025 612.3023 4993.8574 613.0139
+  4995.3271 613.8489 4996.6357 615.2771 4997.948 616.4563
+  5000.2905 618.5644 5003.2288 620.1648 5005.6019 622.3157
+  5008.3642 624.8206 5007.085 628.3923 5005.6481 631.1902
+  5004.9804 632.4902 5004.3774 633.6548 5004.2944 635.227
+  5004.1649 637.699 5006.8272 636.4648 5008.1249 636.0608
+  smooth off
+endline
+
+line wall -close on
+  5017.9163 632.9358
+  5015.5212 633.7683
+  5015.3125 631.1645
+  5017.9163 632.9358
+endline
+
+line wall -close on
+  5019.6875 636.6858
+  5017.0837 635.9558
+  5019.1663 634.3933
+  5019.6875 636.6858
+endline
+
+line wall -close on
+  5017.0837 640.227
+  5016.25 637.5183
+  5019.0625 638.977
+  5017.0837 640.227
+endline
+
+line wall -close on
+  5013.3337 640.227
+  5014.8962 638.352
+  5015.5212 640.5395
+  5013.3337 640.227
+endline
+
+line wall -close on
+  5011.0413 632.4145
+  5013.2288 633.6645
+  5012.7087 631.1645
+  5011.0413 632.4145
+endline
+
+line wall -close on
+  5010.0 636.1645
+  5012.0837 635.6433
+  5010.3125 633.5608
+  5010.0 636.1645
+endline
+
+line wall -close on
+  5010.2087 637.727
+  5012.7087 637.102
+  5011.6663 639.602
+  5010.2087 637.727
+endline
+
+line wall -close on
+  5019.7937 638.7634
+  5018.977 640.4126 5017.4121 641.0779 5015.6396 641.0681
+  5014.3286 641.0606 5011.9812 640.8252 5011.0034 639.8596
+  5010.4713 639.3323 5010.0805 638.6194 5009.8071 637.9285
+  5009.281 636.5967 5009.1114 634.9585 5009.7709 633.6414
+  5010.4569 632.2717 5011.2638 631.2707 5012.7128 630.7251
+  5016.901 629.1492 5021.8095 634.6912 5019.7941 638.7634
+  smooth off
+  5019.7937 638.7634
+endline
+
+line wall -close on
+  5094.6875 617.727
+  5094.8962 620.852
+  5097.0837 618.8733
+  5094.6875 617.727
+endline
+
+line wall -close on
+  5090.625 616.1645
+  5091.0413 619.3933
+  5093.0212 617.4145
+  5090.625 616.1645
+endline
+
+line wall -close on
+  5086.1462 615.7483
+  5087.5 618.5608
+  5088.75 615.9558
+  5086.1462 615.7483
+endline
+
+line wall -close on
+  5082.7087 616.477
+  5084.6875 619.0808
+  5085.0 615.852
+  5082.7087 616.477
+endline
+
+line wall -close on
+  5079.2712 619.0808
+  5081.9788 620.852
+  5081.1462 617.4145
+  5079.2712 619.0808
+endline
+
+line wall -close on
+  5076.3538 624.3933
+  5079.2712 624.8108
+  5077.3962 622.102
+  5076.3538 624.3933
+endline
+
+line wall -close on
+  5074.1663 628.6645
+  5076.9788 628.8733
+  5075.4163 626.7895
+  5074.1663 628.6645
+endline
+
+line wall -close on
+  5073.125 633.5608
+  5076.25 632.5183
+  5073.2288 631.3733
+  5073.125 633.5608
+endline
+
+line wall -close on
+  5072.9163 638.2483
+  5076.0413 637.102
+  5073.0212 635.5395
+  5072.9163 638.2483
+endline
+
+line wall -close on
+  5073.9587 643.0395
+  5075.625 640.227
+  5073.0212 640.227
+  5073.9587 643.0395
+endline
+
+line wall -close on
+  5101.6663 622.4145
+  5099.4788 622.4145
+  5101.0413 619.7058
+  5101.6663 622.4145
+endline
+
+line wall -close on
+  5102.9163 626.3733
+  5100.1038 625.852
+  5102.1875 624.2895
+  5102.9163 626.3733
+endline
+
+line wall -close on
+  5104.4788 630.852
+  5101.875 630.0183
+  5104.1663 628.8733
+  5104.4788 630.852
+endline
+
+line wall -close on
+  5103.8538 635.4358
+  5101.25 633.6645
+  5104.1663 633.1433
+  5103.8538 635.4358
+endline
+
+line wall -close on
+  5102.3962 638.4558
+  5100.8337 637.4145
+  5103.2288 636.9983
+  5102.3962 638.4558
+endline
+
+line wall -close on
+  5100.2087 642.727
+  5098.9587 640.5395
+  5101.4587 640.852
+  5100.2087 642.727
+endline
+
+line wall -close on
+  5096.6663 646.1645
+  5096.0413 643.5608
+  5098.5413 644.9145
+  5096.6663 646.1645
+endline
+
+line wall -close on
+  5092.1875 647.5183
+  5092.2913 644.8108
+  5094.4788 647.102
+  5092.1875 647.5183
+endline
+
+line wall -close on
+  5087.9163 648.0395
+  5088.6462 645.4358
+  5090.3125 647.9358
+  5087.9163 648.0395
+endline
+
+line wall -close on
+  5083.75 647.5183
+  5084.8962 645.3308
+  5085.8337 647.9358
+  5083.75 647.5183
+endline
+
+line wall -close on
+  5080.0 646.477
+  5081.6663 644.2895
+  5082.1875 647.102
+  5080.0 646.477
+endline
+
+line wall -close on
+  5075.2087 644.602
+  5077.2913 642.9358
+  5077.6038 645.9558
+  5076.1462 645.8521
+  5075.2087 644.6021
+  5075.2087 644.602
+endline
+
+line wall -close on
+  5129.2713 643.8733
+  5127.1875 643.1433
+  5129.375 641.9983
+  5129.2713 643.8733
+endline
+
+line wall -close on
+  5129.7912 647.102
+  5127.6037 646.477
+  5129.4787 645.4358
+  5129.7912 647.102
+endline
+
+line wall -close on
+  5122.2912 643.8733
+  5124.7912 643.977
+  5122.8125 641.7895
+  5122.2912 643.8733
+endline
+
+line wall -close on
+  5121.3537 647.4145
+  5123.75 647.4145
+  5121.9787 645.227
+  5121.3537 647.4145
+endline
+
+line wall -close on
+  5120.5213 651.0608
+  5122.7088 650.5395
+  5120.9375 648.6645
+  5120.5213 651.0608
+endline
+
+line wall -close on
+  5120.9375 654.7058
+  5122.2912 653.4558
+  5120.3125 652.4145
+  5120.9375 654.7058
+endline
+
+line wall -close on
+  5124.7912 655.9558
+  5123.5412 653.8733
+  5122.3962 656.0608
+  5124.7912 655.9558
+endline
+
+line wall -close on
+  5126.3537 655.5395
+  5126.0412 653.4558
+  5128.2287 654.4983
+  5126.3537 655.5395
+endline
+
+line wall -close on
+  5129.1662 653.7683
+  5127.3962 651.7895
+  5129.7912 652.2058
+  5129.1662 653.7683
+endline
+
+line wall -close on
+  5130.1037 648.4558
+  5127.9162 649.602
+  5130.3125 650.5395
+  5130.1037 648.4558
+endline
+
+line wall
+  5104.1663 636.6858
+  5104.0087 635.2258 5104.6973 633.7878 5104.7889 632.3084
+  5104.8926 630.6213 5104.8164 629.4641 5104.1406 627.9334
+  5102.9505 625.2393 5101.8115 622.7222 5101.6663 619.7058
+  smooth off
+endline
+
+line wall
+  5076.6663 646.477
+  5076.2305 645.8838 5075.5579 645.5347 5075.0781 645.0159
+  5074.5666 644.4617 5074.2139 643.8367 5073.833 643.2715
+  5073.0395 642.0899 5072.8003 640.7556 5072.7088 639.2896
+  5072.5195 636.2671 5073.125 633.5547 5073.125 630.5396
+  smooth off
+endline
+
+line wall
+  5116.25 649.602
+  5116.25 646.875 5115.78 643.5071 5116.8469 641.0584
+  5117.998 638.4167 5120.968 637.102 5123.75 637.102
+  smooth off
+endline
+
+line wall
+  5102.7087 640.3308
+  5104.6509 640.8582 5106.8384 642.7576 5108.3337 644.209
+  5110.199 646.0193 5111.3012 648.4485 5112.2913 650.7483
+  smooth off
+endline
+
+line wall
+  4989.5837 614.8108
+  4992.4511 616.7468 4994.242 619.9243 4996.665 622.334
+  4999.3591 625.0134 5002.2436 627.8503 5004.563 630.846
+  5007.323 634.4116 5010.0927 638.1812 5012.522 641.9751
+  5014.065 644.386 5015.6104 646.7981 5017.2779 649.1247
+  5019.4629 652.168 5021.6406 655.3687 5025.5543 656.2
+  5027.9529 656.709 5030.4859 656.3049 5032.7954 655.5762
+  5034.9244 654.9048 5036.9006 653.4949 5039.1663 653.352
+  5043.0664 653.1055 5046.322 654.4507 5049.8926 655.752
+  5052.1777 656.582 5054.5508 656.3232 5056.7994 655.332
+  5058.8184 654.4421 5060.8374 653.6743 5062.6123 652.334
+  5064.5141 650.896 5066.5356 649.8596 5068.4667 648.54
+  5070.6006 647.0813 5073.1214 646.4563 5075.7239 646.3733
+  5078.7377 646.2769 5081.5064 647.8076 5084.4482 648.2373
+  5088.7891 648.8721 5094.209 648.678 5097.9139 646.0364
+  5099.7216 644.7473 5100.9619 642.8418 5101.9751 640.9033
+  5102.5635 639.7803 5102.8699 638.4839 5103.678 637.4792
+  5104.8071 636.0754 5107.251 636.6333 5108.8207 635.9814
+  5110.813 635.1562 5112.4634 633.7 5114.4239 632.8137
+  5115.7264 632.2253 5116.6016 631.3464 5117.732 630.5371
+  5119.4849 629.2822 5122.4047 627.9309 5124.5581 627.6184
+  5126.2134 627.3779 5127.8027 628.7232 5127.8565 630.4004
+  5127.9302 632.6599 5124.9511 634.7644 5123.9037 636.626
+  5122.9711 638.2849 5122.4219 641.1768 5122.0861 643.0371
+  5121.4477 646.5784 5117.0556 654.9182 5122.6782 656.5674
+  5124.414 657.0789 5126.4502 656.2622 5127.9236 655.387
+  5132.113 652.898 5130.1782 648.4461 5129.9304 644.5557
+  5129.4775 637.4316 5132.959 630.8704 5135.6421 624.4983
+  5137.4829 620.1245 5137.898 614.8877 5137.6012 610.1978
+  5137.3779 606.6663 5138.1836 603.0139 5137.0679 599.5569
+  5136.2989 597.1741 5134.2554 595.8691 5131.9006 595.3393
+  5129.7669 594.8608 5124.6424 593.2971 5123.1762 595.852
+  5122.6587 596.7566 5122.9162 598.2251 5122.9162 599.2944
+  5122.9162 601.0645 5122.9162 602.8333 5122.9162 604.602
+  5122.9162 606.3501 5123.2287 607.782 5123.2287 609.4983
+  5123.2287 611.1047 5123.4656 612.9517 5122.9101 614.3884
+  5122.0117 616.7151 5119.5264 617.7515 5118.5156 619.9145
+  5117.0825 622.981 5115.9131 627.3377 5112.8565 629.2297
+  5110.5432 630.6616 5107.7331 629.8572 5105.2087 630.4358
+  smooth off
+endline
+
+line wall
+  4995.2087 644.1858
+  4996.6125 645.4272 4997.6562 647.0776 4999.1406 648.2239
+  5000.6263 649.3713 5002.1936 650.531 5003.7476 651.6125
+  5007.2705 654.0637 5010.763 654.9145 5015.0 654.9145
+  5017.2375 654.9145 5019.3322 654.8011 5021.4893 654.2895
+  5023.977 653.7 5026.3159 652.4634 5028.7792 651.6602
+  5031.1022 650.9021 5033.7439 650.708 5036.1524 650.3564
+  5040.9802 649.6521 5046.0596 650.7459 5050.752 648.8965
+  5052.5842 648.1738 5054.4482 647.428 5056.2792 646.7847
+  5058.3875 646.0425 5060.7764 645.8472 5062.992 645.4358
+  5066.5405 644.7778 5069.7741 643.4656 5073.2288 642.4145
+  smooth off
+endline
+
+line wall
+  4649.8962 573.977
+  4651.1524 573.4705 4652.9211 573.0225 4654.2505 572.7869
+  4656.3538 572.4145 4658.4961 572.9211 4660.6128 572.5903
+  4663.2129 572.1838 4665.4395 570.7251 4667.8784 569.845
+  4673.0932 567.9627 4680.8618 566.814 4682.6868 573.7085
+  4683.2544 575.8484 4683.2288 578.1336 4683.2288 580.3308
+  smooth off
+endline
+
+line wall
+  4648.6462 579.3933
+  4650.5286 579.3799 4652.2974 578.9453 4654.165 578.6902
+  4656.2231 578.4094 4658.4009 578.4155 4660.4444 578.0395
+  4662.1936 577.7185 4663.96 577.6685 4665.6201 577.074
+  4667.2254 576.499 4668.313 575.4248 4669.7864 574.469
+  4671.2598 573.5132 4673.2849 573.0347 4675.1038 573.0395
+  4677.555 573.0471 4679.4629 575.1929 4680.1038 577.4121
+  4680.3711 578.3374 4680.3125 579.3347 4680.3125 580.3308
+  smooth off
+endline
+
+line wall
+  4648.3337 556.2683
+  4649.3799 557.6465 4651.2818 557.2742 4652.8125 557.3108
+  smooth off
+endline
+
+line wall
+  4633.6462 575.0183
+  4635.2063 575.0622 4638.0249 574.5715 4639.0699 573.2251
+  4639.6875 572.428 4639.5899 571.3477 4639.7193 570.4077
+  4640.1611 567.1521 4642.2339 564.6948 4644.3384 562.345
+  4645.0 561.6052 4645.3223 560.636 4645.9204 559.8511
+  4647.0581 558.3582 4649.0246 555.7935 4647.8882 553.7964
+  4646.6846 551.6907 4644.0527 553.5083 4643.2288 554.9292
+  4642.6404 555.9436 4642.3035 556.9788 4641.5405 557.9065
+  4640.6921 558.9356 4639.6411 559.7815 4638.7818 560.8008
+  4636.6163 563.3716 4634.5581 566.0107 4631.8579 568.053
+  4630.6909 568.9343 4630.2368 570.5957 4629.0625 571.3733
+  smooth off
+endline
+
+line wall
+  4624.8962 571.3733
+  4627.185 571.3733 4629.2249 571.8201 4631.1401 572.9407
+  4632.8112 573.9197 4634.209 576.0742 4633.8538 578.2483
+  smooth off
+endline
+
+line wall -close on
+  5299.6875 628.0395
+  5298.75 630.4358
+  5300.9375 629.3933
+  5299.6875 628.0395
+endline
+
+line wall -close on
+  5297.2912 626.3733
+  5296.6662 629.2895
+  5298.75 627.2058
+  5297.2912 626.3733
+endline
+
+line wall -close on
+  5294.375 624.4983
+  5294.0625 627.727
+  5296.3537 625.4358
+  5294.375 624.4983
+endline
+
+line wall -close on
+  5291.1463 622.9358
+  5291.1463 626.0608
+  5293.125 623.5608
+  5291.1463 622.9358
+endline
+
+line wall -close on
+  5288.125 621.477
+  5288.0213 624.8108
+  5290.2088 622.4145
+  5288.125 621.477
+endline
+
+line wall -close on
+  5284.4787 620.227
+  5284.4787 622.9358
+  5286.6662 621.0608
+  5284.4787 620.227
+endline
+
+line wall -close on
+  5281.0412 618.1433
+  5281.25 621.2683
+  5283.0213 619.4983
+  5281.0413 618.1433
+  5281.0412 618.1433
+endline
+
+line wall -close on
+  5278.0213 616.5808
+  5277.9163 619.4983
+  5280.1038 617.8308
+  5278.0213 616.5808
+endline
+
+line wall -close on
+  5275.4162 614.2895
+  5275.1037 617.6233
+  5277.3962 615.9558
+  5275.4162 614.2895
+endline
+
+line wall -close on
+  5302.6037 631.6858
+  5299.5837 632.2058
+  5301.3537 629.7058
+  5302.6037 631.6858
+endline
+
+line wall -close on
+  5303.5412 637.5183
+  5300.8337 635.9558
+  5303.4375 634.8108
+  5303.5412 637.5183
+endline
+
+line wall -close on
+  5300.8338 642.5183
+  5299.5838 639.7058
+  5302.6038 640.1233
+  5300.8338 642.5183
+endline
+
+line wall -close on
+  5297.9162 644.602
+  5297.0837 641.9983
+  5299.5837 643.2483
+  5297.9162 644.602
+endline
+
+line wall -close on
+  5294.5838 646.7895
+  5293.9588 644.2895
+  5296.3538 645.7483
+  5294.5838 646.7895
+endline
+
+line wall -close on
+  5290.5213 647.8308
+  5291.3538 645.3308
+  5292.7088 647.6233
+  5290.5213 647.8308
+endline
+
+line wall -close on
+  5287.1875 646.5808
+  5288.9588 644.9145
+  5288.9588 647.4145
+  5287.1875 646.5808
+endline
+
+line wall -close on
+  5284.5838 644.602
+  5286.5625 643.0395
+  5286.25 645.852
+  5284.5838 644.602
+endline
+
+line wall -close on
+  5281.3537 642.102
+  5283.6462 640.4358
+  5283.3337 643.352
+  5281.3537 642.102
+endline
+
+line wall -close on
+  5278.4375 639.7058
+  5280.8338 638.1433
+  5280.2088 640.9558
+  5278.4375 639.7058
+endline
+
+line wall -close on
+  5275.1037 637.102
+  5277.5 636.1645
+  5276.7713 638.5608
+  5275.1038 637.102
+  5275.1037 637.102
+endline
+
+line wall -close on
+  5272.2912 634.7058
+  5274.4787 633.4558
+  5273.9587 636.1645
+  5272.2912 634.7058
+endline
+
+line wall -close on
+  5269.4787 632.6233
+  5271.25 631.1645
+  5271.1463 633.6645
+  5269.4788 632.6233
+  5269.4787 632.6233
+endline
+
+line wall -close on
+  5262.2912 592.4145
+  5263.125 590.5395
+  5264.2713 592.9358
+  5262.2913 592.4145
+  5262.2912 592.4145
+endline
+
+line wall -close on
+  5266.6662 591.1645
+  5264.6875 589.7058
+  5266.6662 589.4983
+  5266.6662 591.1645
+endline
+
+line wall -close on
+  5266.7713 588.1433
+  5265.2088 587.5183
+  5267.2913 586.477
+  5266.7713 588.1433
+endline
+
+line wall -close on
+  5263.75 583.6645
+  5264.2713 586.3733
+  5265.8338 584.7058
+  5263.75 583.6645
+endline
+
+line wall -close on
+  5259.6875 584.7058
+  5261.6662 586.0608
+  5261.7712 583.7683
+  5259.6875 584.7058
+endline
+
+line wall -close on
+  5258.125 588.5608
+  5260.8338 588.2483
+  5259.2713 585.9558
+  5258.0213 586.8933
+  5258.125 588.5608
+endline
+
+line wall -close on
+  5259.2713 591.3733
+  5261.0413 589.7058
+  5261.3538 592.2058
+  5259.2713 591.3733
+endline
+
+line wall
+  5251.6662 613.1433
+  5253.3837 613.1433 5254.9536 613.2422 5256.5649 613.667
+  5258.1824 614.093 5258.938 615.0623 5259.9219 616.3696
+  5261.4355 618.3838 5264.834 622.0264 5267.8125 620.3308
+  smooth off
+endline
+
+line wall
+  5146.1463 587.3108
+  5147.3096 588.2886 5149.419 588.8379 5150.9424 589.0576
+  5152.7319 589.3164 5154.53 589.8157 5156.3538 589.8108
+  5160.3443 589.8008 5164.3433 590.1685 5168.2275 589.5996
+  5172.2949 589.0039 5176.4918 588.2861 5180.31 587.0032
+  5184.3054 585.6616 5188.1885 583.9697 5191.9849 582.3132
+  5193.8476 581.5002 5195.6629 580.8325 5197.7111 580.5347
+  5199.7608 580.2356 5201.289 580.8008 5203.125 581.3757
+  5207.0239 582.5964 5209.8145 585.21 5213.0236 587.5244
+  5216.001 589.6716 5219.3261 590.9143 5222.5781 592.5439
+  5224.281 593.3972 5226.8213 594.4592 5228.75 594.4983
+  smooth off
+endline
+
+line wall
+  5232.7088 602.6233
+  5233.1274 604.0295 5234.967 604.9951 5236.1401 605.7275
+  5237.5561 606.6113 5239.06 607.2571 5240.498 608.1726
+  5241.9311 609.0845 5243.4155 609.9548 5244.9194 610.7251
+  5246.438 611.5027 5247.8112 611.7883 5249.375 612.3108
+  smooth off
+endline
+
+line wall
+  5229.2713 603.5608
+  5230.1319 604.9145 5232.1424 605.813 5233.4399 606.7603
+  5234.7559 607.721 5236.0791 608.7805 5237.3963 609.8108
+  5238.9624 611.0376 5240.6153 612.4548 5242.5 613.2227
+  5244.3921 613.9917 5246.3953 614.6631 5248.2349 615.5395
+  5249.9365 616.3513 5251.582 617.2266 5253.3325 617.9334
+  5255.2124 618.6914 5257.2364 619.1602 5259.0576 620.0439
+  5260.7666 620.874 5262.1363 621.5845 5263.623 622.644
+  5264.4104 623.2043 5265.1233 623.8696 5265.9375 624.3994
+  5266.6504 624.8633 5267.7088 625.0647 5268.3338 625.5395
+  smooth off
+endline
+
+line wall
+  5144.5838 591.3733
+  5148.3069 591.3733 5151.4966 591.9312 5155.0231 592.6465
+  5157.0484 593.0579 5158.8122 593.5608 5160.935 593.5608
+  5163.2739 593.5608 5165.2685 593.186 5167.5805 592.8308
+  5172.0044 592.1509 5176.7041 591.5625 5180.8105 589.9121
+  5184.5691 588.4021 5188.186 586.9312 5191.8725 585.3101
+  5193.3204 584.6741 5194.7192 583.6414 5196.3476 583.3264
+  5198.2812 582.9529 5200.437 583.4424 5202.1301 584.259
+  5203.7695 585.05 5205.3491 585.8374 5206.82 586.897
+  5208.4864 588.0969 5209.7802 589.1614 5211.6724 589.9145
+  5214.812 591.1621 5217.998 592.666 5221.123 593.8965
+  5222.6611 594.5007 5224.0894 595.2429 5225.3381 596.1621
+  5226.8994 597.3096 5227.2925 598.5803 5227.9395 600.3076
+  smooth off
+  5227.9907 600.3345 5228.017 600.3784 5228.0207 600.4358
+  smooth off
+endline
+
+line wall
+  5264.4787 583.5608
+  5265.7959 583.9429 5266.9665 584.7754 5267.8125 585.852
+  smooth off
+endline
+
+line wall
+  5257.5 587.102
+  5257.5 589.6253 5257.485 591.4404 5260.083 592.3315
+  5262.0654 593.0115 5265.5958 594.4873 5267.0837 592.3108
+  smooth off
+endline
+
+line wall
+  5231.4588 600.9558
+  5231.3305 597.8699 5234.4398 595.8337 5237.1289 595.4858
+  5242.1924 594.8303 5248.1225 597.4145 5252.0801 600.4407
+  5254.823 602.5378 5257.9969 604.9658 5261.466 605.6116
+  5264.2884 606.1377 5267.4243 605.8032 5268.6109 609.0881
+  5269.2798 610.9387 5270.9985 612.29 5271.6381 614.1528
+  5272.4439 616.5027 5270.4383 617.7917 5268.2861 617.76
+  5265.5933 617.721 5263.5546 615.2539 5261.6699 613.6206
+  5259.2651 611.5369 5256.792 609.5068 5254.0576 607.865
+  5250.4114 605.6763 5246.4124 604.0918 5242.9785 601.5527
+  5241.6626 600.5798 5240.4126 599.458 5238.8599 598.8818
+  5237.0728 598.219 5235.1954 598.5608 5233.3338 598.5608
+  smooth off
+endline
+
+line wall
+  4912.7087 575.7483
+  4913.7256 576.449 4914.9793 576.5295 4916.1352 576.8237
+  4917.3755 577.1375 4918.5889 577.6648 4919.7681 578.1726
+  4921.6163 578.9685 4923.5266 579.6863 4925.4163 580.459
+  4929.3189 582.0544 4932.6782 584.0283 4935.9375 586.8994
+  4937.6647 588.4216 4939.3701 590.6128 4940.5212 592.6233
+  smooth off
+endline
+
+line wall
+  4894.7913 570.1233
+  4896.5917 570.5737 4898.4388 570.7056 4900.127 571.394
+  4901.3599 571.8958 4902.6184 572.4536 4903.8538 572.9334
+  4905.21 573.4607 4906.5015 574.0161 4907.8125 574.6253
+  4909.1601 575.2503 4910.8325 575.675 4912.0837 576.477
+  smooth off
+endline
+
+line wall
+  4880.0 559.2895
+  4880.509 559.0271 4880.9913 558.4937 4881.6663 558.4558
+  smooth off
+endline
+
+line wall
+  4891.9788 561.2683
+  4892.915 561.2243 4894.0991 559.9145 4894.6118 559.2139
+  4895.271 558.313 4895.5029 557.323 4895.9375 556.2683
+  smooth off
+endline
+
+line wall -close on
+  4985.3125 594.4983
+  4987.1875 594.0808
+  4985.4163 592.4145
+  4985.3125 594.4983
+endline
+
+line wall -close on
+  4984.895 597.5195
+  4986.875 597.5195
+  4985.1038 595.8533
+  4984.895 597.5195
+endline
+
+line wall -close on
+  4983.5413 599.1858
+  4985.9375 599.3933
+  4984.5837 597.6233
+  4983.5413 599.1858
+endline
+
+line wall
+  4983.4375 598.7683
+  4984.9487 597.356 4985.1831 594.6765 4985.2063 592.5208
+  smooth off
+endline
+
+line wall
+  4960.3125 600.6433
+  4960.5591 599.0357 4958.3825 597.2888 4959.6875 595.8472
+  4960.9106 594.4934 4963.7182 594.6216 4965.4199 594.7034
+  4970.1294 594.9304 4974.4849 596.7725 4979.0699 597.6025
+  4980.4468 597.8516 4981.9091 598.5669 4983.2288 598.6645
+  smooth off
+endline
+
+line wall
+  4883.6352 556.2537
+  4884.3775 555.5017 4884.5386 554.6155 4884.3701 553.4619
+  4884.1028 551.6443 4883.8684 549.4238 4885.8716 548.54
+  4888.186 547.5183 4891.4966 548.6402 4893.1531 550.4102
+  4894.1284 551.4526 4894.7034 552.7319 4895.0794 554.0955
+  4895.3894 555.2222 4895.1706 556.648 4896.6626 556.3769
+  4897.7807 556.1743 4898.4534 555.1355 4899.3604 554.5459
+  4901.1499 553.3862 4903.313 552.8235 4905.2149 551.8652
+  4907.4511 550.7385 4909.5776 549.1199 4912.0166 548.4229
+  4916.2256 547.2205 4916.2182 552.2351 4914.5874 554.6802
+  4913.8281 555.8191 4912.2546 556.9727 4912.4402 558.512
+  4912.627 560.0598 4914.6265 560.9387 4915.769 561.6956
+  4922.9468 566.4502 4930.8935 569.8047 4938.8989 572.8857
+  4941.7431 573.9807 4944.6094 575.0574 4947.5256 575.9424
+  4950.9741 576.9885 4954.5471 577.5818 4958.0445 578.4375
+  4961.5235 579.2883 4965.0305 580.0586 4968.5901 580.4858
+  4971.8115 580.8728 4975.0707 581.0352 4978.2446 581.7505
+  4981.073 582.3889 4983.7841 583.4436 4986.5491 584.2981
+  4989.2871 585.144 4992.0947 585.8606 4994.6289 587.2363
+  5002.5292 591.5234 5008.4974 598.8 5013.3374 606.2183
+  5015.1074 608.9307 5016.3135 611.6833 5017.5512 614.6228
+  5018.7695 617.5159 5019.873 620.5115 5021.748 623.0627
+  5023.7574 625.7959 5025.6201 628.6426 5027.8161 631.2329
+  5029.469 633.1836 5031.3647 635.1831 5034.0344 635.4797
+  5037.9516 635.9155 5042.102 634.4665 5046.0156 634.176
+  5052.3096 633.7097 5058.5107 634.5972 5064.7912 634.602
+  5073.081 634.6095 5074.9316 625.2869 5078.324 619.6521
+  5080.2051 616.5283 5083.5082 615.3003 5086.9922 615.3003
+  5093.2861 615.3015 5098.3801 620.459 5104.7278 619.4788
+  5107.9736 618.977 5111.1194 619.115 5114.1944 617.7405
+  5117.2779 616.3611 5122.4145 614.4165 5121.3867 610.0476
+  5120.581 606.626 5116.0706 605.4956 5115.8972 601.7322
+  5115.7822 599.2541 5116.3696 596.7944 5116.6675 594.3457
+  5116.9141 592.3413 5117.1801 589.9512 5118.8501 588.5767
+  5121.1572 586.6785 5124.6752 586.6064 5127.5036 586.1511
+  5131.018 585.5835 5134.5532 585.0708 5138.1201 585.0452
+  5140.249 585.0293 5142.3584 585.2917 5144.4751 585.4968
+  5147.7221 585.8118 5150.7214 587.229 5153.9306 587.7332
+  5157.4939 588.2947 5161.1132 588.042 5164.7046 588.042
+  5167.4902 588.042 5170.2539 587.6904 5172.9882 587.1753
+  5175.8668 586.6321 5178.6511 586.1133 5181.3684 584.978
+  5184.1114 583.8306 5186.7139 582.3657 5189.4897 581.2915
+  5192.3522 580.1831 5195.2331 579.0564 5198.2935 578.6475
+  5201.5625 578.2105 5204.3604 579.5923 5207.0556 581.2695
+  5210.0769 583.1482 5213.042 585.1306 5215.9631 587.1777
+  5217.8515 588.4997 5219.8986 589.5422 5222.002 590.5347
+  5224.2529 591.5955 5226.958 593.2373 5229.5251 592.8296
+  5232.0532 592.4292 5234.143 590.7654 5236.5405 589.9902
+  5238.3679 589.3994 5240.4614 589.7717 5242.2095 590.3516
+  5244.143 590.9937 5246.2256 591.4404 5248.2715 591.4148
+  5249.8632 591.3953 5251.1109 590.8643 5252.3401 589.8865
+  5253.4887 588.9722 5254.6057 587.5427 5256.0546 587.1094
+  5257.5159 586.6724 5258.1127 586.8213 5258.9587 585.3308
+  5259.8071 583.8342 5260.8899 583.3081 5262.5622 583.2776
+  5263.396 583.263 5264.5679 583.5742 5265.3345 583.1372
+  5266.3256 582.5745 5266.6504 580.7459 5266.8517 579.6826
+  5267.5561 575.9619 5268.0115 572.2644 5269.0649 568.6645
+  5269.4555 567.3291 5270.1416 564.3091 5271.5625 563.6743
+  5272.3486 563.3227 5272.6954 563.9441 5273.3789 564.2627
+  5274.4641 564.7705 5275.6909 564.7192 5276.6967 564.0295
+  5280.1025 561.6943 5284.2469 563.0164 5287.9662 563.6352
+  5291.6235 564.2444 5295.3442 564.4446 5299.0405 564.1418
+  5302.0532 563.8965 5305.8765 563.7158 5308.435 561.9495
+  5309.5397 561.1877 5310.2636 559.8413 5311.5259 559.3164
+  5313.8184 558.363 5316.1816 559.4897 5318.523 559.3239
+  5319.6582 559.2433 5320.8301 558.9162 5321.6381 558.0751
+  5322.4414 557.239 5322.7075 555.8876 5323.5669 555.1174
+  5324.5776 554.2092 5326.2305 554.5473 5327.4462 554.4423
+  5330.3857 554.1884 5333.4131 554.6584 5336.3709 554.6059
+  5338.4229 554.5705 5340.5492 554.5875 5342.5 555.3029
+  5345.7849 556.5077 5348.3154 558.9199 5350.6591 561.4308
+  5353.6792 564.6669 5356.6565 567.9506 5359.8657 571.0024
+  5362.2485 573.2668 5366.289 578.0263 5370.0256 577.1474
+  5373.4436 576.3454 5375.7679 573.4377 5377.8247 570.8046
+  5378.7378 569.6364 5379.5556 567.9494 5380.8996 567.2109
+  5382.1411 566.5297 5383.291 567.2756 5384.4372 567.7114
+  5385.4565 568.0995 5386.5295 568.2595 5387.6184 568.1423
+  5389.9659 567.8908 5392.1606 566.6701 5394.187 565.5422
+  5398.2593 563.2729 5402.2876 560.436 5405.1196 556.6774
+  5406.1389 555.3261 5406.9898 553.8173 5408.3301 552.7455
+  5409.7364 551.6213 5411.521 551.0634 5413.3179 551.1269
+  5414.7106 551.1769 5416.2524 551.3539 5417.4659 552.0949
+  5418.6499 552.8176 5419.4214 554.0541 5420.6153 554.7707
+  5422.2949 555.7802 5424.4665 555.9304 5426.023 557.1193
+  smooth off
+  5426.3233 558.2082 5427.4598 559.9037 5428.5241 558.9797
+  5429.6801 557.9763 5430.2039 555.541 5431.0205 554.2897
+  5432.3096 552.3146 5433.0408 550.0624 5434.0625 547.9531
+  5435.4273 545.1357 5437.3779 542.6638 5438.8916 539.933
+  5440.393 537.2243 5442.1668 534.6767 5444.0284 532.2048
+  5445.354 530.4445 5445.935 527.8871 5447.7308 526.5346
+  5449.397 525.2797 5450.6324 524.1762 5450.4395 521.8141
+  5450.3015 520.11 5449.209 518.6647 5448.2569 517.3085
+  5447.0861 515.6362 5446.1353 513.7966 5445.4541 511.8727
+  5444.3921 508.8796 5445.5429 504.9196 5443.5474 502.311
+  5442.4683 500.9011 5441.3391 498.7722 5442.1069 496.9167
+  5442.7063 495.4702 5444.2628 494.225 5445.0231 492.7504
+  5446.4721 489.9367 5446.0205 486.8911 5445.7263 483.8735
+  5445.5651 482.217 5446.0023 480.9218 5446.6381 479.3703
+  5447.1191 478.196 5447.8076 477.018 5449.0333 476.509
+  5450.1709 476.0353 5451.1158 476.1513 5452.1045 475.2639
+  5453.966 473.5939 5454.7058 471.0732 5456.1255 469.0847
+  5456.9641 467.9091 5458.07 465.9682 5459.6875 465.8522
+  5461.2574 465.74 5462.3791 467.7846 5463.1506 468.8234
+  5464.0869 470.0844 5464.4921 470.8132 5463.0213 471.8911
+  5461.1268 473.279 5459.2846 474.5705 5457.268 475.7534
+  5454.0918 477.6186 5451.8018 479.2665 5451.0584 483.069
+  5450.5029 485.9133 5450.6006 488.9992 5449.1284 491.5895
+  5448.064 493.4621 5445.2759 495.3969 5445.8338 497.831
+  5445.9936 498.528 5446.6248 498.7917 5447.1094 499.3666
+  5448.2214 500.6789 5447.9078 502.433 5447.8051 504.0053
+  5447.6851 505.8425 5448.1934 507.4758 5448.4399 509.2824
+  5448.6816 511.0512 5449.0649 512.6113 5450.6225 513.6647
+  5452.8466 515.1686 5454.6704 513.7831 5456.56 512.5368
+  5457.793 511.7238 5459.1736 509.4631 5460.625 509.3911
+  5462.3364 509.3068 5462.5281 511.6945 5461.9775 512.8359
+  5461.5185 513.788 5460.8374 514.308 5459.9194 514.7744
+  5456.9654 516.2734 5455.0183 520.2956 5453.8563 523.2302
+  5452.7003 526.1513 5450.6543 528.3718 5448.8721 530.8754
+  5447.9431 532.1779 5446.9824 533.506 5446.018 534.8159
+  5445.1379 536.0121 5443.9344 536.9692 5443.092 538.1862
+  5442.4121 539.1689 5441.8604 540.2724 5441.2036 541.2978
+  5439.5984 543.81 5438.2861 546.5016 5437.1594 549.2604
+  5435.7385 552.7431 5433.7903 555.8229 5431.8213 559.0053
+  5430.9985 560.3347 5430.0513 561.5798 5429.2298 562.9116
+  5428.645 563.8625 5427.8369 565.2785 5426.5381 565.2394
+  5425.1429 565.1967 5424.364 563.4719 5423.6438 562.5161
+  5422.8028 561.4003 5421.8884 560.176 5421.0241 559.0786
+  5418.9478 556.4431 5414.4214 553.5976 5410.9803 555.0917
+  5409.0161 555.9438 5408.208 558.3327 5407.1265 560.0051
+  5405.6006 562.3659 5404.9829 565.4799 5404.8963 568.2448
+  5404.8338 570.2065 5404.2725 572.0607 5404.2713 573.9772
+  5404.2713 577.4807 5405.9473 581.321 5404.8999 584.8134
+  5404.4385 586.3515 5404.2004 588.019 5403.9404 589.5888
+  smooth off
+  5402.6636 589.0395 5401.6284 587.0412 5400.8313 585.9536
+  5399.8681 584.6389 5399.1944 583.4291 5398.6524 581.8898
+  5397.9321 579.8427 5397.7051 577.6589 5397.7954 575.4982
+  5397.8691 573.7123 5398.518 572.0131 5398.6401 570.237
+  5398.7476 568.6696 5398.2959 568.3412 5396.77 568.3522
+  5394.7265 568.3681 5393.2838 569.1286 5391.665 570.2443
+  5389.9878 571.3991 5388.3618 571.7763 5386.3208 572.2036
+  5384.4446 572.5966 5382.5671 573.2875 5380.9278 574.2861
+  5380.1806 574.7402 5379.4263 575.2663 5378.8623 575.9438
+  5378.2813 576.6396 5378.0298 577.5563 5377.1924 578.019
+  5375.0123 579.2263 5372.3389 579.6498 5370.0756 580.5568
+  5368.2813 581.277 5366.46 582.7797 5364.9975 580.8522
+  5363.7818 579.2507 5362.6025 577.8188 5361.4563 576.2685
+  5358.5681 572.3622 5354.2249 570.2614 5350.8081 566.9692
+  5347.8345 564.1054 5344.3043 561.1281 5340.8301 559.0004
+  5339.1529 557.9714 5337.445 557.9433 5335.4163 557.831
+  5333.4314 557.7224 5331.5503 557.488 5329.5618 557.4977
+  5328.2203 557.504 5327.2974 557.2805 5326.0425 557.986
+  5323.8038 559.2446 5322.4293 561.8276 5319.7559 562.3305
+  5318.1128 562.6406 5316.5259 561.9435 5314.8461 562.3073
+  5313.3716 562.6259 5312.2803 563.661 5310.9644 564.214
+  5306.8299 565.9511 5302.5171 567.9774 5297.998 568.4791
+  5295.9949 568.7013 5294.0174 568.6061 5292.2168 567.9152
+  5288.783 566.5956 5285.0024 565.7887 5281.2256 565.9559
+  5278.7293 566.0671 5276.062 566.653 5274.0808 568.257
+  5271.8481 570.0648 5271.5955 572.577 5270.9155 575.1747
+  5270.0879 578.3424 5269.2725 581.4406 5268.5376 584.629
+  5267.9138 587.3329 5266.4014 590.1503 5267.9395 592.8309
+  5268.8305 594.3849 5269.0894 596.15 5269.1663 597.9127
+  5269.3348 601.725 5269.3873 605.0306 5270.9375 608.4559
+  5271.8774 610.5311 5273.9978 612.6014 5275.7154 614.0626
+  5281.9434 619.3568 5290.0464 621.3624 5297.0349 625.3578
+  5298.977 626.4674 5300.7886 627.8529 5302.0374 629.7352
+  5303.6279 632.1339 5304.3958 635.6093 5303.7769 638.4181
+  5303.0371 641.7738 5300.1148 643.8441 5297.4463 645.6862
+  5294.3481 647.8273 5291.0705 649.3373 5287.5085 647.2853
+  5284.0771 645.309 5281.0804 642.4574 5277.959 640.0429
+  5274.5093 637.3744 5271.5271 634.1749 5267.5843 632.1913
+  5262.5208 629.6437 5256.9214 628.4144 5251.5991 626.5468
+  5242.008 623.1813 5232.03 621.7665 5222.0569 620.0722
+  5216.2769 619.0895 5210.5456 617.8541 5204.7705 616.8507
+  5200.5543 616.1183 5196.2475 616.2379 5191.9921 615.9303
+  5187.6245 615.6154 5183.2593 615.2931 5178.8819 615.1332
+  5174.3909 614.9684 5169.8755 615.1491 5165.3968 614.734
+  5160.6128 614.2909 5155.4175 612.4196 5150.7349 614.3715
+  5146.6163 616.0902 5146.4088 620.7545 5143.8404 623.838
+  5142.4463 625.514 5140.6373 626.9472 5138.75 628.0263
+  5137.002 629.0248 5134.751 629.1432 5133.125 630.2272
+  smooth off
+endline
+
+line wall
+  4861.0413 563.0395
+  4864.2749 563.131 4867.5123 563.8586 4870.7154 563.0798
+  4873.1763 562.4816 4875.8996 561.9775 4877.9163 560.3308
+  smooth off
+endline
+
+line wall -close on
+  4857.4854 582.1558
+  4856.5991 582.167 4855.6934 582.1179 4854.7144 581.9812
+  4853.1811 581.7676 4851.6406 581.626 4850.1099 581.3989
+  4845.8837 580.769 4841.7285 579.7852 4837.5927 578.7195
+  4835.2881 578.125 4832.9859 577.5183 4830.6739 576.9556
+  4828.4936 576.4246 4826.3013 575.9351 4824.0845 575.5701
+  4822.4854 575.3064 4820.8399 574.9622 4819.3481 574.3249
+  4818.9099 574.1382 4817.666 573.7195 4817.6539 573.1067
+  4817.5801 569.7815 4827.7149 572.4329 4828.9795 572.533
+  4831.8238 572.7576 4834.6998 572.5757 4837.5269 573.0335
+  4841.2915 573.6414 4845.0684 574.7095 4848.794 575.5383
+  4851.3953 576.1169 4854.0088 576.9421 4856.6821 577.0898
+  4857.6391 577.1423 4858.7536 577.035 4859.6521 577.4133
+  4860.8105 577.9004 4863.1494 578.8562 4863.197 580.3723
+  4863.227 581.3513 4862.522 581.6797 4861.7285 581.7822
+  4860.2124 581.9775 4858.8721 582.1399 4857.4854 582.1558
+endline
+
+line wall
+  4749.2712 530.4346
+  4751.1048 530.4102 4752.008 528.1152 4753.1262 526.9971
+  smooth off
+endline
+
+line wall
+  4777.8138 545.1221
+  4779.6045 543.1006 4782.1765 542.1985 4784.0638 540.3308
+  smooth off
+endline
+
+line wall
+  4797.2925 535.8508
+  4799.3994 535.0793 4800.6324 531.6394 4803.0164 531.5759
+  4804.1419 531.5454 4805.0855 532.843 4806.2744 533.0383
+  4807.5171 533.2422 4809.9682 531.7151 4811.0156 532.6489
+  4812.3048 533.7964 4809.4311 536.1401 4808.5425 536.7883
+  smooth off
+endline
+
+line wall
+  4773.9587 546.4758
+  4774.4703 547.4853 4775.3857 548.3948 4776.0132 549.3115
+  4776.6455 550.2307 4777.168 551.1255 4777.6831 552.1277
+  4778.6939 554.0955 4778.5889 556.8152 4777.6056 558.6633
+  smooth off
+endline
+
+line wall
+  4805.3138 542.3096
+  4804.165 544.0967 4802.2559 545.105 4800.5323 546.2451
+  4798.468 547.6111 4796.4649 549.0698 4794.3481 550.3552
+  4790.4834 552.7014 4786.0645 554.1357 4782.0386 556.1939
+  4779.4898 557.4963 4777.002 558.9258 4774.6435 560.5518
+  4772.7759 561.8396 4771.1914 563.4888 4769.3261 564.7791
+  4767.5586 566.0034 4765.4078 566.5369 4763.6962 567.8333
+  4761.7676 569.2932 4758.1787 572.4402 4758.8501 575.2258
+  4759.1968 576.6687 4761.0645 577.5232 4762.0605 578.3508
+  4766.062 581.6748 4769.6094 585.5151 4774.165 588.1458
+  4775.6506 589.0039 4777.5195 589.5325 4779.06 588.6377
+  4780.2735 587.9334 4781.1132 586.6284 4782.1606 585.7105
+  4783.4424 584.585 4784.8755 583.645 4786.2598 582.655
+  4788.3301 581.1743 4790.31 579.5654 4792.3364 578.0261
+  4796.554 574.8218 4801.1145 572.0996 4805.3247 568.8843
+  4808.9344 566.1279 4812.456 563.2678 4816.3867 560.9692
+  4822.0874 557.6355 4828.6865 555.0769 4835.398 556.0571
+  4837.5464 556.3709 4839.8437 556.8652 4841.9775 557.2864
+  4843.1324 557.5147 4844.2261 557.7539 4845.3174 558.1409
+  4846.0547 558.4021 4846.7114 558.8452 4847.605 558.7683
+  smooth off
+endline
+
+line wall
+  4786.8763 553.6633
+  4785.5884 553.8342 4784.0564 553.1995 4782.915 552.7234
+  4781.7627 552.2437 4781.5735 551.3831 4780.9997 550.4028
+  4780.5103 549.5679 4779.8218 548.7976 4779.281 547.9761
+  4778.6157 546.9653 4778.0713 545.8935 4777.456 544.8584
+  4776.8506 543.8403 4776.1011 542.2485 4776.5088 541.0388
+  4777.2485 538.8525 4781.7164 539.8035 4783.3361 539.956
+  4786.9654 540.2978 4790.6079 540.5823 4794.2554 540.6372
+  4798.9624 540.708 4803.7989 541.2122 4808.4864 542.0557
+  4812.3206 542.7466 4816.0864 543.7512 4819.9047 544.519
+  4823.0079 545.1428 4826.1755 545.4028 4829.2651 546.0913
+  4831.5381 546.5979 4833.7305 547.3889 4835.9741 548.0017
+  4837.7905 548.4973 4839.7681 548.5535 4841.5015 549.3359
+  4844.0674 550.4944 4845.4126 553.2825 4846.4698 555.7312
+  4847.7124 558.6108 4848.8391 561.3574 4850.6006 563.9795
+  4851.477 565.2857 4852.4109 567.3901 4853.8843 568.125
+  4856.3721 569.3689 4858.5645 565.4541 4859.7388 563.8818
+  4862.2693 560.4944 4865.5676 557.7197 4870.0013 557.7258
+  4871.0743 557.7271 4872.1509 557.8626 4873.186 558.1458
+  4876.3427 559.0112 4879.5093 561.3379 4882.157 563.2178
+  4885.7349 565.7556 4889.5312 568.1616 4893.3422 570.3101
+  4900.6348 574.4165 4907.1435 580.1965 4913.584 585.4944
+  4917.0141 588.3154 4920.1258 591.6589 4924.1016 593.739
+  4928.0469 595.8032 4932.9736 596.2232 4937.2925 597.0984
+  4939.4043 597.5269 4941.8286 598.2495 4943.6939 599.3482
+  4946.1719 600.8069 4949.9731 601.2488 4952.8003 601.0266
+  4954.4873 600.8936 4956.1365 600.5383 4957.8369 600.4663
+  4961.8676 600.2954 4965.8191 601.0791 4969.6338 602.3315
+  4972.3609 603.2263 4975.1343 604.0344 4977.6806 605.3845
+  4981.123 607.2119 4984.3494 609.7022 4987.2889 612.251
+  4990.4395 614.9829 4991.2513 619.0234 4991.2513 623.0151
+  4991.2513 628.9197 4991.1035 634.6704 4992.7088 640.2258
+  smooth off
+endline
+
+line wall
+  4740.0013 585.7471
+  4740.3943 583.9819 4740.7275 582.2974 4740.6263 580.3284
+  4740.5487 578.8464 4740.1245 576.5308 4739.0638 575.4346
+  smooth off
+endline
+
+line wall
+  4718.1263 619.8096
+  4720.6519 618.0542 4723.7208 617.2852 4726.6944 616.6602
+  4729.7571 616.0156 4732.7735 615.2917 4735.8154 614.5581
+  4738.5205 613.9063 4741.2402 613.1763 4743.706 611.853
+  4749.9976 608.4729 4752.2326 603.0347 4754.0674 596.4819
+  4754.602 594.5679 4755.3711 591.9641 4757.218 590.9021
+  4759.6949 589.48 4761.2464 593.0872 4762.4024 594.729
+  4764.248 597.3511 4766.0901 599.9817 4767.7088 602.7527
+  4771.7969 609.751 4774.607 617.6636 4779.79 623.977
+  4781.3355 625.863 4783.7354 628.5132 4785.8374 625.6201
+  4787.9565 622.7026 4785.8786 618.5571 4784.7034 615.6909
+  4783.4644 612.6733 4782.7221 609.5105 4781.7407 606.4087
+  4780.4651 602.3767 4778.6939 598.0591 4782.6294 594.9976
+  4785.0855 593.0859 4788.0543 592.1655 4790.5249 590.2551
+  4795.8814 586.1133 4801.9019 580.8814 4808.4729 578.8928
+  4820.4639 575.2649 4832.1485 582.5794 4843.0835 586.3879
+  4850.133 588.8416 4858.9368 590.6091 4865.9009 586.814
+  4868.8453 585.21 4871.5625 583.2007 4874.6338 581.8298
+  4877.8601 580.3906 4881.1816 579.1931 4884.353 577.6221
+  4885.935 576.8396 4887.6001 575.5298 4889.0918 574.4946
+  4890.6335 573.4241 4892.0813 572.3132 4893.3338 571.0596
+  smooth off
+endline
+
+
+
+endscrap
+
+

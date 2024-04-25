@@ -1,0 +1,284 @@
+encoding  utf-8
+#encoding  utf-8
+
+
+# Copyright (C) 2006 Roman Muñoz <tatel@euskalnet.net> Martin Gerbaux <martin.gerbaux@wanadoo.fr>
+# This work is under the GPLv2
+
+#
+# 
+
+# INTRO
+
+# Dans cet fichier on met les specifications generaux;
+# dans quel fichier sont les donees topo, l'air qu'on veut
+# donner aux topos imprimees (layout) et qu'est ce qu'on 
+# veut comme resultat: map, ou atlas ou 3D
+# ou donnees en format SQL
+
+# Alors, on peut fractioner ce fichier en trois parts:
+# source, pour specifier les fichier ou sont les donnees topo/dessin
+# layout, pour specifier la composition du document a imprimer
+# export: map, atlas, etc
+
+
+
+# 1-SOURCES 
+# La ligne source specifie le fichier ou sont les donnees topo
+# par example "nomducavite.th" 
+
+# (Au fichier "nomducavite.th" il faudra avoir une ligne 
+# "input "nomducavite.th2" pour specifier le fichier ou se trouvent
+# les donnees du dessin, comme ça, cet fichier thconfig appelera 
+# "nomducavite.th" et. a leur tour, "nomducavite.th" appelera
+# "nomducavite.th2)
+
+# On peut faire beacoup plus que ça, ce n'est que pour commencer
+
+# Voici notre ligne source pour une cavite appele "irurixo"
+
+#source grosse_galerie.th
+#source vlad.th
+#source ../patayoyo.th
+source reseau_de_vlad.th
+
+
+#source /home/sappey/Martin/speleo/benoite/benoite_1.th
+
+# 2-LAYOUT
+# Ici, on peut specifier des choses comme les simboles
+# a utiliser (UIS, etc) ou imprimer des explications des
+# symboles
+
+layout xviexport
+
+# echele auquel on veut faire la topo
+scale 1 1000
+
+
+  grid-size 10 10 10 m
+  grid bottom
+  
+  
+ # dessin ou pas du cheminement topo
+  #symbol-hide point station        
+  #symbol-hide line survey 
+  
+endlayout
+
+
+
+layout normal
+  
+  # La ligne base-scale specifie l'echelle auquel nous avons
+  # dessine nos croquis. Par defaut, therion pense que c'est
+  # une echelle 1:200. Si on a utilise une autre echelle, 
+  # il faudrait enlever le "#" et especifier l'echelle vraiment 
+  # employee, comme c'est le cas apres avoir dessine la topo
+  # sur un cheminement exporte avec le layout "xviexport"
+  # (voir en bas)
+  base-scale 1 1000
+
+  # Maitenant on va mettre une ligne "scale" pour specifier l'echelle
+  # pour imprimer la topo. La combination entre scale et base-scale
+  # controlle le gros des lignes, rotulation, etc, convenable
+  # pour faire l'ampliation-reduction entre dessin et
+  # le resultat de l'imprimante
+
+  # C'est tres important s'assurer que la configuration de
+  # l'imprimante ne specifie pas aucune option "Fit in page"
+  # ou similaire, si non, l'echelle sera change pendant
+  # impression!
+  scale 1 1000
+
+  # Voici une ligne por specifier qu'il faut imprimer une grille
+  # au dessous de la topo
+  grid bottom
+
+  # Une ligne pour specifier que la grille est 10x10x10 metres
+  # (Trois dimensions, oui, ça sert pour la coupe aussi)
+  grid-size 100 100 100 m
+
+  # La symbologie: UIS, ASF (Australie) CCNP (Etats Units) ou
+  # SKB (txekoslovakia) 
+  #symbol-set UIS
+
+
+  # un coleur de fond, 85% blanc = 15% noir
+  color map-bg 90
+
+  # la topo est transparent (on peut voir les galleries sousjacentes)
+  # C'est on par defaut, doc, pas vraiment besoin de specifier
+  transparency on
+
+  # ça marche seulement si transparency est "on" 90% blanc= 10% noir
+  opacity 85
+  
+  # Auteur 
+  doc-author "Martin Gerbaux"
+
+  # Titule
+  doc-title "Réseau de Vlad 1:1000"
+
+  # Maitenant on va specifier la position du manchette, dont l'interiur
+  # sera ocuppe par le titule, auteurs, etc. Nous pouvons indiquer
+  # les cordonnes du point de la topo ou l'on veut la manchette:
+  # 0 0, c'est en bas, a gauche
+  # 100 100, c'est en haut, a droite
+  # La manchette a des "points cardinaux" autour: n, s, ne, sw, etc.
+  # Il faut specifier un de ces points comme ce que sera place sur les
+  # cordonees.
+  # Alors nous pouvons specifier que le sud-ouest de la manchette
+  # soit place en bas, a gauche, ou une autre combination
+  map-header 0 90 nw
+map-header-bg on
+
+
+
+
+  # Nous voulons une legende pour expliquer les symboles. "on" imprimera
+  # seulement la legende des symboles dessines sur la topo, si l'on veut
+  # pour tous les symboles, utilises ou pas, il faut indiquer "all".
+  # "legend off" = pas de legende
+ legend on
+
+  # Par defaut, la legende est 14 cm ampleur
+  legend-width 13 cm
+
+  # Il faut s'exprimer a la langue de Voltaire...
+  language fr
+
+  # echelle graphique 50 m ampleur
+  scale-bar 100 m
+
+  # Un commentaire a ajounter au titule, on pourrait indiquer ici
+  # la mairie ou est place la cavite dont le nom est probablement
+  # le titule de la topo.
+  map-comment "Scialet des Nuits Blanches, Villard de Lans"
+
+
+
+  # "size", c'est pour l'atlas. Ce sont las dimensions du carre dont
+  # l'interiur sera ocuppe par la partie de la topo correspondant a
+  # chaque une des pagines. 15 x 20, ça va bien pour imprimer A4.
+  size 15 20 cm
+
+  # Au atlas, on va superposer 1cm de chaque page voisine
+  overlap 1 cm
+
+  # "page-setup", ca sert pour le map et pour l'atlas aussi.
+  # on specifie les dimensions de la feuille papier: 21 X 29,7 (A4)
+  # la surface imprimible du papier, ce sont 17 X 28,2
+  # Alors, on peut indiquer un marge a gauche de 3 (21-17-1=3)
+  # et un marge en haut de 1,5 (29,7-27,2-1=1,5)
+  # en centimetres
+  
+  #page-setup 21 29.7 17 27.2 3 1.5 cm
+statistics explo off
+statistics topo-length off
+statistics topo all
+#statistics copyright 2
+
+
+
+
+# dessin ou pas du cheminement topo
+symbol-hide point station        
+symbol-hide line survey
+
+code tex-map
+\cavename{Réseau de Vlad}
+     \cavelength{1176\thinspace{}m + 450\thinspace{}m estimés}
+     #\cavedepth{300\thinspace{}m}
+   endcode
+
+
+
+code tex-map
+\legendcontent={%
+  \hsize=\legendwidth
+
+ \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+    {\size[26]\the\cavename} \vskip1cm
+  \fi
+ #\ifscalebar\scalebar\vskip1cm\fi
+  {\rightskip=0pt plus 3em\parskip=3bp
+    \edef\tmp{\the\comment} \ifx\tmp\empty \else
+    {\size[18]\the\comment} \par\medskip
+    \fi
+  \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+ 
+ 
+\ifscalebar\scalebar\vskip1cm\fi
+    \everypar{\hangindent=2em\hangafter=1}
+    \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+      {\size[12]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+    \fi
+    \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+      {\size[12]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+    \fi
+    \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+      {\size[12]\si\the\explotitle:
+\ss\the\exploteam\quad\si\the\explodate\par}
+    \fi
+    \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+      {\size[12]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+    \fi
+    \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+      {\size[12]\si\the\cartotitle:
+\ss\the\cartoteam\quad\si\the\cartodate\par}
+    \fi
+    \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+      {\size[12]\ss\the\copyrights\par}
+    \fi
+  }
+  \formattedlegend
+}
+endcode
+
+
+
+
+
+#code metapost
+# fonts_setup(6,8,10,14,20)
+
+code metapost
+  def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.0, 0.5, 1.0);
+  enddef;
+endcode
+
+  code metapost
+  def a_sump (expr p) =
+    T:=identity;
+    thfill p withcolor (0.0, 0.0, 0.5);
+  enddef;
+endcode
+
+
+endlayout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##############################################################################
+export map -proj plan -fmt pdf -layout normal -o Reseau_de_vlad.pdf
+#export map -proj extended -fmt pdf -layout xviexport -o Nuits_Blanches_coupe.pdf
+
+#export map -proj plan -fmt pdf -layout normal -o Nuits_Blanches_plan.pdf
+#export map -proj extended -fmt pdf -layout normal -o Nuits_Blanches_coupe.pdf

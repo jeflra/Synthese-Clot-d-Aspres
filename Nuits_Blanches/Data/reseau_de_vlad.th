@@ -1,0 +1,77 @@
+encoding  utf-8
+survey nuits_blanches -title "Scialet des Nuits Blanches"
+
+
+input autres_trous.th
+
+
+input grosse_galerie.th
+input vlad.th
+input reseau_classique.th
+input patayoyo.th
+
+#input grosse_galerie.th2 #@grosse_galerie
+#input grosse_galerie2.th2 #@grosse_galerie
+
+equate 29@patayoyo2.patayoyo 19@grosse_galerie 
+
+equate 1_7@vlad 000@grosse_galerie 
+equate 1_1@vlad 1@reseau_classique
+
+join RGB@patayoyo:0 RGH@patayoyo:end
+join RDB@patayoyo:0 RDH@patayoyo:0
+
+join mur_g@vlad:end mur_g@reseau_classique:0
+join mur_d@vlad:0 mur_d@reseau_classique:0
+
+
+join mur_g@grosse_galerie:end mur_gg@grosse_galerie:end
+join mur_d@grosse_galerie:end mur_dd@grosse_galerie:0
+
+join cc_d@grosse_galerie:0 meduse_d@grosse_galerie:0
+join cc_g@grosse_galerie:end meduse_g@grosse_galerie:end
+
+map map1
+
+
+#autres_trous@autres_trous
+break
+#entree@reseau_classique
+break
+#meandre_-50@reseau_classique
+break
+#meandre_200_fond_468@reseau_classique
+break
+patayoyo_C@patayoyo
+break
+patayoyo_B@patayoyo
+vlad1@vlad
+retour_actif@vlad
+break
+vlad_dessous@vlad
+sup_canyon@grosse_galerie
+break
+grosse_galerie_suite@grosse_galerie
+scrap1@grosse_galerie
+break
+patayoyo_A@patayoyo
+break
+chateau_carte@grosse_galerie
+break
+surcreusement@grosse_galerie
+surcreusement1@grosse_galerie
+break
+
+
+
+#scrap1@reseau_classique
+break
+#collecteur_fossile1@reseau_classique
+break
+#collecteur_fossile2@reseau_classique
+break
+#collecteur@reseau_classique
+break
+endmap
+endsurvey
+

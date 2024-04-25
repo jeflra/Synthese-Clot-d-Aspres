@@ -1,0 +1,23 @@
+survey bourrasque
+
+
+
+centerline
+fix bourrasque	703009.330	4987528.062	1886 #BOURRASQUE (scialet de la)
+
+
+declination -3.87 grad 
+data diving from to length compass depthchange
+
+bourrasque TT1 120 3 0
+TT1 TT 459 0 -459
+
+endcenterline
+
+
+
+
+
+
+
+endsurvey

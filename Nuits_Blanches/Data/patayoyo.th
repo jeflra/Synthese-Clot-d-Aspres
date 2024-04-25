@@ -1,0 +1,180 @@
+#encoding  utf-8
+survey patayoyo -title "Patayoyo"
+
+# reseau remontant dans la grosse galerie fossile des nuits blanches
+
+
+
+equate 0@patayoyo2 62@patayoyo1 
+
+survey patayoyo1
+
+centerline
+  declination -1.55 grad # 
+  date 2008.2.23
+
+  team "Jean Héraud"
+  team "Pierre Metzger"
+
+
+extend left
+
+units compass clino degree
+
+
+									
+#Départ topo amont : le sommet de l'escalade (relais. 3ème longueur) grimpé par Eric										
+#Départ topo aval : la tête de puits donnant accès à la voûte mouillante 								
+#largeurs et hauteurs sont relatives au point de "départ"										
+#Gauche et droite sont définis dans le sens de l'avancement (amont vers aval)	
+
+# 60 m non topographié									
+								
+										
+#Point départ	Point arrivée	Distance	Azimut inverse	Pente inverse	Gauche	Droite	Haut	Bas		Commentaire
+data normal to  from length compass clino right left up down
+1	2	9.9	227	70	2	4	3	3	#	Puits faille 3ème relais
+2	3	6.2	246	60	2	4	3	3	#	Puits faille 2ème relais
+3	4	9.2	233	70	3	3	3	3	#	Puits faille 1er relais
+4	5	4.6	123	20	1	2	3	3	#	Sol puits double
+5	6	4.4	176	24	1	1	3	1.5	#	Entrée du méandre "Patayoyo". Dans la faille. azimut direct : 268 °. 15 m de boyau non topo menant au pied d'un puits de 15 m avec courant d'air descendant (alors qu'il est remontant dans le puits escaladé)
+6	7	7.3	135	26	0.3	0.3	0.8	1	#	Entre 6 et 7 : ressaut de 2 m
+7	8	1	182	0	0.3	0.3	0.8	1	#	Méandre
+8	9	3.8	144	16	0.3	0.2	0.8	1	#	Méandre
+9	10	4.1	235	12	0.2	0.2	0.6	0.8	#	Méandre
+10	11	1	267	0	0.2	0.2	0.6	0.8	#	Méandre
+11	12	3.7	198	18	0.2	0.2	0.6	0.8	#	Méandre
+12	13	1	244	25	0.2	0.2	0.6	0.8	#	Méandre
+13	14	5.1	184	38	0.2	0.2	0.6	0.8	#	Tête de puits du P3-4 dans le méandre. Resdsaut suivi d'un élargissement de 2.5 m.
+14	15	5	181	22	0.5	0.5	5	1	#	Méandre
+15	16	2.4	212	12	0.3	0.2	1	1.8	#	Méandre
+16	17	1	250	10	0.2	0.2	0.5	1.8	#	Méandre
+17	18	2.6	170	30	0.2	0.2	0	1.8	#	Méandre
+18	19	2.5	208	4	0.2	0.2	0.6	0.6	#	Méandre
+19	20	3	274	10	0.2	0.2	0.7	0.7	#	Méandre
+20	21	1	338	0	0.2	0.2	0.7	0.7	#	Méandre
+21	22	3.7	240	6	0.2	0.2	0.7	0.7	#	Méandre
+22	23	3	184	0	0.2	0.2	0.7	0.7	#	Méandre
+23	24	1.3	260	10	0.2	0.2	0.7	0.7	#	Méandre
+24	25	2	200	0	0.2	0.2	0.7	0.7	#	Méandre
+25	26	1.8	174	0	0.2	0.2	0.6	0.8	#	Méandre
+26	27	2.4	250	10	0.2	0.2	0.8	0.8	#	Méandre
+27	28	3	220	12	0.2	0.2	0.8	0.8	#	Méandre
+28	29	1.5	174	25	0.2	0.2	0.8	0.8	#	Méandre
+29	30	11.2	220	60	0.2	0.2	0.8	0.8	#	Extrémité de la main courante
+30	31	3	166	20	0.2	0.2	0.8	0.8	#	Lèvre du Puits rond (dont le fond 7 m plus bas revient sur le puits double en dessous) (non topo : 15 m)
+31	32	2.3	212	30	0.5	0.5	1.2	1.8	#	
+32	33	12.5	0	90	0.5	0.5	1.2	1.8	#	Tête de puits du puits sec
+
+extend right
+
+33	34	3.5	96	0	1.5	1.5	1.2	1.8	#	Point en plein vide. à la hauteur du fractio
+34	35	9	90	36	0.2	0.2	3.2	1.8	#	Au niveau du fractio du "Col"
+35	36	3	232	35	4	5	3.2	1.8	#	Sol du puits double arrosé. jumeau du puits sec
+36	37	3.8	128	40	5	4	1.2	1.8	#	Sol du puits double (point de rattrapage)
+37	38	2	17	20	0.8	0.8	1.2	1.8	#	Méandre en dessous de la fenêtre arrosée. Départ du méandre non topographié (30 m ? qui revient à la base du puits secau puits sec.
+38	39	4.5	42	60	0.5	0.5	1.2	1.8	#	Tête de puits du premier ressaut
+
+extend left
+
+39	40	6.3	36	60	0.5	0.5	1.2	1.8	#	Tête de puits (puits double grimpé d'un côté par Eric et équipé par l'autre)
+40	41	8.6	0	90	0.5	0.5	1.2	1.8	#	Fractio esthétique
+41	42	2	250	0	2	2	1.2	1.8	#	Sol du puits (l'axe de la faille est relevé : 274°)
+42	43	4	122	30	1	0.5	4	1.8	#	Début du méandre "Blanche fesse et les 7 bains"
+43	44	11.6	148	20	0.4	0.4	1.2	1.8	#	43 à 44. série de vasques et de ressauts très esthétique. Un élargissement de 2 m au milieu avec puits remontant non escaladé
+44	45	4.4	180	18	0.4	0.4	1.2	1.8	#	Toujours joli
+45	46	1	270	0	0.4	0.4	1.2	1.8	#	Méandre
+46	47	3.7	170	10	0.4	0.4	1.2	1.8	#	Méandre
+47	48	4	180	0	0.4	0.4	1.2	1.8	#	Méandre
+48	49	3	114	0	0.4	0.4	1	1.8	#	Méandre
+49	50	2.5	50	10	0.4	0.4	1	1.5	#	Petite galerie en CF
+50	51	8	110	0	0.6	0.6	0.4	0.4	#	Début de la voute mouillante
+51	52	14	36	0	0.5	0.5	0.4	0.6	#	Fin de la voute mouillante
+52	53	2.8	60	0	0.5	0.5	0.4	0.6	#	Petite galerie en CF
+53	54	2.5	6	0	0.5	0.5	0.4	0.6	#	Petit shunt sec vers la gauche
+54	55	4.7	92	10	0.2	0.2	0.4	0.6	#	Point dans le shunt
+55	56	2.8	90	0	0.3	0.3	0.4	0.6	#	Fin du shunt et retour dans l'actif (l'actif passe direct du point 53 au 55)
+56	57	3	138	0	0.4	0.4	0.4	0.6	#	Petite galerie en CF
+57	58	3.1	42	0	0.4	0.4	0.4	0.6	#	Petite galerie en CF
+58	59	4.2	73	5	0.4	0.4	0.4	0.6	#	Petite galerie en CF
+59	60	3	20	5	0.3	0.3	0.4	0.6	#	Petite galerie en CF
+60	61	3.2	76	30	0.3	0.3	0.2	1.8	#	Méandre
+61	62	4.3	74	0	0.3	0.3	0.2	1.8	#	Point 62 = tête de puits = arrêt topo précédent
+							
+
+endcenterline
+
+#-----------------------------------------------------------------------------------
+endsurvey
+
+
+survey patayoyo2
+centerline
+  declination -1.55 grad # 
+
+  date 2008.2.9 # ?date correcte ?
+
+  team "Éric Laroche-Joubert
+
+units count cm
+
+
+calibrate clino 90
+
+data normal from to fromcount tocount backclino compass right left down up
+
+extend left
+
+1 0 73822 74510 6 49 3 3 1 1
+2 1 74510 75720 0 0 3 3 1 1
+
+extend right
+
+3 2 75720 76111 118 257 .75 .75 1 .5 
+4 3 76111 76378 67 307 .25 .25 1 2
+5 4 76378 77085 55 260 .4 .4 1 2
+6 5 77085 77576 39 259 .75 .75 1 2
+7 6 77576 78154 90 282 .2 .2 1 2
+8 7 78154 78256 45 60 .2 .2 1 2
+9 8 78256 78850 0 0 3 3 1 2
+10 9 78850 79363 102 86 .35 .35 1 2
+11 10 79363 80412 0 0 1.5 1.5 1 5
+12 11 80412 80590 90 304 .5 .5 1 2
+13 12 80590 81158 71 300 1 1 1 2
+14 13 81158 82891 0 0 1 1 1 7
+15 14 82891 83391 91 70 .2 .2 1 2
+16 15 83391 83827 86 59 .3 .3 .2 .2
+17 16 83827 84013 86 75 3 1 1 1
+18 17 84013 84678 76 80 .6 .6 1 1
+19 18 84678 85193 28 48  1 1 1 1
+
+extend left
+
+20 19 85193 85475 105 300 .75 .75 .75 .75
+21 20 85475 85800 88 82 .75 .75 1 2
+22 21 85800 86127 92 143 1.25 1.25 1 5
+23 22 86127 86727 90 168 2 2 2 2
+24 23 86727 87312 79 173 1 1 1 1
+25 24 87312 87662 92 177 .75 .75 1 2
+26 25 87662 88006 63 237 .5 .5 1 2
+27 26 88006 88300 79 282 .35 .35 1 2
+28 27 88300 88733 97 291 .3 .3 1 2
+29 28 88733 89254 120 245 1 1 1 1
+30 29 89254 90048 82 264 1 1 1 1 
+
+
+
+
+
+
+endcenterline
+endsurvey
+
+
+input patayoyo.th2
+endsurvey
+
+
+
+
+
