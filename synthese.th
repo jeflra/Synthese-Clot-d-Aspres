@@ -7,10 +7,10 @@ survey synthese -title "Réseau du Clot d'Aspres<br>Synthèse partielle"
 input Candy/Data/candy.th
 input CAF-132/Data/CAF-131.th
 input CAF-132/Data/CAF-132.th
-input Nuits_blanches/Data/nuits_blanches.th
+input Nuits_Blanches/Data/nuits_blanches.th
 
 input Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
-input blizzard/riviere_casse_pied/RCP-tot.th
+input Blizzard/riviere_casse_pied/RCP-tot.th
 input Bourrasque/Reseau_sup/Data/entrees_cavite_sup.th
 input Brumes_matinales/Data/brumes_matinales.th
 input 2-Soeurs/2-Soeurs-tot.th

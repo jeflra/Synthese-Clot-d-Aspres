@@ -2677,3 +2677,18 @@ layout test
 	endcode
 
 endlayout
+
+layout for_print
+	code metapost
+      fonts_setup( 16, 18, 20, 22, 24 );
+    endcode
+
+	
+
+  code tex-map
+    \legendwidth=60cm
+    \legendtextcolor={\color[0 0 0]}  % RGB values 0--100
+    \legendtextsize={\size[20]}
+    \legendtextheadersize={\size[30]}
+  endcode
+endlayout

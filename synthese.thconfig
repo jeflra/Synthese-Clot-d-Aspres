@@ -24,9 +24,11 @@ endlayout
   
 layout my_layout
    # Call the config settings (Layout config inside the config.thc file)
+   # copy Coords_Header
    copy drawingconfig
    copy headerl
    copy langue-fr
+   copy for_print 
       
    # Titre  
    doc-title "Synthèse"
@@ -83,7 +85,7 @@ layout my_layout
    opacity 75
 
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Plan<ss> - Ville, depart, Pays"
+   map-comment "<it>Plan<ss> - Villars-de-Lans, 38, France"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -117,10 +119,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
 
-   debug station-names
+   #debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -130,7 +132,7 @@ layout my_layout
    # (Trois dimensions, oui, ça sert pour la coupe aussi) 
    grid-size 100 100 100 m
    # Si nous ne voulons pas de grille :
-   grid off
+   #grid off
    # Affiche les coordonnées de la grille <off (pas de coordonnées) / all (sur tous les croisements) / border (uniquement aux niveau des croix aux bords de la carte>
    grid-coords all
 

@@ -4,7 +4,7 @@ encoding  utf-8
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
-layout Entrances_coords_Ded
+layout Entrances_coords
 # Layout where we define the different variables that contain the text with 
 # the entrance coordinates we want to print in the header.
 # We need one variable per entrance.
@@ -21,7 +21,7 @@ layout Entrances_coords_Ded
 		\def\thlocationG{BOURRASQUE (scialet de la) -- X : 855.327 Y :  3306.376 Alt. : 1886 m}
 		\def\thlocationH{BRUMES MATINALES (scialet des) -- X :  Y :   Alt. : 1769 m}
 		\def\thlocationI{Candy -- X :  Y :   Alt. :  m}
-		\def\thlocationJ{CLOT D'ASPRES (grotte du) -- X : 855.17 Y :  3307.94 Alt. : 1 710 m}
+		\def\thlocationJ{CLOT D'ASPRES (grotte du) -- X : 855.17 Y :  3307.94 Alt. : 1710 m}
 		\def\thlocationK{CLOT D'ASPRES (grotte du) - entrée 1 (basse) -- X : 855.209 Y :  3307.973 Alt. : 1643 m}
 		\def\thlocationL{CRETES VENTEES (scialet des) -- X : 854.73 Y :  3306.795 Alt. : 1943 m}
 		\def\thlocationM{Deux Soeurs -- X :  Y :   Alt. : 1844 m}
@@ -35,7 +35,7 @@ layout Entrances_coords_Ded
 		\def\thlocationU{NUITS BLANCHES (scialet des) -- X :  Y :   Alt. : 1767 m}
 		\def\thlocationV{NYMPHE EMUE (scialet de la) -- X : 855.355 Y :  3305.789 Alt. : 2033 m}
 		\def\thlocationW{OREADE (grotte de l') -- X : 855.95 Y :  3305.75 Alt. : 2017 m}
-		\def\thlocationX{PEUIL TANQUIN (scialet de) -- X : 852.22 Y :  3312.12 Alt. : 1 210 m}
+		\def\thlocationX{PEUIL TANQUIN (scialet de) -- X : 852.22 Y :  3312.12 Alt. : 1210 m}
 		\def\thlocationY{PRE DE L'ACHARD (scialet du) -- X : 855.362 Y :  3306.703 Alt. : 1821 m}
 		\def\thlocationZ{SILENCE (scialet du) -- X : 855.311 Y :  3306.965 Alt. : 1845 m}
 	endcode 
@@ -43,10 +43,10 @@ layout Entrances_coords_Ded
 endlayout
 
 
-layout Coords_Header_Ded
+layout Coords_Header
 # Layout that set the presentation for the entrance coordinates.
 	
-	copy Entrances_coords_Ded
+	copy Entrances_coords
 	# it calls the layout above Entrances_coords where we defined the different 
 	# variables that contain the text with 
 	# the entrance coordinates we want to print in the header.
