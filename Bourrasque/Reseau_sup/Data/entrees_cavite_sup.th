@@ -11,10 +11,9 @@ fix bagnards 	702998.828	4987860.180	1813 #BAGNARDS (scialet des)
 fix nymphe	703032.911	4986940.814	2033 #NYMPHE EMUE (scialet de la)
 fix oreade	703628		4986898		2017 #OREADE (grotte de l')
 
-fix 2soeurs	703405.834	4986658.969	1840
-
 
 endcenterline
+
 input bourrasque.th2
 input pre_achard.th2
 #input partiel.th2

@@ -9,8 +9,8 @@ centerline
   team "Vianney Gadiolet"
    team "Martin Gerbaux"
 
-cs EPSG:3945
-fix Entree_1 621272 5622945 1880 #RGF93 CC45
+cs EPSG:2154
+fix Entree_1 903310.6851257154 6437746.19953557 1880 #RGF93 CC45
 
 units compass clino degree
 data normal from to length compass clino right left up down

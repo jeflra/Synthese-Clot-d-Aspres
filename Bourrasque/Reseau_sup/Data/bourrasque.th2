@@ -903,8 +903,6 @@ line pit
   smooth off
 endline
 
-point 4791.3165 2447.4122 station -name 2soeurs
-
 point 2589.1144 1416.7406 label -orientation 25.5703029135 -text "Gallerie Nakanai" -align tr -scale l
 
 point 1852.75 1131.5 label -text "P65" -align left

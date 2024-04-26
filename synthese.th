@@ -1,7 +1,7 @@
 encoding  utf-8
 
 
-survey synthese -title "Réseau du Clot d'Aspres<br>Synthèse partielle"
+survey synthese -title "Réseau du Clot d'Aspres"
 
 
 input Candy/Data/candy.th
@@ -24,153 +24,153 @@ equate 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches jonc@brumes_mat
 
 
 
-map map_synthese
+# map map_synthese
 	
 
 
-	#CAF132 ====================
-	CAF-131_entree@CAF-131.CAF-132
-	scrap1@CAF-132
-	break
-	puits_sous_entree@CAF-132
-	p5_sous_entree@CAF-132
-	break
-	meandre_17@CAF-132
-	meandre_du_nez@CAF-132
-	break
-	meandre_du_loup@CAF-132
+# 	#CAF132 ====================
+# 	CAF-131_entree@CAF-131.CAF-132
+# 	scrap1@CAF-132
+# 	break
+# 	puits_sous_entree@CAF-132
+# 	p5_sous_entree@CAF-132
+# 	break
+# 	meandre_17@CAF-132
+# 	meandre_du_nez@CAF-132
+# 	break
+# 	meandre_du_loup@CAF-132
 
-	canyon_bronto@CAF-132
-	break
-	sous_puis_silex@CAF-132
-	break
-	escalier_serpentine@CAF-132
-	break
-	diaclase_-250@CAF-132
-	break
-	diaclase_-250_2@CAF-132
-	#===================================
+# 	canyon_bronto@CAF-132
+# 	break
+# 	sous_puis_silex@CAF-132
+# 	break
+# 	escalier_serpentine@CAF-132
+# 	break
+# 	diaclase_-250@CAF-132
+# 	break
+# 	diaclase_-250_2@CAF-132
+# 	#===================================
 
-	#candy
-	candy_entree@Candy
-	break
+# 	#candy
+# 	candy_entree@Candy
+# 	break
 
-	candy_transfauge@Candy
-	break
-	candy_sirocco@Candy
-	break
-	candy_Nino_Ferrer@Candy
-	#===================================
-
-
-	#autres_trous@autres_trous
-	#break
-	entree@reseau_classique.nuits_blanches
-	break
-	meandre_-50@reseau_classique.nuits_blanches
-	break
-	meandre_200_fond_468@reseau_classique.nuits_blanches
-	break
-	patayoyo_C@patayoyo.nuits_blanches
-	break
-	patayoyo_B@patayoyo.nuits_blanches
-	vlad1@vlad.nuits_blanches
-	retour_actif@vlad.nuits_blanches
-	break
-	vlad_dessous@vlad.nuits_blanches
-	sup_canyon@grosse_galerie.nuits_blanches
-	break
-	grosse_galerie_suite@grosse_galerie.nuits_blanches
-	scrap1@grosse_galerie.nuits_blanches
-	break
-	patayoyo_A@patayoyo.nuits_blanches
-	break
-	chateau_carte@grosse_galerie.nuits_blanches
-	break
-	surcreusement@grosse_galerie.nuits_blanches
-	surcreusement1@grosse_galerie.nuits_blanches
-	break
+# 	candy_transfauge@Candy
+# 	break
+# 	candy_sirocco@Candy
+# 	break
+# 	candy_Nino_Ferrer@Candy
+# 	#===================================
 
 
+# 	#autres_trous@autres_trous
+# 	#break
+# 	# entree@reseau_classique.nuits_blanches
+# 	# break
+# 	# meandre_-50@reseau_classique.nuits_blanches
+# 	# break
+# 	# meandre_200_fond_468@reseau_classique.nuits_blanches
+# 	# break
+# 	# patayoyo_C@patayoyo.nuits_blanches
+# 	# break
+# 	# patayoyo_B@patayoyo.nuits_blanches
+# 	# vlad1@vlad.nuits_blanches
+# 	# retour_actif@vlad.nuits_blanches
+# 	# break
+# 	# vlad_dessous@vlad.nuits_blanches
+# 	# sup_canyon@grosse_galerie.nuits_blanches
+# 	# break
+# 	# grosse_galerie_suite@grosse_galerie.nuits_blanches
+# 	# scrap1@grosse_galerie.nuits_blanches
+# 	# break
+# 	# patayoyo_A@patayoyo.nuits_blanches
+# 	# break
+# 	# chateau_carte@grosse_galerie.nuits_blanches
+# 	# break
+# 	# surcreusement@grosse_galerie.nuits_blanches
+# 	# surcreusement1@grosse_galerie.nuits_blanches
+# 	# break
 
 
-	brumes_entree@brumes_matinales	
-	break
-	brumes_bas_puits_du_balcon@brumes_matinales
-	break
-	brumes_fond-570@brumes_matinales
-	break
-	brumes_fond-645@brumes_matinales
-	break
 
-	scrap1@reseau_classique.nuits_blanches
-	break
-	jonction_haut@jonction_nuits_blanches-brumes_matinales.nuits_blanches
-	break
-	jonction_bas@jonction_nuits_blanches-brumes_matinales.nuits_blanches
-	break
-	collecteur_fossile1@reseau_classique.nuits_blanches
-	break
-	collecteur_fossile2@reseau_classique.nuits_blanches
-	break
-	collecteur@reseau_classique.nuits_blanches
-	break
+
+# 	brumes_entree@brumes_matinales	
+# 	break
+# 	brumes_bas_puits_du_balcon@brumes_matinales
+# 	break
+# 	brumes_fond-570@brumes_matinales
+# 	break
+# 	brumes_fond-645@brumes_matinales
+# 	break
+
+# 	# scrap1@reseau_classique.nuits_blanches
+# 	# break
+# 	# jonction_haut@jonction_nuits_blanches-brumes_matinales.nuits_blanches
+# 	# break
+# 	# jonction_bas@jonction_nuits_blanches-brumes_matinales.nuits_blanches
+# 	# break
+# 	# collecteur_fossile1@reseau_classique.nuits_blanches
+# 	# break
+# 	# collecteur_fossile2@reseau_classique.nuits_blanches
+# 	# break
+# 	# collecteur@reseau_classique.nuits_blanches
+# 	# break
 
 
 	
-	entree_bourrasque@reseau_sup
-	break
-	puits_bourrasque@reseau_sup
-	break
-	passagers_du_vent@reseau_sup
-	aventure_interieure_haute@reseau_sup
-	break
-	aventure_interieure@reseau_sup
+# 	entree_bourrasque@reseau_sup
+# 	break
+# 	puits_bourrasque@reseau_sup
+# 	break
+# 	passagers_du_vent@reseau_sup
+# 	aventure_interieure_haute@reseau_sup
+# 	break
+# 	aventure_interieure@reseau_sup
 
-	nakanai@reseau_sup
-	break
-	terres_creuses@reseau_sup
-	break
-	graal@reseau_sup
-	nakanai_bas@reseau_sup
-	break
+# 	nakanai@reseau_sup
+# 	break
+# 	terres_creuses@reseau_sup
+# 	break
+# 	graal@reseau_sup
+# 	nakanai_bas@reseau_sup
+# 	break
 
-	fleurs_du_mal@reseau_sup
-	break
-	sous_P18@reseau_sup
-	break
-	cascades_du_fond@reseau_sup
-
-
-
-	pre_achard_sup_P78@reseau_sup
-	pre_achard_godemiche_sup@reseau_sup
-	break
-	pre_achard_godemiche@reseau_sup
-	break
-	pre_achard_entree@reseau_sup
-	break
-	pre_achard_fond@reseau_sup
+# 	fleurs_du_mal@reseau_sup
+# 	break
+# 	sous_P18@reseau_sup
+# 	break
+# 	cascades_du_fond@reseau_sup
 
 
 
-	riviere_menisque@menisque
-	break
-	reseau_sup@menisque
+# 	pre_achard_sup_P78@reseau_sup
+# 	pre_achard_godemiche_sup@reseau_sup
+# 	break
+# 	pre_achard_godemiche@reseau_sup
+# 	break
+# 	pre_achard_entree@reseau_sup
+# 	break
+# 	pre_achard_fond@reseau_sup
 
 
+
+# 	riviere_menisque@menisque
+# 	break
+# 	reseau_sup@menisque
 
 
 
 
 
 
-endmap
+
+
+# endmap
 
 
 
-join menisque_aval_droit@menisque:0 casse-pieds_amont_droit@riviere_casse_pieds:end
-join menisque_aval_gauche@menisque:end casse-pieds_amont_gauche@riviere_casse_pieds:end
+# join menisque_aval_droit@menisque:0 casse-pieds_amont_droit@riviere_casse_pieds:end
+# join menisque_aval_gauche@menisque:end casse-pieds_amont_gauche@riviere_casse_pieds:end
 
 
 
