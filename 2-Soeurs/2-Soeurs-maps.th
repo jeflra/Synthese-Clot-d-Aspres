@@ -1,6 +1,8 @@
 encoding  utf-8
 map MP-2-Soeurs-plan-tot -title "2-Soeurs"
   SP-2S-1
+  break
+  SP-2S-2
 endmap
 
 
