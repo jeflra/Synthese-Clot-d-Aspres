@@ -26,7 +26,7 @@ xth_cp_data_tree_insert 3516 52 2 brumes_matinales brumes_matinales.synthese "RÃ
 xth_cp_data_tree_insert 3604 52 2 2-Soeurs 2-Soeurs.synthese "2-Soeurs" "2-Soeurs" "length: 583.57m (surface 0.00m, duplicated 0.00m)\nvertical range: 136.94m (from 1@2_soeursA.2-Soeurs.synthese at 1846.08m to 63@2-soeurs.2-Soeurs.synthese at 1709.14m)\nnorth-south range: 80.16m (from 64@2-soeurs.2-Soeurs.synthese at 4986735.28m to 60@2_soeursA.2-Soeurs.synthese at 4986655.12m)\neast-west range: 306.81m (from 0@2_soeursA.2-Soeurs.synthese at 703415.75m to 56@2-soeurs.2-Soeurs.synthese at 703108.93m)\nnumber of shots: 991\nnumber of stations: 993"
 xth_cp_data_tree_insert 3606 3604 3 2-soeurs 2-soeurs.2-Soeurs.synthese "2-soeurs" "2-soeurs" "length: 235.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 65.56m (from 26@2-soeurs.2-Soeurs.synthese at 1774.70m to 63@2-soeurs.2-Soeurs.synthese at 1709.14m)\nnorth-south range: 71.39m (from 64@2-soeurs.2-Soeurs.synthese at 4986735.28m to 0@2-soeurs.2-Soeurs.synthese at 4986663.90m)\neast-west range: 78.31m (from 1@2-soeurs.2-Soeurs.synthese at 703187.25m to 56@2-soeurs.2-Soeurs.synthese at 703108.93m)\nnumber of shots: 404\nnumber of stations: 405"
 xth_cp_data_tree_insert 3610 3604 3 2_soeursA 2_soeursA.2-Soeurs.synthese "2 soeursA" "2 soeursA" "length: 347.65m (surface 0.00m, duplicated 0.00m)\nvertical range: 74.27m (from 1@2_soeursA.2-Soeurs.synthese at 1846.08m to 71@2_soeursA.2-Soeurs.synthese at 1771.80m)\nnorth-south range: 40.56m (from 10@2_soeursA.2-Soeurs.synthese at 4986695.68m to 60@2_soeursA.2-Soeurs.synthese at 4986655.12m)\neast-west range: 228.87m (from 0@2_soeursA.2-Soeurs.synthese at 703415.75m to 73@2_soeursA.2-Soeurs.synthese at 703186.88m)\nnumber of shots: 587\nnumber of stations: 588"
-xth_cp_data_tree_insert 3877 52 2 Caverne_des_clos Caverne_des_clos.synthese "Caverne des Clos" "Caverne des Clos" "length: 332.56m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.34m (from 1b@Caverne_des_clos.synthese at 1897.53m to 21@Caverne_des_clos.synthese at 1856.19m)\nnorth-south range: 76.42m (from 22a@Caverne_des_clos.synthese at 4987205.77m to entree_2@Caverne_des_clos.synthese at 4987129.35m)\neast-west range: 51.65m (from Entree_1@Caverne_des_clos.synthese at 703388.89m to 0a@Caverne_des_clos.synthese at 703337.23m)\nnumber of shots: 31\nnumber of stations: 32"
+xth_cp_data_tree_insert 3881 52 2 Caverne_des_clos Caverne_des_clos.synthese "Caverne des Clos" "Caverne des Clos" "length: 332.56m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.34m (from 1b@Caverne_des_clos.synthese at 1897.53m to 21@Caverne_des_clos.synthese at 1856.19m)\nnorth-south range: 76.42m (from 22a@Caverne_des_clos.synthese at 4987205.77m to entree_2@Caverne_des_clos.synthese at 4987129.35m)\neast-west range: 51.65m (from Entree_1@Caverne_des_clos.synthese at 703388.89m to 0a@Caverne_des_clos.synthese at 703337.23m)\nnumber of shots: 31\nnumber of stations: 32"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
@@ -38,10 +38,10 @@ xth_cp_map_tree_insert map 1 2856X1 p1 1 MP-collecteur_bourrasque-plan-tot MP-co
 xth_cp_map_tree_insert map 1 3037X1 p1 1 MP-RCP-tot MP-RCP-tot@riviere_casse_pieds.synthese "riviere\_casse\_pieds" "riviere\_casse\_pieds"
 xth_cp_map_tree_insert map 1 3513X1 p1 1 map1 map1@reseau_sup.synthese "" ""
 xth_cp_map_tree_insert map 1 3514X1 p1 1 map2 map2@reseau_sup.synthese "" ""
-xth_cp_map_tree_insert map 1 3775X1 p1 1 MP-2-Soeurs-plan-tot MP-2-Soeurs-plan-tot@2-Soeurs.synthese "2-Soeurs" "2-Soeurs"
-xth_cp_map_tree_insert map 1 3776X1 p2 1 MC-2-Soeurs-coupe-tot MC-2-Soeurs-coupe-tot@2-Soeurs.synthese "2-Soeurs" "2-Soeurs"
+xth_cp_map_tree_insert map 1 3779X1 p1 1 MP-2-Soeurs-plan-tot MP-2-Soeurs-plan-tot@2-Soeurs.synthese "2-Soeurs" "2-Soeurs"
+xth_cp_map_tree_insert map 1 3780X1 p2 1 MC-2-Soeurs-coupe-tot MC-2-Soeurs-coupe-tot@2-Soeurs.synthese "2-Soeurs" "2-Soeurs"
 xth_cp_map_tree_create
 xth_cp_comp_stat 12550 69
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1714393778
+set xth(th_exit_number) 1714466656
 

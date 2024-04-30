@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -23699.67 -5657.580000000001 5926.424600000002 6015.748999999999
+##XTHERION## xth_me_area_adjust -23689.17 -5656.580000000001 5936.924600000002 6016.748999999999
 ##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {-14666.589999999997 1 1.0} {-2251.380000000001 0@2-soeurs.2-Soeurs} 2-Soeurs-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {-14656.089999999997 1 1.0} {-2250.380000000001 0@2-soeurs.2-Soeurs} 2-Soeurs-map.xvi 0 {}
 
 
 
@@ -38,6 +38,12 @@ line wall -reverse on -subtype invisible
   -10442.0 -2629.0
   -10658.0 -2399.0
 endline
+
+point 3636.0 -868.0 entrance
+
+point -6136.0 -1860.0 air-draught -orientation 116.6 -scale xl
+
+point -56.0 -448.0 air-draught -orientation 124.4 -scale xl
 
 line wall
   3270.0 -760.0
@@ -355,6 +361,8 @@ line wall -reverse on
   -20817.5 2756.0 -20836.25 2771.75 -20847.5 2774.75
   smooth off
 endline
+
+point -19296.0 3504.0 label -text "Puits de la Verna"
 
 line wall
   -17858.0 980.0
