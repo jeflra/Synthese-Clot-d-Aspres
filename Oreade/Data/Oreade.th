@@ -1,0 +1,21 @@
+survey Oreade
+
+
+
+centerline
+date 1989
+
+cs UTM31
+fix Oreade	703628	4986898	2017
+station Oreade "Oreade"
+# declination -3.87 grad 
+data diving from to length compass depthchange
+Oreade 1 305 285 0
+1 2 386 0 -386
+# TT1 TT 459 0 -459
+
+endcenterline
+
+input Oreade_plan.th2
+
+endsurvey

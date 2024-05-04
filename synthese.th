@@ -13,8 +13,9 @@ input Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
 input Blizzard/riviere_casse_pied/RCP-tot.th
 input Bourrasque/Reseau_sup/Data/entrees_cavite_sup.th
 input Brumes_matinales/Data/brumes_matinales.th
-input 2-Soeurs/2-Soeurs-tot.th
+input 2-Soeurs/2-Soeurs-tot.th #add maps
 input Clos/Data/Caverne_des_Clos.th
+input Oreade/Data/Oreade.th #add maps
 
 equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
 
