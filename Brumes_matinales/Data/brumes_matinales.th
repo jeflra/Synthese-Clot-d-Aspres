@@ -7,7 +7,7 @@ survey brumes_matinales -title "Réseau 1991"
 centerline
 
 
- declination -3.64 grad # (calcul avec logiciel declimag) + gisement UTM
+#  declination -3.64 grad # (calcul avec logiciel declimag) + gisement UTM
   date 1988.09.24
   team "Gilles Kirkor"
   team "Daniel Bruyère"

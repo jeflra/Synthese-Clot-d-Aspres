@@ -4,7 +4,7 @@ centerline
   date 1994.07.16
   team "Marie Hernequet"
   team "Alain Maurice"
-  declination -3.29 grad # (calcul avec logiciel declimag) + gisement UTM
+  #declination -3.29 grad # (calcul avec logiciel declimag) + gisement UTM
   units compass clino degree
   data normal from to length compass clino left right up down
     

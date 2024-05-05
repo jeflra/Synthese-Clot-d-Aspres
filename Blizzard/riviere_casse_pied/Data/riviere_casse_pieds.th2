@@ -2,11 +2,11 @@ encoding  utf-8
 ##XTHERION## xth_me_area_adjust -41.0 -146.0 1533.0 1970.0246
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {87.0 1 1.0} {1842.0246 {}} riviere_casse_pieds_(topo_GSM).gif 0 {}
-##XTHERION## xth_me_image_insert {1189.989 1 1.0} {1635.54 A00} riviere_casse_pieds_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {1191.239 1 1.0} {1638.54 A00} riviere_casse_pieds_plan.xvi 0 {}
 
 
 
-scrap casse-pieds_dessous -scale [-41.0 -129.0 1533.0 -129.0 0.0 0.0 39.9796 0.0 m] -station-names "" "@riviere_casse_pieds"
+scrap casse-pieds_dessous -station-names "" "@riviere_casse_pieds" -scale [-41.0 -129.0 1533.0 -129.0 0.0 0.0 39.9796 0.0 m]
 
 point 348.129 754.59 station -name 75
 
@@ -359,7 +359,7 @@ endscrap
 
 
 
-scrap casse-pied_1 -scale [-41.0 -129.0 1533.0 -129.0 0.0 0.0 39.9796 0.0 m] -station-names "" "@riviere_casse_pieds"
+scrap casse-pied_1 -station-names "" "@riviere_casse_pieds" -scale [-41.0 -129.0 1533.0 -129.0 0.0 0.0 39.9796 0.0 m]
 
 point 957.699 1493.75 station -name A10
 

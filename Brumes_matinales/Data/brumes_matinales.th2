@@ -1,9 +1,9 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1503.0 72.6558 1003.0 2174.284
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {-1375.0 1 1.0} {2046.284 {}} topo_papier/plan_brumes.gif 0 {}
+##XTHERION## xth_me_area_adjust -1503.0 97.7840000000001 1003.0 2174.284
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-325.0 1 1.0} {1346.284 {}} topo_papier/plan_brumes2.gif 0 {}
-##XTHERION## xth_me_image_insert {-624.4581 1 1.0} {452.6228 0} brumes_matinales_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {-681.0 1 1.0} {1037.784 {}} topo_papier/plan_brumes.gif 0 {}
+##XTHERION## xth_me_image_insert {-623.078 1 1.0} {458.07000000000016 0} Brumes-matinales-map.xvi 0 {}
 
 
 

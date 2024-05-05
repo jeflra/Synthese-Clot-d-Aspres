@@ -1,0 +1,12 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -5228 3637 128
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} {Aspres 2.png} 0 {}
+
+
+
+scrap SP-Principal-1 -projection plan -scale [1194.5 -659.0 2380.0 -659.0 0.0 0.0 100 0.0 m]
+
+endscrap
+
+

@@ -118,7 +118,7 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
+   symbol-hide line survey
    #symbol-hide point cave-station
 
    debug station-names

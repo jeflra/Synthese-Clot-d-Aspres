@@ -21,7 +21,7 @@ equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
 
 equate TT@1.menisque TT@bourrasque.reseau_sup
 
-equate 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches jonc@brumes_matinales
+# equate 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches jonc@brumes_matinales
 
 
 

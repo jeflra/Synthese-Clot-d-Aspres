@@ -1,16 +1,11 @@
 encoding  utf-8
 
-
-
 # 1-SOURCES 
 
-
-source Data/brumes_matinales.th
+source Principal-tot.th
 
 # Add config file
-input ../config.thc 
-
-
+input ../../config.thc 
 
 # 2-LAYOUT   
 
@@ -33,7 +28,7 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "Brumes-matinales"
+   doc-title "Principal"
    # Auteur
    doc-author "Benoît Urruty"
 
@@ -152,9 +147,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Brumes-matinales if cavename is empty
+      \ifx\temp\nostring          % Principal if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Brumes-matinales} 		
+         \cavename={Principal} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -173,7 +168,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "Brumes-matinales"
+   doc-title "Principal"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -285,9 +280,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Brumes-matinales if cavename is empty
+      \ifx\temp\nostring          % Principal if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Brumes-matinales} 		
+         \cavename={Principal} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -295,31 +290,29 @@ layout my_layout-coupe
   
 endlayout  
 
-  
+
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Brumes-matinales-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Brumes-matinales-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/Brumes-matinales-coupe_elevation.xvi 
+export map -proj plan -fmt xvi -layout xviexport -o Data/Principal_plan.xvi
+export map -proj extended -fmt xvi -layout xviexport -o Data/Principal_coupe.xvi 
 
 # Select maps
-#	select MP-Brumes-matinales-plan-tot@Brumes-matinales
-#  select MC-Brumes-matinales-coupe-tot@Brumes-matinales
+#	select MP-Principal-plan-tot@Principal
+#  select MC-Principal-coupe-tot@Principal
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Brumes-matinales-coupe_elevation.pdf 
-export map -projection extended -layout my_layout-coupe -o Outputs/Brumes-matinales-coupe.pdf 
-export map -o Outputs/Brumes-matinales-plan.pdf -layout my_layout
+export map -proj plan -fmt pdf -layout my_layout -o Outputs/Principal_plan.pdf
+export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Principal_coupe.pdf
  
-export model -enable centerline -o Outputs/Brumes-matinales.lox
-export model -enable centerline -o Outputs/Brumes-matinales.dxf
+export model -enable centerline -o Outputs/Principal.lox
+export model -enable centerline -o Outputs/Principal.dxf
 export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Brumes-matinales.html  
+export cave-list -o Outputs/Principal.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Brumes-matinales -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Brumes-matinales-model
+export map -proj plan -fmt esri -o Outputs/Principal -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/Principal-model
 
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Brumes-matinales.kml -layout my_layout
-export model -fmt kml -o Outputs/Brumes-matinales-model.kml
+export map -proj plan -fmt kml -o Outputs/Principal.kml -layout my_layout
+export model -fmt kml -o Outputs/Principal-model.kml
