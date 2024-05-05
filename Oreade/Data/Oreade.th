@@ -6,7 +6,7 @@ centerline
 date 1989
 
 cs UTM31
-fix Oreade	703628	4986898	2017
+fix Oreade	703352.231 4986928.385	2017
 station Oreade "Oreade"
 # declination -3.87 grad 
 data diving from to length compass depthchange
@@ -17,5 +17,14 @@ Oreade 1 305 285 0
 endcenterline
 
 input Oreade_plan.th2
+
+map MP-Oreade 
+
+SP-Oreade-1
+break
+SP-Oreade-2
+break
+SP-Oreade-3
+endmap
 
 endsurvey
