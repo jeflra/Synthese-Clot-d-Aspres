@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 156.0 664.0 4932.0 2582.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {695.28 1 1.0} {2311.19 bagnards@reseau_sup} CAF-132_plan.xvi 0 {}
 
 
@@ -909,8 +909,6 @@ point 1852.75 1131.5 label -text "P65" -align left
 
 point 1985.0 1115.102 label -text "P 23" -align left
 
-point 558.1958 1324.5507 station -name pre_achard@pre_achard
-
 point 1874.0 1135.25 label -text "P40" -align left
 
 point 1766.25 1167.4145 label -text 20 -align tr -scale l
@@ -952,6 +950,10 @@ point 405.625 983.1958 label -text "Alt. : 1 807" -align tr -scale l
 point 405.4688 1015.6958 label -text "Point coté" -align tr -scale l
 
 point 294.6875 1673.0395 label -text "Puits Dicentime<br>Vers les<br>BRUMES MATINALES" -align tr -scale l
+
+point 1347.0533 1221.1401 station -name TT@bourrasque
+
+point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 line wall -close on
   370.3034 1047.1973
@@ -3571,8 +3573,6 @@ scrap cascades_du_fond -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
 point 1347.0533 1221.1401 station -name TT@bourrasque
 
 point 1776.0 1237.5 station -name bourrasque@bourrasque
-
-point 1347.0533 1221.1401 station -name TT@bourrasque
 
 line wall
   1435.4169 1270.7471

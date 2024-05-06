@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 579.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 459.00m (from bourrasque@bourrasque.Bourrasque at 1886.00m to TT@bourrasque.Bourrasque at 1427.00m)\nnorth-south range: 119.84m (from TT1@bourrasque.Bourrasque at 4987647.90m to bourrasque@bourrasque.Bourrasque at 4987528.06m)\neast-west range: 6.28m (from TT1@bourrasque.Bourrasque at 703015.61m to bourrasque@bourrasque.Bourrasque at 703009.33m)\nnumber of shots: 2\nnumber of stations: 5"
+xth_cp_data_tree_insert 52 1 1 Bourrasque Bourrasque "" "" "length: 579.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 459.00m (from bourrasque@bourrasque.Bourrasque at 1886.00m to TT@bourrasque.Bourrasque at 1427.00m)\nnorth-south range: 119.84m (from TT1@bourrasque.Bourrasque at 4987647.90m to bourrasque@bourrasque.Bourrasque at 4987528.06m)\neast-west range: 6.28m (from TT1@bourrasque.Bourrasque at 703015.61m to bourrasque@bourrasque.Bourrasque at 703009.33m)\nnumber of shots: 2\nnumber of stations: 5"
+xth_cp_data_tree_insert 349 52 2 bourrasque bourrasque.Bourrasque "" "" "length: 579.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 459.00m (from bourrasque@bourrasque.Bourrasque at 1886.00m to TT@bourrasque.Bourrasque at 1427.00m)\nnorth-south range: 119.84m (from TT1@bourrasque.Bourrasque at 4987647.90m to bourrasque@bourrasque.Bourrasque at 4987528.06m)\neast-west range: 6.28m (from TT1@bourrasque.Bourrasque at 703015.61m to bourrasque@bourrasque.Bourrasque at 703009.33m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 353X1 p1 1 map1 map1@Bourrasque "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 579 12
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1714987380
+

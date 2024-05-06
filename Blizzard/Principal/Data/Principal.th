@@ -8,8 +8,8 @@ fix Blizzard	702966.400 4988358.792	1804
 station Blizzard "Principal"
 # declination -3.87 grad 
 data diving from to length compass depthchange
-Blizzard Blizzard.1 305 285 0
-Blizzard.1 Blizzard.2 386 0 -386
+Blizzard Blizzard.1 148 35.7 0
+Blizzard.1 Blizzard.2 500 0 -500
 # TT1 TT 459 0 -459
 
 endcenterline

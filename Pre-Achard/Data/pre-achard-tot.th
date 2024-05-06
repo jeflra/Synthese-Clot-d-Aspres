@@ -1,0 +1,32 @@
+survey reseau_sup
+
+
+
+centerline
+
+
+
+
+endcenterline
+
+input pre_achard.th2
+
+
+input pre_achard #fix pre_achard	703046.794	4987854.818	1821 #PRE DE L'ACHARD (scialet du)
+
+
+
+map map2
+pre_achard_sup_P78
+pre_achard_godemiche_sup
+break
+pre_achard_godemiche
+break
+pre_achard_entree
+break
+pre_achard_fond
+
+endmap
+
+endsurvey
+

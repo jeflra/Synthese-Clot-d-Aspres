@@ -1,4 +1,4 @@
-survey reseau_sup
+survey Bourrasque
 
 
 
@@ -9,18 +9,16 @@ centerline
 fix bagnards 	702998.828	4987860.180	1813 #BAGNARDS (scialet des)
 #fix bourrasque	703009.330	4987528.062	1886 #BOURRASQUE (scialet de la)
 fix nymphe	703032.911	4986940.814	2033 #NYMPHE EMUE (scialet de la)
-fix oreade	703628		4986898		2017 #OREADE (grotte de l')
 
 
 endcenterline
 
 input bourrasque.th2
-input pre_achard.th2
+
 #input partiel.th2
 #input reseau_sup.th2
 
-input pre_achard #fix pre_achard	703046.794	4987854.818	1821 #PRE DE L'ACHARD (scialet du)
-input bourrasque
+input bourrasque.th
 
 
 map map1
@@ -50,17 +48,7 @@ map map1
 
 endmap
 
-map map2
-pre_achard_sup_P78
-pre_achard_godemiche_sup
-break
-pre_achard_godemiche
-break
-pre_achard_entree
-break
-pre_achard_fond
 
-endmap
 
 endsurvey
 

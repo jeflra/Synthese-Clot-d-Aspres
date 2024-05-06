@@ -1,6 +1,6 @@
 encoding  utf-8
 
-survey riviere_casse_pieds -title "riviere_casse_pieds"
+survey Blizzard -title "Blizzard"
    input Data/Principal.th   
 
    input Data/Principal_plan.th2

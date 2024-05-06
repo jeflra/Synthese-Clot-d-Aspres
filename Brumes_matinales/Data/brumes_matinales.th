@@ -22,8 +22,7 @@ centerline
 units count cm
 units compass  degree
 units clino grad
-
-#fix  0  855223  307344 0 # 1775
+cs UTM31
 fix  0 702919	4988494	1769 #en UTM31
 
 data topofil from to fromcount tocount backcompass clino
@@ -301,6 +300,16 @@ data topofil from to fromcount tocount backcompass clino
 
 endcenterline
 input brumes_matinales.th2 
+
+map BM-plan
+brumes_entree
+break
+brumes_fond-570
+break
+brumes_bas_puits_du_balcon
+break
+brumes_fond-645
+endmap
 
 endsurvey
 
