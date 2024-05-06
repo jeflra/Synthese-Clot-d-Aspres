@@ -1,5 +1,19 @@
-#declinaison � rajouter
-survey silence
+survey Silence-Blizzard
+
+centerline
+date 1989
+cs UTM31
+fix Silence	702997.75 4988117.22 1845
+station Silence "Silence"
+#declination -3.87 grad 
+data diving from to length compass depthchange
+Silence Silence.1 173.947 43.6 0
+Silence.1 101 316 0 -316
+
+Silence Silence.2 134.53 60.32 0
+Silence.2 Silence.3 450 0 -450
+endcenterline
+
 centerline
 date 2003.07.05
 

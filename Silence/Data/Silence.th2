@@ -1,0 +1,18 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -4386 2854 128
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Silence_plan.png 0 {}
+
+
+
+scrap SP-SB-1 -projection plan -scale [1820.0199999999995 -3869.849999999999 1820.0199999999995 -2942.849999999999 0.0 0.0 100 0.0 m]
+
+point 1391.5 -2688.0 station -name Silence.3@Silence-Blizzard
+
+point 1420.5 -2138.25 station -name 101@Silence-Blizzard
+
+point 308.0 -3305.5 station -name Silence@Silence-Blizzard
+
+endscrap
+
+

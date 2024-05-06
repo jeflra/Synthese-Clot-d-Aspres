@@ -53,4 +53,12 @@ Entree_1 entree_2           70   202    0   0   0   0   0
 endcenterline
 
 input Caverne_des_Clos.th2
+
+map Clos
+Grande_Salle
+break
+galerie_superieure
+break
+coulee_calcite
+endmap
 endsurvey

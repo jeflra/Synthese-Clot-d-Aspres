@@ -39,7 +39,6 @@ encoding  utf-8
 
 
 source synthese.th
-select synthese -recursive off  
 
 
 
@@ -480,9 +479,9 @@ endlayout
 
 
 # Voici les lignes pour exporter le cheminement au format xvi
-export map -proj plan -fmt xvi -layout xviexport -o synthese_plan.xvi
-export map -proj extended -fmt xvi -layout xviexport -o synthese_coupe.xvi
+#export map -proj plan -fmt xvi -layout xviexport -o synthese_plan.xvi
+#export map -proj extended -fmt xvi -layout xviexport -o synthese_coupe.xvi
 ##############################################################################
-export atlas -projection plan -layout normal -o Clot_d_aspres-atlas.pdf
+export atlas -projection plan -layout normal -o Outputs/Clot_d_aspres-atlas.pdf
 # export map -proj plan -fmt pdf -layout normal -o synthese_plan.pdf
 #export map -proj extended -fmt pdf -layout xviexport -o synthese_coupe.pdf

@@ -2,10 +2,10 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-source Silence-tot.th
+source Principal-tot.th
 
 # Add config file
-input ../config.thc 
+input ../../config.thc 
 
 # 2-LAYOUT   
 
@@ -13,9 +13,9 @@ layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 50 # pour le plan
-	scale 1 400 # pour la coupe
+	scale 1 1000 # pour la coupe
 	# taille de la grille
-	grid-size 10 10 10 m
+	grid-size 1 1 1 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -28,13 +28,13 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "Silence"
+   doc-title "Principal"
    # Auteur
    doc-author "Benoît Urruty"
 
    # Pour faire la topo dans le system UTM  
    # Decommenter la ligne, et remplacer xx par la zone UTM
-   cs UTM31
+   cs EPSG:2154
 
    # "base-scale" specifie l echelle auquel nous avons
    # dessine nos croquis. Par defaut, c est 1/200.
@@ -147,9 +147,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Silence if cavename is empty
+      \ifx\temp\nostring          % Principal if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Silence} 		
+         \cavename={Principal} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -168,7 +168,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "Silence"
+   doc-title "Principal"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -280,9 +280,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Silence if cavename is empty
+      \ifx\temp\nostring          % Principal if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Silence} 		
+         \cavename={Principal} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -293,26 +293,26 @@ endlayout
 
 # 3-EXPORTS
 
-export map -proj plan -fmt xvi -layout xviexport -o Data/Silence_plan.xvi
-export map -proj extended -fmt xvi -layout xviexport -o Data/Silence_coupe.xvi 
+export map -proj plan -fmt xvi -layout xviexport -o Data/Principal_plan.xvi
+export map -proj extended -fmt xvi -layout xviexport -o Data/Principal_coupe.xvi 
 
 # Select maps
-#	select MP-Silence-plan-tot@Silence
-#  select MC-Silence-coupe-tot@Silence
+#	select MP-Principal-plan-tot@Principal
+#  select MC-Principal-coupe-tot@Principal
 	 
-export map -proj plan -fmt pdf -layout my_layout -o Outputs/Silence_plan.pdf
-#export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Silence_coupe.pdf
+export map -proj plan -fmt pdf -layout my_layout -o Outputs/Principal_plan.pdf
+export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Principal_coupe.pdf
  
-export model  -o Outputs/Silence.lox
-export model -o Outputs/Silence.dxf
+export model -enable centerline -o Outputs/Principal.lox
+export model -enable centerline -o Outputs/Principal.dxf
 export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Silence.html  
+export cave-list -o Outputs/Principal.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Silence -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Silence-model
+export map -proj plan -fmt esri -o Outputs/Principal -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/Principal-model
 
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Silence.kml -layout my_layout
-export model -fmt kml -o Outputs/Silence-model.kml
+export map -proj plan -fmt kml -o Outputs/Principal.kml -layout my_layout
+export model -fmt kml -o Outputs/Principal-model.kml
