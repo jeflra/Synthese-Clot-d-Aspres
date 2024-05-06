@@ -693,7 +693,7 @@ layout drawingconfig
 				pickup pencircle scaled (0.16cm * defaultscale);
 				p:=(0.4cm,0.6cm);
 				thdraw ((p--(p yscaled -1)--(p xscaled -1)--(p scaled -1)) shifted (0,-1.0cm));
-				label.rt(thTEX("mg") scaled 1.6, (.6cm,-1.6cm)) transformed T;
+				#label.rt(thTEX("mg") scaled 1.6, (.6cm,-1.6cm)) transformed T;
 			endgroup;
 		enddef;
 

@@ -1,12 +1,12 @@
 survey Principal
 
 centerline
-date 1989
+date 1989.06.01
 
 cs UTM31
 fix Blizzard	702966.400 4988358.792	1804
 station Blizzard "Principal"
-# declination -3.87 grad 
+#declination -3.87 grad 
 data diving from to length compass depthchange
 Blizzard Blizzard.1 148 35.7 0
 Blizzard.1 Blizzard.2 500 0 -500
