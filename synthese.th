@@ -19,6 +19,8 @@ input 2-Soeurs/2-Soeurs-tot.th #add maps
 input Clos/Data/Caverne_des_Clos.th
 input Oreade/Data/Oreade.th #add maps
 input Silence/Silence-tot.th #add maps
+input Bagnards/Data/Bagnards-tot.th #add maps
+input Mistral/Data/Mistral-tot.th #add maps
 
 equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
 
