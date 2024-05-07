@@ -1,0 +1,18 @@
+survey Nymphe
+
+centerline
+date 1989
+
+cs UTM31
+fix Nymphe-Emue	703033 4986941	2033
+station Nymphe-Emue "Nymphe Emue"
+#declination -3.87 grad 
+data diving from to length compass depthchange
+Nymphe-Emue Nymphe-Emue.1 148 35.7 0
+Nymphe-Emue.1 Nymphe-Emue.2 500 0 -500
+# TT1 TT 459 0 -459
+
+endcenterline
+
+
+endsurvey

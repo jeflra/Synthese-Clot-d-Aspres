@@ -5,12 +5,6 @@ survey Bourrasque
 centerline
 
 
-
-fix bagnards 	702998.828	4987860.180	1813 #BAGNARDS (scialet des)
-#fix bourrasque	703009.330	4987528.062	1886 #BOURRASQUE (scialet de la)
-fix nymphe	703032.911	4986940.814	2033 #NYMPHE EMUE (scialet de la)
-
-
 endcenterline
 
 input bourrasque.th2
