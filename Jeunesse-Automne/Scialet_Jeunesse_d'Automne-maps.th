@@ -1,0 +1,16 @@
+encoding utf-8 
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Scialet_Jeunesse_d'Automne-plan-tot -title "Scialet_Jeunesse_d'Automne"
+	SP-Scialet_Jeunesse_d'Automne-1
+	#break
+	#SP-Scialet_Jeunesse_d'Automne-2
+endmap
+map MC-Scialet_Jeunesse_d'Automne-coupe-tot -title "Scialet_Jeunesse_d'Automne"
+	SC-Scialet_Jeunesse_d'Automne-1
+	#break
+	#SC-Scialet_Jeunesse_d'Automne-2
+endmap

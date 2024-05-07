@@ -2,10 +2,10 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-source Principal-tot.th
+source Nymphe-tot.th
 
 # Add config file
-input ../../config.thc 
+input ../config.thc 
 
 # 2-LAYOUT   
 
@@ -28,7 +28,7 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "Principal"
+   doc-title "Nymphe-Emue"
    # Auteur
    doc-author "Benoît Urruty"
 
@@ -147,9 +147,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Principal if cavename is empty
+      \ifx\temp\nostring          % Nymphe-Emue if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Principal} 		
+         \cavename={Nymphe-Emue} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -168,7 +168,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "Principal"
+   doc-title "Nymphe-Emue"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -280,9 +280,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Principal if cavename is empty
+      \ifx\temp\nostring          % Nymphe-Emue if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Principal} 		
+         \cavename={Nymphe-Emue} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -293,26 +293,26 @@ endlayout
 
 # 3-EXPORTS
 
-export map -proj plan -fmt xvi -layout xviexport -o Data/Principal_plan.xvi
-export map -proj extended -fmt xvi -layout xviexport -o Data/Principal_coupe.xvi 
+export map -proj plan -fmt xvi -layout xviexport -o Data/Nymphe-Emue_plan.xvi
+export map -proj extended -fmt xvi -layout xviexport -o Data/Nymphe-Emue_coupe.xvi 
 
 # Select maps
-#	select MP-Principal-plan-tot@Principal
-#  select MC-Principal-coupe-tot@Principal
+#	select MP-Nymphe-Emue-plan-tot@Nymphe-Emue
+#  select MC-Nymphe-Emue-coupe-tot@Nymphe-Emue
 	 
-export map -proj plan -fmt pdf -layout my_layout -o Outputs/Principal_plan.pdf
-export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Principal_coupe.pdf
+export map -proj plan -fmt pdf -layout my_layout -o Outputs/Nymphe-Emue_plan.pdf
+export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Nymphe-Emue_coupe.pdf
  
-export model -enable centerline -o Outputs/Principal.lox
-export model -enable centerline -o Outputs/Principal.dxf
+export model -enable centerline -o Outputs/Nymphe-Emue.lox
+export model -enable centerline -o Outputs/Nymphe-Emue.dxf
 export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Principal.html  
+export cave-list -o Outputs/Nymphe-Emue.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Principal -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Principal-model
+export map -proj plan -fmt esri -o Outputs/Nymphe-Emue -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/Nymphe-Emue-model
 
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Principal.kml -layout my_layout
-export model -fmt kml -o Outputs/Principal-model.kml
+export map -proj plan -fmt kml -o Outputs/Nymphe-Emue.kml -layout my_layout
+export model -fmt kml -o Outputs/Nymphe-Emue-model.kml
