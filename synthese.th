@@ -5,6 +5,7 @@ survey synthese -title "Réseau du Clot d'Aspres"
 
 
 input Candy/Data/candy.th
+input Candy_full/Scialet_Candy-tot.th
 input CAF-132/Data/CAF-131.th
 input CAF-132/Data/CAF-132.th
 input Nuits_Blanches/Data/nuits_blanches.th

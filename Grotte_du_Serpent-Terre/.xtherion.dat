@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 43.38m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.85m (from 1_1@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 0.77m to 1_21@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at -18.08m)\nnorth-south range: 10.39m (from 1_16@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 10.39m to 1_0@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 0.00m)\neast-west range: 18.11m (from 1_6@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 5.15m to 1_21@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at -12.96m)\nnumber of shots: 26\nnumber of stations: 27"
+xth_cp_data_tree_insert 54 1 1 Grotte_du_Serpent-Terre Grotte_du_Serpent-Terre "Grotte\_du\_Serpent-Terre" "Grotte\_du\_Serpent-Terre" "length: 43.38m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.85m (from 1_1@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 0.77m to 1_21@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at -18.08m)\nnorth-south range: 10.39m (from 1_16@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 10.39m to 1_0@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 0.00m)\neast-west range: 18.11m (from 1_6@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 5.15m to 1_21@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at -12.96m)\nnumber of shots: 26\nnumber of stations: 27"
+xth_cp_data_tree_insert 56 54 2 Grotte_du_Serpent-Terre Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre "Grotte du Serpent-Terre" "Grotte du Serpent-Terre" "length: 43.38m (surface 0.00m, duplicated 0.00m)\nvertical range: 18.85m (from 1_1@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 0.77m to 1_21@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at -18.08m)\nnorth-south range: 10.39m (from 1_16@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 10.39m to 1_0@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 0.00m)\neast-west range: 18.11m (from 1_6@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at 5.15m to 1_21@Grotte_du_Serpent-Terre.Grotte_du_Serpent-Terre at -12.96m)\nnumber of shots: 26\nnumber of stations: 27"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 43 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1715674674
+

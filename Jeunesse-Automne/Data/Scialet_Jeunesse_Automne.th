@@ -1,33 +1,31 @@
 encoding utf-8 
 
-survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance "1_0" 
+survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0" 
 
 	centerline 
-		# Si le systeme de coordonnées n'est pas le système Lambert français, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
-		# Si les coordonnées de l'entrée sont connues, copier dans la centerline correspondante et décommenter les 2 lignes suivantes : 
-		#cs None 
+		# Si le systeme de coordonnï¿½es n'est pas le systï¿½me Lambert franï¿½ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
+		# Si les coordonnï¿½es de l'entrï¿½e sont connues, copier dans la centerline correspondante et dï¿½commenter les 2 lignes suivantes : 
+		cs EPSG:2154 
 		#fix 1_0 703.116 703.116 703.116 
 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		##declination Arr degrees 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
 		units clino degrees 
 
 		data topofil from to length backcompass backclino right left up down
-			1_0	1_0d	0.00	0.00	0.00	0.00	4.00	2.00	2.70	# arbre d'entrée
+			1_0	1_0d	0.00	0.00	0.00	0.00	4.00	2.00	2.70	# arbre entrï¿½e
 			1_0	1_2	1.60	13.00	7.50	1.00	1.00	2.00	1.00
 			1_2	1_3	4.60	332.00	72.00	2.00	2.00	2.00	1.00
 			1_3	1_4	5.91	298.00	53.00	0.50	0.50	1.00	1.00	# amarrage gauche en entrant P65
-			1_4	1_5	15.00	0.00	90.00	1.00	1.00	7.00	20.00	# amarrage intermédiaire pallier 1
+			1_4	1_5	15.00	0.00	90.00	1.00	1.00	7.00	20.00	# amarrage intermï¿½diaire pallier 1
 			1_5	1_6	3.95	171.00	60.00	2.00	2.00	20.00	20.00	# V du double amarrage
 			1_6	1_7	11.70	0.00	90.00	5.00	1.00	20.00	20.00
 			1_7	1_8	10.00	0.00	90.00	3.00	2.00	20.00	20.00	# V du double amarrage
@@ -37,21 +35,19 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 			1_11	1_12	1.95	311.00	4.40	3.00	4.00	1.00	4.00	# amarrage lucarne
 			1_12	1_13	3.20	293.00	55.10	2.00	3.00	3.00	3.00
 			1_13	1_14	4.25	0.00	90.00	2.10	1.00	4.25	1.00
-			1_14	1_15	5.24	227.00	33.00	3.00	5.00	1.00	5.00	# amarrage sommet puits de ancètres
+			1_14	1_15	5.24	227.00	33.00	3.00	5.00	1.00	5.00	# amarrage sommet puits de ancï¿½tres
 
 	endcenterline
 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Inc degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		##declination Inc degrees 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -67,26 +63,24 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		##declination Arr degrees 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
 		units clino degrees 
 
 		data topofil from to length compass clino left right up down
-			1_15	1_16	10.86	21.00	-79.30	4.00	4.00	4.00	10.00	# visée au pif vers le bas à refaire
+			1_15	1_16	10.86	21.00	-79.30	4.00	4.00	4.00	10.00	# visï¿½e au pif vers le bas ï¿½ refaire
 			1_16	1_17	24.76	1.00	-80.60	3.00	3.00	3.00	1.00
 			1_17	1_18	2.40	106.00	-13.70	2.00	2.00	10.00	1.00
 			1_18	1_19	5.00	47.00	-52.00	7.00	6.00	3.00	1.00
 			1_19	1_20	9.48	103.00	-52.10	1.00	1.00	1.00	1.00
-			1_20	1_21	11.56	41.00	-62.30	1.00	1.00	1.00	1.00	# sol du passage vers la désobe (5m au dessus des fonds)
+			1_20	1_21	11.56	41.00	-62.30	1.00	1.00	1.00	1.00	# sol du passage vers la dï¿½sobe (5m au dessus des fonds)
 			1_19	1_22	9.48	332.00	-6.90	0	0	0	0
 			1_19	1_23	11.56	148.00	7.70	0	0	0	0
 
@@ -95,14 +89,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		##declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -124,14 +118,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		##declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -156,14 +150,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		##declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -197,14 +191,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		# #declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -228,9 +222,9 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 			1_78	1_79	1.88	136.40	21.50	0.30	0.20	1.00	1.00
 			1_79	1_80	3.00	186.20	32.10	0.30	0.20	1.00	1.00
 			1_80	1_81	4.23	168.90	-1.60	0.30	0.20	1.00	1.00
-			1_81	1_82	1.47	155.30	4.50	0.30	0.20	1.00	1.00	# en haut départ Rg et RD
+			1_81	1_82	1.47	155.30	4.50	0.30	0.20	1.00	1.00	# en haut dï¿½part Rg et RD
 			1_82	1_83	3.82	74.10	-0.80	0.30	0.20	1.00	1.00
-			1_83	1_84	4.28	96.60	73.40	1.00	0.50	3.00	1.00	# ressaut équipé
+			1_83	1_84	4.28	96.60	73.40	1.00	0.50	3.00	1.00	# ressaut ï¿½quipï¿½
 			1_84	1_85	4.48	166.30	-17.90	0.30	0.20	1.00	1.00
 			1_85	1_86	3.87	266.90	4.30	0.30	0.20	1.00	1.00
 			1_86	1_87	2.39	276.90	18.70	0.30	0.20	1.00	1.00
@@ -248,21 +242,21 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		# #declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
 		units clino degrees 
 
 		data topofil from to length backcompass backclino right left up down
-			1_95	1_96	3.27	82.00	-24.00	2.00	2.00	10.00	4.00	# tête de puits (amarrage)
+			1_95	1_96	3.27	82.00	-24.00	2.00	2.00	10.00	4.00	# tï¿½te de puits (amarrage)
 			1_96	1_97	16.90	98.00	51.70	1.00	1.00	4.00	4.00
 			1_97	1_98	3.70	86.00	47.10	0.20	1.00	2.00	1.00
 			1_98	1_99	11.58	95.00	32.00	0.20	2.00	4.00	1.00
@@ -273,7 +267,7 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 			1_103	1_104	17.92	0.00	90.00	2.00	2.00	10.00	35.00	# amarrage (monopoint de fractio)
 			1_104	1_105	21.50	109.00	80.50	5.00	4.00	30.00	20.00	# milieu du Y
 			1_105	1_106	13.90	0.00	90.00	3.00	3.00	30.00	10.00	# pied de la corde
-			1_106	1_107	4.26	239.00	9.20	1.00	1.00	1.00	0.50	# cairn entrée trémie
+			1_106	1_107	4.26	239.00	9.20	1.00	1.00	1.00	0.50	# cairn entrï¿½e trï¿½mie
 			1_107	1_108	9.00	0.00	-90.00	2.00	2.00	5.00	0.00
 
 	endcenterline
@@ -281,14 +275,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		# #declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -309,14 +303,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		# #declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -326,7 +320,7 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 			1_107	1_109	1.45	39.00	0.00	0.50	0.50	1.00	1.00
 			1_109	1_110	1.25	0.00	-90.00	0.50	0.50	0.50	0.00
 			1_110	1_111	2.98	358.00	-54.80	0.50	0.00	0.40	0.00
-			1_111	1_112	5.10	152.00	-45.00	3.00	2.00	3.00	1.00	# déviation 
+			1_111	1_112	5.10	152.00	-45.00	3.00	2.00	3.00	1.00	# dï¿½viation 
 			1_112	1_113	5.30	21.00	-46.00	2.00	2.00	2.00	1.00
 			1_113	1_114	4.88	3.00	-16.20	1.00	1.00	2.00	1.00
 			1_114	1_115	1.00	286.00	-7.50	0.00	0.50	2.00	1.00
@@ -337,11 +331,11 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 			1_119	1_120	1.20	33.00	-8.90	0.50	0.50	2.00	1.00
 			1_120	1_121	4.40	125.00	-30.10	1.00	1.00	6.00	1.00
 			1_121	1_122	6.38	118.00	-33.40	0.50	4.00	5.00	1.00
-			1_122	1_123	6.15	75.00	33.00	1.00	1.00	15.00	1.00	# amarrage tête de puits de droite
+			1_122	1_123	6.15	75.00	33.00	1.00	1.00	15.00	1.00	# amarrage tï¿½te de puits de droite
 			1_123	1_124	19.10	51.00	-80.50	0.50	2.00	15.00	1.00
 			1_124	1_125	5.85	346.00	0.80	1.00	1.00	20.00	1.00	# amarrage rive gauche en descendant
 			1_125	1_126	4.62	11.00	2.00	1.00	1.00	2.00	1.00	# amarrage pendule
-			1_126	1_127	6.60	339.00	-30.00	1.00	0.00	0.00	60.00	# Y tête de puits
+			1_126	1_127	6.60	339.00	-30.00	1.00	0.00	0.00	60.00	# Y tï¿½te de puits
 			1_127	1_128	12.10	154.00	-78.00	2.00	8.00	20.00	40.00
 			1_128	1_129	25.30	298.00	-80.00	6.00	2.00	40.00	20.00
 			1_129	1_130	18.60	208.00	-75.00	1.00	1.00	60.00	1.00
@@ -362,14 +356,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		# #declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -378,21 +372,21 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 		data topofil from to length backcompass backclino right left up down
 			1_141	1_1577	5.30	69.00	-52.00	0	0	0	0
 			1_1577	1_143	2.60	338.00	-40.00	0	0	0	0
-			1_141	1_143232	17.40	0.00	90.00	0	0	0	0	# points le plus bas possible vers la salle des 3 gelés
+			1_141	1_143232	17.40	0.00	90.00	0	0	0	0	# points le plus bas possible vers la salle des 3 gelï¿½s
 
 	endcenterline
 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		#declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -406,7 +400,7 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 			1_147	1_148	11.40	108.00	-8.50	1.50	2.50	1.50	1.20
 			1_148	1_149	3.20	35.00	-10.50	2.50	1.50	1.50	1.00
 			1_149	1_150	23.00	89.00	5.10	2.00	2.00	1.30	0.40
-			1_150	1_151	8.20	175.00	4.80	0.00	0.70	0.00	0.40	# voute mouillante galerie pérette
+			1_150	1_151	8.20	175.00	4.80	0.00	0.70	0.00	0.40	# voute mouillante galerie pï¿½rette
 			1_138	1_142	17.00	66.00	-40.00	4.00	4.00	5.00	1.00
 			1_142	1_1433	8.10	55.00	10.00	0.30	0.50	1.50	1.25	# ers 1_43
 
@@ -415,14 +409,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		#declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -432,21 +426,21 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 			1_150	1_152	3.47	238.00	-6.00	1.20	0.30	2.00	0.40
 			1_152	1_153	1.92	158.00	61.00	0.00	1.00	0.50	1.00
 			1_153	1_154	1.62	282.00	43.20	0.50	0.50	0.50	0.50
-			1_154	1_155	4.50	320.00	-12.00	0	0	0	0	# arrêt étroiture bruit eau et courant d'air aspirant
+			1_154	1_155	4.50	320.00	-12.00	0	0	0	0	# arrï¿½t ï¿½troiture bruit eau et courant air aspirant
 
 	endcenterline
 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		#declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -465,14 +459,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		#declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -510,14 +504,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		#declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -540,14 +534,14 @@ survey Scialet_Jeunesse_d'Automne -title "Scialet Jeunesse d'Automne" -entrance 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Arr degrees 
-			team "G.S. Vulcain" 
+		# Si date est utilisï¿½, commenter la ligne "#declination", la date sera utilisï¿½e pour la calculer
+		#declination Arr degrees 
+			 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
+			 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 

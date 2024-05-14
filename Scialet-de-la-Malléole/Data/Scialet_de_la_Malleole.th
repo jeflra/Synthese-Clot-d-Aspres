@@ -1,22 +1,22 @@
 encoding utf-8 
 
-survey Scialet_de_la_Malléole -title "Scialet de la Malléole" -entrance "1_0" 
+survey Scialet_de_la_Malleole -title "Scialet de la Malleole" -entrance "1_0" 
 
 	centerline 
-		# Si le systeme de coordonnées n'est pas le système Lambert français, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
-		# Si les coordonnées de l'entrée sont connues, copier dans la centerline correspondante et décommenter les 2 lignes suivantes : 
+		# Si le systeme de coordonnï¿½es n'est pas le systï¿½me Lambert franï¿½ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
+		# Si les coordonnï¿½es de l'entrï¿½e sont connues, copier dans la centerline correspondante et dï¿½commenter les 2 lignes suivantes : 
 		#cs None 
 		#fix 1_0 703.000 703.000 703.000 
 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Inc degrees 
+		# Si date est utilisï¿½, commenter la ligne "declination", la date sera utilisï¿½e pour la calculer
+		# declination Inc degrees 
 			team "G.S. Vulcain" 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
 			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -66,14 +66,14 @@ survey Scialet_de_la_Malléole -title "Scialet de la Malléole" -entrance "1_0"
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilisé, commenter la ligne "declination", la date sera utilisée pour la calculer
-		declination Inc degrees 
+		# Si date est utilisï¿½, commenter la ligne "declination", la date sera utilisï¿½e pour la calculer
+		# declination Inc degrees 
 			team "G.S. Vulcain" 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
 			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
-		# (peut être complété en ajoutant le nombre de lignes nécessaires) 
+		# (peut ï¿½tre complï¿½tï¿½ en ajoutant le nombre de lignes nï¿½cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -84,7 +84,7 @@ survey Scialet_de_la_Malléole -title "Scialet de la Malléole" -entrance "1_0"
 			1_37	1_38	2.60	114.00	11.00	0	0	0	0
 			1_38	1_39	6.00	96.00	35.00	0	0	0	0
 			1_39	1_40	6.30	63.00	51.00	0	0	0	0
-			1_40	1_41	11.30	0.00	90.00	0	0	0	0	# amarrage de déviation
+			1_40	1_41	11.30	0.00	90.00	0	0	0	0	# amarrage de dï¿½viation
 			1_41	1_42	3.90	119.00	58.50	0	0	0	0
 			1_42	1_43	2.40	205.60	35.00	0	0	0	0
 			1_43	1_44	2.70	104.50	23.00	0	0	0	0	# noeud d'ammarrage

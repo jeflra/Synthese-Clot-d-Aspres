@@ -4,12 +4,12 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Scialet_Jeunesse_d'Automne-plan-tot -title "Scialet_Jeunesse_d'Automne"
+map MP-Scialet_Jeunesse_d'Automne-plan-tot -title "Scialet_Jeunesse_Automne"
 	SP-Scialet_Jeunesse_d'Automne-1
 	#break
 	#SP-Scialet_Jeunesse_d'Automne-2
 endmap
-map MC-Scialet_Jeunesse_d'Automne-coupe-tot -title "Scialet_Jeunesse_d'Automne"
+map MC-Scialet_Jeunesse_d'Automne-coupe-tot -title "Scialet_Jeunesse_Automne"
 	SC-Scialet_Jeunesse_d'Automne-1
 	#break
 	#SC-Scialet_Jeunesse_d'Automne-2

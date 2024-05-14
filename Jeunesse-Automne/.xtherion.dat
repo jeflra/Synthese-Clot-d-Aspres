@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1423.33m (surface 0.00m, duplicated 0.00m)\nvertical range: 515.44m (from 1_0@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 0.00m to 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -515.44m)\nnorth-south range: 142.24m (from 1_151@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 115.78m to 1_2222@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -26.46m)\neast-west range: 172.20m (from 12_37@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 161.92m to 1_155@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -10.28m)\nnumber of shots: 236\nnumber of stations: 237"
+xth_cp_data_tree_insert 54 1 1 Scialet_Jeunesse_Automne Scialet_Jeunesse_Automne "Scialet\_Jeunesse\_d'Automne" "Scialet\_Jeunesse\_d'Automne" "length: 1423.33m (surface 0.00m, duplicated 0.00m)\nvertical range: 515.44m (from 1_0@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 0.00m to 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -515.44m)\nnorth-south range: 142.24m (from 1_151@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 115.78m to 1_2222@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -26.46m)\neast-west range: 172.20m (from 12_37@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 161.92m to 1_155@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -10.28m)\nnumber of shots: 236\nnumber of stations: 237"
+xth_cp_data_tree_insert 56 54 2 Scialet_Jeunesse_Automne Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne "Scialet Jeunesse Automne" "Scialet Jeunesse Automne" "length: 1423.33m (surface 0.00m, duplicated 0.00m)\nvertical range: 515.44m (from 1_0@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 0.00m to 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -515.44m)\nnorth-south range: 142.24m (from 1_151@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 115.78m to 1_2222@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -26.46m)\neast-west range: 172.20m (from 12_37@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at 161.92m to 1_155@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne at -10.28m)\nnumber of shots: 236\nnumber of stations: 237"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 1423 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1715620224
+

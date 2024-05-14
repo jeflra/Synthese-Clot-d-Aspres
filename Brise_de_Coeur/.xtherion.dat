@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 214.09m (surface 0.00m, duplicated 0.00m)\nvertical range: 68.49m (from 4_1@Brise_de_Coeur.Brise_de_Coeur at 7.85m to 5_19@Brise_de_Coeur.Brise_de_Coeur at -60.64m)\nnorth-south range: 19.87m (from 1_2@Brise_de_Coeur.Brise_de_Coeur at 0.06m to 4_2@Brise_de_Coeur.Brise_de_Coeur at -19.81m)\neast-west range: 29.51m (from 5_14@Brise_de_Coeur.Brise_de_Coeur at 29.51m to 1_0@Brise_de_Coeur.Brise_de_Coeur at 0.00m)\nnumber of shots: 46\nnumber of stations: 44"
+xth_cp_data_tree_insert 54 1 1 Brise_de_Coeur Brise_de_Coeur "Brise\_de\_Coeur" "Brise\_de\_Coeur" "length: 214.09m (surface 0.00m, duplicated 0.00m)\nvertical range: 68.49m (from 4_1@Brise_de_Coeur.Brise_de_Coeur at 7.85m to 5_19@Brise_de_Coeur.Brise_de_Coeur at -60.64m)\nnorth-south range: 19.87m (from 1_2@Brise_de_Coeur.Brise_de_Coeur at 0.06m to 4_2@Brise_de_Coeur.Brise_de_Coeur at -19.81m)\neast-west range: 29.51m (from 5_14@Brise_de_Coeur.Brise_de_Coeur at 29.51m to 1_0@Brise_de_Coeur.Brise_de_Coeur at 0.00m)\nnumber of shots: 46\nnumber of stations: 44"
+xth_cp_data_tree_insert 56 54 2 Brise_de_Coeur Brise_de_Coeur.Brise_de_Coeur "Brise de Coeur" "Brise de Coeur" "length: 214.09m (surface 0.00m, duplicated 0.00m)\nvertical range: 68.49m (from 4_1@Brise_de_Coeur.Brise_de_Coeur at 7.85m to 5_19@Brise_de_Coeur.Brise_de_Coeur at -60.64m)\nnorth-south range: 19.87m (from 1_2@Brise_de_Coeur.Brise_de_Coeur at 0.06m to 4_2@Brise_de_Coeur.Brise_de_Coeur at -19.81m)\neast-west range: 29.51m (from 5_14@Brise_de_Coeur.Brise_de_Coeur at 29.51m to 1_0@Brise_de_Coeur.Brise_de_Coeur at 0.00m)\nnumber of shots: 46\nnumber of stations: 44"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 214 0
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1715674391
+

@@ -5,19 +5,16 @@ Dessin commencé :
 - Oreade
 - Pré Achard
 - Silence
+- Candy
 
 
 Dessin a commencer
 - Brume matinal
-
-A faire tourner une premiere fois :
 - Scialet de la Malléole
 - jeunesse d'autonme
 
-A convertir tro -> th:
-- caf 225
-- brise coeur
-- serpent terre
+A faire tourner une premiere fois :
+
 
 Manque données
 - Candy (therion martin)
@@ -26,4 +23,4 @@ Manque données
 - Bagnards (F. de Felix, A. Figuiers, E. Sibert)
 
 Topo à trouver ou à faire
-ID-cuve
+- ID-cuve
