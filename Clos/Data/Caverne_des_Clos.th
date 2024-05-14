@@ -1,5 +1,5 @@
 encoding  utf-8
-survey Caverne_des_clos -title "Caverne des Clos"
+survey Caverne_des_clos -title "Caverne des Clos" -entrance Entree_1
 
 centerline
 

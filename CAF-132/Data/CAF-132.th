@@ -1,6 +1,6 @@
 encoding  utf-8
 
-survey CAF-132 -title "CAF-132 La Chambre froide"
+survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
 
 

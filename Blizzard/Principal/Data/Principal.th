@@ -1,4 +1,4 @@
-survey Principal
+survey Principal -title "Blizzard" -entrance Blizzard
 
 centerline
 date 1989.06.01

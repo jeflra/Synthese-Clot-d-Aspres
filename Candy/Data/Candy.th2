@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -835.6400000000003 -836.4200000000001 8573.884999999998 12490.419999999998
-##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {1280.54 1 1.0} {610.4799999999996 Candy} Candy_plan.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {1310.54 1 1.0} {631.4799999999996 Candy} Candy_plan.xvi 0 {}
 
 
 
@@ -1598,6 +1598,7 @@ endline
 line pit
   4915.0 9397.0
   4919.0 9390.0 4966.0 9373.0 4983.0 9396.0
+  smooth off
 endline
 
 line contour -close on
@@ -1781,11 +1782,13 @@ endline
 line water-flow
   5693.0 10980.0
   5693.0 10980.0 5744.0 11001.0 5761.0 11030.0
+  smooth off
 endline
 
 line water-flow
   5473.0 10936.0
   5473.0 10936.0 5546.0 10931.0 5594.0 10944.0
+  smooth off
 endline
 
 line wall -close on
@@ -1848,6 +1851,7 @@ endline
 line water-flow
   5207.0 9796.0
   5207.0 9796.0 5325.0 9751.0 5336.0 9788.0
+  smooth off
 endline
 
 line pit
@@ -1956,6 +1960,7 @@ endline
 line wall -subtype "presumed"
   5174.0 9931.0
   5174.0 9931.0 5178.0 9915.0 5216.0 9921.0
+  smooth off
 endline
 
 line wall -subtype "presumed"
@@ -1979,12 +1984,14 @@ line wall -reverse on
   5289.0 9746.0 5302.0 9738.0 5327.0 9739.0
   5352.0 9740.0 5350.0 9795.0 5389.0 9828.0
   5407.41 9843.58 5388.0 9876.0 5371.0 9890.0
+  smooth off
 endline
 
 line wall -reverse on
   5356.0 9891.0
   5340.29 9903.94 5330.0 9984.0 5351.0 10006.0
   5372.0 10028.0 5385.0 10014.0 5398.0 10054.0
+  smooth off
 endline
 
 line wall -subtype "unsurveyed"
@@ -1992,11 +1999,13 @@ line wall -subtype "unsurveyed"
   5364.0 9884.0 5363.55 9900.45 5364.0 9915.0
   5365.0 9947.0 5364.0 9976.0 5375.0 10008.0
   5376.45 10012.21 5398.0 10026.0 5398.0 10054.0
+  smooth off
 endline
 
 line water-flow
   5344.0 9843.0
   5352.0 9844.0 5366.0 9851.0 5366.0 9875.0
+  smooth off
 endline
 
 line wall -subtype "unsurveyed"
@@ -2012,6 +2021,7 @@ line wall -reverse on
   5411.88 10078.26 5361.0 10083.0 5382.0 10115.0
   5403.0 10147.0 5400.0 10101.0 5423.0 10128.0
   5457.32 10168.29 5435.0 10145.0 5455.0 10161.0
+  smooth off
 endline
 
 line wall
@@ -2024,6 +2034,7 @@ line wall
   5567.42 10252.66 5597.94 10195.06 5606.0 10266.0
   altitude .
   5611.0 10310.0 5569.22 10321.87 5599.0 10347.0
+  smooth off
 endline
 
 line arrow
@@ -2072,6 +2083,7 @@ line wall
   5239.0 9934.0
   5235.0 9923.0
   5235.0 9923.0 5220.0 9920.0 5216.0 9921.0
+  smooth off
 endline
 
 line pit -reverse on
@@ -2121,6 +2133,7 @@ line wall
   5261.0 9917.0 5242.0 9921.0 5242.0 9921.0
   smooth off
   5242.0 9921.0 5248.0 9944.0 5247.0 9935.0
+  smooth off
 endline
 
 point 5802.99 11093.75 station -name 1_239
@@ -2553,6 +2566,7 @@ endline
 line contour
   6829.0 11055.0
   6818.0 11053.0 6772.0 10992.0 6822.0 10976.0
+  smooth off
 endline
 
 line gradient
@@ -2679,11 +2693,13 @@ endline
 line contour
   3780.0 9055.0
   3774.0 9041.0 3763.0 8962.0 3797.0 8939.0
+  smooth off
 endline
 
 line contour
   4074.0 9175.0
   4066.0 9169.0 4052.0 9034.0 4075.0 9014.0
+  smooth off
 endline
 
 line contour
@@ -2694,21 +2710,25 @@ endline
 line contour
   4683.0 9923.0
   4694.0 9920.0 4727.0 9836.0 4729.0 9811.0
+  smooth off
 endline
 
 line contour
   4797.0 9956.0
   4799.0 9939.0 4798.0 9873.0 4815.0 9857.0
+  smooth off
 endline
 
 line contour
   4910.0 9985.0
   4910.0 9985.0 4933.0 9882.0 4938.0 9880.0
+  smooth off
 endline
 
 line contour
   5380.0 10322.0
   5373.83 10269.55 5387.0 10205.0 5392.0 10205.0
+  smooth off
 endline
 
 line contour
@@ -2819,6 +2839,7 @@ line wall -reverse on
   smooth off
   4962.0 9908.0 4934.0 9891.0 4914.0 9879.0
   4894.0 9867.0 4797.0 9856.0 4790.0 9804.0
+  smooth off
 endline
 
 line wall
@@ -2890,6 +2911,7 @@ line wall -reverse on
   2433.0 9094.0 2328.0 9087.0 2318.0 9086.0
   altitude .
   2308.0 9085.0 2280.0 9093.0 2273.0 9086.0
+  smooth off
 endline
 
 point 7217.0 11149.0 air-draught -orientation 209.6 -subtype "winter"
@@ -3106,6 +3128,7 @@ line wall
   2936.0 7263.0 2976.0 7118.0 2992.0 7056.0
   3008.0 6994.0 3059.0 6782.0 3060.0 6749.0
   3061.0 6716.0 3102.0 6503.0 3109.0 6478.0
+  smooth off
 endline
 
 line wall
@@ -3114,6 +3137,7 @@ line wall
   2834.0 6561.0 2763.0 6602.0 2738.0 6613.0
   2713.0 6624.0 2684.0 6670.0 2677.0 6680.0
   2670.0 6690.0 2661.0 6698.0 2637.0 6684.0
+  smooth off
 endline
 
 line label -text "Galerie Nino Ferre"
@@ -3125,6 +3149,7 @@ line wall
   2280.0 9121.0
   2282.0 9128.0 2312.0 9149.0 2321.0 9168.0
   2330.0 9187.0 2349.0 9245.0 2343.0 9264.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -3152,6 +3177,7 @@ line wall -reverse on
   1880.0 8988.0 1904.0 9052.0 1946.0 9069.0
   1988.0 9086.0 2112.0 9186.0 2129.0 9197.0
   2146.0 9208.0 2212.0 9215.0 2217.0 9237.0
+  smooth off
 endline
 
 point 2601.0199999999995 6748.86 station -name 2_39

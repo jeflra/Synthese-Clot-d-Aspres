@@ -23,6 +23,11 @@ input Silence/Silence-tot.th #add maps
 input Bagnards/Data/Bagnards-tot.th #add maps
 input Mistral/Data/Mistral-tot.th #add maps
 input ID-cuve/Data/ID-cuve-tot.th
+input Jeunesse-Automne/Scialet_Jeunesse_Automne-tot.th
+input Brise_de_Coeur/Brise_de_Coeur-tot.th
+input Grotte_du_Serpent-Terre/Grotte_du_Serpent-Terre-tot.th
+input Scialet-de-la-Malleole/Malleole-tot.th
+input Prospection/Prospection.th
 
 equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
 

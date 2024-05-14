@@ -1,0 +1,61 @@
+survey Prospection
+centerline
+cs long-lat
+
+fix Soleil-Trompeur 5.5803 45.0365 1440
+station Soleil-Trompeur "Soleil Trompeur" entrance
+
+fix Grande-Combe 5.58177153835219 45.023014568487 0.0
+station Grande-Combe  "Grande Combe (Gouffre de la) [F5]" entrance
+
+fix FJS23 5.5824857 45.0320194 0.0
+station  FJS23 "FJS 23 (Scialet) [F2]" entrance
+
+fix Ete-Indien 5.574804526 45.00042609 0.0
+station Ete-Indien "Été Indien (Grotte de l')" entrance
+
+fix Arche 5.581614769 45.02247864 0.0
+station Arche "Arche (Scialet de l')" entrance
+
+fix Monique 5.574648 45.006094 0.0
+station Monique "Monique (Scialet) [T43]" entrance
+
+fix Sans-Fond 5.5771582 45.0026688 0.0
+station Sans-Fond "Sans Fond (Scialet)-Arche de Noé" entrance
+
+fix T39 5.574856 45.004053 0.0
+station T39 "T39" entrance
+
+fix T40 5.574483 45.005376 0.0
+station T40 "T40" entrance
+
+fix T37 5.573447 45.005612 0.0
+station T37 "T37" entrance
+
+fix T51 5.57445 45.006572 0.0
+station T51 "T51" entrance
+
+fix T47 5.574275 45.00675 0.0
+station T47 "T47" entrance
+
+fix Crimee 5.5800017 45.0267464 0.0
+station Crimee "Crimée (Scialet de) [YB 03 40]" entrance
+
+fix Amadjide  5.5800844 45.0280228 0.0
+station Amadjide "Amadjide (Scialet)"  entrance
+
+fix TQF  5.5798032 45.0291094 0.0
+station TQF  "TQF (Scialet)" entrance
+
+fix Flippes  5.5820241 45.0226048 0.0
+station Flippes  "Flippés (Scialet des)" entrance
+
+fix Apocalypso  5.5785836 45.0399374 0.0
+station Apocalypso  "Apocalypso (Scialet)" entrance
+
+fix SCV92-FLT  5.5830349 45.0137883 0.0
+station SCV92-FLT  "SCV 92-FLT (Grotte)" entrance
+
+
+endcenterline
+endsurvey

@@ -1,4 +1,4 @@
-survey Silence-Blizzard
+survey Silence-Blizzard -title "Silence" -entrance Silence
 
 centerline
 date 1989
