@@ -4,7 +4,8 @@ centerline
 date 1989
 
 cs UTM31
-fix Nymphe	703033 4986941	2033
+# fix Nymphe	703033 4986941	2033
+fix Nymphe	702983 4986961	2033
 station Nymphe "Nymphe Emue"
 #declination -3.87 grad 
 data diving from to length compass depthchange
