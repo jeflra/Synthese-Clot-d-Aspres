@@ -1,6 +1,19 @@
 encoding  utf-8
 
 map MP-Nymphe-tot 
+SP-Nymphe-19
+
+SP-Nymphe-12
+SP-Nymphe-13
+SP-Nymphe-14
+SP-Nymphe-15
+SP-Nymphe-16
+SP-Nymphe-17
+SP-Nymphe-18
+
+
+SP-Nymphe-11
+break
 SP-Nymphe-2
 break
 SP-Nymphe-5
@@ -17,9 +30,13 @@ SP-Nymphe-7
 break
 SP-Nymphe-4
 break
-
-
 SP-Nymphe-9
 break
 SP-Nymphe-10
+break 
+SP-jonction-1
+break
+SP-jonction-2
+break
+SP-jonction-3
 endmap

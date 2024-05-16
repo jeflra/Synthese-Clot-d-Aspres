@@ -10,7 +10,10 @@ station Nymphe "Nymphe Emue"
 data diving from to length compass depthchange
 Nymphe Nymphe-Emue.1 351.15 320.52 0
 Nymphe-Emue.1 N-380 315 0 -315
-# TT1 TT 459 0 -459
+Nymphe jonction.1 188.65 14.1 0
+jonction.1 jonction 300 0 -300 #profondeur fausse
+jonction.1 jonction.2 125.75 104.6 0
+jonction.2 p-307 307 0 307
 
 endcenterline
 

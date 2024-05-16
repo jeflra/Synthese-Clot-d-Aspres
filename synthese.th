@@ -186,10 +186,12 @@ equate 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches jonc@brumes_mat
 # join menisque_aval_droit@menisque:0 casse-pieds_amont_droit@riviere_casse_pieds:end
 # join menisque_aval_gauche@menisque:end casse-pieds_amont_gauche@riviere_casse_pieds:end
 
+#jonction Nymphe Emue Oreade
+join SP-Nymphe-19@Nymphe SP-Oreade-6@Oreade
+join SP-Nymphe-11@Nymphe SP-Oreade-5@Oreade
 
-
-
-
+#jonction Bourrasque Nymphe Emue
+join nakanai@Bourrasque SP-jonction-3@Nymphe
 
 
 endsurvey

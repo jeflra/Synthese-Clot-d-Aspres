@@ -4,7 +4,9 @@ survey Nymphe -title "Nymphe Emue"
    input Data/Nymphe.th   
 
    input Data/Nymphe_plan.th2
+   input Data/jonction.th2
 	input Nymphe-maps.th
 	
-	
+	join SP-jonction-1 SP-Nymphe-2
+   join SP-jonction-2 SP-Nymphe-1
 endsurvey
