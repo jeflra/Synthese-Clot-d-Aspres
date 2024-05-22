@@ -7,7 +7,7 @@ survey reseau_classique -title "Nuits Blanches" -entrance 00
 centerline
 
 
- declination -3.64 grad 
+#  declination -3.64 grad 
   date 1991
   team "Gilles Kirkor"
   team "Daniel Bruyère"
@@ -23,8 +23,9 @@ units count cm
 units compass  degree
 units clino grad
 
+cs EPSG:2154
 #fix  00 855384.424	2007774.545 1760 #1760 en lambert 2 étendu
-fix  00 702992	4988783 1760 # UTM31
+fix  00 902913.15	6439306.375 1761 # L93 trou au tamponnoir devant l'entrée
 
 data topofil from to fromcount tocount compass clino
 00 0 0 600 0 -100

@@ -98,5 +98,9 @@ station Pleine-Lune "Pleine Lune (Scialet)" entrance
 fix Isa 5.5856584 45.0141651 1870	
 station Isa "Isa (Scialet d')" entrance
 
+fix P08 5.58548115	45.0336079 1615.868
+station P08 "FJS P08" entrance
+
+
 endcenterline
 endsurvey

@@ -1,9 +1,11 @@
 survey Silence-Blizzard -title "Silence" -entrance Silence
 
 centerline
-date 1989
-cs UTM31
-fix Silence	702997.75 4988117.22 1845
+# date 1989
+cs EPSG:2154
+# fix Silence	902917.919	6438666.249	1844.713 #spit proche de l'entrée
+fix Silence 902924.068	6438664.7 1843.378 # à l'aplomb du puits de faible diametre
+
 station Silence "Silence"
 #declination -3.87 grad 
 data diving from to length compass depthchange
@@ -15,7 +17,7 @@ Silence.2 Silence.3 450 0 -450
 endcenterline
 
 centerline
-date 2003.07.05
+# date 2003.07.05
 
 units compass clino degree
 data normal from to length compass clino left right up down 

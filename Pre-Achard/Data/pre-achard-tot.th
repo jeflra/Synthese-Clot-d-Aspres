@@ -10,7 +10,7 @@ centerline
 endcenterline
 
 input pre_achard.th2
-
+input pre_achard_suite.th2
 
 input pre_achard #fix pre_achard	703046.794	4987854.818	1821 #PRE DE L'ACHARD (scialet du)
 
@@ -25,7 +25,14 @@ break
 pre_achard_entree
 break
 pre_achard_fond
-
+break
+SP-Pre-suite-1
+break
+SP-Pre-suite-2
+break
+SP-Pre-suite-3
+break
+SP-Pre-suite-4
 endmap
 
 endsurvey

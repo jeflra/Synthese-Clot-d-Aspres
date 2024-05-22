@@ -4,8 +4,9 @@ survey pre_achard -title "Pré Achard" -entrance pre_achard
 
 centerline
 date 1989
-fix pre_achard	703046.794	4987854.818	1821 #PRE DE L'ACHARD (scialet du)
-fix pre_achard_F  703180  4987851 1454 #133 -4 -367
+cs EPSG:2154
+fix pre_achard	902963.384	6438407.625	1828.67 #PRE DE L'ACHARD (scialet du)
+fix pre_achard_F  903101.41 6438400.90  1461 #133 -4 -367
 
 endcenterline
 

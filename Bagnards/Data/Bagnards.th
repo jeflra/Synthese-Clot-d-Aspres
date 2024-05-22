@@ -2,8 +2,8 @@ survey Bagnards -title "Bagnards" -entrance Bagnards
 
 centerline
 date 1989
-cs EPSG:27573
-fix Bagnards	855330	3306720	1959 
+cs EPSG:2154
+fix Bagnards	902919.744 6438417.294 1959 
 station Bagnards "Bagnards"
 data diving from to length compass depthchange
 Bagnards inter 9.98 118.88 0

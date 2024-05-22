@@ -3,8 +3,9 @@ survey Principal -title "Blizzard" -entrance Blizzard
 centerline
 date 1989.06.01
 
-cs UTM31
-fix Blizzard	702966.400 4988358.792	1804
+cs EPSG:2154
+fix Blizzard 902886.39 6438906.864 1800.2 # voir photo sous le marquage "blizzard"
+
 station Blizzard "Blizzard"
 #declination -3.87 grad 
 data diving from to length compass depthchange
