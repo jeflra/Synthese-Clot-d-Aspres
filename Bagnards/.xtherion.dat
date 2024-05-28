@@ -1,15 +1,15 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 75.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 66.00m (from Bagnards@Bagnards.Bagnards at 1959.00m to Fond88@Bagnards.Bagnards at 1893.00m)\nnorth-south range: 4.47m (from Bagnards@Bagnards.Bagnards at 3306720.00m to inter@Bagnards.Bagnards at 3306715.53m)\neast-west range: 8.92m (from inter@Bagnards.Bagnards at 855338.92m to Bagnards@Bagnards.Bagnards at 855330.00m)\nnumber of shots: 2\nnumber of stations: 3"
-xth_cp_data_tree_insert 52 1 1 Bagnards Bagnards "" "" "length: 75.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 66.00m (from Bagnards@Bagnards.Bagnards at 1959.00m to Fond88@Bagnards.Bagnards at 1893.00m)\nnorth-south range: 4.47m (from Bagnards@Bagnards.Bagnards at 3306720.00m to inter@Bagnards.Bagnards at 3306715.53m)\neast-west range: 8.92m (from inter@Bagnards.Bagnards at 855338.92m to Bagnards@Bagnards.Bagnards at 855330.00m)\nnumber of shots: 2\nnumber of stations: 3"
-xth_cp_data_tree_insert 132 52 2 Bagnards Bagnards.Bagnards "" "" "length: 75.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 66.00m (from Bagnards@Bagnards.Bagnards at 1959.00m to Fond88@Bagnards.Bagnards at 1893.00m)\nnorth-south range: 4.47m (from Bagnards@Bagnards.Bagnards at 3306720.00m to inter@Bagnards.Bagnards at 3306715.53m)\neast-west range: 8.92m (from inter@Bagnards.Bagnards at 855338.92m to Bagnards@Bagnards.Bagnards at 855330.00m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 75.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 66.00m (from Bagnards@Bagnards.Bagnards at 1959.00m to Fond88@Bagnards.Bagnards at 1893.00m)\nnorth-south range: 4.27m (from Bagnards@Bagnards.Bagnards at 6438417.29m to inter@Bagnards.Bagnards at 6438413.02m)\neast-west range: 9.02m (from inter@Bagnards.Bagnards at 902928.76m to Bagnards@Bagnards.Bagnards at 902919.74m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_insert 52 1 1 Bagnards Bagnards "" "" "length: 75.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 66.00m (from Bagnards@Bagnards.Bagnards at 1959.00m to Fond88@Bagnards.Bagnards at 1893.00m)\nnorth-south range: 4.27m (from Bagnards@Bagnards.Bagnards at 6438417.29m to inter@Bagnards.Bagnards at 6438413.02m)\neast-west range: 9.02m (from inter@Bagnards.Bagnards at 902928.76m to Bagnards@Bagnards.Bagnards at 902919.74m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_insert 146 52 2 Bagnards Bagnards.Bagnards "Bagnards" "Bagnards" "length: 75.98m (surface 0.00m, duplicated 0.00m)\nvertical range: 66.00m (from Bagnards@Bagnards.Bagnards at 1959.00m to Fond88@Bagnards.Bagnards at 1893.00m)\nnorth-south range: 4.27m (from Bagnards@Bagnards.Bagnards at 6438417.29m to inter@Bagnards.Bagnards at 6438413.02m)\neast-west range: 9.02m (from inter@Bagnards.Bagnards at 902928.76m to Bagnards@Bagnards.Bagnards at 902919.74m)\nnumber of shots: 2\nnumber of stations: 3"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
-xth_cp_map_tree_insert map 1 136X1 p1 1 MP-Bagnards MP-Bagnards@Bagnards "" ""
+xth_cp_map_tree_insert map 1 150X1 p1 1 MP-Bagnards MP-Bagnards@Bagnards "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 76 7
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1715068107
+set xth(th_exit_number) 1716844002
 

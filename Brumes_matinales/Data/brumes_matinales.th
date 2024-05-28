@@ -299,25 +299,7 @@ data topofil from to fromcount tocount backcompass clino
 
 
 endcenterline
-input Brumes_matinales.th2 
-input jonction.th2
-map BM-plan-1
-  SP-BM-1
-  break
-  SP-BM-2
-  break
-  SP-BM-3
-  break
-  SP-BM-4
-  break
-  SP-BM-5
-  break
-  brumes_fond-570
-  break
-  brumes_bas_puits_du_balcon
-  break
-  brumes_fond-645
-endmap
+
 
 endsurvey
 

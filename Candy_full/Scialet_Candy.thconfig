@@ -22,7 +22,7 @@ source Scialet_Candy-tot.th
 
 # Ajoute un fichier de configuration
 # Voir https://github.com/robertxa/Th-Config-Xav pour un exemple
-input ../../config.thc  
+input ../config.thc  
 
 # 2-LAYOUT   
 
@@ -30,9 +30,9 @@ layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	scale 1 500 # pour le plan
-	#scale 1 1000 # pour la coupe
+	#scale 1 900 # pour la coupe
 	# taille de la grille
-	grid-size 1 1 1 m
+	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout

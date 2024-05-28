@@ -13,7 +13,7 @@ endscrap
 
 
 
-scrap brumes_fond-570 -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m]
+scrap brumes_fond-570 -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m] -station-names "" "@brumes_matinales"
 
 area water
   l80-609-1134
@@ -187,7 +187,7 @@ endscrap
 
 
 
-scrap brumes_bas_puits_du_balcon -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m]
+scrap brumes_bas_puits_du_balcon -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m] -station-names "" "@brumes_matinales"
 
 line water-flow
   488.0 1061.75
@@ -348,7 +348,7 @@ endscrap
 
 
 
-scrap brumes_fond-645 -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m]
+scrap brumes_fond-645 -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m] -station-names "" "@brumes_matinales"
 
 point 612.5119 1152.6428 station -name 133
 

@@ -2,7 +2,7 @@ encoding  utf-8
 survey Candy -title "Scialet Candy"
 
 centerline
-  declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
+  #declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
   date 2012.7.31
   team "Clément Garnier"
   team "Baudouin Lismonde"
@@ -41,7 +41,7 @@ endcenterline
 
 centerline
 
-  declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
+  #declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
   date 2012.8.4
   team "Clément Garnier"
   team "Martin Gerbaux"
@@ -174,7 +174,7 @@ endcenterline
 
 centerline
 
-  declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
   date 2012.8.14
   team "Clément Garnier"
   team "Guy Masson"
@@ -261,7 +261,7 @@ endcenterline
 
 centerline
 
-  declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
   date 2012.8.31
   team "Clément Garnier"
   team "Martin Gerbaux"
@@ -299,7 +299,7 @@ endcenterline
 
 centerline
 
-  declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
   date 2012.10.12
   team "Clément Garnier"
   team "Martin Gerbaux"
@@ -393,7 +393,7 @@ endcenterline
 
 centerline
 
-  declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
   date 2012.10.22
   team "Clément Garnier"
   team "Guy Masson"
