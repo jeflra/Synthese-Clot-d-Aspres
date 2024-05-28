@@ -11,7 +11,7 @@ input ../config.thc
 # 2-LAYOUT   
 
 layout xviexport
-	#cs UTM32
+	cs UTM31
 	# échelle à laquelle on veut dessiner la topo
 	scale 1 200 # pour le plan
 	#scale 1 1000 # pour la coupe
@@ -35,7 +35,7 @@ layout my_layout
 
    # Pour faire la topo dans le system UTM  
    # Decommenter la ligne, et remplacer xx par la zone UTM
-   cs EPSG:2154
+   cs UTM31
 
    # "base-scale" specifie l echelle auquel nous avons
    # dessine nos croquis. Par defaut, c est 1/200.
