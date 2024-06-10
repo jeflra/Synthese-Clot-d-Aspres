@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.25 -3945 5732 128
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -3945 5732 128
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Oreade.png 0 {}
 
 
@@ -345,6 +345,7 @@ line wall
   2841.0 -2671.5 2847.5 -2651.5 2838.0 -2652.0
   2828.5 -2652.5 2823.0 -2657.0 2817.0 -2658.0
   2811.0 -2659.0 2797.0 -2660.0 2796.0 -2657.5
+  smooth off
 endline
 
 line wall
@@ -434,6 +435,7 @@ line label -text "Méandre Ginger" -scale xl
   1709.0 -2247.0
   1777.0 -2288.0 2007.0 -2368.0 2072.0 -2367.0
   2137.0 -2366.0 2153.0 -2362.0 2291.0 -2271.0
+  smooth off
 endline
 
 point 1572.0 -2168.0 label -text "P34"
@@ -1029,6 +1031,20 @@ endscrap
 
 scrap SP-Oreade-4 -projection plan -scale [4612.0 -2720.0 4612.0 -1524.0 0.0 0.0 0 100 m]
 
+point 102.0 -1086.0 label -text "Fond de -368" -scale xl
+
+line label -text "Fond normal<br> de -341" -scale xl
+  594.0 -1836.0
+  642.0 -1902.0 714.0 -1982.0 752.0 -1992.0
+  smooth off
+endline
+
+line label -text "Méandre à Sam" -scale xl
+  1306.0 -2184.0
+  1308.0 -2246.0 1302.0 -2702.0 1304.0 -2730.0
+  smooth off
+endline
+
 line pit -close on
   730.25 -1870.5
   732.0 -1874.0 734.25 -1878.25 741.25 -1878.25
@@ -1523,6 +1539,10 @@ line wall
   smooth off
 endline
 
+point 566.0 -1323.5 label -text "P23" -scale xl
+
+point 649.5 -1277.0 label -text "P29" -scale xl
+
 line wall -subtype pit
   621.25 -1315.5
   626.75 -1312.25 632.5 -1290.25 630.5 -1283.75
@@ -1594,6 +1614,10 @@ endscrap
 
 
 scrap SP-Oreade-6 -projection plan -scale [4612.0 -2720.0 4612.0 -1524.0 0.0 0.0 0 100 m]
+
+point 108.0 -1638.0 label -text "Puits du 3eme espoir" -scale xl
+
+point 410.0 -1720.0 label -text "Puits Renaud" -scale xl
 
 line pit -reverse on -clip off
   1007.0 -1765.5
@@ -1865,14 +1889,5 @@ point 116.0 -1152.0 station -name 2
 point 3648.0 -2096.0 station -name Oreade
 
 endscrap
-
-# scrap SP-Oreade-6 -projection plan -scale [4612.0 -2720.0 4612.0 -1524.0 0.0 0.0 0 100 m]
-
-# point 116.0 -1152.0 station -name 2
-
-# point 3648.0 -2096.0 station -name Oreade
-
-# endscrap
-
 
 

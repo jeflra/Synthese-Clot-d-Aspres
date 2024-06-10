@@ -43,7 +43,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "1_0"
 	centerline
 
 	#declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
-	date 2012.8.4
+	date 2012.08.04
 	team "Clément Garnier"
 	team "Martin Gerbaux"
 	data normal from to length backcompass backclino left right up down
@@ -315,20 +315,20 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "1_0"
 			
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
-		units length meters 
-		units compass degrees 
-		units clino degrees 
+		units compass grads
+		units clino degree
 
-		data topofil from to length compass backclino right left up down
-			1_199	2_1	5.27	365.00	-37.00	0.50	0.50	0.20	0.40
-			2_1	2_2	7.39	333.00	-30.00	0.20	0.20	1.00	1.00	
+		data normal from to length compass backclino right left up down
+			1_199 2_1	5.27	365.00	-37.00	0.50	0.50	0.20	0.40
+			2_1	2_2	 7.39	333.00	-30.00	0.20	0.20	1.00	1.00	
 
 
-		units length meters 
-		units compass degrees 
-		units clino degrees 
+		units compass clino degree
 
-		data topofil from to length compass clino right left up down
+
+		# data topofil from to length compass clino right left up down
+		data normal from to length compass clino right left up down
+
 			2_2	2_3	13.00	260.00	30.00	0.90	0.70	1.90	0.80
 			2_3	2_4	10.30	223.00	30.00	0.30	1.90	0.40	0.80
 			2_4	2_5	17.00	262.00	24.00	2.10	5.10	1.30	1.00
@@ -491,8 +491,8 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "1_0"
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
-		units compass degrees 
-		units clino degrees 
+		units compass clino grads
+
 
 		data topofil from to length compass backclino right left up down
 			2_22	2_23	19.50	268.00	67.00	0.20	7.70	4.80	1.50
@@ -522,7 +522,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "1_0"
 
 
 
-		data topofil from to length compass backclino right left up down
+		data normal from to length backcompass backclino  right left up down
 			2_38	6_1	8.20	71.00	0.00	0	0	0	0
 
 	endcenterline

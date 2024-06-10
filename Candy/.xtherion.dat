@@ -5,9 +5,8 @@ xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 714X1 p1 1 candy candy@Candy "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 1947 4
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1716906389
+xth_cp_comp_stat 1947 0
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1716919206
 

@@ -42,7 +42,7 @@ endcenterline
 centerline
 
   #declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
-  date 2012.8.4
+  date 2012.08.04
   team "Clément Garnier"
   team "Martin Gerbaux"
 data normal from to length backcompass backclino left right up down

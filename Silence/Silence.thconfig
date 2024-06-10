@@ -13,7 +13,7 @@ layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 50 # pour le plan
-	scale 1 400 # pour la coupe
+	scale 1 132.5 # pour la coupe
 	# taille de la grille
 	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
@@ -301,7 +301,7 @@ export map -proj extended -fmt xvi -layout xviexport -o Data/Silence_coupe.xvi
 #  select MC-Silence-coupe-tot@Silence
 	 
 export map -proj plan -fmt pdf -layout my_layout -o Outputs/Silence_plan.pdf
-#export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Silence_coupe.pdf
+export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Silence_coupe.pdf
  
 export model  -o Outputs/Silence.lox
 export model -o Outputs/Silence.dxf
