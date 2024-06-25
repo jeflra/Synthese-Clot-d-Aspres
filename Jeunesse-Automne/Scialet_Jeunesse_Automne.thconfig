@@ -29,10 +29,10 @@ input ../config.thc
 layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
-	scale 1 50 # pour le plan
+	scale 1 300 # pour le plan
 	#scale 1 1000 # pour la coupe
 	# taille de la grille
-	grid-size 1 1 1 m
+	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -44,6 +44,7 @@ layout my_layout
    copy headerl
    copy langue-fr
       
+   sketches on
    # Titre  
    doc-title "Jeunesse-Automne"
    # Auteur
@@ -320,7 +321,7 @@ export map -proj [elevation 17] -layout xviexport -o Data/Jeunesse-Automne-coupe
 	 
 export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Jeunesse-Automne-coupe_elevation.pdf 
 export map -projection extended -layout my_layout-coupe -o Outputs/Jeunesse-Automne-coupe.pdf 
-export map -o Outputs/Jeunesse-Automne-plan.pdf -layout my_layout
+export map -o Outputs/Jeunesse-Automne-plan.pdf -layout my_layout -layout-sketches on
  
 export model -enable centerline -o Outputs/Jeunesse-Automne.lox
 export model -enable centerline -o Outputs/Jeunesse-Automne.dxf
@@ -335,3 +336,9 @@ export model -enable centerline -fmt esri -o Outputs/Jeunesse-Automne-model
 # Export des fichiers kml
 export map -proj plan -fmt kml -o Outputs/Jeunesse-Automne.kml -layout my_layout
 export model -fmt kml -o Outputs/Jeunesse-Automne-model.kml
+
+
+export map \
+      -fmt xvi \
+      -o cave.xvi \
+      -layout-sketches on

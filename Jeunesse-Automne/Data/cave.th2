@@ -1,0 +1,28 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -120.0 -3977.0 3160.0 137.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {8.0 1 1.0} {9.0 {}} Jeunesse_rot2.png 0 {}
+
+
+
+scrap scrap11 -projection plan -station-names "" "@Scialet_Jeunesse_Automne" -scale [807.0 -2848.0 1463.0 -2824.0 0.0 0.0 50 0.0 m] -sketch Jeunesse_rot2.png 8.0 -3849.0
+
+point 1596.57 -1055.29 station -name 1_118
+
+point 1821.69 -2281.58 station -name 11_8
+
+point 1945.53 -1843.27 station -name 1_75
+
+point 2017.5 -1458.68 station -name 1_95
+
+point 2445.72 -2121.37 station -name 12_18
+
+point 2569.96 -2296.32 station -name 12_30
+
+point 621.2299999999999 -2367.7400000000002 station -name 1_0d
+
+point 568.8499999999999 -999.59 station -name 1_153
+
+endscrap
+
+

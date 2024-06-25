@@ -63,7 +63,10 @@ endlayout
 
 
 layout normal
-  
+  copy drawingconfig
+   copy headerl
+   copy langue-fr
+   copy for_print 
   # La ligne base-scale specifie l'echelle auquel nous avons
   # dessine nos croquis. Par defaut, therion pense que c'est
   # une echelle 1:200. Si on a utilise une autre echelle, 
@@ -118,11 +121,11 @@ endcode
 
 
 # Auteur 
-  doc-author "Martin Gerbaux"
+  doc-author "Benoît Urruty"
 
   # Titule
- 	doc-title "Réseau du Clot d'Aspres (synthèse partielle)"
-	map-comment "Réseau du Clot d'Aspres, Villard de Lans, Vercors"
+ 	doc-title "Réseau du Clot d'Aspres"
+	map-comment "Villard de Lans, Vercors"
 
 # Position de la legnde sur la topo
   # les cordonnes du point de la topo ou l'on veut la manchette:

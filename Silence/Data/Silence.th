@@ -18,6 +18,7 @@ endcenterline
 
 centerline
 date 2003.07.05
+# declination -4.0 degree
 
 units compass clino degree
 data normal from to length compass clino left right up down 

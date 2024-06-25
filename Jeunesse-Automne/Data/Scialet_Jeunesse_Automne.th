@@ -6,9 +6,10 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		cs EPSG:2154 
-		fix 1_0 903041.28 6439603.36 1666
+		fix 1_0 903041.980 6439598.529 1666
+		
 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			team "SGCAF" 
@@ -41,7 +42,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Inc degrees 
 			team "SGCAF" 
@@ -62,7 +63,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			team "SGCAF" 
@@ -88,7 +89,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			 
@@ -117,7 +118,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			 
@@ -149,7 +150,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		##declination Arr degrees 
 			 
@@ -190,7 +191,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
@@ -241,7 +242,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
@@ -274,7 +275,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
@@ -302,7 +303,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
@@ -355,7 +356,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		# #declination Arr degrees 
 			 
@@ -378,7 +379,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
@@ -408,7 +409,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
@@ -432,7 +433,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
@@ -458,7 +459,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
@@ -503,7 +504,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 
@@ -533,7 +534,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		date 2016
 		# Si date est utilis�, commenter la ligne "#declination", la date sera utilis�e pour la calculer
 		#declination Arr degrees 
 			 

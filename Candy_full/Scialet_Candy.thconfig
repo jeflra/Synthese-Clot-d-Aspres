@@ -29,8 +29,8 @@ input ../config.thc
 layout xviexport
 	cs UTM31
 	# échelle à laquelle on veut dessiner la topo
-	scale 1 500 # pour le plan
-	#scale 1 900 # pour la coupe
+	#scale 1 500 # pour le plan
+	scale 1 500 # pour la coupe
 	# taille de la grille
 	grid-size 10 10 10 m
 	# mettre la grille en arrière plan

@@ -8,12 +8,11 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 		cs long-lat 
 		fix 1_0  5.5796 45.0255 1680
 
-		#date YYYY.MM.DD 
+		#date 2015
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# # declination Inc degrees 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			# explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
@@ -22,8 +21,6 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 		units clino degrees 
 
 		data topofil from to length compass backclino left right up down
-			#--/--/---- M
-			1_0	1_0d	0.00	0.00	0.00	1.00	1.00	0.00	0.00	#  N ;ENTREE
 			1_0	1_1	2.60	91.00	32.00	0.50	0.50	1.00	1.00	#  
 			1_1	1_2	1.60	86.00	25.00	0.10	0.30	0.00	0.50	#  
 			1_2	1_3	3.20	131.00	38.00	0	0	0	0	#  
@@ -41,22 +38,20 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 			1_13	1_14	3.70	0.00	-8.00	0.50	0.50	1.00	1.00	#  
 			1_14	1_15	6.70	345.00	0.00	1.50	1.50	15.00	1.00	#  
 			1_15	4_1	15.00	0.00	-90.00	0	0	0	0	#  N ;sommet du puits Mirespoir
-			1_15	5_1	8.20	310.00	44.00	0	0	0	0	#  
-			5_1	5_2	3.00	330.00	10.00	0	0	0	0	#  
-			1_15	6_1	7.90	0.00	55.00	2.00	2.00	15.00	0.00	#  
+			1_15	5_1b	8.20	310.00	44.00	0	0	0	0	#  
+			5_1b	5_2b	3.00	330.00	10.00	0	0	0	0	#  
+			1_15	6_1b	7.90	0.00	55.00	2.00	2.00	15.00	0.00	#  
 			4_1	4_2	8.00	180.00	0.00	1.00	1.00	1.00	1.00	#  N ;renfoncement dans le miroir de faille
 
 	endcenterline
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		#date 2015
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# declination Inc degrees 
-			team "G.S. Vulcain" 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
@@ -65,8 +60,6 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 		units clino degrees 
 
 		data topofil from to length backcompass backclino left right up down
-			#--/--/---- M
-			1_6	1_6d	0.00	0.00	0.00	0	0	0	0	#  
 			1_6	5_1	6.00	12.00	0.00	0.30	0.30	0.20	0.20	#  
 			5_1	5_2	3.50	308.00	9.30	0.30	0.30	0.20	0.20	#  
 			5_2	5_3	2.36	38.00	14.20	0.50	2.00	0.30	0.50	#  N ;Tete du ressaut
@@ -78,13 +71,11 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		#date 2015
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# declination Inc degrees 
-			team "G.S. Vulcain" 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
@@ -93,7 +84,6 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 		units clino degrees 
 
 		data topofil from to length compass clino left right up down
-			#--/--/---- M
 			5_3	7_1	2.69	169.40	6.20	0	0	0	0	#  
 			7_1	7_2	2.92	225.00	9.30	0	0	0	0	#  
 			7_2	7_3	6.37	133.00	46.50	0	0	0	0	#  
@@ -102,13 +92,11 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 
 
 	centerline 
-		#date YYYY.MM.DD 
+		#date 2015
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# declination Inc degrees 
-			team "G.S. Vulcain" 
 			team "SGCAF" 
 		#explo-date YYYY.MM.DD 
-			explo-team "G.S. Vulcain" 
 			explo-team "SGCAF" 
 		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
@@ -117,7 +105,6 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 		units clino degrees 
 
 		data topofil from to length backcompass backclino left right up down
-			#--/--/---- M
 			5_5	5_6	1.99	304.00	14.00	0	0	0	0	#  
 			5_6	5_7	1.32	283.00	19.30	0	0	0	0	#  
 			5_7	5_8	3.40	240.00	-5.50	0	0	0	0	#  

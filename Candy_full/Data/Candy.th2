@@ -1,11 +1,11 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -835.6400000000003 -836.4200000000001 8573.884999999998 12490.419999999998
+##XTHERION## xth_me_area_adjust -1220.0299999999997 37.95000000000073 11043.82 23522.25
 ##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {1310.54 1 1.0} {631.4799999999996 Candy} Candy_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {1821.3500000000004 1 1.0} {2449.3899999999994 Candy} Scialet_Candy-map.xvi 0 {}
 
 
 
-scrap candy_entree -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m] -station-names "" "@Scialet_Candy"
+scrap candy_entree -station-names "" "@Scialet_Candy" -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m]
 
 line wall
 endline
@@ -470,7 +470,7 @@ endscrap
 
 
 
-scrap candy_sirocco -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m] -station-names "" "@Scialet_Candy"
+scrap candy_sirocco -station-names "" "@Scialet_Candy" -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m]
 
 line wall -reverse on
   2733.0 5560.0
@@ -2538,7 +2538,7 @@ endscrap
 
 
 
-scrap candy_transfauge -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m] -station-names "" "@Scialet_Candy"
+scrap candy_transfauge -station-names "" "@Scialet_Candy" -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m]
 
 line wall
   7178.0 11125.0
@@ -3088,7 +3088,7 @@ endscrap
 
 
 
-scrap candy_Nino_Ferrer -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m] -station-names "" "@Scialet_Candy"
+scrap candy_Nino_Ferrer -station-names "" "@Scialet_Candy" -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m]
 
 point 1789.3999999999996 6505.5599999999995 station -name 2_43
 
