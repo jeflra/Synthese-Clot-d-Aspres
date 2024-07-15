@@ -1,0 +1,9 @@
+encoding utf-8 
+
+survey Castor -title "Scialet du grand castor" # -entrance 0@topo_2024-07-06
+       input Data/topo_2024-07-06.th
+
+       input Data/castor.th2
+
+#	input castor-maps.th
+endsurvey
