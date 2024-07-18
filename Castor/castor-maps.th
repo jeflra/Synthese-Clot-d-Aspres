@@ -1,0 +1,26 @@
+encoding  utf-8
+
+map MP-castor
+    # Map principale
+    MP-castor-entree
+    MP-castor-alcove-et-dessous  [0 6 m] below # décalage pour les galeries superposées
+endmap
+
+map MP-castor-entree
+    SP-entree-1
+    SP-entree-2
+endmap
+
+map MP-castor-alcove
+    SP-entree-3
+endmap
+    
+map MP-castor-sous-alcove
+    SP-entree-4
+    SP-entree-5
+endmap
+
+map MP-castor-alcove-et-dessous
+    MP-castor-alcove
+    MP-castor-sous-alcove [0 5 m] below
+endmap

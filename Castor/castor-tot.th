@@ -5,5 +5,6 @@ survey Castor -title "Scialet du grand castor" # -entrance 0@topo_2024-07-06
 
        input Data/castor.th2
 
-#	input castor-maps.th
+       input castor-maps.th	
 endsurvey
+
