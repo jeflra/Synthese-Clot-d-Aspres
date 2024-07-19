@@ -8,6 +8,7 @@ endmap
 
 map MP-castor-entree
     SP-entree-1
+    break
     SP-entree-2
 endmap
 
@@ -17,10 +18,18 @@ endmap
     
 map MP-castor-sous-alcove
     SP-entree-4
+endmap
+
+map MP-castor-fond-fosse
     SP-entree-5
+endmap
+
+map MP-castor-sous-alcove-decale
+    MP-castor-sous-alcove
+    MP-castor-fond-fosse [0 5 m] below
 endmap
 
 map MP-castor-alcove-et-dessous
     MP-castor-alcove
-    MP-castor-sous-alcove [0 5 m] below
+    MP-castor-sous-alcove-decale [0 5 m] below
 endmap

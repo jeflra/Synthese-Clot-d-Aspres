@@ -18,12 +18,14 @@ point 182.5 127.75 water-flow -orientation 280.6
 line wall -subtype unsurveyed
   190.0 126.0
   188.75 127.25 181.75 135.75 183.5 138.5
+  smooth off
 endline
 
 line wall -subtype unsurveyed
   169.5 129.0
   170.62 128.48 178.99 118.44 182.358 118.89600000000002
   185.0 119.25 187.25 125.0 189.25 124.25
+  smooth off
 endline
 
 line gradient
@@ -65,12 +67,14 @@ endline
 line floor-step
   173.5 136.0
   173.25 137.0 173.5 142.0 177.0 144.75
+  smooth off
 endline
 
 line wall -subtype unsurveyed
   179.5 138.5
   179.5 138.5 178.2 135.3 177.5 134.75
   175.25 133.0 175.58 130.8 170.75 131.25
+  smooth off
 endline
 
 point 265.25 138.25 water-flow -orientation 244.2
@@ -81,11 +85,13 @@ endarea
 line floor-step
   218.25 119.5
   217.25 120.75 215.5 128.75 215.75 131.25
+  smooth off
 endline
 
 line floor-step
   230.0 122.75
   228.0 125.0 227.75 129.75 227.75 132.75
+  smooth off
 endline
 
 line pit -outline out
@@ -93,12 +99,14 @@ line pit -outline out
   232.5 143.0 227.5 156.5 226.0 158.25
   224.5 160.0 219.25 161.25 217.0 159.5
   214.75 157.75 210.0 155.5 209.75 152.25
+  smooth off
 endline
 
 line pit -outline none
   209.75 152.25
   210.0 144.75 217.76 143.6 219.75 143.25
   224.0 142.5 229.5 141.5 230.25 142.25
+  smooth off
 endline
 
 line pit
@@ -107,6 +115,7 @@ endline
 line pit
   227.75 132.75
   224.5 132.0 215.0 130.25 209.0 133.75
+  smooth off
 endline
 
 line wall
@@ -137,6 +146,7 @@ line wall
   217.25 118.5 230.0 122.75 230.0 122.75
   smooth off
   230.0 122.75 239.5 117.25 248.0 119.25
+  smooth off
 endline
 
 line wall
@@ -145,6 +155,7 @@ line wall
   151.0 154.75 168.17 139.72 169.208 138.73600000000002
   170.25 137.75 173.5 135.0 175.5 135.75
   177.5 136.5 178.75 139.0 179.5 138.5
+  smooth off
 endline
 
 line wall
@@ -152,33 +163,37 @@ line wall
   210.0 150.25 211.5 133.25 209.0 133.75
   206.5 134.25 185.5 143.75 184.25 143.75
   183.0 143.75 176.0 144.75 173.25 146.75
+  smooth off
 endline
 
 line floor-step
 endline
 
-line wall
+line wall -id l-entree-2
   157.5 158.0
-  158.75 156.5 171.99 153.85 173.622 152.67600000000002
-  175.25 151.5 203.22 141.15 206.25 140.25
+  158.75 156.5 166.12 155.92 167.75 154.75
+  169.38 153.57 191.5 144.75 191.5 144.75
+  smooth off
+  191.5 144.75 203.22 141.15 206.25 140.25
+  smooth off
 endline
 
 point 173.622 152.67600000000002 station -name 6
 
 point 206.222 141.656 station -name 6A
 
-line pit
-  168.25 159.25
-  167.25 154.5
+line pit -id l-p10
+  168.5 158.75
+  167.75 154.75
 endline
 
 point 194.0 160.25 label -align bottom -text P10
 
-line wall
+line wall -id l-entree-1
   207.75 142.0
   205.0 143.0 186.0 151.0 183.75 151.75
-  181.5 152.5 181.0 155.0 178.25 156.0
-  175.5 157.0 155.25 162.5 154.0 163.5
+  181.5 152.5 171.25 157.75 168.5 158.75
+  165.75 159.75 155.25 162.5 154.0 163.5
   152.75 164.5 146.57 168.62 145.75 168.0
   143.75 166.5 146.0 163.25 143.0 161.0
   smooth off
@@ -217,6 +232,7 @@ line border
   138.0 141.0
   138.5 142.75 138.75 150.25 137.0 153.0
   135.25 155.75 130.25 163.5 127.0 166.0
+  smooth off
 endline
 
 line pit
@@ -231,10 +247,22 @@ line pit
   smooth off
 endline
 
-line wall
-  62.0 189.5
-  69.25 186.75 92.0 178.0 97.5 176.25
-  100.41 175.32 102.18 173.63 105.0 172.5
+line wall -subtype unsurveyed
+  88.0 185.0
+  60.5 193.5
+endline
+
+line floor-step
+endline
+
+line wall -subtype unsurveyed
+  58.75 190.75
+  85.25 180.75
+endline
+
+line wall -id l-manieres-1
+  85.25 180.75
+  88.16 179.82 102.18 173.63 105.0 172.5
   altitude .
   107.5 171.5 101.75 160.0 96.25 161.75
   smooth off
@@ -262,6 +290,7 @@ point 171.0 155.25 debris
 line floor-step -reverse on
   107.0 153.25
   104.75 156.0 101.25 161.75 101.25 163.5
+  smooth off
 endline
 
 line wall
@@ -269,6 +298,7 @@ line wall
   100.5 160.0 110.78 150.72 114.25 147.25
   116.25 145.25 126.75 141.75 130.25 140.0
   133.75 138.25 164.23 125.27 165.75 123.75
+  smooth off
 endline
 
 line gradient
@@ -279,16 +309,18 @@ endline
 line contour
   83.0 186.5
   80.75 186.25 79.89 185.02 81.75 182.0
+  smooth off
 endline
 
 line contour
   86.5 180.5
   89.25 180.0 90.25 182.75 88.0 185.0
+  smooth off
 endline
 
 point 98.25 134.5 label -align bottom -text [P52 des<br>bonnes manières]
 
-line wall
+line wall -id l-manieres-2
   166.5 125.5
   165.75 125.71 138.0 141.0 138.0 141.0
   smooth off
@@ -297,10 +329,12 @@ line wall
   156.25 141.75 158.25 144.5 158.25 145.75
   158.25 147.0 156.75 155.75 156.5 156.75
   156.25 157.75 155.5 159.0 157.5 158.0
-  159.5 157.0 178.25 146.5 179.25 146.5
-  180.25 146.5 184.0 146.0 184.75 147.5
-  185.5 149.0 185.25 150.75 183.75 151.75
-  182.25 152.75 159.75 161.75 159.75 161.75
+  159.5 157.0 163.89 154.51 164.75 154.0
+  166.0 153.25 179.07 145.87 180.0 145.5
+  181.56 144.88 184.0 146.0 184.75 147.5
+  185.5 149.0 181.62 151.53 180.25 152.5
+  178.78 153.55 170.0 157.75 168.5 158.75
+  167.0 159.75 159.75 161.75 159.75 161.75
   smooth off
   159.75 161.75 165.25 169.75 163.75 170.75
   162.25 171.75 158.0 175.0 157.0 175.25
@@ -309,8 +343,7 @@ line wall
   smooth off
   133.85 165.57 130.88 165.02 127.0 166.0
   smooth off
-  123.12 166.98 104.44 177.81 100.75 179.5
-  98.09 180.72 84.5 185.75 63.75 193.75
+  123.12 166.98 91.69 183.31 88.0 185.0
   smooth off
 endline
 
@@ -341,7 +374,7 @@ line wall -subtype unsurveyed
   77.25 189.5 74.0 186.5 73.5 188.25
   73.0 190.0 73.25 193.0 73.25 193.0
   smooth off
-  73.25 193.0 76.25 194.25 76.25 194.25
+  76.25 194.25
 endline
 
 line wall
@@ -349,7 +382,8 @@ endline
 
 line floor-step
   81.022 183.466
-  81.022 183.466 82.0 184.75 84.75 184.5
+  81.022 183.466 84.75 182.0 86.75 186.25
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -361,6 +395,7 @@ line wall -subtype unsurveyed
   79.0 177.5 78.5 179.75 78.5 179.75
   smooth off
   78.5 179.75 77.25 184.5 77.5 185.5
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -374,25 +409,31 @@ endline
 line wall -subtype unsurveyed
   77.5 200.75
   76.25 200.5 72.0 197.75 66.5 201.5
+  smooth off
 endline
 
-point 38.75 216.5 air-draught -orientation 117.4 -subtype summer
+point 45.25 201.75 air-draught -orientation 93.6 -subtype summer
 
 point 59.0 205.25 water-flow -orientation 302.9
 
 point 75.25 176.25 water-flow -orientation 0.0
 
-line wall
+line wall -id l-alcove-1
   77.5 185.5
   78.0 186.25 81.0 189.0 81.0 189.0
   smooth off
   81.0 189.0 80.52 184.72 81.022 183.466
-  81.52 182.22 81.75 179.5 82.5 180.5
-  83.25 181.5 85.25 181.5 85.25 183.25
-  85.25 185.0 82.74 191.04 83.62200000000001 193.14600000000002
+  81.52 182.22 84.5 179.75 85.25 180.75
+  smooth off
+endline
+
+line wall -id l-alcove-2
+  88.0 185.0
+  84.75 186.75 82.74 191.04 83.62200000000001 193.14600000000002
   84.63 195.55 90.0 202.25 90.5 205.25
   91.0 208.25 87.5 207.5 85.5 206.75
   83.5 206.0 78.5 201.0 77.5 200.75
+  smooth off
 endline
 
 line wall
@@ -400,11 +441,12 @@ line wall
   77.25 194.0 80.75 192.75 80.75 192.75
   smooth off
   80.75 192.75 80.0 191.5 79.0 190.5
+  smooth off
 endline
 
 line floor-step
-  82.0 197.5
-  85.75 196.5
+  80.25 196.0
+  83.62200000000001 193.14600000000002
 endline
 
 line floor-step
@@ -432,6 +474,12 @@ endscrap
 
 
 
+scrap scrap132 -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+endscrap
+
+
+
 scrap SP-entree-4 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
 point 107.5 169.5 water-flow -orientation 313.0
@@ -439,8 +487,15 @@ point 107.5 169.5 water-flow -orientation 313.0
 point 86.75 191.0 debris
 
 line pit -reverse on
+  74.75 192.75
+  75.0 194.5 73.5 196.0 77.5 197.25
+  smooth off
+endline
+
+line pit -reverse on
   80.25 196.0
   80.0 192.75 77.25 191.75 76.5 191.25
+  smooth off
 endline
 
 line wall
@@ -454,11 +509,23 @@ endline
 line wall
 endline
 
+line wall -id l-cs-1
+  85.5 206.75
+  85.5 206.75 82.75 198.25 77.5 197.25
+endline
+
+line wall -id l-cs-2
+  93.0 191.5
+  92.75 196.5 90.5 205.25 90.5 205.25
+  smooth off
+endline
+
 line wall
   99.75 178.0
   98.75 178.5 94.0 190.0 93.0 191.5
   92.0 193.0 79.75 196.75 77.5 197.25
   75.25 197.75 74.5 195.75 70.75 198.25
+  smooth off
 endline
 
 point 77.322 195.82600000000002 station -name 19
@@ -477,7 +544,8 @@ point 89.0 207.0 water-flow -orientation 63.0
 
 line wall
   82.0 202.5
-  80.75 202.25 78.0 201.5 80.25 199.25
+  80.75 202.25 80.25 198.25 81.5 196.0
+  smooth off
 endline
 
 line wall
@@ -493,6 +561,11 @@ line pit
   73.0 204.25
 endline
 
+line pit
+  71.0 195.25
+  73.01 194.88 74.59 195.17 76.25 198.25
+endline
+
 line wall
   63.0 212.0
   72.5 209.0
@@ -501,11 +574,11 @@ line wall
   64.0 205.25 63.75 205.0 66.25 203.25
   66.98 202.74 70.75 196.75 71.0 195.25
   71.25 193.75 77.25 191.75 78.75 193.0
-  80.25 194.25 76.0 199.75 75.25 200.25
-  74.5 200.75 73.0 204.25 73.0 204.25
+  80.25 194.25 77.0 197.75 76.25 198.25
+  75.5 198.75 73.0 204.25 73.0 204.25
   smooth off
-  73.0 204.25 73.75 205.5 74.75 204.0
-  75.75 202.5 79.5 198.0 79.5 198.0
+  73.0 204.25 73.47 205.28 74.75 204.0
+  78.5 200.25 81.5 196.0 81.5 196.0
   smooth off
 endline
 
