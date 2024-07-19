@@ -44,6 +44,70 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 	http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
+## Travail en cours
+
+### Dessin fini sans relecture :
+- Bagnards (F. de Felix, A. Figuiers, E. Sibert)
+- NympheEmue
+- Oreade
+- Bourrasque
+- Chambre froide CAF 132
+- Caverne des Clos
+- Nuit Blanche
+- Pré Achard
+
+### Dessin commencé :
+- Blizzard
+- Silence (dessin fini mais pb topo a regler)
+- Candy (therion martin)
+- Brume matinal
+- 2 Soeurs
+- Jeunesse d'autonme
+
+
+### Dessin a commencer
+- Scialet de la Malléole
+- Agnes
+- Brise de Coeur (SGCAF)
+- Serpent Terre
+- Vladimir
+- Grotte du Clos d'Aspres
+- Soleil Trompeur CAF225
+- Amadjide
+- Apocalypso
+- Femmes Fortes
+
+### Manque données
+- Antre des glaces (Pascal Groseil, Christian Hubert, )
+- Mistral (Robert Crozier du C.A.S.C. et Jean Philippe Grandcolas des Tritons)
+
+
+## Création de données : MapToDat
+
+### A faire
+
+- Blizzard
+- Bourrasque
+- ID-cuve
+- Mistral (ou recupération des données)
+- Nymphe Emue
+- Oreade
+- Pre Achard
+- Silence
+
+### Données générées par MapToDat
+
+- Bagnards
+
+## Retopographie en cours ou envisagé
+
+- Deux soeurs
+- Agnès
+
+
+## Exploration en cours
+
+- CAF 159
 
 ## Auteur de la base de données
 
