@@ -1,0 +1,54 @@
+encoding  utf-8
+
+# 1-SOURCES
+
+#source Grotte_du_Clot_d_Aspres-tot.th
+source Data/Grotte_du_Clot_d_Aspres-05.th
+
+# Add entrances coordinates
+#input legendes/entrances_coordinates.th
+
+# Add config file
+input config.thc
+
+
+
+# 2-LAYOUT
+
+layout xviexport
+	#cs UTM32
+	# échelle à laquelle on veut dessiner la topo
+	#scale 1 50 # pour le plan
+	scale 1 1000 # pour la coupe
+	# taille de la grille
+	grid-size 1 1 1 m
+	# mettre la grille en arrière plan
+	grid bottom
+endlayout
+# fin de la définition du layout "xviexport"
+
+
+
+
+# 3-EXPORTS
+
+# export map -fmt xvi -layout xviexport -o Data/Grotte_Clots_Aspres-map-05.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Grotte_Clots_Aspres-coupe-05.xvi
+# export map -proj [elevation 17] -layout xviexport -o Data/Grotte_Clots_Aspres-coupe_elevation-05.xvi
+
+# Select maps
+
+#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Grotte_Clots_Aspres-coupe_elevation.pdf
+#export model -enable centerline -o Outputs/Grotte_Clots_Aspres.lox
+#export model -enable centerline -o Outputs/Grotte_Clots_Aspres.dxf
+#export continuation-list -o Outputs/questions.html
+#export cave-list -o Outputs/Grotte_Clots_Aspres.html
+
+# Export des fichiers ESRI
+#export map -proj plan -fmt esri -o Outputs/Grotte_Clots_Aspres -layout my_layout
+#export model -enable centerline -fmt esri -o Outputs/Grotte_Clots_Aspres-model
+
+
+# Export des fichiers kml
+#export map -proj plan -fmt kml -o Outputs/Grotte_Clots_Aspres.kml -layout my_layout
+#export model -fmt kml -o Outputs/Grotte_Clots_Aspres-model.kml

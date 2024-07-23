@@ -1,0 +1,81 @@
+encoding utf-8
+
+survey Grotte_du_Clot_d_Aspres-04 -title "Grotte du Clot Aspres (méandre amont)" 
+	
+	
+	centerline
+		date 2011.07.16
+		
+		team "Guy Lamure"
+		team "Benjamin Lamure"
+		team "Bertrand Houdeau"
+		team "Annick Houdeau"
+		
+		
+		explo-date 2011
+		explo-team "Clan/des Tritons"
+		
+		units length meters
+		units compass grad
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend left
+		11.0	11.1	4.78	293.00	54.00	2.95	0.00	1.92	1.37	#  N ;escalade salle calcitée
+		11.1	11.2	2.99	144.00	36.00	0.90	0.72	2.82	0.00	#  N ;escalade salle calcifiée
+		11.2	11.3	5.30	273.00	46.00	0.65	0.00	0.75	1.10	#
+		11.3	11.4	2.63	316.00	21.00	1.40	0.00	1.00	1.12	#  N ;arrivée salle sup ébouleuse
+		11.4	11.5	7.35	196.00	56.00	0.95	0.25	1.50	0.52	#  N ;hauteur 4.20 - traversée salle
+		11.5	11.6	4.92	196.00	29.00	0.20	0.40	0.78	1.38	#  N ;au-dessus de 11.6 départ en plafond
+		11.6	11.7	1.10	200.00	-14.00	0.00	0.56	0.75	1.15	#  N ;début du méandre
+		11.7	11.8	4.66	211.00	6.00	0.50	0.00	0.87	2.27	#
+		11.8	11.9	2.77	190.00	38.00	0.00	1.07	1.48	1.12	#  N ;remontée de 1.5m
+		11.9	11.10	5.44	253.00	7.00	0.66	0.38	0.70	0.50	#  N ;méandre - courant air soufflant
+		11.10	11.11	2.74	288.00	-13.00	0.50	0.00	0.75	0.75	#  N ;blocs au sol - passage étroit sur le côté - vers bas 2.90m
+		11.11	11.12	1.39	230.00	-29.00	0.47	0.31	1.50	0.62	#  N ;sur carnet topo pente et az visée inverse
+		11.12	11.13	2.96	261.00	23.00	0.47	0.27	0.72	0.70	#  N ;remontée de 2m - bas de méandre à 3.5m
+		11.13	11.14	2.81	204.00	5.00	0.00	0.76	1.60	1.24	#  N ;arrivée élargissement + calcite / bas du méandre à 3.37m
+		11.14	11.15	3.25	243.00	-7.00	1.00	0.61	1.26	0.78	#  N ;calcite - bas du méandre à 2.22m
+		11.15	11.16	1.21	226.00	-13.00	1.12	0.28	0.87	0.65	#  N ;pt topo sur bloc
+		11.16	11.17	3.06	160.00	22.00	0.36	0.49	1.47	0.55	#  N ;bas du méandre à 1.70m
+		11.17	11.18	2.70	263.00	10.00	1.35	0.00	4.37	1.94	#  N ;élargissement
+		11.18	11.19	2.00	206.00	-32.00	0.70	0.70	5.00	0.30	#  N ;arrêt topo du 16/07/11 sur cairn au sol
+		
+	endcenterline
+	
+	
+	centerline
+		date 2011.08.24
+		
+		team "Guy Lamure"
+		team "Thierry Flon"
+		team "Benjamin Lamure"
+		team "Denis Verstraète"
+		
+		
+		explo-date 2011
+		explo-team "Clan/des Tritons"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend left
+		11.19	11.20	3.79	150.00	42.00	0.00	1.00	6.71	0.62	#
+		11.20	11.21	1.69	247.00	14.00	0.94	0.00	3.50	1.04	#
+		11.21	11.22	2.22	176.00	66.00	0.60	0.20	0.87	1.78	#  N ;remontée étroite
+		11.22	11.23	2.41	118.00	64.00	0.00	0.45	1.86	1.50	#  N ;remontée étroite
+		11.23	11.24	4.69	171.00	1.00	0.80	0.00	1.45	2.62	#
+		11.24	11.25	1.34	131.00	24.00	0.15	0.30	0.86	3.50	#  N ;méandre
+		11.25	11.26	4.54	180.00	1.50	0.00	0.50	0.63	2.39	#  N ;méandre
+		11.26	11.27	4.65	218.00	2.00	0.75	0.30	0.62	1.53	#  N ;méandre
+		11.27	11.28	1.85	203.00	8.50	0.56	0.46	0.61	1.60	#  N ;méandre
+		11.28	11.29	2.47	180.00	-4.00	0.35	0.62	1.82	1.48	#  N ;méandre
+		11.29	11.30	1.35	240.00	1.50	0.28	0.10	1.31	1.46	#  N ;point marqué sur becquet coté droit - coulée calcite bloque passage -
+		11.30	11.31	2.00	240.00	0.00	0.28	0.10	1.31	1.46	#  N ;visée laser derriére étroiture non franchie - à agrandir
+		
+	endcenterline
+	
+	
+endsurvey
