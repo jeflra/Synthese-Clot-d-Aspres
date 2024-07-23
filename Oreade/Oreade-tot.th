@@ -1,0 +1,23 @@
+
+survey Oreade
+
+input Data/Oreade_MTC.th
+input "Data/Oreade_plan - Copie.th2"
+
+map MP-Oreade 
+
+SP-Oreade-1
+break
+SP-Oreade-2
+break
+SP-Oreade-3
+
+# break
+# SP-Oreade-6
+# break
+# SP-Oreade-5
+break
+SP-Oreade-4
+endmap
+
+endsurvey

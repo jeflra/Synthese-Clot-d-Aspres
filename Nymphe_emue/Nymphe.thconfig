@@ -15,7 +15,7 @@ layout xviexport
 	#scale 1 50 # pour le plan
 	scale 1 1000 # pour la coupe
 	# taille de la grille
-	grid-size 1 1 1 m
+	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
 	grid bottom
 endlayout
@@ -183,7 +183,7 @@ layout my_layout-coupe
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 200
+   base-scale 1 400
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -194,7 +194,7 @@ layout my_layout-coupe
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 200
+   scale 1 400
 
    # echelle graphique 20 m ampleur
    scale-bar 20 m
@@ -300,8 +300,8 @@ export map -proj extended -fmt xvi -layout xviexport -o Data/Nymphe-Emue_coupe.x
 #	select MP-Nymphe-Emue-plan-tot@Nymphe-Emue
 #  select MC-Nymphe-Emue-coupe-tot@Nymphe-Emue
 	 
-export map -proj plan -fmt pdf -layout my_layout -o Outputs/Nymphe-Emue_plan.pdf
-export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Nymphe-Emue_coupe.pdf
+ export map -proj plan -fmt pdf -layout my_layout -o Outputs/Nymphe-Emue_plan.pdf
+ export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/Nymphe-Emue_coupe.pdf
  
 export model -enable centerline -o Outputs/Nymphe-Emue.lox
 export model -enable centerline -o Outputs/Nymphe-Emue.dxf

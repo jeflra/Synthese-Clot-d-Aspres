@@ -1,13 +1,14 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 691.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 386.00m (from Oreade@Oreade at 2017.00m to 2@Oreade at 1631.00m)\nnorth-south range: 60.82m (from 1@Oreade at 4986989.21m to Oreade@Oreade at 4986928.38m)\neast-west range: 298.87m (from Oreade@Oreade at 703352.23m to 1@Oreade at 703053.36m)\nnumber of shots: 2\nnumber of stations: 3"
-xth_cp_data_tree_insert 52 1 1 Oreade Oreade "" "" "length: 691.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 386.00m (from Oreade@Oreade at 2017.00m to 2@Oreade at 1631.00m)\nnorth-south range: 60.82m (from 1@Oreade at 4986989.21m to Oreade@Oreade at 4986928.38m)\neast-west range: 298.87m (from Oreade@Oreade at 703352.23m to 1@Oreade at 703053.36m)\nnumber of shots: 2\nnumber of stations: 3"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 985.94m (surface 0.00m, duplicated 0.00m)\nvertical range: 393.51m (from A44@Oreade.Oreade at 2096.59m to A32@Oreade.Oreade at 1703.08m)\nnorth-south range: 140.26m (from A24@Oreade.Oreade at 4986969.44m to A44@Oreade.Oreade at 4986829.18m)\neast-west range: 254.15m (from Oreade@Oreade.Oreade at 703352.23m to A32@Oreade.Oreade at 703098.08m)\nnumber of shots: 43\nnumber of stations: 44"
+xth_cp_data_tree_insert 52 1 1 Oreade Oreade "" "" "length: 985.94m (surface 0.00m, duplicated 0.00m)\nvertical range: 393.51m (from A44@Oreade.Oreade at 2096.59m to A32@Oreade.Oreade at 1703.08m)\nnorth-south range: 140.26m (from A24@Oreade.Oreade at 4986969.44m to A44@Oreade.Oreade at 4986829.18m)\neast-west range: 254.15m (from Oreade@Oreade.Oreade at 703352.23m to A32@Oreade.Oreade at 703098.08m)\nnumber of shots: 43\nnumber of stations: 44"
+xth_cp_data_tree_insert 54 52 2 Oreade Oreade.Oreade "Oreade" "Oreade" "length: 985.94m (surface 0.00m, duplicated 0.00m)\nvertical range: 393.51m (from A44@Oreade.Oreade at 2096.59m to A32@Oreade.Oreade at 1703.08m)\nnorth-south range: 140.26m (from A24@Oreade.Oreade at 4986969.44m to A44@Oreade.Oreade at 4986829.18m)\neast-west range: 254.15m (from Oreade@Oreade.Oreade at 703352.23m to A32@Oreade.Oreade at 703098.08m)\nnumber of shots: 43\nnumber of stations: 44"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 232X1 p1 1 MP-Oreade MP-Oreade@Oreade "" ""
+xth_cp_map_tree_insert map 1 221X1 p1 1 MP-Oreade MP-Oreade@Oreade "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 691 6
+xth_cp_comp_stat 986 4
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1714939969
+set xth(th_exit_number) 1721685645
 

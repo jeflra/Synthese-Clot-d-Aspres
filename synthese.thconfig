@@ -2,7 +2,10 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-source synthese.th
+#source synthese.th
+source synthese_MTC.th
+
+
 # Add config file
 input config.thc 
 
@@ -309,7 +312,7 @@ export map -fmt xvi -layout xviexport -o Data/Synthèse-map.xvi
 	 
 # export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
 # export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
-export map -o Outputs/Synthese-plan.pdf -layout my_layout
+#export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox
 export model  -o Outputs/Synthese.dxf

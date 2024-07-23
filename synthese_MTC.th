@@ -1,0 +1,16 @@
+encoding  utf-8
+
+
+survey synthese -title "Réseau du Clot d'Aspres"
+
+
+input Oreade/Data/Oreade_MTC.th #add maps
+input Nymphe_emue/Nymphe-tot.th
+input Bourrasque/Bourrasque/Data/bourrasque_MTC.th
+
+equate A28@Oreade A35@Nymphe.Nymphe
+
+equate A48@bourrasque A85@Nymphe.Nymphe
+
+endsurvey
+

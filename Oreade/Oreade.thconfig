@@ -3,7 +3,7 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-source Data/Oreade.th
+source Oreade-tot.th
 
 
 # Add config file
@@ -14,7 +14,7 @@ input ../config.thc
 layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
-	scale 1 50 # pour le plan
+	scale 1 330 # pour le plan
 	#scale 1 1000 # pour la coupe
 	# taille de la grille
 	grid-size 1 1 1 m

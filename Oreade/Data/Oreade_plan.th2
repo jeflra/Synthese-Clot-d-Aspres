@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -3945 5732 128
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -144.0 -3945 5732 128
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Oreade.png 0 {}
+##XTHERION## xth_me_image_insert {3634.479999999999 1 1.0} {-2088.7400000000007 Oreade} Oreade_plan.xvi 0 {}
 
 
 

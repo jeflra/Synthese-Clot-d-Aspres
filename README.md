@@ -1,7 +1,6 @@
 # Base de données topographiques du système karstique du Clot d'Aspres (38, France)
 
 
-
 ## Overview
 
 Ce dépôt contient les données topographiques et les dessins associés des cavités du Clot d'Aspres
@@ -76,23 +75,23 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Amadjide
 - Apocalypso
 - Femmes Fortes
+- TQF
 
 ### Manque données
 - Antre des glaces (Pascal Groseil, Christian Hubert, )
 - Mistral (Robert Crozier du C.A.S.C. et Jean Philippe Grandcolas des Tritons)
 
-
 ## Création de données : MapToDat
 
 ### A faire
 
-- Blizzard
-- Bourrasque
+- Blizzard (fait)
+- Bourrasque (fait)
 - ID-cuve
 - Mistral (ou recupération des données)
-- Nymphe Emue
-- Oreade
-- Pre Achard
+- Nymphe Emue (fait)
+- Oreade (fait)
+- Pre Achard (fait)
 - Silence
 
 ### Données générées par MapToDat
