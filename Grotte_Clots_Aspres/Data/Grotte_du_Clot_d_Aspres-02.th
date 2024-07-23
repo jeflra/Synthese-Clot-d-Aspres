@@ -1,0 +1,128 @@
+encoding utf-8
+
+survey Grotte_du_Clot_d_Aspres-02 -title "Grotte du Clot Aspres (galerie Benji et galerie fait péter les nounours)" 
+		
+	
+	centerline
+		date 2006.08.25
+		
+		team "Thierry Flon"
+		team "Jean-Philippe Grandcolas"
+		team "Benjamin Lamure"
+		team "Guy Lamure"
+		
+		explo-date 2006
+		explo-team "Clan/des Tritons"
+		
+		units length meters
+		units compass degrees
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend right
+		1.21	3.1	2.60	251.00	-6.00	0.50	1.50	3.70	1.20	#  N ;3.0 = 1.21 et station 3.1 vire en traversée du P12
+		3.1	3.2	4.76	167.00	51.00	0.60	0.65	0.50	1.30	#
+		3.2	3.2A	0.50	0.00	-90.00	0.60	0.65	1.00	0.80	#  N ;VOIR CARNET TOPO : - 0.5 EN DENIV
+		3.2A	3.3	3.10	199.00	7.00	1.26	0.70	0.90	0.30	#
+		3.3	3.4	3.50	243.00	12.00	1.30	1.10	0.66	0.00	#
+		3.4	3.5	3.63	211.00	-1.00	1.18	0.30	0.35	0.10	#  N ;passage bas
+		3.5	3.6	1.32	211.00	12.00	1.94	0.65	0.49	0.20	#  N ;visée inverse dans passage bas désobstrué
+		3.6	3.7	7.22	181.00	5.00	1.11	0.96	0.60	0.30	#  N ;PT topo marqué : petite concrétion sur bloc
+		3.7	3.8	12.10	168.00	6.00	1.36	2.04	1.60	1.30	#  N ;départ étroit dans surcreusement de la galerie
+		3.8	3.9	4.55	175.00	3.00	0.00	2.16	0.80	0.93	#  N ;arrivée dans salle
+		3.9	3.10	4.01	242.00	18.00	2.20	4.28	4.12	1.50	#  N ;milieu de la salle sur bloc - pt topo marqué avec rubalise
+		3.10	3.11	2.83	265.00	15.00	1.67	2.40	3.28	0.00	#  N ;sur le bord de la salle
+		3.11	3.12	4.97	283.00	0.00	0.35	0.63	3.70	0.50	#
+		3.12	3.13	7.50	303.00	45.00	1.00	0.87	0.82	0.30	#  N ;remontée ébouleuse
+		3.13	3.14	5.96	284.00	24.00	0.46	1.42	0.84	0.49	#  N ;au point 3.14 départ au sol dans les blocs : rejoint galerie des gours
+		3.14	3.15	9.46	296.00	19.00	1.10	0.73	0.74	0.50	#  N ;trés nombreux fossiles
+		3.15	3.16	6.22	279.00	17.00	0.50	1.11	0.86	0.20	#
+		3.16	3.17	5.31	275.00	8.00	0.44	0.90	0.57	0.30	#  N ;arrivée sur ressaut
+		3.17	3.18	2.75	295.00	-34.00	0.95	0.78	2.65	0.00	#  N ;3.18 = 4.0 - ressaut de 2 métres
+		3.18	3.19	1.55	269.00	-10.00	1.19	0.79	1.83	0.67	#
+		3.19	3.20	7.29	319.00	16.00	2.65	1.91	4.54	1.04	#  N ;3.20 au milieu de la salle
+		3.20	3.21	4.72	324.00	-16.00	1.39	0.34	7.01	0.20	#  N ;base de l'escalade
+		3.21	3.22	5.15	0.00	90.00	0.80	0.40	8.00	0.00	#  N ;puits remontant
+		3.22	3.23	2.55	308.00	-5.00	1.50	0.68	4.00	0.00	#
+		3.23	3.24	6.10	256.00	40.00	0.60	0.60	0.73	1.05	#  N ;ressaut 2,40
+		3.24	3.25	3.80	286.00	7.00	0.44	0.55	1.71	0.00	#  N ;station avant passage presse-purée - courant d'air soufflant
+		3.25	3.26	2.20	279.00	3.00	0.20	0.87	1.05	0.00	#  N ;passage sous bloc - pt 26 sur rebord gour 1m
+		3.26	3.27	4.28	285.00	16.00	0.65	1.00	2.08	1.00	#  N ;arrivée dans petite salle
+		3.27	3.28	4.03	256.00	15.00	0.00	2.13	4.28	1.24	#
+		3.28	3.29	3.66	248.00	51.00	0.00	1.01	1.16	0.80	#  N ;ressaut 2,5m
+		3.29	3.30	5.67	284.00	-4.00	1.57	0.82	2.52	0.20	#  N ;coulée de calcite blanche
+		3.30	3.31	3.61	342.00	49.00	0.70	0.00	0.60	0.71	#  N ;ressaut 2m - courant d'air soufflant
+		3.31	3.32	2.12	300.00	10.00	0.40	1.15	0.64	1.40	#
+		3.32	3.33	5.98	337.00	24.00	0.60	2.30	2.00	1.05	#
+		3.33	3.34	3.90	3.00	46.00	0.50	0.00	0.50	0.80	#  N ;ressaut 2,5m - courant d'air aspirant
+		3.34	3.35	5.00	310.00	2.00	0.25	0.50	0.50	0.00	#  N ;début boyau
+		3.35	3.36	5.00	310.00	0.00	0.25	0.25	0.25	0.00	#  N ;boyau à poursuivre !!!! pour spéléo trés mince
+		extend left
+		3.18	4.1	7.94	108.00	-25.00	0.42	0.69	2.88	0.00	#  N ;4.1 sur rebord gour
+		4.1	4.2	4.93	94.00	-9.00	0.00	0.66	1.16	0.61	#
+		4.2	4.3	10.45	115.00	-21.00	1.14	0.00	1.60	1.09	#  N ;arrivée boyau de jonction avec galerie sup pt 3.14
+		4.3	4.4	4.18	108.00	-38.00	1.31	0.60	2.62	0.00	#  N ;rebord gour
+		4.4	4.5	5.13	112.00	-14.00	0.30	0.80	0.00	0.40	#
+		4.5	4.5bis	1.00	112.00	0.00	0.30	0.50	0.10	0.00	#  N ;terminus galerie des gours
+		4.4	4.4B	3.17	285.00	-47.00	1.00	1.00	0.60	0.00	#
+		4.4B	4.4C	1.00	0.00	-90.00	0.30	0.20	1.00	0.00	#  N ;point bas du gour
+		4.3	4.3A	0.50	50.00	0.00	0.30	1.00	1.60	1.09	#  N ;VOIR CARNET TOPO
+		4.3A	4.3B	1.00	0.00	90.00	0.30	1.00	0.60	2.09	#  N ;VOIR CARNET TOPO
+		4.3B	3.14	2.79	70.35	83.41	0.25	0.25	0.10	0.00	#
+		
+	endcenterline
+	
+	
+	centerline
+		date 2011.05.07
+		
+		team "Guy Lamure"
+		team "Ludovic Nicoli"
+		
+		
+		explo-date 2011
+		explo-team "Clan/des Tritons"
+		
+		units length meters
+		units compass grad
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend right
+		3.7	10.0	0.00	0.00	0.00	1.10	1.00	0.64	0.30	#  N ;10.0 = 3.7 concretion sur bloc
+		flags duplicate
+		10.0	10.1	17.15	185.00	4.00	0.00	2.28	0.66	1.24	#  *
+		10.1	10.2	3.27	270.00	22.00	0.97	4.38	6.34	1.18	#  * N ;sur bloc - dans la salle
+		flags not duplicate
+		extend left
+		10.2	10.3	4.48	193.00	-10.00	0.40	0.88	3.22	0.00	#  N ;en haut ressaut de 3.20m - pt 10.3 au sol mais à 4,07m au-dessus de l'actif
+		
+		10.3	10.4	2.85	211.00	-10.00	0.40	0.40	3.50	0.30	#
+		10.4	10.5	4.25	210.00	77.00	0.29	3.26	4.80	1.54	#  N ;remontée du méandre et pt 10.5 base du puits remontant
+		10.5	10.6	6.70	305.00	-12.00	3.40	0.90	11.30	0.20	#  N ;base du puits - diamétre 4,50m
+		10.6	10.7	8.13	210.00	69.00	0.00	1.34	7.53	1.50	#  N ;remontée puits - pt 10.7 à 1,5m au-dessus du palier et à 8,70m de la base du puits
+		10.7	10.8	6.75	255.00	83.00	0.80	0.80	1.29	0.20	#  N ;puits remontant
+		10.8	10.9	1.74	270.00	62.00	0.55	0.22	0.30	1.72	#  N ;départ étroiture au-dessus de la main courante
+		10.9	10.9a	2.00	210.00	0.00	0.75	0.75	0.30	1.70	#  N ;alcove
+		10.9	10.10	1.51	210.00	53.00	0.10	2.20	5.46	0.73	#  N ;arrivée dans méandre sup - sur carnet topo visée inverse
+		10.10	10.10a	2.90	50.00	-27.00	0.00	1.00	6.00	0.00	#
+		
+		10.10	10.11	3.94	224.00	34.00	0.54	0.00	4.00	1.16	#  N ;méandre - remontée ressaut 1.5m
+		10.11	10.12	2.35	170.00	23.00	0.40	0.34	6.10	1.00	#  N ;méandre
+		10.12	10.13	3.15	230.00	49.00	0.40	0.00	3.33	3.29	#  N ;remontée dans méandre
+		10.13	10.14	3.63	185.00	14.00	0.30	0.20	1.76	1.87	#  N ;en haut de méandre
+		10.14	10.15	4.86	200.00	23.00	0.78	0.20	1.62	2.30	#  N ;en bas 2,30 sur palier ou actif à 4.12m
+		10.15	10.16	6.40	140.00	7.00	0.00	1.12	1.00	1.57	#
+		10.16	10.17	5.25	215.00	10.00	0.10	0.54	1.00	2.20	#  N ;sommet du méandre
+		10.17	10.18	2.95	216.00	22.00	0.82	0.20	1.22	3.01	#
+		10.18	10.19	2.16	184.00	-5.00	0.64	0.22	0.93	2.61	#
+		10.19	10.20	0.50	0.00	90.00	0.64	0.22	0.43	3.11	#  N ;remontée de 0.50m au-dessus du pt topo 10.19
+		10.20	10.21	9.80	205.00	0.00	0.00	1.03	4.59	1.02	#  N ;méandre
+		10.21	10.22	4.50	308.00	23.00	0.57	0.43	0.87	1.39	#  N ;arrivée dans salle
+		10.22	10.23	1.21	230.00	8.00	0.72	1.82	4.82	1.46	#  N ;début de la salle - pt topo 10.23 sur avancée rocheuse marquée avec cairn et concrétion dressée - feuille papier à l'écart
+		10.23	11.0	0.00	0.00	0.00	1.60	1.70	2.20	1.25	#  N ;11.0 = 10.23
+	endcenterline
+	
+	
+	
+endsurvey

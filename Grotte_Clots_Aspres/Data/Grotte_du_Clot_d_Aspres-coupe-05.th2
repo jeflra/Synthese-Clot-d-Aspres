@@ -1,0 +1,194 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 364.2206 301.22844
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {23.61800000000001 1 1.0} {149.6076 1.53} Grotte_Clots_Aspres-coupe-05.xvi 0 {}
+
+
+
+scrap SC-Grotte_du_Clot_d_Aspres-05 -projection extended -station-names "" "@Grotte_du_Clot_d_Aspres-05" -author 2018 "Guy Lamure" -author 2024 "Alexandre Pont" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+line wall -reverse on -subtype invisible
+  226.0 27.0
+  228.75 22.75
+endline
+
+line wall -reverse on -subtype presumed
+  214.0 53.0
+  216.25 52.25
+  216.25 52.25 217.0 49.0 217.0 45.0
+  217.0 41.0 217.75 31.5 219.0 30.5
+  220.25 29.5 223.25 27.5 226.0 27.0
+  smooth off
+endline
+
+point 235.0 53.5 narrow-end
+
+point 150.75 97.25 label -text R4
+
+point 99.0 144.75 height -value [-6 m]
+
+point 222.75 19.25 water-flow -orientation 96.0
+
+point 159.0 58.5 water-flow -orientation 123.3
+
+point 91.0 108.5 water-flow -orientation 123.3
+
+point 174.0 122.75 narrow-end
+
+line wall -reverse on -subtype presumed
+  156.75 124.5
+  156.25 120.75
+  altitude .
+endline
+
+line wall -subtype presumed
+  209.75 47.0
+  209.75 47.0 209.5 41.0 209.5 37.5
+  209.5 34.0 209.5 28.25 210.25 27.0
+  211.0 25.75 208.75 25.5 214.75 24.25
+  220.75 23.0 227.75 22.75 228.75 22.75
+  smooth off
+endline
+
+line wall -reverse on
+  156.25 120.75
+  156.25 120.75 142.5 120.25 140.25 117.75
+  138.0 115.25 135.75 115.25 133.0 113.25
+  130.25 111.25 128.75 108.0 124.75 109.25
+  120.75 110.5 115.25 112.25 113.75 112.25
+  112.25 112.25 103.25 115.5 112.25 110.5
+  121.25 105.5 126.25 104.5 128.0 103.0
+  129.75 101.5 131.75 99.5 132.25 96.0
+  132.75 92.5 134.0 87.5 138.25 85.5
+  142.5 83.5 156.25 76.5 158.75 74.0
+  161.25 71.5 170.25 68.25 177.75 66.25
+  185.25 64.25 192.5 62.25 195.75 60.75
+  199.0 59.25 211.75 54.5 214.0 53.0
+  smooth off
+endline
+
+point 47.0 167.25 label -text [Siphon temporaire]
+
+area sump
+endarea
+
+area sump
+  l16-47-133
+endarea
+
+line border -id l16-47-133 -close on -subtype invisible
+  58.0 143.0
+  53.0 147.5
+  17.5 147.5
+  18.5 124.5
+  46.75 132.5
+  58.0 143.0
+endline
+
+line rope
+  120.0 101.5
+  124.75 98.25
+  125.0 90.25
+endline
+
+line rope
+  74.75 148.0
+  80.0 145.5
+  80.75 124.5
+endline
+
+line wall
+  23.5 147.0
+  23.5 147.0 25.25 143.25 31.75 143.25
+  37.69 143.25 37.5 141.75 43.0 144.0
+  46.01 145.23 47.83 146.36 50.0 148.75
+  52.5 151.5 66.25 149.25 68.25 147.25
+  70.25 145.25 74.0 144.25 75.25 139.75
+  76.5 135.25 77.0 125.25 77.75 123.75
+  78.5 122.25 79.0 121.0 83.5 121.5
+  88.0 122.0 88.25 120.25 91.25 117.75
+  94.25 115.25 108.0 106.75 110.25 105.25
+  112.5 103.75 117.5 101.75 117.5 98.5
+  117.5 95.25 116.25 89.5 120.0 88.25
+  123.75 87.0 127.25 90.0 130.5 86.0
+  133.75 82.0 132.25 76.5 138.0 76.0
+  143.75 75.5 148.75 71.5 151.5 69.0
+  154.25 66.5 164.25 64.5 167.5 62.75
+  170.75 61.0 184.0 56.75 188.75 54.75
+  193.5 52.75 204.25 49.75 209.75 47.0
+  smooth off
+  altitude .
+endline
+
+line wall -reverse on
+  23.75 151.75
+  23.75 151.75 36.5 143.25 45.5 152.0
+  50.76 157.12 62.0 153.75 66.25 153.75
+  70.5 153.75 75.2 152.64 78.25 151.25
+  81.0 150.0 84.75 139.25 86.0 135.25
+  87.25 131.25 94.25 123.25 98.0 122.0
+  101.75 120.75 110.5 117.25 115.75 116.5
+  121.0 115.75 132.25 120.25 134.25 121.0
+  136.25 121.75 150.5 123.5 156.75 124.5
+  smooth off
+endline
+
+point 130.478 117.1676 station -name 12.5
+
+point 156.348 122.43759999999999 station -name 12.7
+
+point 213.71800000000002 50.66759999999999 station -name 1.78
+
+point 211.118 48.267599999999995 station -name 1.77
+
+point 203.868 53.34759999999999 station -name 1.76
+
+point 194.15800000000002 57.67759999999999 station -name 1.75
+
+point 186.938 59.48759999999999 station -name 1.74
+
+point 173.038 63.697599999999994 station -name 1.73
+
+point 165.25 65.0 station -name 1.72
+
+point 162.678 66.6576 station -name 1.71
+
+point 151.96800000000002 72.32759999999999 station -name 1.70
+
+point 143.618 79.60759999999999 station -name 1.69
+
+point 136.848 81.4176 station -name 1.68
+
+point 129.0 90.0 station -name 1.67
+
+point 125.25 100.5 station -name 1.66
+
+point 122.238 101.3376 station -name 1.65
+
+point 114.03800000000001 104.99759999999999 station -name 1.64
+
+point 106.048 110.7876 station -name 1.63
+
+point 98.62800000000001 115.43759999999999 station -name 12.0
+
+point 86.458 128.0276 station -name 1.61
+
+point 79.248 123.54759999999999 station -name 1.60
+
+point 79.248 147.8376 station -name 1.59
+
+point 76.40800000000002 144.64759999999998 station -name 1.58
+
+point 67.428 150.0376 station -name 1.57
+
+point 54.638000000000005 150.5076 station -name 1.56
+
+point 46.45800000000001 149.6076 station -name 1.55
+
+point 33.468 149.6076 station -name 1.54
+
+point 23.61800000000001 149.6076 station -name 1.53
+
+endscrap
+
+
