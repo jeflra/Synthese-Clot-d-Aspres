@@ -31,11 +31,11 @@ survey synthese -title "Réseau du Clot d'Aspres"
 	input Nymphe_emue/Nymphe-tot.th
 	input Grotte_Clots_Aspres/Grotte_du_Clot_d_Aspres-tot.th
 	
-	equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
-	
-	equate TT@1.menisque TT@bourrasque.Bourrasque
-	
-	equate 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches jonc@brumes_matinales.brumes-tot
+		equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
+		
+		equate TT@1.menisque TT@bourrasque.Bourrasque
+		
+		equate 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches jonc@brumes_matinales.brumes-tot
 	
 	# equate A3@riviere_casse_pieds.riviere_casse_pieds 323@Silence-Blizzard.Silence
 	

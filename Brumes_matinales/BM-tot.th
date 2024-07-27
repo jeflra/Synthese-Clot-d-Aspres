@@ -1,6 +1,6 @@
 survey  brumes-tot -title "Brumes_matinales"
 
-input Data/Brumes_matinales.th
+input Data/brumes_matinales.th
 input Data/Brumes_matinales.th2 
 input Data/jonction.th2
 

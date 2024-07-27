@@ -4,7 +4,7 @@ survey Bagnards
 
 input "Bagnards-plan - Copie.th2"
 
-input test_Bagnards.th 
+input test_bagnards.th 
 
 map MP-Bagnards
 SP-Bagnards-1

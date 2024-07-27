@@ -336,9 +336,3 @@ export model -enable centerline -fmt esri -o Outputs/Jeunesse-Automne-model
 # Export des fichiers kml
 export map -proj plan -fmt kml -o Outputs/Jeunesse-Automne.kml -layout my_layout
 export model -fmt kml -o Outputs/Jeunesse-Automne-model.kml
-
-
-export map \
-      -fmt xvi \
-      -o cave.xvi \
-      -layout-sketches on
