@@ -6,7 +6,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
   centerline
   date 2011.07.07
-  declination -1.13 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -1.13 grad # (calcul avec logiciel declimag) + gisement UTM
   team "Cécile Souleau"
   team "Gilles Palué"
 
@@ -40,7 +40,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
   centerline
 
-    declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+    # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2012.09.12
     team "Jean Héraud"
     team "Martin Gerbaux"
@@ -88,7 +88,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
   centerline
 
-    declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+    # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2012.09.22
     team "Clément Garnier"
     team "Pascal Collet"
@@ -123,7 +123,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
   centerline
 
-    declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+    # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2012.09.23
     team "Agnès Montaufier"
     team "Jean Héraud"
@@ -178,7 +178,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
   centerline
 
-    declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+    # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2012.10.14
     #team "Agnès Montaufier"
     #team "Jean Héraud"
@@ -221,7 +221,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
   centerline
 
-    declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+    # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2012.10.23
 
     team "Éric Laroche-Joubert"
@@ -252,7 +252,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
   centerline
 
-    declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+    # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2012.11.17
     team "Jean Héraud"
     team "Clément Garnier"
@@ -280,7 +280,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
   endcenterline
 
   centerline
-  declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2013.01.21
 
     team "Clément Garnier"
@@ -321,7 +321,7 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
   endcenterline
 
   centerline
-  declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -1 grad # (calcul avec logiciel declimag) + gisement UTM
     date 2013.01.21
 
     team "Clément Garnier"
@@ -406,39 +406,8 @@ survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
 
 
 
-  equate 1_00 11
-  equate 1_26 2_26
-
-  input CAF-132.th2
-  input CAF-131
-
 
 
 
 
   endsurvey
-  map map_1
-  CAF-131_entree@CAF-131.CAF-132
-    scrap1@CAF-132
-  break
-    puits_sous_entree@CAF-132
-    p5_sous_entree@CAF-132
-  break
-    meandre_17@CAF-132
-    meandre_du_nez@CAF-132
-  break
-    meandre_du_loup@CAF-132
-
-    canyon_bronto@CAF-132
-  break
-
-  break
-
-    sous_puis_silex@CAF-132
-  break
-    escalier_serpentine@CAF-132
-  break
-    diaclase_-250@CAF-132
-  break
-    diaclase_-250_2@CAF-132
-endmap

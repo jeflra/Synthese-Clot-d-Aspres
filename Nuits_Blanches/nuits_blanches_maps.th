@@ -1,0 +1,47 @@
+
+map map_nuits_blanches
+
+
+	#autres_trous@autres_trous
+	#break
+	entree@reseau_classique
+	break
+	meandre_-50@reseau_classique
+	break
+	meandre_200_fond_468@reseau_classique
+	break
+	patayoyo_C@patayoyo
+	break
+	patayoyo_B@patayoyo
+	vlad1@vlad
+	retour_actif@vlad
+	break
+	vlad_dessous@vlad
+	sup_canyon@grosse_galerie
+	break
+	grosse_galerie_suite@grosse_galerie
+	scrap1@grosse_galerie
+	break
+	patayoyo_A@patayoyo
+	break
+	chateau_carte@grosse_galerie
+	break
+	surcreusement@grosse_galerie
+	surcreusement1@grosse_galerie
+	break
+
+
+
+	scrap1@reseau_classique
+	break
+	jonction_haut@jonction_nuits_blanches-brumes_matinales
+	break
+	jonction_bas@jonction_nuits_blanches-brumes_matinales
+	break
+	collecteur_fossile1@reseau_classique
+	break
+	collecteur_fossile2@reseau_classique
+	break
+	collecteur@reseau_classique
+	break
+endmap

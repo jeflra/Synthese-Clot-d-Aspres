@@ -1,0 +1,10 @@
+encoding utf-8 
+
+
+survey Femmes-Fortes -title "Femmes-Fortes"
+
+	input Data/Femmes-Fortes.th
+
+	input Femmes-Fortes-maps.th
+	
+endsurvey

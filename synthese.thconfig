@@ -2,14 +2,8 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-<<<<<<< HEAD
 source synthese.th
 # source synthese_MTC.th
-=======
-
-source synthese.th
-#source synthese_MTC.th
->>>>>>> 0cba33455fd34a5e5cf97c525f3527570a7de7c3
 
 
 # Add config file

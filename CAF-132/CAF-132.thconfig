@@ -1,8 +1,4 @@
 
-
-
-
-
 encoding  utf-8
 
 
@@ -10,7 +6,7 @@ encoding  utf-8
 # 1-SOURCES 
 
 
-source Data/CAF-132.th
+source CAF-132_tot.th
 
 # Add config file
 input ../config.thc 

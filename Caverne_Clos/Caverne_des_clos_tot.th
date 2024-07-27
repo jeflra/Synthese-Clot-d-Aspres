@@ -1,0 +1,8 @@
+survey Caverne_des_clos
+
+input Data/Caverne_des_Clos.th
+input Data/Caverne_des_Clos.th2
+
+input Clos_maps.th
+
+endsurvey

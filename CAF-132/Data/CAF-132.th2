@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap scrap1 -projection plan -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0" -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap scrap1 -projection plan -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0" -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132"
 
 line wall -close on
   -119.0 19.5
@@ -135,7 +135,7 @@ endscrap
 
 
 
-scrap p5_sous_entree -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap p5_sous_entree -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 line wall
   112.25 109.75
@@ -286,7 +286,7 @@ endscrap
 
 
 
-scrap puits_sous_entree -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap puits_sous_entree -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 area water
   l68-192-636
@@ -642,7 +642,7 @@ endscrap
 
 
 
-scrap canyon_bronto -projection plan -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap canyon_bronto -projection plan -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 point 504.0 1349.5 label -text "P5" -align right
 
@@ -1137,7 +1137,7 @@ endscrap
 
 
 
-scrap meandre_17 -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap meandre_17 -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 point 343.75 1618.0 air-draught -orientation 264.5 -subtype "winter"
 
@@ -1500,7 +1500,7 @@ endscrap
 
 
 
-scrap meandre_du_loup -projection plan -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap meandre_du_loup -projection plan -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 area water
   l517-1308-2118
@@ -1860,7 +1860,7 @@ endscrap
 
 
 
-scrap meandre_du_nez -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap meandre_du_nez -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 line wall
   122.5 734.0
@@ -2069,7 +2069,7 @@ endscrap
 
 
 
-scrap sous_puis_silex -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap sous_puis_silex -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 line pit
 endline
@@ -2196,7 +2196,7 @@ endscrap
 
 
 
-scrap escalier_serpentine -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap escalier_serpentine -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 point -191.75 2664.5 label -text "P9" -align bottom
 
@@ -2672,7 +2672,7 @@ endscrap
 
 
 
-scrap diaclase_-250 -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap diaclase_-250 -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 point -315.8236 3302.049 station -name 2_135
 
@@ -2768,7 +2768,7 @@ endscrap
 
 
 
-scrap diaclase_-250_2 -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap diaclase_-250_2 -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-132" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 line wall
   -307.5 3276.0

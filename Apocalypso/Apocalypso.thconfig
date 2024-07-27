@@ -1,15 +1,27 @@
 encoding  utf-8
 
-# 1-SOURCES 
+# File written by pytro2th (Xavier Robert)  
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr> 
+# This work is under the licence Creatice Commonc CC-by-nc-sa v.4 
 
-source nuits_blanches-tot.th
+# 1-SOURCES  
+# La ligne source spe cifie le fichier où sont les données topo 
+# (Au fichier "nomcavite.th" il faudra avoir une ligne 
+# "input "nomcavite.th2" pour spécifier le fichier où se trouvent 
+# les données du dessin, comme ça, ce fichier thconfig appelera  
+# nomcavite.th" et a son tour, "nomcavite.th" appelera 
+# "nomcavite.th2") 
+source Apocalypso-tot.th
 
-# Add entrances coordinates
-#input legendes/entrances_coordinates.th
 
-# Add config file
-input ../config.thc 
 
+
+# Appeller le fichier de coordonnées de la cavité
+#input legends/entrances_coordinates.th
+
+# Ajoute un fichier de configuration
+# Voir https://github.com/robertxa/Th-Config-Xav pour un exemple
+input ../config.thc  
 
 
 # 2-LAYOUT   
@@ -17,8 +29,8 @@ input ../config.thc
 layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
-	#scale 1 50 # pour le plan
-	scale 1 1000 # pour la coupe
+	scale 1 50 # pour le plan
+	#scale 1 1000 # pour la coupe
 	# taille de la grille
 	grid-size 1 1 1 m
 	# mettre la grille en arrière plan
@@ -33,7 +45,7 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "Nuits-Blanches"
+   doc-title "Scialet-Apocalypso"
    # Auteur
    doc-author "Benoît Urruty"
 
@@ -48,7 +60,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 500
+   base-scale 1 200
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -59,7 +71,7 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 500
+   scale 1 200
 
    #surface bottom
    #surface-opacity 70
@@ -132,7 +144,7 @@ layout my_layout
 
    # Specifier le pas de la grille, ici 100x100x100 metres
    # (Trois dimensions, oui, ça sert pour la coupe aussi) 
-   grid-size 100 100 100 m
+   grid-size 10 10 10 m
    # Si nous ne voulons pas de grille :
    grid off
    # Affiche les coordonnées de la grille <off (pas de coordonnées) / all (sur tous les croisements) / border (uniquement aux niveau des croix aux bords de la carte>
@@ -152,9 +164,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Nuits-Blanches if cavename is empty
+      \ifx\temp\nostring          % Scialet-Apocalypso if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Nuits-Blanches} 		
+         \cavename={Apocalypso} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -173,7 +185,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "Nuits-Blanches"
+   doc-title "Scialet-Apocalypso"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -285,9 +297,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Nuits-Blanches if cavename is empty
+      \ifx\temp\nostring          % Scialet-Apocalypso if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Nuits-Blanches} 		
+         \cavename={Apocalypso} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -298,25 +310,27 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Nuits-Blanches-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Nuits-Blanches-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/Nuits-Blanches-coupe_elevation.xvi 
+export map -fmt xvi -layout xviexport -o Data/Apocalypso-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Apocalypso-coupe.xvi
+export map -proj [elevation 17] -layout xviexport -o Data/Apocalypso-coupe_elevation.xvi 
 
+# Select maps
+#	select MP-Apocalypso-plan-tot@Apocalypso
+#  select MC-Apocalypso-coupe-tot@Apocalypso
+	 
+export map -projection extended -layout my_layout-coupe -o Outputs/Apocalypso-coupe.pdf 
+export map -o Outputs/Apocalypso-plan.pdf -layout my_layout
  
-#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Nuits-Blanches-coupe_elevation.pdf 
-#export map -projection extended -layout my_layout-coupe -o Outputs/Nuits-Blanches-coupe.pdf 
-export map -o Outputs/Nuits-Blanches-plan.pdf -layout my_layout
- 
-export model -enable centerline -o Outputs/Nuits-Blanches.lox
-export model -enable centerline -o Outputs/Nuits-Blanches.dxf
+export model -enable centerline -o Outputs/Apocalypso.lox
+export model -enable centerline -o Outputs/Apocalypso.dxf
 export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Nuits-Blanches.html  
+export cave-list -o Outputs/Apocalypso.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Nuits-Blanches -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Nuits-Blanches-model
+export map -proj plan -fmt esri -o Outputs/Apocalypso -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/Apocalypso-model
 
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Nuits-Blanches.kml -layout my_layout
-export model -fmt kml -o Outputs/Nuits-Blanches-model.kml
+export map -proj plan -fmt kml -o Outputs/Apocalypso.kml -layout my_layout
+export model -fmt kml -o Outputs/Apocalypso-model.kml

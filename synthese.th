@@ -6,23 +6,22 @@ survey synthese -title "Réseau du Clot d'Aspres"
 	
 	input Candy/Data/candy.th
 	input Candy_full/Scialet_Candy-tot.th
-	input CAF-132/Data/CAF-131.th
-	input CAF-132/Data/CAF-132.th
-	input Nuits_Blanches/Data/nuits_blanches.th
+	input CAF-132/CAF-132_tot.th
+	input Nuits_Blanches/nuits_blanches-tot.th
 	
 	input Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
 	input Blizzard/riviere_casse_pied/RCP-tot.th
 	input Blizzard/Principal/Principal-tot.th
-	input Bourrasque/Bourrasque/Data/Bourrasque-tot.th
-	input Pre-Achard/Data/pre-achard-tot.th
+	input Bourrasque/Bourrasque/Bourrasque-tot.th
+	input Pre-Achard/pre-achard-tot.th
 	input Brumes_matinales/BM-tot.th
 	input 2-Soeurs/2-Soeurs-tot.th #add maps
-	input Clos/Data/Caverne_des_Clos.th
+	input Caverne_Clos/Data/Caverne_des_Clos.th
 	input Oreade/Data/Oreade.th #add maps
 	input Silence/Silence-tot.th #add maps
-	input Bagnards/Data/Bagnards-tot.th #add maps
-	input Mistral/Data/Mistral-tot.th #add maps
-	input ID-cuve/Data/ID-cuve-tot.th
+	input Bagnards/Bagnards-tot.th #add maps
+	input Mistral/Mistral-tot.th #add maps
+	input ID-cuve/ID-cuve-tot.th
 	input Jeunesse-Automne/Scialet_Jeunesse_Automne-tot.th
 	input Brise_de_Coeur/Brise_de_Coeur-tot.th
 	input Grotte_du_Serpent-Terre/Grotte_du_Serpent-Terre-tot.th

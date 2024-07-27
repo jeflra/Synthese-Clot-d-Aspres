@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap CAF-131_entree -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
+scrap CAF-131_entree -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-131" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
 
 line wall
   342.5 589.75
