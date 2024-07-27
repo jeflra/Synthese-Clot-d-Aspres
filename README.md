@@ -54,6 +54,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Caverne des Clos
 - Nuit Blanche
 - Pré Achard
+- Grotte du Clos d'Aspres
 
 ### Dessin commencé :
 - Blizzard
@@ -70,7 +71,6 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Brise de Coeur (SGCAF)
 - Serpent Terre
 - Vladimir
-- Grotte du Clos d'Aspres
 - Soleil Trompeur CAF225
 - Amadjide
 - Apocalypso
