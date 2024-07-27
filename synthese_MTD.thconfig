@@ -3,8 +3,8 @@ encoding  utf-8
 # 1-SOURCES 
 
 
-source synthese.th
-#source synthese_MTC.th
+#source synthese.th
+source synthese_MTC.th
 
 
 # Add config file

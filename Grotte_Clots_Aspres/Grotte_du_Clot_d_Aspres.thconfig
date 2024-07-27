@@ -161,8 +161,8 @@ layout my_layout
 	endcode
 	
 	# add extended-elev on the same pdf
-	map-image 50 -10 n Outputs/Grotte_Clots_Aspres-coupe.pdf
-	map-image 69 33 nw Logos/Logo_Tritons_2023_Small.jpg
+	#map-image 50 -10 n Outputs/Grotte_Clots_Aspres-coupe.pdf
+	#map-image 69 33 nw Logos/Logo_Tritons_2023_Small.jpg
 	
 endlayout
 
@@ -315,14 +315,14 @@ select MC-Grotte_Clots_Aspres-coupe-tot@Grotte_Clots_d_Aspres
 export map -projection extended -layout my_layout-coupe -o Outputs/Grotte_Clots_Aspres-coupe.pdf
 export map -o Outputs/Grotte_Clots_Aspres-plan.pdf -layout my_layout
 
-#export model -enable centerline -o Outputs/Grotte_Clots_Aspres.lox
+export model -enable centerline -o Outputs/Grotte_Clots_Aspres.lox
 #export model -enable centerline -o Outputs/Grotte_Clots_Aspres.dxf
-#export continuation-list -o Outputs/questions.html
-#export cave-list -o Outputs/Grotte_Clots_Aspres.html
+export continuation-list -o Outputs/questions.html
+export cave-list -o Outputs/Grotte_Clots_Aspres.html
 
 # Export des fichiers ESRI
-#export map -proj plan -fmt esri -o Outputs/Grotte_Clots_Aspres -layout my_layout
-#export model -enable centerline -fmt esri -o Outputs/Grotte_Clots_Aspres-model
+export map -proj plan -fmt esri -o Outputs/Grotte_Clots_Aspres -layout my_layout
+export model -enable centerline -fmt esri -o Outputs/Grotte_Clots_Aspres-model
 
 
 # Export des fichiers kml
