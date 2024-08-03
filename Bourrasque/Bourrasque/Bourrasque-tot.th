@@ -1,13 +1,13 @@
 survey Bourrasque
 
 
-input Data/bourrasque.th2
+# input Data/bourrasque.th2
 
 
-input Data/bourrasque.th
+input Data/bourrasque_MTC.th
 
-
-input Bourrasque_maps.th
+# input Data/bourrasque.th
+# input Bourrasque_maps.th
 
 
 

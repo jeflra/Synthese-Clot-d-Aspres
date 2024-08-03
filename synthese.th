@@ -36,7 +36,7 @@ survey synthese -title "Réseau du Clot d'Aspres"
 		
 		equate 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches jonc@brumes_matinales.brumes-tot
 	
-	# equate A3@riviere_casse_pieds.riviere_casse_pieds 323@Silence-Blizzard.Silence
+	equate A3@riviere_casse_pieds.riviere_casse_pieds 323@Silence-Blizzard.Silence
 	
 	# map map_synthese
 	
