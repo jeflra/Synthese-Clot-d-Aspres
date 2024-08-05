@@ -1,13 +1,19 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -2481 3010 128
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -128 -2481 4975.348 6544.312
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Jonction_NE_Bou.png 0 {}
+##XTHERION## xth_me_image_insert {-75.9699999999998 1 1.0} {-3782.1200000000003 Nymphe} Nymphe-Emue_plan.xvi 0 {}
 
 
 
-scrap SP-jonction-1 -projection plan -scale [2044.75 -1340.5 2044.75 -144.5 0.0 0.0 100 0.0 m]
+scrap SP-jonction-1 -projection plan -scale [2044.75 -1340.5 2044.75 -144.5 0.0 0.0 100 0.0 m] -station-names "" "@Nymphe"
 
-point 470.0 -1580.0 station -name jonction@Nymphe
+point 349.56000000000006 -1391.98 station -name A83
+
+point 983.5600000000002 -1383.6799999999998 station -name A84
+
+point 1062.8200000000002 -1241.85 station -name A85
+
 
 line pit -reverse on
   542.0 -1767.0
@@ -114,8 +120,6 @@ line wall
   smooth off
 endline
 
-point 1925.0 -1961.0 station -name p-307@Nymphe
-
 line wall
   547.0 -1755.0
   562.0 -1755.0 579.0 -1758.0 591.0 -1755.0
@@ -166,7 +170,7 @@ endscrap
 
 
 
-scrap SP-jonction-2 -projection plan -scale [2044.75 -1340.5 2044.75 -144.5 0.0 0.0 100 0.0 m]
+scrap SP-jonction-2 -projection plan -scale [2044.75 -1340.5 2044.75 -144.5 0.0 0.0 100 0.0 m] -station-names "" "@Nymphe"
 
 line wall
   1065.75 -911.0
@@ -260,15 +264,18 @@ line wall
   smooth off
 endline
 
-point 470.0 -1580.0 station -name jonction@Nymphe
 
-point 1925.0 -1961.0 station -name p-307@Nymphe
+point 349.56000000000006 -1391.98 station -name A83
+
+point 983.5600000000002 -1383.6799999999998 station -name A84
+
+point 1062.8200000000002 -1241.85 station -name A85
 
 endscrap
 
 
 
-scrap SP-jonction-3 -projection plan -scale [2044.75 -1340.5 2044.75 -144.5 0.0 0.0 100 0.0 m]
+scrap SP-jonction-3 -projection plan -scale [2044.75 -1340.5 2044.75 -144.5 0.0 0.0 100 0.0 m] -station-names "" "@Nymphe"
 
 line wall
   819.0 -673.75
@@ -283,6 +290,7 @@ line wall
   967.0 -832.0 978.5 -838.25 987.75 -845.25
   997.0 -852.25 1021.5 -874.75 1029.25 -878.25
   1037.0 -881.75 1042.25 -888.25 1044.0 -895.5
+  smooth off
 endline
 
 line wall
@@ -294,6 +302,7 @@ line wall
   909.5 -733.5 891.25 -723.25 878.0 -716.75
   864.75 -710.25 850.75 -701.75 847.5 -696.75
   844.25 -691.75 837.5 -676.25 840.0 -671.75
+  smooth off
 endline
 
 line wall
@@ -303,6 +312,7 @@ line wall
   1079.0 -836.25 1069.75 -834.75 1063.75 -838.5
   1057.75 -842.25 1052.75 -849.5 1053.5 -853.75
   1054.25 -858.0 1056.25 -864.75 1054.25 -864.75
+  smooth off
 endline
 
 line wall
@@ -317,6 +327,7 @@ line wall
   1101.0 -946.0 1103.25 -930.25 1103.25 -924.25
   1103.25 -918.25 1095.5 -891.5 1093.5 -887.75
   1091.5 -884.0 1075.5 -876.5 1075.25 -872.25
+  smooth off
 endline
 
 line wall
@@ -368,22 +379,16 @@ line wall
   1004.0 -1207.0 1013.0 -1190.25 1015.75 -1188.25
   1018.5 -1186.25 1026.5 -1173.5 1027.5 -1139.0
   1028.5 -1104.5 1034.75 -1094.75 1036.25 -1091.0
+  smooth off
 endline
 
-point 470.0 -1580.0 station -name jonction@Nymphe
+point 349.56000000000006 -1391.98 station -name A83
 
-point 1925.0 -1961.0 station -name p-307@Nymphe
+point 983.5600000000002 -1383.6799999999998 station -name A84
+
+point 1062.8200000000002 -1241.85 station -name A85
+
 
 endscrap
-
-
-
-# scrap SP-jonction-4 -projection plan -scale [2044.75 -1340.5 2044.75 -144.5 0.0 0.0 100 0.0 m]
-
-# point 470.0 -1580.0 station -name jonction@Nymphe
-
-# point 1925.0 -1961.0 station -name p-307@Nymphe
-
-# endscrap
 
 

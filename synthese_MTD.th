@@ -6,16 +6,14 @@ survey synthese -title "Réseau du Clot d'Aspres"
 
 input Oreade/Oreade-tot.th #add maps
 input Nymphe_emue/Nymphe-tot.th
-input Bourrasque/Bourrasque/Data/bourrasque_MTC.th
-input Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
-input Blizzard/riviere_casse_pied/RCP-tot.th
+input Bourrasque/Bourrasque/Bourrasque-tot.th
 
 equate A28@Oreade.Oreade A35@Nymphe.Nymphe
 
-equate A48@bourrasque A85@Nymphe.Nymphe
+equate A48@bourrasque.Bourrasque A85@Nymphe.Nymphe
 
-equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
+# equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
 		
-equate TT@1.menisque A69@bourrasque
+# equate TT@1.menisque A69@bourrasque
 endsurvey
 

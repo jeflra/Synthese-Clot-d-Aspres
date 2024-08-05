@@ -5,9 +5,11 @@ survey Bourrasque
 
 
 input Data/bourrasque_MTC.th
+input Data/bourrasque_MTD.th2
+
 
 # input Data/bourrasque.th
-# input Bourrasque_maps.th
+input Bourrasque_maps.th
 
 
 

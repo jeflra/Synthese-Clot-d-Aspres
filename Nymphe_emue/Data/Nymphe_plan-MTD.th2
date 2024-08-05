@@ -1,12 +1,12 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -7302.0 5270.37 128.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 {}} Nymphe.png 0 {}
 ##XTHERION## xth_me_image_insert {2896.052 1 1.0} {-5109.52 Nymphe} Nymphe-Emue_plan.xvi 0 {}
 
 
 
-scrap SP-Nymphe-1 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-1 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1954.25 -2632.75
@@ -143,8 +143,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 line wall
   1684.5 -2634.0
@@ -222,6 +220,36 @@ line wall -reverse on
   smooth off
 endline
 
+point 1982.682 -2598.3899999999994 station -name A88
+
+point 2303.872 -2540.0199999999995 station -name A87
+
+point 2224.612 -2706.8699999999994 station -name A86
+
+point 3322.5 -2718.25 station -name A83
+
+point 3192.282 -2777.7599999999993 station -name A82
+
+point 3008.762 -2736.0599999999995 station -name A81
+
+point 2900.322 -2823.66 station -name A80
+
+point 2566.652 -2848.6899999999996 station -name A79
+
+point 1975.25 -2890.25 station -name A78
+
+point 1920.132 -3028.0499999999993 station -name A77
+
+point 1744.952 -3040.5799999999995 station -name A76
+
+point 1711.592 -3161.5399999999995 station -name A75
+
+point 1594.782 -3186.5599999999995 station -name A74
+
+point 1465.462 -3073.95 station -name A73
+
+point 1444.612 -3153.1799999999994 station -name A72
+
 line wall
   1344.75 -3170.75
   1351.5 -3169.75 1382.25 -3163.75 1388.0 -3164.75
@@ -289,8 +317,6 @@ endline
 
 point 1690.5 -2944.75 label -text "R6"
 
-line wall
-endline
 
 line wall
   1612.0 -2946.25
@@ -436,17 +462,11 @@ line wall
   smooth off
 endline
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
-
-point 206.0 -1850.0 station -name N-380@Nymphe
-
 endscrap
 
 
 
-scrap SP-Nymphe-2 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
-
-point 3429.5 -2904.5 station -name jonction@Nymphe
+scrap SP-Nymphe-2 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line label -text "Galerie Bob-Nico" -scale xl
   3280.0 -2883.5
@@ -462,10 +482,6 @@ line chimney -close on -reverse on
   2997.75 -2713.25 2999.5 -2706.0 2996.25 -2703.75
   2993.0 -2701.5 2982.5 -2701.5 2983.25 -2706.25
 endline
-
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
 
 line wall
   2438.5 -2740.0
@@ -598,11 +614,17 @@ line wall
   smooth off
 endline
 
+point 2896.052 -5109.5199999999995 station -name Nymphe
+
+point 3955.5820000000003 -2711.0799999999995 station -name A84
+
+
+
 endscrap
 
 
 
-scrap SP-Nymphe-3 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-3 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line pit
   1288.25 -3799.5
@@ -969,6 +991,12 @@ line wall -reverse on
   smooth off
 endline
 
+point 2896.052 -5109.5199999999995 station -name Nymphe
+
+point 3955.5820000000003 -2711.0799999999995 station -name A84
+
+point 1315.222 -5134.48 station -name A66
+
 line wall
   1431.5 -4935.5
   1426.75 -4935.25 1424.0 -4932.0 1420.25 -4936.75
@@ -1197,11 +1225,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
-
-line wall
-endline
 
 point 1310.0 -5185.0 label -text "P10"
 
@@ -1382,9 +1405,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
-
 line wall -close on
   1818.5 -3091.75
   1821.75 -3097.25 1829.25 -3103.25 1825.5 -3105.75
@@ -1496,9 +1516,6 @@ line wall
 endline
 
 line wall -subtype invisible
-endline
-
-line wall -subtype invisible
   1501.0 -1895.25
   1473.25 -1850.5
 endline
@@ -1518,6 +1535,20 @@ line label -text "<center>Le Vrai faux<br>P50" -scale xl
   1966.0 -2325.0 1963.0 -2426.0 1963.0 -2426.0
   smooth off
 endline
+
+point 1014.982 -1317.7799999999997 station -name A95
+
+point 1215.182 -1555.5299999999997 station -name A94
+
+point 1611.422 -1855.8499999999995 station -name A93
+
+point 1594.732 -2010.1899999999996 station -name A92
+
+point 1757.402 -2264.6399999999994 station -name A91
+
+point 1832.5120000000002 -2327.24 station -name A90
+
+point 1836.682 -2531.6399999999994 station -name A89
 
 line wall
   1931.5 -2564.5
@@ -1617,15 +1648,11 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
-
 endscrap
 
 
 
-scrap SP-Nymphe-4 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-4 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall -subtype invisible
   1485.75 -1941.5
@@ -1873,14 +1900,13 @@ line wall
 endline
 
 line label -text "Dernière séance du Scal" -scale xl
-endline
-
-line label -text "Dernière séance du Scal" -scale xl
   742.0 -1845.0
   842.0 -1832.0 1181.0 -1839.0 1259.0 -1935.0
   1332.07 -2024.93 1402.0 -2305.0 1308.0 -2396.0
   smooth off
 endline
+
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 line wall
   212.25 -1581.25
@@ -1979,15 +2005,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-5 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-5 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line label -text "Réseau du Trou Noir" -scale xl
   1917.0 -1121.0
@@ -2480,15 +2506,15 @@ line wall -reverse on
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-6 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-6 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1552.25 -1818.75
@@ -2627,15 +2653,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-7 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-7 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1485.75 -1941.5
@@ -2707,18 +2733,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-8 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
-
-line wall
-endline
+scrap SP-Nymphe-8 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1618.75 -2543.0
@@ -2802,15 +2825,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-9 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-9 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 point 1559.75 -2837.0 label -text "R5"
 
@@ -2937,15 +2960,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-10 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-10 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
 endline
@@ -3298,6 +3321,24 @@ line label -text "Sale Bite" -scale xl
   1878.0 -5969.5 1968.5 -5996.0 2018.5 -5988.5
   smooth off
 endline
+
+point 2053.422 -5263.889999999999 station -name A128
+
+point 1869.892 -5222.2 station -name A127
+
+point 1786.482 -5405.73 station -name A126
+
+point 1899.1019999999999 -5639.32 station -name A125
+
+point 2307.892 -5960.48 station -name A124
+
+point 2273.25 -5897.5 station -name A124
+
+point 2090.982 -5718.5599999999995 station -name A123
+
+point 1857.402 -5751.929999999999 station -name A122
+
+point 1940.8519999999999 -5789.49 station -name A121
 
 line wall
   883.5 -5652.5
@@ -3719,6 +3760,8 @@ line wall
   smooth off
 endline
 
+point 1281.832 -4337.79 station -name A67
+
 line wall
   309.0 -4421.5
   294.0 -4420.0 279.5 -4420.0 272.0 -4421.0
@@ -3943,6 +3986,14 @@ line wall
   smooth off
 endline
 
+point 1281.952 -3157.3599999999997 station -name A71
+
+point 1265.262 -3265.7999999999993 station -name A70
+
+point 1165.132 -3269.9799999999996 station -name A69
+
+point 1039.972 -3520.2499999999995 station -name A68
+
 line wall
   1320.5 -4265.5
   1317.5 -4255.5 1306.5 -4225.5 1302.5 -4220.5
@@ -4064,15 +4115,11 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
-
 endscrap
 
 
 
-scrap SP-Nymphe-11 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-11 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1433.5 -4921.5
@@ -4099,6 +4146,68 @@ line wall
   1745.0 -5237.0 1750.5 -5243.0 1756.0 -5249.0
   smooth off
 endline
+
+point 2053.462 -5818.679999999999 station -name A120
+
+point 2191.1220000000003 -5843.69 station -name A119
+
+point 2341.302 -5810.32 station -name A118
+
+point 2211.982 -5897.91 station -name A117
+
+point 2332.932 -5939.629999999999 station -name A116
+
+point 2374.642 -5922.94 station -name A115
+
+point 2403.832 -5993.84 station -name A114
+
+point 2570.682 -6039.73 station -name A113
+
+point 2591.532 -6110.619999999999 station -name A112
+
+point 2612.382 -6073.08 station -name A111
+
+point 2616.562 -6039.709999999999 station -name A110
+
+point 2624.9120000000003 -5985.48 station -name A109
+
+point 2750.052 -5893.719999999999 station -name A108
+
+point 2783.402 -5877.039999999999 station -name A107
+
+point 2702.25 -5784.75 station -name A107
+
+point 2708.332 -5739.369999999999 station -name A105
+
+point 2654.102 -5664.289999999999 station -name A60
+
+point 2745.862 -5539.129999999999 station -name A59
+
+point 2787.592 -5564.17 station -name A58
+
+point 2838.0 -5504.5 station -name A57
+
+point 2833.462 -5451.53 station -name A56
+
+point 2896.012 -5434.86 station -name A55
+
+point 2954.4120000000003 -5305.53 station -name A54
+
+point 3104.572 -5276.339999999999 station -name A53
+
+point 3133.762 -5192.94 station -name A52
+
+point 3200.502 -5188.759999999999 station -name A51
+
+point 3254.712 -5126.19 station -name A50
+
+point 3350.672 -5126.19 station -name A49
+
+point 3421.592 -5092.82 station -name A48
+
+point 3463.302 -5092.82 station -name A47
+
+point 3646.842 -5046.92 station -name A46
 
 line wall
   3566.5 -5067.5
@@ -4533,6 +4642,16 @@ line wall
   smooth off
 endline
 
+point 2049.322 -5439.0 station -name A65
+
+point 2140.75 -5221.0 station -name A64
+
+point 2237.012 -5201.2699999999995 station -name A63
+
+point 2345.442 -5534.98 station -name A62
+
+point 2512.282 -5647.599999999999 station -name A61
+
 line wall
   2059.5 -5493.0
   2058.0 -5485.0 2069.5 -5459.0 2074.5 -5454.0
@@ -4880,15 +4999,25 @@ line wall -reverse on
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
-
 endscrap
 
 
 
-scrap SP-Nymphe-12 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-12 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+
+point 2395.532 -6356.67 station -name A103
+
+point 2449.752 -6394.219999999999 station -name A102
+
+point 2541.502 -6352.5199999999995 station -name A101
+
+point 2519.25 -6261.0 station -name A100
+
+point 2545.672 -6131.459999999999 station -name A99
+
+point 2562.342 -6006.33 station -name A98
+
+point 2433.032 -5881.19 station -name A97
 
 line wall
   2475.0 -6426.5
@@ -4944,6 +5073,8 @@ point 2356.5 -6323.0 label -text "P17" -scale xl
 
 point 2418.0 -6303.5 label -text "P9" -scale xl
 
+point 2374.672 -6373.349999999999 station -name A104
+
 line wall
   2482.5 -5755.0
   2475.0 -5763.0 2473.5 -5768.5 2464.5 -5781.5
@@ -4989,18 +5120,12 @@ line wall
   smooth off
 endline
 
-line wall
-endline
-
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
 
 endscrap
 
 
 
-scrap SP-Nymphe-13 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-13 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line border -close on
   2017.0 -5792.5
@@ -5054,15 +5179,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-14 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-14 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   281.5 -4437.5
@@ -5109,15 +5234,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-15 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-15 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1956.5 -2687.5
@@ -5139,15 +5264,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-18 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-18 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   2320.75 -6874.25
@@ -5488,6 +5613,28 @@ line wall
   1639.5 -5656.75 1638.25 -5667.0 1632.0 -5668.25
   smooth off
 endline
+
+point 2095.172 -4546.45 station -name A139
+
+point 2107.682 -4604.839999999999 station -name A138
+
+point 2207.782 -4659.0599999999995 station -name A137
+
+point 2249.482 -4817.58 station -name A136
+
+point 2224.452 -4884.33 station -name A135
+
+point 2241.1220000000003 -5009.469999999999 station -name A134
+
+point 2153.532 -5117.9 station -name A133
+
+point 2136.852 -5192.98 station -name A132
+
+point 2044.25 -5226.0 station -name A131
+
+point 2099.312 -5238.86 station -name A130
+
+point 2099.312 -5263.889999999999 station -name A129
 
 line wall
   2099.75 -5231.75
@@ -5948,18 +6095,12 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
-
 endscrap
 
 
 
-scrap SP-Nymphe-19 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-19 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
-line border
-endline
 
 line wall -close on -reverse on
   2870.0 -4976.0
@@ -5971,6 +6112,34 @@ line wall -close on -reverse on
   2888.25 -4967.0 2879.5 -4964.5 2876.25 -4966.75
   2873.0 -4969.0 2870.5 -4970.75 2870.0 -4976.0
 endline
+
+point 3538.392 -5059.4 station -name A16
+
+point 3496.672 -5155.349999999999 station -name A15
+
+point 3388.2219999999998 -5313.839999999999 station -name A13
+
+point 3325.6620000000003 -5251.28 station -name A12
+
+point 3292.292 -5284.65 station -name A11
+
+point 3233.902 -5292.99 station -name A10
+
+point 3188.022 -5326.36 station -name A9
+
+point 3071.242 -5326.36 station -name A8
+
+point 2891.872 -5493.219999999999 station -name A7
+
+point 2866.852 -5397.289999999999 station -name A6
+
+point 2921.082 -5338.889999999999 station -name A5
+
+point 2900.232 -5209.58 station -name A4
+
+point 2846.012 -5013.549999999999 station -name A3
+
+point 2887.712 -4955.16 station -name A2
 
 line pit -close on
   2881.25 -5083.0
@@ -5996,6 +6165,8 @@ line border -id l334-2952--5139 -close on
   2932.0 -5200.0 2942.25 -5202.25 2950.0 -5171.75
   2957.75 -5141.25 2945.0 -5087.5 2931.5 -5090.25
 endline
+
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
 line wall
   2926.5 -5193.0
@@ -6399,15 +6570,11 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
-
 endscrap
 
 
 
-scrap SP-Nymphe-20 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-20 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1631.0 -5657.0
@@ -6445,15 +6612,15 @@ line wall -reverse on
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-21 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-21 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1609.0 -5069.0
@@ -6551,15 +6718,15 @@ line wall
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 
 
 
-scrap SP-Nymphe-16 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
+scrap SP-Nymphe-16 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
   1668.75 -5298.0
@@ -6755,19 +6922,9 @@ line wall -reverse on
   smooth off
 endline
 
-point 206.0 -1850.0 station -name N-380@Nymphe
+point 2896.052 -5109.5199999999995 station -name Nymphe
 
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
-
-endscrap
-
-
-
-scrap SP-Nymphe-17 -projection plan -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
-
-point 206.0 -1850.0 station -name N-380@Nymphe
-
-point 2879.0 -5095.0 station -name Nymphe@Nymphe
+point 3955.5820000000003 -2711.0799999999995 station -name A84
 
 endscrap
 

@@ -1,12 +1,12 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust 756.0 664.0 5296.0 3678.206
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {1684.2730000000001 1 1.0} {2734.15 bourrasque} Bourrasque-map.xvi 0 {}
-##XTHERION## xth_me_image_insert {600.0 1 1.0} {2796.206 {}} ../../MapToCave/Bourrasque.png 0 {}
+##XTHERION## xth_me_image_insert {402.0 1 1.0} {2731.706 {}} ../../MapToCave/Bourrasque.png 0 {}
 
 
 
-scrap terres_creuses -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap terres_creuses -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
 point 2444.25 1605.5 label -text "P13"
 
@@ -71,6 +71,18 @@ line wall
   smooth off
 endline
 
+point 2329.0 1586.5 station -name A37
+
+point 2337.75 1519.0 station -name A38
+
+point 2220.75 1324.5 station -name A30
+
+point 2092.75 1163.0 station -name A26
+
+point 2014.75 1125.0 station -name A25
+
+point 1999.25 1158.25 station -name A24
+
 line wall
   2098.0 1173.0
   2095.21 1170.82 2084.09 1173.99 2080.9546 1172.9907
@@ -100,8 +112,8 @@ line wall
   2031.3819 1125.437 2033.8647 1125.0574 2036.7224 1124.906
   2039.1614 1124.7778 2041.872 1126.3611 2043.949 1127.3718
   2046.897 1128.8061 2049.9579 1130.0244 2052.807 1131.6565
-  2055.7031 1133.3154 2058.208 1135.5029 2060.8166 1137.5647
-  2064.7076 1140.6396 2068.963 1142.5159 2073.418 1144.6277
+  2055.7031 1133.3154 2058.21 1135.5 2060.8166 1137.5647
+  2064.71 1140.64 2068.963 1142.5159 2073.418 1144.6277
   2077.6916 1146.654 2080.0201 1148.8599 2085.0599 1148.3069
   2088.6047 1147.9175 2093.07 1147.3 2094.8022 1151.2939
   2096.29 1154.74 2100.52 1159.9 2102.25 1163.25
@@ -478,15 +490,20 @@ line wall
   smooth off
 endline
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
+point 1749.0 1173.5 station -name A1
 
-point 1776.0 1237.5 station -name bourrasque@bourrasque
+point 1216.25 1125.5 station -name A73
+
 
 endscrap
 
 
 
-scrap graal -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap graal -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
+
+point 2257.0 1399.5 station -name A32
+
+point 2092.75 1163.0 station -name A26
 
 point 2140.75 1240.5 label -text "P9" -align right
 
@@ -506,8 +523,8 @@ line wall
   2102.25 1163.25
   2104.04 1166.73 2103.1695 1166.062 2106.626 1166.4539
   2109.9994 1166.8347 2112.9516 1167.7417 2115.3161 1170.332
-  2119.9719 1175.4333 2123.0951 1181.7102 2127.8418 1186.7444
-  2132.5354 1191.7224 2138.0932 1195.7434 2143.2618 1200.1941
+  2119.9719 1175.4333 2123.1 1181.71 2127.8418 1186.7444
+  2132.54 1191.72 2138.0932 1195.7434 2143.2618 1200.1941
   2148.2764 1204.5129 2152.3882 1209.8657 2156.8231 1214.7571
   2161.532 1219.9499 2166.0169 1225.2527 2169.7523 1231.1987
   2173.1684 1236.637 2176.3733 1242.207 2180.0794 1247.456
@@ -574,19 +591,18 @@ line wall
   smooth off
 endline
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
 
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 endscrap
 
 
 
-scrap nakanai_bas -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap nakanai_bas -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
 
-point 1776.0 1237.5 station -name bourrasque@bourrasque
+point 2461.0 1602.5 station -name A42
+
+point 2424.25 1530.0 station -name A39
 
 line pit -reverse on
   2428.25 1542.0
@@ -621,7 +637,7 @@ endscrap
 
 
 
-scrap nakanai -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap nakanai -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
 line pit
   2465.8618 1610.9619
@@ -634,9 +650,6 @@ line pit
   smooth off
 endline
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
-
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 line wall
   2629.75 1481.25
@@ -688,6 +701,14 @@ line wall
   smooth off
 endline
 
+point 2494.5 1583.75 station -name A43
+
+point 2629.75 1487.25 station -name A44
+
+point 2720.5 1446.5 station -name A45
+
+point 2804.0 1360.25 station -name A46
+
 line wall
   2458.25 1597.75
   2447.5 1603.5 2462.75 1615.75 2460.6299 1623.8726
@@ -724,8 +745,8 @@ line wall
   2674.6796 1453.1189 2677.9707 1452.6086 2681.2898 1452.4488
   2684.0773 1452.3145 2686.8239 1452.8076 2689.5856 1453.0896
   2693.9314 1453.5328 2698.3144 1453.1334 2702.6668 1452.9871
-  2710.1447 1452.7368 2718.5725 1451.6773 2723.935 1445.8154
-  2725.3645 1444.2529 2726.6316 1442.467 2727.2151 1440.4114
+  2710.1447 1452.7368 2718.57 1451.68 2723.935 1445.8154
+  2725.36 1444.25 2726.6316 1442.467 2727.2151 1440.4114
   2728.2368 1436.8176 2727.9744 1433.0151 2728.8484 1429.3934
   2729.3025 1427.511 2730.4903 1425.8728 2732.2639 1425.0403
   2734.8445 1423.8281 2738.1586 1424.0051 2740.9059 1423.3411
@@ -746,7 +767,7 @@ endscrap
 
 
 
-scrap entree_bourrasque -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap entree_bourrasque -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
 line overhang -close on
   1781.402 1233.8208
@@ -764,6 +785,10 @@ line overhang
   1751.45 1169.66 1753.3846 1169.9756 1754.3319 1171.98
   smooth off
 endline
+
+point 1739.0 1152.75 station -name A2
+
+point 1749.0 1173.5 station -name A1
 
 line wall
   1776.0 1237.5
@@ -795,15 +820,22 @@ line wall
   smooth off
 endline
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
-
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 endscrap
 
 
 
-scrap puits_bourrasque -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap puits_bourrasque -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
+
+point 1870.5 1160.0 station -name A21
+
+point 1763.5 1214.25 station -name A14
+
+point 1770.0 1130.0 station -name A8
+
+point 1719.0 1110.25 station -name A5
+
+point 1716.0 1151.75 station -name A3
 
 line wall
   1773.2812 1212.102
@@ -917,9 +949,6 @@ point 1697.0831 967.7258 label -text "Alt. : 1 885" -align tr -scale l
 
 point 1697.0831 1027.7258 label -text "LA BOURRASQUE" -align tr -scale l
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
-
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 ####line wall -close on
 ####  1451.5625 1109.1333
@@ -3032,7 +3061,7 @@ endscrap
 
 
 
-scrap aventure_interieure_haute -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap aventure_interieure_haute -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
 line wall
   1672.9687 1157.1899
@@ -3083,9 +3112,6 @@ line wall
   smooth off
 endline
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
-
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 line wall
   1674.5572 1150.6348
@@ -3122,12 +3148,14 @@ line wall
   1795.45 1302.99 1797.5 1306.25 1797.25 1309.5
   smooth off
 endline
+point 1749.0 1173.5 station -name A1
 
+point 1216.25 1125.5 station -name A73
 endscrap
 
 
 
-scrap aventure_interieure -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap aventure_interieure -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
 line pit -reverse on
   1661.8079 1157.4817
@@ -3316,9 +3344,6 @@ line wall -close on -reverse on
   smooth off
 endline
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
-
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 line wall
   1813.75 1387.6233
@@ -3406,19 +3431,20 @@ line wall
   smooth off
 endline
 
+point 1749.0 1173.5 station -name A1
+
+point 1216.25 1125.5 station -name A73
+
 endscrap
 
 
 
-scrap sous_P18 -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap sous_P18 -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
 point 1452.25 1070.0 label -text "E5" -align right
 
 point 1441.4581 1030.7695 label -text "P20" -align left
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
-
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 line wall
   1509.5831 1050.5396
@@ -3509,15 +3535,19 @@ line pit -reverse on
   smooth off
 endline
 
+
+point 1749.0 1173.5 station -name A1
+
+point 1216.25 1125.5 station -name A73
+
 endscrap
 
 
 
-scrap cascades_du_fond -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap cascades_du_fond -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
 
-point 1776.0 1237.5 station -name bourrasque@bourrasque
+point 1346.0 1228.0 station -name A60
 
 line wall
   1435.4169 1270.7471
@@ -3530,8 +3560,8 @@ line wall
   1388.3484 1275.0183 1387.6239 1274.5605 1386.2756 1273.4241
   1381.6834 1269.5532 1376.7395 1266.0425 1372.2229 1262.1057
   1369.3536 1259.6057 1369.3409 1256.7687 1368.2129 1253.4216
-  1367.11 1250.1575 1363.4913 1248.0847 1360.8429 1246.1829
-  1357.854 1244.0356 1354.8059 1241.9434 1352.0978 1239.4397
+  1367.11 1250.1575 1363.49 1248.09 1360.8429 1246.1829
+  1357.85 1244.04 1354.8059 1241.9434 1352.0978 1239.4397
   1348.4473 1236.0644 1344.19 1231.13 1344.2956 1225.8716
   1344.33 1223.98 1344.5 1220.0 1347.0533 1221.1401
   1349.49 1222.23 1352.77 1222.28 1355.185 1222.9346
@@ -3551,11 +3581,13 @@ line label -reverse on -text "réseau des cascades du fond"
   smooth off
 endline
 
+point 1491.75 1249.5 station -name A59
+
 line wall -reverse on
   1435.4169 1270.7471
   1438.479 1270.6509 1441.6846 1270.7596 1444.6851 1271.4234
-  1447.8101 1272.1168 1450.7196 1273.5071 1453.7214 1274.5776
-  1455.528 1275.2221 1457.2034 1275.7836 1458.7549 1276.7798
+  1447.8101 1272.1168 1450.72 1273.51 1453.7214 1274.5776
+  1455.53 1275.22 1457.2034 1275.7836 1458.7549 1276.7798
   smooth off
   1458.374 1276.5344 1459.8779 1272.0544 1460.0085 1271.5748
   1460.6849 1269.0894 1461.1518 1266.3159 1463.2154 1264.5569
@@ -3688,7 +3720,7 @@ endscrap
 
 
 
-scrap fleurs_du_mal -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap fleurs_du_mal -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
 line wall
   2245.0 1462.5684
@@ -3948,9 +3980,6 @@ line wall
   smooth off
 endline
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
-
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 line wall
   1804.0625 1300.5395
@@ -4207,6 +4236,13 @@ point 2099.5 1344.75 label -text "R2" -align left
 
 point 1894.25 1254.352 label -text "Salle « Noir c'est Noir »" -align right
 
+point 1493.0 1061.5 station -name A54
+
+point 1508.5 1074.5 station -name A53
+
+point 1870.5 1160.0 station -name A21
+
+
 line contour -close off
   1992.8125 1153.4558
   1992.68 1155.32 1996.61 1166.25 1996.4344 1168.1226
@@ -4220,8 +4256,8 @@ line contour -close off
   1947.5391 1189.4861 1945.81 1186.4502 1944.8004 1183.2812
   1943.9221 1180.5225 1943.7341 1177.6074 1943.7 1174.7302
   1943.6687 1172.0373 1943.468 1169.1309 1944.154 1166.5039
-  1945.5701 1161.0791 1948.5815 1156.0278 1952.0783 1151.6907
-  1955.6201 1147.2949 1961.7518 1145.6128 1967.1668 1145.5017
+  1945.5701 1161.0791 1948.58 1156.03 1952.0783 1151.6907
+  1955.62 1147.3 1961.7518 1145.6128 1967.1668 1145.5017
   1972.7991 1145.3857 1978.7323 1146.0693 1983.9831 1148.1872
   1986.817 1149.331 1989.7779 1150.9265 1992.1644 1152.854
   1992.3914 1153.0383 1992.6319 1153.2434 1992.8125 1153.4558
@@ -4510,11 +4546,9 @@ endscrap
 
 
 
-scrap passagers_du_vent -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m]
+scrap passagers_du_vent -scale [0 0 5669.292000 0 0.0 0.0 144.0000168 0.0 m] -station-names "" "@bourrasque"
 
-point 1347.0533 1221.1401 station -name TT@bourrasque
 
-point 1776.0 1237.5 station -name bourrasque@bourrasque
 
 line chimney -close on
   1485.5 1192.0
@@ -4522,6 +4556,10 @@ line chimney -close on
   1482.5 1185.0 1488.0 1182.0 1490.5 1184.5
   1498.75 1192.75 1487.25 1192.0 1485.5 1192.0
 endline
+
+point 1344.5 1229.75 station -name A69
+
+point 1216.25 1125.5 station -name A73
 
 line wall
   1413.3331 1185.1221
@@ -4545,8 +4583,8 @@ line wall
   1485.9766 1193.5754 1484.5704 1192.8577 1482.7081 1193.1458
   1480.9913 1193.4107 1479.2846 1194.4128 1477.594 1195.0415
   1475.7215 1195.7373 1473.9179 1196.6138 1472.3883 1197.9126
-  1470.6591 1199.3823 1469.6826 1201.3928 1468.1128 1202.9797
-  1466.4661 1204.6436 1464.1376 1205.4871 1461.9593 1206.1987
+  1470.6591 1199.3823 1469.68 1201.39 1468.1128 1202.9797
+  1466.47 1204.64 1464.1376 1205.4871 1461.9593 1206.1987
   1458.1494 1207.4426 1454.18 1209.07 1450.0965 1208.4583
   1446.46 1207.92 1444.9951 1204.834 1444.2554 1201.5942
   1443.4595 1198.1091 1443.2946 1194.6179 1441.6773 1191.344
@@ -4595,8 +4633,8 @@ line wall
   altitude " fix 1426"
   1223.24 1126.44 1225.072 1130.5762 1226.5039 1133.8745
   1229.9402 1141.7835 1232.2656 1150.2234 1239.4299 1155.7007
-  1243.277 1158.6426 1247.6752 1160.6372 1252.0666 1162.6099
-  1257.4964 1165.0488 1262.8284 1167.738 1268.374 1169.9109
+  1243.277 1158.6426 1247.68 1160.64 1252.0666 1162.6099
+  1257.5 1165.05 1262.8284 1167.738 1268.374 1169.9109
   1273.5522 1171.9397 1278.6816 1173.9893 1283.783 1176.2061
   1285.0159 1176.7432 1288.2427 1178.5693 1289.4922 1177.3413
   1290.3027 1176.5442 1290.2924 1175.4602 1290.6769 1174.4629
