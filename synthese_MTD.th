@@ -3,17 +3,46 @@ encoding  utf-8
 
 survey synthese -title "Réseau du Clot d'Aspres"
 
+input 2-Soeurs/2-Soeurs-tot.th #add maps
+
+input Nymphe_emue/Nymphe-tot.th
 
 input Oreade/Oreade-tot.th #add maps
-input Nymphe_emue/Nymphe-tot.th
-input Bourrasque/Bourrasque/Bourrasque-tot.th
-
 equate A28@Oreade.Oreade A35@Nymphe.Nymphe
 
+input Bourrasque/Bourrasque/Bourrasque-tot.th
 equate A48@bourrasque.Bourrasque A85@Nymphe.Nymphe
 
-# equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
-		
-# equate TT@1.menisque A69@bourrasque
+input Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
+equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds
+
+input Blizzard/riviere_casse_pied/RCP-tot.th
+equate TT@1.menisque A69@bourrasque.Bourrasque
+
+input Blizzard/Principal/Principal-tot.th
+
+input Brumes_matinales/BM-tot.th
+
+input Silence/Silence-tot.th #add maps
+
+input Nuits_Blanches/nuits_blanches-tot.th
+input Jeunesse-Automne/Scialet_Jeunesse_Automne-tot.th
+
+
+
+
+input Caverne_Clos/Data/Caverne_des_Clos.th
+input Mistral/Mistral-tot.th #add maps
+input Bagnards/Bagnards-tot.th #add maps
+input ID-cuve/ID-cuve-tot.th
+input Brise_de_Coeur/Brise_de_Coeur-tot.th
+input Grotte_Clots_Aspres/Grotte_du_Clot_d_Aspres-tot.th
+input Scialet-de-la-Malleole/Malleole-tot.th
+input Candy_full/Scialet_Candy-tot.th
+input CAF-132/CAF-132_tot.th
+input Grotte_du_Serpent-Terre/Grotte_du_Serpent-Terre-tot.th
+
+input Prospection/Prospection.th
+
 endsurvey
 

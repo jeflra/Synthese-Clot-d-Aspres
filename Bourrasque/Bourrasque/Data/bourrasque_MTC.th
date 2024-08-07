@@ -4,7 +4,7 @@ survey bourrasque -title "Bourrasque" -entrance A1
 
 centerline
 cs EPSG:2154
-fix A1    	902945.572 6438070.851	1886 #BOURRASQUE (scialet de la)
+# fix A1    	902945.572 6438070.851	1886 #BOURRASQUE (scialet de la)
 
 date 1989
 

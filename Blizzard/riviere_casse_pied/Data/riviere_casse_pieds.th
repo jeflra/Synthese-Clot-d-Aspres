@@ -72,7 +72,7 @@ centerline
     team "Manu Pluchart"
     team "Alain Maurice"
     team "Daniel Bruyère"
-  declination -3.29 grad # (calcul avec logiciel declimag) + gisement UTM
+  # declination -3.29 grad # (calcul avec logiciel declimag) + gisement UTM
   units compass clino degree
   data normal from to length compass clino left right up down
 
