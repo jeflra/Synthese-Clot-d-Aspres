@@ -25,6 +25,7 @@ survey Scialet_Candy -title "Scialet_Candy"
 # ## Pour le plan
 # input Data/Scialet_Candy.th2
 	input Data/Candy.th2
+	input Data/plan.th2
 
 # ## Pour la coupe d�velopp�e
 # input Data/Scialet_Candy-coupe.th2

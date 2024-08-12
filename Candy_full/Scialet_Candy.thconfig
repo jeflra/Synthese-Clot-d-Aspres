@@ -30,7 +30,7 @@ layout xviexport
 	cs UTM31
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 500 # pour le plan
-	scale 1 500 # pour la coupe
+	scale 1 510 # pour la coupe
 	# taille de la grille
 	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
@@ -310,7 +310,7 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Scialet_Candy-map.xvi
+export map -fmt xvi -layout xviexport -o Data/Scialet_Candy-map_plan.xvi
 export map -proj extended -layout xviexport -fmt xvi -o Data/Scialet_Candy-coupe.xvi
 export map -proj [elevation 17] -layout xviexport -o Data/Scialet_Candy-coupe_elevation.xvi 
 
