@@ -4,7 +4,7 @@ encoding  utf-8
 
 
 #source synthese.th
-source synthese_MTC.th
+source synthese_MTD.th
 
 
 # Add config file
@@ -50,7 +50,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 300
+   base-scale 1 400
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -162,8 +162,6 @@ layout my_layout
       \newtoks\club \club={}
    endcode  
 
-   # add extended-elev on the same pdf
-   #map-image 105 0 s Outputs/P50-coupe.pdf
 
 endlayout
 
@@ -313,7 +311,7 @@ export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
 	 
 # export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
 # export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
-export map -o Outputs/Synthese-plan.pdf -layout my_layout
+  export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox
 export model  -o Outputs/Synthese.dxf

@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 156.0 664.0 4932.0 2582.0
-##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {695.28 1 1.0} {2311.19 bagnards@reseau_sup} CAF-132_plan.xvi 0 {}
+##XTHERION## xth_me_area_adjust 756.0 664.0 5296.0 3678.206
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {1684.2730000000001 1 1.0} {2734.15 bourrasque} Bourrasque-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {600.0 1 1.0} {2796.206 {}} ../../MapToCave/Bourrasque.png 0 {}
 
 
 
@@ -659,6 +660,7 @@ line wall
   2779.0 1389.25 2785.5 1388.0 2788.0 1383.5
   2790.5 1379.0 2790.75 1374.75 2794.25 1369.75
   2797.75 1364.75 2797.0 1360.5 2802.75 1359.5
+  smooth off
 endline
 
 line wall
@@ -737,6 +739,7 @@ line wall
   2794.6112 1379.1163 2796.266 1377.5074 2797.1675 1375.4713
   2797.812 1374.0149 2798.3326 1372.5074 2798.9716 1371.0498
   2800.1735 1368.3094 2801.8427 1365.5958 2804.9091 1364.7523
+  smooth off
 endline
 
 endscrap

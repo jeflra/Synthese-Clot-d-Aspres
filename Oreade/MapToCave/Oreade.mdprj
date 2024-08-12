@@ -7,7 +7,7 @@ StartElevation=0
 EndElevation=0
 ProfAzimuth=90
 [PlanImage]
-Filename=C:\Users\burru\Documents\Sp�l�o\Topographie\Clot d'Aspres\Synth�se Clot d'Aspres\Oreade\MapToCave\Oreade.png
+Filename=Oreade.png
 PaperRotation=0
 Scale=0,0844529750479847
 RealLineLength=100
@@ -192,7 +192,7 @@ Line41Y=42
 Line42X=42
 Line42Y=43
 [ProfileImage]
-Filename=C:\Users\burru\Documents\Sp�l�o\Topographie\Clot d'Aspres\Synth�se Clot d'Aspres\Oreade\MapToCave\Coupe.png
+Filename=Coupe.png
 PaperRotation=0
 Scale=0,636744186046512
 RealLineLength=100

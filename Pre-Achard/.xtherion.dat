@@ -1,15 +1,14 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
-xth_cp_data_tree_insert 52 1 1 reseau_sup reseau_sup "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
-xth_cp_data_tree_insert 356 52 2 pre_achard pre_achard.reseau_sup "Pré Achard" "Pre Achard" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 872.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 408.91m (from pre_achard@pre_achard.reseau_sup at 0.00m to A30@pre_achard.reseau_sup at -408.91m)\nnorth-south range: 191.93m (from A8@pre_achard.reseau_sup at 9.17m to A46@pre_achard.reseau_sup at -182.76m)\neast-west range: 171.81m (from A46@pre_achard.reseau_sup at 171.81m to A6@pre_achard.reseau_sup at -0.00m)\nnumber of shots: 45\nnumber of stations: 46"
+xth_cp_data_tree_insert 52 1 1 reseau_sup reseau_sup "" "" "length: 872.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 408.91m (from pre_achard@pre_achard.reseau_sup at 0.00m to A30@pre_achard.reseau_sup at -408.91m)\nnorth-south range: 191.93m (from A8@pre_achard.reseau_sup at 9.17m to A46@pre_achard.reseau_sup at -182.76m)\neast-west range: 171.81m (from A46@pre_achard.reseau_sup at 171.81m to A6@pre_achard.reseau_sup at -0.00m)\nnumber of shots: 45\nnumber of stations: 46"
+xth_cp_data_tree_insert 55 52 2 pre_achard pre_achard.reseau_sup "Pré Achard" "Pre Achard" "length: 872.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 408.91m (from pre_achard@pre_achard.reseau_sup at 0.00m to A30@pre_achard.reseau_sup at -408.91m)\nnorth-south range: 191.93m (from A8@pre_achard.reseau_sup at 9.17m to A46@pre_achard.reseau_sup at -182.76m)\neast-west range: 171.81m (from A46@pre_achard.reseau_sup at 171.81m to A6@pre_achard.reseau_sup at -0.00m)\nnumber of shots: 45\nnumber of stations: 46"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
-xth_cp_map_tree_insert map 1 360X1 p1 1 MP-Achard-1 MP-Achard-1@reseau_sup "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 0 13
+xth_cp_comp_stat 872 0
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1718142363
+set xth(th_exit_number) 1722953341
 

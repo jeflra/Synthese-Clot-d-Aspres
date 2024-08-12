@@ -2,7 +2,7 @@ encoding  utf-8
 
 # 1-SOURCES 
 
-source Data/Bourrasque-tot.th
+source Bourrasque-tot.th
 
 # Add entrances coordinates
 #input legendes/entrances_coordinates.th
@@ -18,11 +18,12 @@ layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 50 # pour le plan
-	scale 1 1000 # pour la coupe
+	scale 1 1380 # pour la coupe
 	# taille de la grille
 	grid-size 10 10 10 m
 	# mettre la grille en arrière plan
 	grid bottom
+	rotate 90
 endlayout
 # fin de la définition du layout "xviexport" 
   

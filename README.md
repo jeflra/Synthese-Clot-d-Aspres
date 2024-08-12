@@ -49,7 +49,6 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Bagnards (F. de Felix, A. Figuiers, E. Sibert)
 - NympheEmue
 - Oreade
-- Bourrasque
 - Chambre froide CAF 132
 - Caverne des Clos
 - Nuit Blanche
@@ -68,7 +67,8 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 ### Dessin a commencer
 - Scialet de la Malléole
 - Agnes
-- Brise de Coeur (SGCAF)
+- Bourrasque -> par Océane T.
+- Brise de Coeur (SGCAF) -> Dessin Oceane
 - Serpent Terre
 - Vladimir
 - Soleil Trompeur CAF225
@@ -86,17 +86,17 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 ### A faire
 
 - Blizzard (fait)
-- Bourrasque (fait)
 - ID-cuve
 - Mistral (ou recupération des données)
-- Nymphe Emue (fait)
-- Oreade (fait)
 - Pre Achard (fait)
 - Silence
 
 ### Données générées par MapToDat
 
 - Bagnards
+- Bourrasque 
+- Nymphe Emue
+- Oreade
 
 ## Retopographie en cours ou envisagé
 
