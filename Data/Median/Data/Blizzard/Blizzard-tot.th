@@ -1,0 +1,16 @@
+encoding  utf-8
+
+
+survey blizzard -title "Scialet du Blizzard"
+
+# Le réseau Médian
+
+# Pour le Blizzard, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Median/Blizzard
+input Data/riviere_casse_pied/RCP-tot.th
+    #equate TT@1.menisque A69@bourrasque.Bourrasque
+input Data/Principal/Principal-tot.th
+
+
+
+endsurvey
+

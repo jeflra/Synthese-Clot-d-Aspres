@@ -1,0 +1,19 @@
+encoding  utf-8
+
+
+survey median -title "Réseau Médian du Clot d'Aspres"
+
+# Le réseau Médian
+
+# Pour le Blizzard, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Median/Blizzard
+input Data/Blizzard/Blizzard-tot.Th
+#input Data/Blizzard/riviere_casse_pied/RCP-tot.th
+    #equate TT@1.menisque A69@bourrasque.Bourrasque
+#input Data/Blizzard/Principal/Principal-tot.th
+
+input Data/Brumes_matinales/BM-tot.th
+input Data/Silence/Silence-tot.th #add maps
+
+
+endsurvey
+
