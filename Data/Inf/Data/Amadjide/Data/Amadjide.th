@@ -2,9 +2,10 @@ survey Amadjide
 
 centerline
 
-cs EPSG:27573#lambertIII
+cs EPSG:27573 #lambertIII
 #cs UTM31
-fix Amadjide 903337.949 36437232.352 1844.372
+#fix Amadjide 903337.949 36437232.352 1844.372
+fix Amadjide 855555.2	3308150.9	1624.0
 
 station Amadjide "Scialet Amadjide" entrance
 
