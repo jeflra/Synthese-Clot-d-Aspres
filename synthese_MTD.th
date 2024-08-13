@@ -26,7 +26,7 @@ input Data/Sup/Sup-tot.th
 
 # Le réseau Médian
 input Data/Median/Median-tot.th
-    equate 49@2.menisque.superieur A60@riviere_casse_pieds.riviere_casse_pieds.blizzard.median
+    equate 49@2.menisque.bourrasque.superieur A60@riviere_casse_pieds.riviere_casse_pieds.blizzard.median
     #equate TT@1.menisque.superieur A69@bourrasque.Bourrasque.superieur
 ## Pour le Blizzard, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Median/Blizzard
 #input Data/Median/Data/Blizzard/riviere_casse_pied/RCP-tot.th

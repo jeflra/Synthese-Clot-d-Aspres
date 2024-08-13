@@ -301,7 +301,7 @@ endlayout
 
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
+#export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
 #export map -proj extended -layout xviexport -fmt xvi -o Data/Synthese-coupe.xvi
 #export map -proj [elevation 17] -layout xviexport -o Data/Synthese-coupe_elevation.xvi 
 
@@ -320,7 +320,7 @@ export cave-list -o Outputs/Synthese.html
 
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Synthese -layout my_layout
-export model  -fmt esri -o Outputs/Synthese-model
+export model  -fmt esri -o Outputs/Synthese
 
 
 # Export des fichiers kml
