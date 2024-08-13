@@ -1,9 +1,5 @@
 encoding  utf-8
 
-# File written by pytro2th (Xavier Robert)  
-# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr> 
-# This work is under the licence Creatice Commonc CC-by-nc-sa v.4 
-
 # 1-SOURCES  
 # La ligne source specifie le fichier o� sont les donn�es topo 
 # (Au fichier "nomcavite.th" il faudra avoir une ligne 
