@@ -5,6 +5,6 @@ survey Soleil-Trompeur -title "Soleil-Trompeur"
 
 	input Data/Soleil-Trompeur.th
 
-	input Soleil-Trompeur-maps.th
+	# input Soleil-Trompeur-maps.th
 	
 endsurvey
