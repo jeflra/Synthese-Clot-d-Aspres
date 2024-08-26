@@ -2,9 +2,8 @@ survey Amadjide
 
 centerline
 
-cs EPSG:27573#lambertIII
-#cs UTM31
-fix Amadjide 903337.949 36437232.352 1844.372
+cs UTM31
+fix Amadjide 703251 4989302 1844
 
 station Amadjide "Scialet Amadjide" entrance
 
@@ -12,7 +11,7 @@ date 2011.07.16
     #team 
 
 units length meters
-units compass grades 
+units compass grads
 units clino degrees
 data normal from to  compass clino length 
 

@@ -5,6 +5,6 @@ survey Femmes-Fortes -title "Femmes-Fortes"
 
 	input Data/Femmes-Fortes.th
 
-	input Femmes-Fortes-maps.th
+	# input Femmes-Fortes-maps.th
 	
 endsurvey

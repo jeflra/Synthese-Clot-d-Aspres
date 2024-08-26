@@ -58,7 +58,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 ### Dessin commencé :
 - Blizzard
 - Silence (dessin fini mais pb topo a regler)
-- Candy (therion martin)
+- Candy	
 - Brume matinal
 - 2 Soeurs
 - Jeunesse d'autonme
@@ -80,6 +80,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 ### Manque données
 - Antre des glaces (Pascal Groseil, Christian Hubert, )
 - Mistral (Robert Crozier du C.A.S.C. et Jean Philippe Grandcolas des Tritons)
+- P200 (Barnabé Fourgous)
 
 ## Création de données : MapToDat
 

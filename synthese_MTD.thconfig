@@ -311,7 +311,7 @@ endlayout
 	 
 # export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
 # export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
-  export map -o Outputs/Synthese-plan.pdf -layout my_layout
+export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox
 export model  -o Outputs/Synthese.dxf

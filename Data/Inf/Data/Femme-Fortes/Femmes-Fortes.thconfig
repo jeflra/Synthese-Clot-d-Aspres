@@ -21,7 +21,7 @@ source Femmes-Fortes-tot.th
 
 # Ajoute un fichier de configuration
 # Voir https://github.com/robertxa/Th-Config-Xav pour un exemple
-input ../config.thc  
+input ../../../../config.thc  
 
 
 # 2-LAYOUT   

@@ -7,11 +7,6 @@ encoding  utf-8
 
 scrap candy_entree -station-names "" "@Scialet_Candy" -scale [-128.0 -128.0 10698.845 -128.0 0.0 0.0 275.00186299999996 0.0 m]
 
-line wall
-endline
-
-line wall
-endline
 
 line pit -close on
   1186.5 710.5
@@ -27,8 +22,6 @@ line wall
   smooth off
 endline
 
-line wall
-endline
 
 point 1286.0 670.0 narrow-end
 
@@ -40,8 +33,7 @@ line wall
   smooth off
 endline
 
-line wall
-endline
+
 
 line wall
   1223.5 656.5
@@ -81,8 +73,7 @@ line wall -reverse on -subtype "pit"
   smooth off
 endline
 
-area water
-endarea
+
 
 line pit -close on
   831.5 1688.0

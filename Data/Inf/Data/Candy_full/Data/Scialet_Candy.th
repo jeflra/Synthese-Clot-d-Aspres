@@ -3,12 +3,11 @@ encoding utf-8
 survey Scialet_Candy -title "Scialet Candy" -entrance "Candy" 
 
 	centerline
-	#declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
 	date 2012.7.31
 	team "Clément Garnier"
 	team "Baudouin Lismonde"
 	cs UTM31
-	#  fix Candy 702998 4989356 1580 #UTM31
+	fix Candy 702998 4989356 1580 
 
 	units compass clino degree
 	data normal from to length backcompass backclino right left up down

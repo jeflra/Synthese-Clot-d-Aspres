@@ -5,6 +5,6 @@ survey Amadjide -title "Amadjide"
 
 	input Data/Apocalypso.th
 
-	input Apocalypso-maps.th
+	# input Apocalypso-maps.th
 	
 endsurvey
