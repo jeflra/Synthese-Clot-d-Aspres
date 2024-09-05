@@ -4,7 +4,7 @@ encoding utf-8
 survey Soleil-Trompeur -title "Soleil-Trompeur"
 
 	input Data/Soleil-Trompeur.th
-
-	# input Soleil-Trompeur-maps.th
+	input Data/plan.th2
+	input Soleil-Trompeur-maps.th
 	
 endsurvey

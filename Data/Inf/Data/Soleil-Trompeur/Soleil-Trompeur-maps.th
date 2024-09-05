@@ -5,8 +5,8 @@ encoding utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Soleil-Trompeur-plan-tot 
-	
+	SP-ST-1
 endmap
-map MC-Soleil-Trompeur-coupe-tot 
+# map MC-Soleil-Trompeur-coupe-tot 
 
-endmap
+# endmap

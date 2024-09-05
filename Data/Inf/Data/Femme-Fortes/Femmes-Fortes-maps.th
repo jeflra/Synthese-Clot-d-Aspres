@@ -5,8 +5,8 @@ encoding utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Femmes-Fortes-plan-tot 
-	
+	SP-FF-1
 endmap
-map MC-Femmes-Fortes-coupe-tot 
+# map MC-Femmes-Fortes-coupe-tot 
 
-endmap
+# endmap

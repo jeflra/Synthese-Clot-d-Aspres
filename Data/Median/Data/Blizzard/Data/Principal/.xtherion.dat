@@ -10,5 +10,5 @@ xth_cp_map_tree_insert map 1 270X1 p1 1 MP-Principal-tot MP-Principal-tot@Blizza
 xth_cp_map_tree_create
 xth_cp_comp_stat 648 7
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1721944757
+set xth(th_exit_number) 1724876570
 

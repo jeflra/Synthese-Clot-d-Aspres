@@ -4,7 +4,7 @@ encoding utf-8
 survey Amadjide -title "Amadjide"
 
 	input Data/Apocalypso.th
-
-	# input Apocalypso-maps.th
+	input Data/Plan.th2
+	input Apocalypso-maps.th
 	
 endsurvey

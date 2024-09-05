@@ -5,8 +5,10 @@ encoding utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Amadjide-plan-tot 
-	
+	SP-Amadjide-1
+    break
+    SP-Amadjide-2
 endmap
-map MC-Amadjide-coupe-tot 
+# map MC-Amadjide-coupe-tot 
 
-endmap
+# endmap

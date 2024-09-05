@@ -41,17 +41,8 @@ station T47 "T47" entrance
 fix Crimee 5.5800017 45.0267464 1656
 station Crimee "Crimée (Scialet de) [YB 03 40]" entrance
 
-fix Amadjide  5.5800844 45.0280228 1618
-station Amadjide "Amadjide (Scialet)"  entrance
-
-fix TQF  5.5798032 45.0291094 1586
-station TQF  "TQF (Scialet)" entrance
-
 fix Flippes  5.5820241 45.0226048 1770
 station Flippes  "Flippés (Scialet des)" entrance
-
-fix Apocalypso  5.5785836 45.0399374 1373
-station Apocalypso  "Apocalypso (Scialet)" entrance
 
 fix SCV92-FLT  5.5830349 45.0137883 1877
 station SCV92-FLT  "SCV 92-FLT (Grotte)" entrance
@@ -60,7 +51,7 @@ fix F01 5.580936 45.036329 1441
 station F01 "F01 (Scialet) [F1] [CAF 159]" entrance
 
 fix Coucou 5.5824836 45.0271764 1715
-station Coucou  "Coucou (Scialet du) [F3]" entrance
+station Coucou  "Coucou (Scialet du) [F3]" entrance #diam 0 5m P=15 m pas de suite
 
 fix Agnes 5.57963 45.00329 1989	
 station Agnes "Agnès (Grotte)" entrance

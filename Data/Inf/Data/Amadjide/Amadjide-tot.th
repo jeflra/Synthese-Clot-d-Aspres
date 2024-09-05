@@ -5,7 +5,7 @@ survey Amadjide -title "Amadjide"
 
 	input Data/Amadjide.th
 
-	# input Data/Amadjide.th2
-	#input Amadjide-maps.th
+	input Data/Plan.th2
+	input Amadjide-maps.th
 	
 endsurvey

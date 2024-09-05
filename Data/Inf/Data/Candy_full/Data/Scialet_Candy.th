@@ -7,7 +7,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 	team "Clément Garnier"
 	team "Baudouin Lismonde"
 	cs UTM31
-	fix Candy 702998 4989356 1580 
+	# fix Candy 702998 4989356 1580 
 
 	units compass clino degree
 	data normal from to length backcompass backclino right left up down

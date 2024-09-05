@@ -5,7 +5,7 @@ encoding  utf-8
 source Principal-tot.th
 
 # Add config file
-input ../../config.thc 
+input ../../../../../../config.thc 
 
 # 2-LAYOUT   
 
