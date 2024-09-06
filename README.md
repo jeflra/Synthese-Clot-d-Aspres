@@ -54,6 +54,9 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Nuit Blanche
 - Pré Achard
 - Grotte du Clos d'Aspres
+- Amadjide
+- Apocalypso
+- Femmes Fortes
 
 ### Dessin commencé :
 - Blizzard
@@ -62,7 +65,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Brume matinal
 - 2 Soeurs
 - Jeunesse d'autonme
-
+- Soleil Trompeur CAF225
 
 ### Dessin a commencer
 - Scialet de la Malléole
@@ -71,10 +74,6 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Brise de Coeur (SGCAF) -> Dessin Oceane
 - Serpent Terre
 - Vladimir
-- Soleil Trompeur CAF225
-- Amadjide
-- Apocalypso
-- Femmes Fortes
 - TQF
 
 ### Manque données

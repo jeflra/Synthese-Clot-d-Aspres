@@ -7,8 +7,9 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 169X1 p1 1 MP-Soleil-Trompeur-plan-tot MP-Soleil-Trompeur-plan-tot@Soleil-Trompeur "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 200 0
+xth_cp_comp_stat 200 3
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1725573364
+set xth(th_exit_number) 1725609042
 
