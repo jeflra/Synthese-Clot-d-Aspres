@@ -53,7 +53,7 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 500
+   scale 1 200
 
    #surface bottom
    #surface-opacity 70
@@ -293,7 +293,8 @@ endlayout
 # EXPORTS
 
 export map -o Outputs/Castor-plan.pdf -layout my_layout
-export map -fmt xvi -layout xviexport -o Outputs/castor-plan.xvi -layout-scale 1 500
+#export map -fmt xvi -layout xviexport -o Outputs/castor-plan.xvi -layout-scale 1 500
 
-export map -proj plan -fmt kml -o Outputs/Castor.kml -layout my_layout
-export model -fmt kml -o Outputs/Castor-model.kml
+#export model -format loch 	-o Outputs/castor.lox
+#export map -proj plan -fmt kml -o Outputs/Castor.kml -layout my_layout
+#export model -fmt kml -o Outputs/Castor-model.kml
