@@ -1,7 +1,7 @@
 encoding utf-8 
 
 
-survey Amadjide -title "Amadjide"
+survey TQF -title "TQF"
 
 	input Data/TQF.th
 
