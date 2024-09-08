@@ -178,7 +178,7 @@ endlayout
 
 
 
-
+select MP-Clot-Aspres@synthese
 
 # Voici les lignes pour exporter le cheminement au format xvi
 #export map -proj plan -fmt xvi -layout xviexport -o synthese_plan.xvi

@@ -1,7 +1,7 @@
 survey Bagnards -title "Bagnards" -entrance Bagnards
 
 centerline
-date 1989
+date 01.06.1989 #date adapté
 cs EPSG:2154
 fix Bagnards	902919.744 6438417.294 1959 
 station Bagnards "Bagnards"

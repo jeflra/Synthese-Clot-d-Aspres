@@ -3,7 +3,6 @@ encoding  utf-8
 # 1-SOURCES 
 
 source synthese.th
-# source synthese_MTC.th
 
 
 # Add config file
@@ -307,7 +306,7 @@ export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
 #export map -proj [elevation 17] -layout xviexport -o Data/Synthese-coupe_elevation.xvi 
 
 # Select maps
-#  select MP-Synthèse-plan-tot@Synthese
+select MP-Clot-Aspres@synthese
 #  select MC-Synthèse-coupe-tot@Synthese
 	 
 # export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
