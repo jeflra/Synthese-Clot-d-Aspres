@@ -1,4 +1,4 @@
-map BM-plan-1
+map BM-plan
   SP-BM-1
   break
   SP-BM-2
@@ -7,8 +7,7 @@ map BM-plan-1
   break
   SP-BM-4
   break
-  SP-BM-5
-  break
+  
   SP-BM-6
   break
   SP-BM-7

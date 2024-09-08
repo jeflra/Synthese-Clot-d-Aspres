@@ -5,7 +5,7 @@ encoding  utf-8
 # 1-SOURCES 
 
 
-source Data/brumes_matinales.th
+source BM-tot.th
 
 # Add config file
 input ../../../../config.thc 

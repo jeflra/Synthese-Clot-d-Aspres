@@ -1,9 +1,9 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -914.5 -3758.80393 2850.5 1597.19607
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {-331.25 1 1.0} {1347.284 {}} topo_papier/plan_brumes2.gif 0 {}
+##XTHERION## xth_me_image_insert {-314.5 1 1.0} {1300.534 {}} topo_papier/plan_brumes2.gif 0 {}
 ##XTHERION## xth_me_image_insert {-659.5 1 1.0} {992.2840000000001 {}} topo_papier/plan_brumes.gif 0 {}
-##XTHERION## xth_me_image_insert {-1807.0780000000004 1 1.0} {-1045.18 0} Brumes-matinales-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {-1807.0780000000009 1 1.0} {-1045.1800000000003 0} Brumes-matinales-map.xvi 0 {}
 
 
 
@@ -13,7 +13,7 @@ endscrap
 
 
 
-scrap brumes_fond-570 -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m] -station-names "" "@brumes_matinales"
+scrap brumes_fond-570 -station-names "" "@brumes_matinales" -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m]
 
 area water
   l80-609-1134
@@ -187,7 +187,7 @@ endscrap
 
 
 
-scrap brumes_bas_puits_du_balcon -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m] -station-names "" "@brumes_matinales"
+scrap brumes_bas_puits_du_balcon -station-names "" "@brumes_matinales" -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m]
 
 line water-flow
   488.0 1061.75
@@ -304,7 +304,6 @@ endline
 
 point 248.3719 1156.2728 station -name 415
 
-point 267.3419 1163.1728 station -name A
 
 point 360.8119 1158.2728 station -name 412
 
@@ -348,7 +347,7 @@ endscrap
 
 
 
-scrap brumes_fond-645 -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m] -station-names "" "@brumes_matinales"
+scrap brumes_fond-645 -station-names "" "@brumes_matinales" -scale [-1854.5 -1932.6157 3983.1616 -1932.6157 0.0 0.0 148.27660464 0.0 m]
 
 point 612.5119 1152.6428 station -name 133
 
@@ -461,5 +460,4 @@ endline
 point 371.5819 1194.9628 station -name 143
 
 endscrap
-
 

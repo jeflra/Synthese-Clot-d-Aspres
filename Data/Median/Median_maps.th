@@ -1,0 +1,11 @@
+map MP-Median
+MP-Achard-1@pre_achard-tot
+break
+MP-Silence@Silence
+
+break   
+MP-Principal-tot@Blizzard.blizzard
+MP-RCP-tot@riviere_casse_pieds.blizzard
+break
+BM-plan@brumes-tot
+endmap

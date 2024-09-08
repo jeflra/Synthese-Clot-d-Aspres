@@ -7,5 +7,5 @@ survey Amadjide -title "Amadjide"
 
 	input Data/Plan.th2
 	input TQF-maps.th
-	
+	join SP-TQF-2 SP-TQF-1
 endsurvey

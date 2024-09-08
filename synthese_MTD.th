@@ -27,29 +27,14 @@ input Data/Sup/Sup-tot.th
 # Le réseau Médian
 input Data/Median/Median-tot.th
     equate 49@2.menisque.bourrasque.superieur A60@riviere_casse_pieds.riviere_casse_pieds.blizzard.median
-    #equate TT@1.menisque.superieur A69@bourrasque.Bourrasque.superieur
-## Pour le Blizzard, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Median/Blizzard
-#input Data/Median/Data/Blizzard/riviere_casse_pied/RCP-tot.th
-#    equate TT@1.menisque A69@bourrasque.Bourrasque
-#input Data/Median/Data/Blizzard/Principal/Principal-tot.th
 
-#input Data/Median/Data/Brumes_matinales/BM-tot.th
-#input Data/Median/Data/Silence/Silence-tot.th #add maps
 
 
 
 # Le réseau Inférieur
 input Data/Inf/Inf-tot.th
 # Il faut intégrer Jeunesse d'Automne à Nuits Blanches, c'est le même trou. Voir s'il faut le faire au niveau de la donnée topo ?
-#input Data/Inf/Data/Nuits_Blanches/nuits_blanches-tot.th
-#input Data/Inf/Data/Jeunesse-Automne/Scialet_Jeunesse_Automne-tot.th
-
-#input Data/Inf/Data/Brise_de_Coeur/Brise_de_Coeur-tot.th
-#input Data/Inf/Data/Grotte_Clots_Aspres/Grotte_du_Clot_d_Aspres-tot.th
-#input Data/Inf/Data/Scialet-de-la-Malleole/Malleole-tot.th
-#input Data/Inf/Data/Candy_full/Scialet_Candy-tot.th
-#input Data/Inf/Data/CAF-132/CAF-132_tot.th
-#input Data/Inf/Data/Amadjide/Amadjide-tot.th
+equate jonc@brumes_matinales.brumes-tot.median 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
 
 
 

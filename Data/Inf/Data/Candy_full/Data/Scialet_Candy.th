@@ -7,7 +7,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 	team "Clément Garnier"
 	team "Baudouin Lismonde"
 	cs UTM31
-	# fix Candy 702998 4989356 1580 
+	fix Candy 702998 4989356 1580 
 
 	units compass clino degree
 	data normal from to length backcompass backclino right left up down
@@ -544,7 +544,8 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 			2_22	7_1	3.00	264.00	17.00	2.70	0.70	4.90	1.00
 			7_1	7_2	11.00	5.00	63.00	1.40	7.00	13.60	1.30
 			7_2	7_3	8.30	11.00	26.00	1.90	2.50	26.00	1.00
-			7_3	7_4	34.00	20.00	-28.00	1.00	6.90	2.50	1.80
+			7_3	7_3b 14 20.00	-28.00	1.00	6.90	2.50	1.80 # le point 7_3b est artificiel pour faire la jonction avec 10_15
+			7_3b 7_4	20.00	20.00	-28.00	1.00	6.90	2.50	1.80
 			7_4	7_5	10.00	300.00	2.50	1.50	2.60	3.70	1.00
 			7_5	7_6	10.00	241.00	36.00	1.10	2.40	2.80	0.60
 			7_6	7_7	15.00	256.00	-40.00	2.80	1.70	2.00	0.90
@@ -557,7 +558,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 			7_13	7_14	5.00	297.00	-18.00	2.10	3.50	9.20	1.00
 			7_14	7_15	20.00	149.00	-29.00	6.60	7.00	11.00	1.00
 			7_15	7_16	21.00	34.00	1.50	0	0	0	0
-
+			equate 7_3b 10_15
 	endcenterline
 
 

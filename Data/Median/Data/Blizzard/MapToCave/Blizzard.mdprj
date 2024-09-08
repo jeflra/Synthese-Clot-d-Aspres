@@ -1,6 +1,6 @@
 [Settings]
 Mode=0
-Units=0
+Units=1
 StationPrefix=A
 StationNumber=1
 StartElevation=0
@@ -9,12 +9,12 @@ ProfAzimuth=90
 [PlanImage]
 Filename=C:\Users\burru\Documents\Spéléo\Topographie\Clot d'Aspres\Synthèse Clot d'Aspres\Data\Median\Data\Blizzard\MapToCave\Aspres 2.png
 PaperRotation=0
-Scale=1
-RealLineLength=1
-ScaleStartX=0
-ScaleStartY=0
-ScaleEndX=0
-ScaleEndY=0
+Scale=0,08487027089785
+RealLineLength=100
+ScaleStartX=550
+ScaleStartY=303
+ScaleEndX=1092
+ScaleEndY=305
 PointCount=74
 LineCount=73
 Point0X=343
@@ -314,12 +314,12 @@ Line72Y=73
 [ProfileImage]
 Filename=C:\Users\burru\Documents\Spéléo\Topographie\Clot d'Aspres\Synthèse Clot d'Aspres\Data\Median\Data\Blizzard\MapToCave\Coupe.png
 PaperRotation=0
-Scale=1
-RealLineLength=1
-ScaleStartX=0
-ScaleStartY=0
-ScaleEndX=0
-ScaleEndY=0
+Scale=0,793106290013951
+RealLineLength=100
+ScaleStartX=371
+ScaleStartY=844
+ScaleEndX=375
+ScaleEndY=545
 PointCount=74
 LineCount=72
 Point0X=419

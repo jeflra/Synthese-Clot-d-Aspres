@@ -76,7 +76,6 @@ endscrap
 
 scrap SP-Amadjide-2 -projection plan -station-names "" "@Amadjide" -scale [-128.0 -723.4870000000001 1757.0 -723.4870000000001 0.0 0.0 47.879 0.0 m]
 
-endscrap
 
 point 678.4169999999998 792.473 station -name 6.2
 
@@ -137,3 +136,5 @@ endline
 point 396.8369999999998 388.7729999999999 station -name 4
 
 
+
+endscrap

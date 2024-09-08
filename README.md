@@ -57,6 +57,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Amadjide
 - Apocalypso
 - Femmes Fortes
+- TQF
 
 ### Dessin commencé :
 - Blizzard
@@ -67,14 +68,16 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Jeunesse d'autonme
 - Soleil Trompeur CAF225
 
+- Brise de Coeur (SGCAF) -> Dessin Oceane
+
+
 ### Dessin a commencer
 - Scialet de la Malléole
 - Agnes
 - Bourrasque -> par Océane T.
-- Brise de Coeur (SGCAF) -> Dessin Oceane
 - Serpent Terre
 - Vladimir
-- TQF
+
 
 ### Manque données
 - Antre des glaces (Pascal Groseil, Christian Hubert, )

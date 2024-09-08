@@ -185,12 +185,12 @@ data topofil from to fromcount tocount backcompass clino
 142 143 0 200 0 -100 #le fond ?
 
 
-#amont autoroute du soleil ? (page 6)
-1 201 79267 80287 240 -7
-201 202 80287 80667 282 2
-202 203 80667 81488 209 7
-203 204 81488 82343 255 35
-# à compléter
+# #amont autoroute du soleil ? (page 6)
+# 1 201 79267 80287 240 -7
+# 201 202 80287 80667 282 2
+# 202 203 80667 81488 209 7
+# 203 204 81488 82343 255 35
+# # à compléter
 
 
 # réseau des flamands rose (page 7)
@@ -225,7 +225,7 @@ units count cm
 units compass  degree
 units clino grad
 data topofil from to fromcount tocount backcompass clino
-
+#page 2
 401 jonc 0 300 180 0
 402 401 10630 13598 182 -80
 401 131 13598 14801 108 0
@@ -290,7 +290,7 @@ data topofil from to fromcount tocount backcompass clino
 450 451 65746 66245 295 15
 451 437 66245 67449 25 -28
 
-413 A 0 20000 0 -100
+# 413 A 0 20000 0 -100
 
 
 125 461 0 2917 98 27
@@ -300,6 +300,27 @@ data topofil from to fromcount tocount backcompass clino
 
 endcenterline
 
+centerline
 
+date 1988.06.01
+
+
+units tape feet
+data cylpolar from to tape compass depthchange left right up down
+
+125                   A2    97.25   134.83     0.00     0.00     0.00     0.00     0.00
+A2                   A3   135.51   224.26     0.00     0.00     0.00     0.00     0.00
+A3                   A4    88.96   188.54     0.00     0.00     0.00     0.00     0.00
+A4                   A5   116.63   191.23     0.00     0.00     0.00     0.00     0.00
+A5                   A6   104.46   158.91     0.00     0.00     0.00     0.00     0.00
+A6                   A7   165.63   133.69     0.00     0.00     0.00     0.00     0.00
+A7                   A8    64.22   195.29     0.00     0.00     0.00     0.00     0.00
+A8                   A9    25.70   225.00     0.00     0.00     0.00     0.00     0.00
+A9                  A10    62.06   170.04     0.00     0.00     0.00     0.00     0.00
+A10                  A11   118.88    35.95     0.00     0.00     0.00     0.00     0.00
+A11                  A12    61.78   119.65     0.00     0.00     0.00     0.00     0.00
+A12                  A13    99.79   199.33     0.00     0.00     0.00     0.00     0.00
+
+endcenterline
 endsurvey
 

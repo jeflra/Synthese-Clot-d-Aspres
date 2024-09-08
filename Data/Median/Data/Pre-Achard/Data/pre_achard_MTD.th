@@ -1,11 +1,8 @@
 survey pre_achard -title "Pré Achard" -entrance pre_achard
-
-
-
 centerline
 date 1989
 cs EPSG:2154
-# fix pre_achard	902963.384	6438407.625	1828.67 #PRE DE L'ACHARD (scialet du)
+fix pre_achard	902963.384	6438407.625	1828.67 #PRE DE L'ACHARD (scialet du)
 units tape feet
 data topofil from to length compass clino left right up down
  
