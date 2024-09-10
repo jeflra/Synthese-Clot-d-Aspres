@@ -401,7 +401,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 
 
 	centerline 
-		date 2012.10.12#adapté
+		date 2012.10.12 #adapté
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# declination Inc degrees 
 			 
@@ -426,7 +426,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 
 
 	centerline 
-		date 2012.10.12#adapté
+		date 2012.10.12 #adapté
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# declination Inc degrees 
 			 
@@ -446,7 +446,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 
 
 	centerline 
-		date 2012.10.12#adapté 
+		date 2012.10.12 #adapté 
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# declination Inc degrees 
 			 
@@ -528,7 +528,7 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 
 
 	centerline 
-		date 2012.10.12#adapté
+		date 2012.10.12 #adapté
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
 		# declination Inc degrees 
 			 

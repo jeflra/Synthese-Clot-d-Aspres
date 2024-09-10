@@ -11,7 +11,7 @@ input config.thc
 # Add entrances coordinates
 # input legendes/entrances_coordinates.th
 
-#source GIS/dem.th
+source GIS/MNT_Fauges.th
 
 # 2-LAYOUT   
 
