@@ -4,7 +4,7 @@
 #ignorer DEM
 # *.asc
 # *.tif
-# GIS/
+GIS/Big_file/
 
 #ignorer geoTIFF
 *.tif

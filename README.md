@@ -58,6 +58,8 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Apocalypso
 - Femmes Fortes
 - TQF
+- Soleil Trompeur CAF225
+
 
 ### Dessin commencé :
 - Blizzard
@@ -66,17 +68,16 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Brume matinal
 - 2 Soeurs
 - Jeunesse d'autonme
-- Soleil Trompeur CAF225
-
 - Brise de Coeur (SGCAF) -> Dessin Oceane
 
 
 ### Dessin a commencer
-- Scialet de la Malléole
+- Scialet de la Malléole -> livre azimut 0
 - Agnes
 - Bourrasque -> par Océane T.
-- Serpent Terre
-- Vladimir
+- Serpent Terre -> livre azimut 0
+- Vladimir -> livre azimut 0
+- Apocalypso -> livre azimut 0
 
 
 ### Manque données

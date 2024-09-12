@@ -61,8 +61,8 @@ layout my_layout
    # l impression
    scale 1 1000
 
-   #surface bottom
-   #surface-opacity 70
+   surface bottom
+   surface-opacity 70
 
    # echelle graphique 100 m ampleur
    scale-bar 100 m
@@ -301,16 +301,16 @@ endlayout
 
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/Synthese-coupe.xvi
-#export map -proj [elevation 17] -layout xviexport -o Data/Synthese-coupe_elevation.xvi 
+#export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/Synthese-coupe.xvi
+export map -proj [elevation 6] -layout xviexport -o Data/Synthese-coupe_elevation.xvi 
 
 # Select maps
 select MP-Clot-Aspres@synthese
 #  select MC-Synthèse-coupe-tot@Synthese
 	 
-# export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
-# export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
+#export map -projection [elevation 6] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
+#export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
 export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox

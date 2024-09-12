@@ -40,7 +40,7 @@ encoding  utf-8
 
 source synthese.th
 input config.thc 
-
+source GIS/MNT_Fauges.th
 
 
 #input synthese.th2
@@ -118,7 +118,8 @@ endcode
 
   
 
-
+  surface bottom
+   surface-opacity 70
 
 # Auteur 
   doc-author "Benoît Urruty"
