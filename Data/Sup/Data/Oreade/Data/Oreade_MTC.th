@@ -9,7 +9,7 @@ cs UTM31
 fix Oreade	703352.231 4986928.385	2017
 station Oreade "Oreade"
 
-units tape feet
+units length feet
 data topofil from to length compass clino left right up down
  
 Oreade               A2   101.19   224.89   -15.57    1.00    1.00    1.00    1.00

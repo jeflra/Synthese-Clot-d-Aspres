@@ -7,7 +7,7 @@ cs EPSG:2154
 fix Nymphe	902954.2 6437490.3 2026.8
 station Nymphe "Nymphe Emue"
 
-units tape feet
+units length feet
 data topofil from to length compass clino left right up down
 
                 Nymphe         A2    52.34   356.91   -34.96     0.00     0.00     0.00     0.00
