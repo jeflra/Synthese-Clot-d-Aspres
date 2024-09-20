@@ -6,7 +6,7 @@ input "Data/Bagnards-plan - Copie.th2"
 
 input Data/test_bagnards.th 
 
-
+input Bagnards_maps.th
 
 
 endsurvey

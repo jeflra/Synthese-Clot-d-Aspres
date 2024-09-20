@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 79.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 31.35m (from 0@TQF.Amadjide at 1456.15m to 14@TQF.Amadjide at 1424.80m)\nnorth-south range: 24.21m (from 6'@TQF.Amadjide at 3309494.81m to 16@TQF.Amadjide at 3309470.60m)\neast-west range: 9.61m (from 3@TQF.Amadjide at 855386.14m to 6'@TQF.Amadjide at 855376.53m)\nnumber of shots: 18\nnumber of stations: 19"
+xth_cp_data_tree_insert 53 1 1 Amadjide Amadjide "Amadjide" "Amadjide" "length: 79.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 31.35m (from 0@TQF.Amadjide at 1456.15m to 14@TQF.Amadjide at 1424.80m)\nnorth-south range: 24.21m (from 6'@TQF.Amadjide at 3309494.81m to 16@TQF.Amadjide at 3309470.60m)\neast-west range: 9.61m (from 3@TQF.Amadjide at 855386.14m to 6'@TQF.Amadjide at 855376.53m)\nnumber of shots: 18\nnumber of stations: 19"
+xth_cp_data_tree_insert 55 53 2 TQF TQF.Amadjide "" "" "length: 79.76m (surface 0.00m, duplicated 0.00m)\nvertical range: 31.35m (from 0@TQF.Amadjide at 1456.15m to 14@TQF.Amadjide at 1424.80m)\nnorth-south range: 24.21m (from 6'@TQF.Amadjide at 3309494.81m to 16@TQF.Amadjide at 3309470.60m)\neast-west range: 9.61m (from 3@TQF.Amadjide at 855386.14m to 6'@TQF.Amadjide at 855376.53m)\nnumber of shots: 18\nnumber of stations: 19"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 129X1 p1 1 MP-TQF-plan-tot MP-TQF-plan-tot@Amadjide "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 80 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1725632674
+

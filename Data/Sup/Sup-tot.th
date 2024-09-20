@@ -6,23 +6,24 @@ survey superieur -title "Réseau Supérieur du Clot d'Aspres"
 ## Le réseau Supérieur
 
 input Data/2-Soeurs/2-Soeurs-tot.th #add maps
+input Data/Bagnards/Bagnards-tot.th #add maps
+input Data/Bourrasque/Bourrasque-tot.th
+input Data/Caverne_Clos/Data/Caverne_des_Clos.th
+input Data/ID-cuve/ID-cuve-tot.th
+input Data/Mistral/Mistral-tot.th #add maps
 input Data/Nymphe_emue/Nymphe-tot.th
 input Data/Oreade/Oreade-tot.th #add maps
+
     equate A28@Oreade.Oreade A35@Nymphe.Nymphe
 
 # Pour la Bourrasque, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Sup/Bourrasque
-input Data/Bourrasque/Bourrasque-tot.th
 #input Data/Bourrasque/Bourrasque/Bourrasque-tot.th
     equate A48@bourrasque.Bourrasque.bourrasque A85@Nymphe.Nymphe
 #input Data/Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
     equate TT@1.menisque.bourrasque A69@bourrasque.Bourrasque.bourrasque
 #    equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds   # Ajouté dans le dossier amont car jonctionne le median et le supérieur
 
-input Data/Mistral/Mistral-tot.th #add maps
-input Data/Bagnards/Bagnards-tot.th #add maps
-input Data/ID-cuve/ID-cuve-tot.th
-input Data/Caverne_Clos/Data/Caverne_des_Clos.th
-
+input Sup-map.th
 
 endsurvey
 

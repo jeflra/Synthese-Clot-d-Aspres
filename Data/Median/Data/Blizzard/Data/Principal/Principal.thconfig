@@ -5,7 +5,7 @@ encoding  utf-8
 source Principal-tot.th
 
 # Add config file
-input ../../config.thc 
+input ../../../../../../config.thc 
 
 # 2-LAYOUT   
 
@@ -54,7 +54,7 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 300
+   scale 1 500
 
    #surface bottom
    #surface-opacity 70

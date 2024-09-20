@@ -2,9 +2,9 @@
 *.pdf
 
 #ignorer DEM
-*.asc
-*.tif
-GIS/
+# *.asc
+# *.tif
+GIS/Big_file/
 
 #ignorer geoTIFF
 *.tif

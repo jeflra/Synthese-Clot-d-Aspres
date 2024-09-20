@@ -2,9 +2,6 @@ survey Prospection
 centerline
 cs long-lat
 
-fix Soleil-Trompeur 5.5803 45.0365 1427
-station Soleil-Trompeur "Soleil Trompeur" entrance
-
 fix Grande-Combe 5.58177153835219 45.023014568487 1762
 station Grande-Combe  "Grande Combe (Gouffre de la) [F5]" entrance
 
@@ -41,17 +38,8 @@ station T47 "T47" entrance
 fix Crimee 5.5800017 45.0267464 1656
 station Crimee "Crimée (Scialet de) [YB 03 40]" entrance
 
-fix Amadjide  5.5800844 45.0280228 1618
-station Amadjide "Amadjide (Scialet)"  entrance
-
-fix TQF  5.5798032 45.0291094 1586
-station TQF  "TQF (Scialet)" entrance
-
 fix Flippes  5.5820241 45.0226048 1770
 station Flippes  "Flippés (Scialet des)" entrance
-
-fix Apocalypso  5.5785836 45.0399374 1373
-station Apocalypso  "Apocalypso (Scialet)" entrance
 
 fix SCV92-FLT  5.5830349 45.0137883 1877
 station SCV92-FLT  "SCV 92-FLT (Grotte)" entrance
@@ -60,7 +48,7 @@ fix F01 5.580936 45.036329 1441
 station F01 "F01 (Scialet) [F1] [CAF 159]" entrance
 
 fix Coucou 5.5824836 45.0271764 1715
-station Coucou  "Coucou (Scialet du) [F3]" entrance
+station Coucou  "Coucou (Scialet du) [F3]" entrance #diam 0 5m P=15 m pas de suite
 
 fix Agnes 5.57963 45.00329 1989	
 station Agnes "Agnès (Grotte)" entrance
@@ -100,6 +88,149 @@ station Isa "Isa (Scialet d')" entrance
 
 fix P08 5.58548115	45.0336079 1615.868
 station P08 "FJS P08" entrance
+
+fix YB48 5.57988496906059 45.0247146355246 1702 
+station YB48 "YB48"  entrance
+fix YB45b 5.57990547994949 45.0246061537366 1660.0 
+station YB45b "YB45b"  entrance
+fix YB45 5.57980161115618 45.0245544852422 1658.0 
+station YB45 "YB45"  entrance
+fix YB44 5.57989724553182 45.0247053593513 1657.0 
+station YB44 "YB44"  entrance
+fix YB05-35 5.57859587219563 45.0265351456653 1659.0 
+station YB05-35 "YB05-35"  entrance
+fix YB03-40 5.58000168227208 45.026746426592 1637.0 
+station YB03-40 "YB03-40"  entrance
+fix YB03-25 5.57616097419322 45.0302629017185 1541.0 
+station YB03-25 "YB03-25"  entrance
+fix YB02324 5.5765328537955 45.0309116410584 1540.0 
+station YB02324 "YB02324"  entrance
+fix YB03-34 5.57732910710116 45.0267047363748 1619.0 
+station YB03-34 "YB 03-34"  entrance
+fix YB03-32 5.57716328930941 45.0278350060339 1592.0 
+station YB03-32 "YB 03-32"  entrance
+fix YB03-30 5.57701373724947 45.0271998182824 1613.0 
+station YB03-30 "YB 03-30"  entrance
+fix X9 5.57562138056411 45.043129747407 1445.0 
+station X9 "X9"  entrance
+fix X8 5.57540961168784 45.0435036015953 1426.0 
+station X8 "X8"  entrance
+fix X7 5.57588241292824 45.0438530076203 1378.0 
+station X7 "X7"  entrance
+fix X5 5.57541983967342 45.0448626540327 1392.0 
+station X5 "X5"  entrance
+fix X4 5.57478282799377 45.0453811299849 1373.0 
+station X4 "X4"  entrance
+fix X12 5.57461331029726 45.0455649950376 1409.0 
+station X12 "X12"  entrance
+fix X11 5.57483794623242 45.0449117901694 1428.0 
+station X11 "X11"  entrance
+fix X10 5.575267592576 45.0428856752376 1453.0 
+station X10 "X10"  entrance
+fix X1 5.57667050053578 45.0305844705935 1538.0 
+station X1 "X1"  entrance
+fix Truffiere 5.57484282899345 45.0446041770608 1389.0 
+station Truffiere "Truffière"  entrance
+fix Trou-Fauge 5.57706475918524 45.0441683903981 1297.0 
+station Trou-Fauge "Trou Fauge"  entrance
+fix T07-5 5.57623706463631 45.0302611831801 1544.0 
+station T07-5 "T07-5"  entrance
+fix SPL1 5.57948596908038 45.0380989866471 1398.0 
+station SPL1 "SPL1"  entrance
+fix Sonde 5.57366990479526 45.0452132086118 1392.0 
+station Sonde "Sonde"  entrance
+fix Scialet-1-Fauge 5.57867658767702 45.0433038131002 1326.0 
+station Scialet-1-Fauge "Scialet 1 Fauge"  entrance
+fix Saut-ange 5.57515743442495 45.0434067363374 1422.0 
+station Saut-ange "Saut de l'ange"  entrance
+fix Perte-Fauge 5.57789353270999 45.0431144555353 1324.0 
+station Perte-Fauge "Perte Fauge"  entrance
+fix Grotte-Tritons 5.57502977059944 45.0266878709795 1681.0 
+station Grotte-Tritons "Grotte des Tritons"  entrance
+fix FJS23 5.58248574683369 45.0320193568242 1606.0 
+station FJS23 "FJS23"  entrance
+fix FJS17 5.58095321212064 45.0329452084906 1547.0 
+station FJS17 "FJS17"  entrance
+fix Faille-385g-p60 5.57660292006382 45.0278056249633 1599.0 
+station Faille-385g-p60 "Faille-385g-p60"  entrance
+fix Fbis 5.5808226949195 45.0235501938824 1735.0 
+station Fbis "F bis"  entrance
+fix E145 5.58241515116692 45.022550976131 1767.0 
+station E145 "E145"  entrance
+fix E144 5.58242621340355 45.0225147181375 1766.0 
+station E144 "E144"  entrance
+fix E143 5.58081001469795 45.0235504853122 1770.0 
+station E143 "E143"  entrance
+fix E143 5.58340449764462 45.0295860582373 1696.0 
+station E143 "E 143"  entrance
+fix CAF93 5.58346699250793 45.0338633659971 1572.0 
+station CAF93 "CAF93"  entrance
+fix CAF235 5.57827600358922 45.0258050000548 1661.5 
+station CAF235 "CAF235"  entrance
+fix CAF144 5.58029289840543 45.0275770169666 1634.0 
+station CAF144 "CAF144"  entrance
+fix CAF143 5.5825707730304 45.027138413083 1715.0 
+station CAF143 "CAF143"  entrance
+fix CAF141 5.58212946794228 45.0294618863229 1660.0 
+station CAF141 "CAF141"  entrance
+fix CAF140 5.58262890215709 45.0295586018187 1673.0 
+station CAF140 "CAF140"  entrance
+fix CAF137 5.58097112640136 45.0339080022485 1503.0 
+station CAF137 "CAF137"  entrance
+fix CAF136 5.58039248461831 45.0365676388003 1355.0 
+station CAF136 "CAF136"  entrance
+fix CAF135 5.58074503904141 45.0367847147937 1349.0 
+station CAF135 "CAF135"  entrance
+fix CAF130 5.58387374089133 45.0345543869035 1557.0 
+station CAF130 "CAF130"  entrance
+fix Caf236 5.57298045503647 45.0478979154859 1340.0 
+station Caf236 "Caf 236" entrance
+fix CAF210 5.58026400358882 45.0288490000551 1608.4 
+station CAF210 "CAF210"  entrance
+fix Arche 5.58176847289536 45.0225656029746 1805.0 
+station Arche "Arche"  entrance
+fix 7-02 5.58098494452579 45.0338639682722 1527.3 
+station 7-02 "7-02"  entrance
+fix AVEN7 5.58327229240541 45.0305972596311 1658.0 
+station AVEN7 "7"  entrance
+fix 63F3 5.58198228468664 45.0292941749823 1652.0 
+station 63F3 "63F3"  entrance
+fix AVEN6 5.58169562506762 45.0282834485898 1673.0 
+station AVEN6 "6"  entrance
+fix AVEN5 5.58250696341024 45.0271308593358 1712.0 
+station AVEN5 "5"  entrance
+fix AVEN3 5.58156883294897 45.0274401417323 1666.0 
+station AVEN3 "3"  entrance
+fix AVEN2 5.58087056695179 45.0274379239204 1649.0 
+station AVEN2 "2"  entrance
+fix AVEN15 5.58301520725043 45.0252851052219 1757.0 
+station AVEN15 "15"  entrance
+fix 14bis 5.58262150027346 45.0255122410356 1760.0 
+station 14bis "14bis"  entrance
+fix AVEN14 5.58286499370564 45.0319837705562 1614.0 
+station AVEN14 "14"  entrance
+fix 13bis 5.58190650152209 45.0253521606122 1677.0 
+station 13bis "13bis"  entrance
+fix AVEN13 5.58201476549241 45.0314268872517 1602.0 
+station AVEN13 "13"  entrance
+fix AVEN12 5.58152785514086 45.0316089323231 1583.0 
+station AVEN12 "12"  entrance
+fix AVEN110 5.58001414571846 45.0309770274695 1538.0 
+station AVEN110 "110"  entrance
+fix AVEN11 5.58071095158892 45.0315103871793 1570.0 
+station AVEN11 "11"  entrance
+fix AVEN10 5.58008968421338 45.0312453762295 1542.0 
+station AVEN10 "10"  entrance
+fix 1_0 5.57561937367621 45.0267735213728 1584.0 
+station 1_0 "1_0"  entrance
+fix AVEN1 5.58008444675303 45.0280228240846 1624.0 
+station AVEN1 "1"  entrance
+fix AVEN034 5.57979800358976 45.0421300000565 1334.2 
+station AVEN034 "034" entrance
+fix AVEN0 5.57661096677398 45.0232439110857 1760.0 
+station AVEN0 "0"  entrance
+fix AVEN0b 5.58105454349681 45.0284239759713 1607.0 
+station AVEN0b "0b"  entrance
 
 
 endcenterline

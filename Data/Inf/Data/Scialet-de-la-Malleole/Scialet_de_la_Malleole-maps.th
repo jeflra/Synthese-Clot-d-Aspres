@@ -4,13 +4,13 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Scialet_de_la_Malléole-plan-tot -title "Scialet_de_la_Malléole"
-	SP-Scialet_de_la_Malléole-1
+map MP-Scialet_de_la_Malleole-plan-tot -title "Scialet_de_la_Malleole"
+	SP-Scialet_de_la_Malleole-1
 	#break
-	#SP-Scialet_de_la_Malléole-2
+	#SP-Scialet_de_la_Malleole-2
 endmap
-map MC-Scialet_de_la_Malléole-coupe-tot -title "Scialet_de_la_Malléole"
-	SC-Scialet_de_la_Malléole-1
+map MC-Scialet_de_la_Malleole-coupe-tot -title "Scialet_de_la_Malleole"
+	SC-Scialet_de_la_Malleole-1
 	#break
-	#SC-Scialet_de_la_Malléole-2
+	#SC-Scialet_de_la_Mallï¿½ole-2
 endmap

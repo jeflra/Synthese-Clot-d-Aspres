@@ -1,12 +1,12 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -329.78999999999894 -2006.4599999999991 10920.131 12809.057
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1120.5 1 1.0} {11499.453 {}} Silence_plan_jonction.png 0 {}
 ##XTHERION## xth_me_image_insert {5333.700000000001 1 1.0} {3423.1400000000003 00@silence_7eme_art.Silence} Silence_plan.xvi 0 {}
 
 
 
-scrap SP-jonc-1 -projection plan -station-names "" "@Silence-Blizzard" -scale [6044.5 6852.5 5941.825 9797.5 0.0 0.0 3.48 99.94 m]
+scrap SP-jonc-1 -projection plan -station-names "" "@Silence" -scale [6044.5 6852.5 5941.825 9797.5 0.0 0.0 3.48 99.94 m]
 
 line wall
   1938.75 10891.25
@@ -1263,11 +1263,13 @@ line pit -reverse on
   5471.0 5211.0 5468.5 5215.0 5470.0 5229.5
   5471.5 5244.0 5475.0 5255.0 5483.0 5258.5
   5491.0 5262.0 5519.5 5259.0 5530.5 5261.0
+  smooth off
 endline
 
 line water-flow
   5600.5 5203.0
   5582.5 5207.25 5554.5 5217.25 5534.5 5224.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -1327,11 +1329,13 @@ line wall -reverse on
   5504.25 5311.25 5508.5 5303.25 5509.0 5292.0
   5509.5 5280.75 5509.75 5276.45 5509.75 5270.0
   5509.75 5264.25 5509.75 5263.0 5519.25 5259.75
+  smooth off
 endline
 
 line pit -reverse on
   5405.5 5257.75
   5410.5 5256.25 5436.75 5222.5 5436.5 5207.25
+  smooth off
 endline
 
 line wall -reverse on -subtype pit
@@ -1340,6 +1344,7 @@ line wall -reverse on -subtype pit
   5552.25 5242.0 5559.0 5228.25 5549.25 5218.0
   5539.5 5207.75 5529.25 5202.25 5509.75 5202.5
   5490.25 5202.75 5482.5 5200.0 5476.0 5202.25
+  smooth off
 endline
 
 line wall -reverse on
@@ -1445,7 +1450,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 5325.22 5188.530000000001 station -name 101
+point 5325.22 5188.530000000001 station -name A16
 
 point 5415.85 5252.71 station -name 102
 
@@ -1457,17 +1462,17 @@ point 5534.130000000001 5378.4400000000005 station -name 105
 
 point 5582.710000000001 5439.52 station -name 106
 
-point 5630.25 5474.5 station -name 109
+point 5630.25 5474.5 station -name 107
 
 point 5724.110000000001 5525.240000000001 station -name 108
 
 point 5886.01 5592.9800000000005 station -name 109
 
-point 5930.5 5601.5 station -name 112
+point 5930.5 5601.5 station -name 110
 
 point 5970.380000000001 5672.650000000001 station -name 111
 
-point 5970.2300000000005 5714.160000000001 station -name 113
+point 5970.2300000000005 5714.160000000001 station -name 112
 
 point 5988.120000000001 5784.88 station -name 114
 
@@ -1774,23 +1779,23 @@ line wall
   smooth off
 endline
 
-point 5094.6 5961.68 station -name 6@Silence-Blizzard
+point 5094.6 5961.68 station -name 6@Silence
 
-point 4996.580000000001 5986.110000000001 station -name 7@Silence-Blizzard
+point 4996.580000000001 5986.110000000001 station -name 7@Silence
 
-point 4919.960000000001 5901.01 station -name 8@Silence-Blizzard
+point 4919.960000000001 5901.01 station -name 8@Silence
 
-point 4951.5 5865.25 station -name 11@Silence-Blizzard
+point 4951.5 5865.25 station -name 11@Silence
 
-point 4961.830000000001 5778.870000000001 station -name 10@Silence-Blizzard
+point 4961.830000000001 5778.870000000001 station -name 10@Silence
 
-point 4765.160000000001 5527.530000000001 station -name 14@Silence-Blizzard
+point 4765.160000000001 5527.530000000001 station -name 14@Silence
 
-point 4888.8 5614.110000000001 station -name 13@Silence-Blizzard
+point 4888.8 5614.110000000001 station -name 13@Silence
 
-point 4886.530000000001 5679.030000000001 station -name 12@Silence-Blizzard
+point 4886.530000000001 5679.030000000001 station -name 12@Silence
 
-point 4990.97 5732.26 station -name 11@Silence-Blizzard
+point 4990.97 5732.26 station -name 11@Silence
 
 line wall
   2584.75 4377.75

@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 199.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 50.90m (from CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m to A21-janv@Soleil-Trompeur.Soleil-Trompeur at -50.90m)\nnorth-south range: 23.57m (from 1_45@Soleil-Trompeur.Soleil-Trompeur at 23.57m to CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m)\neast-west range: 58.47m (from CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m to 1_44@Soleil-Trompeur.Soleil-Trompeur at -58.47m)\nnumber of shots: 133\nnumber of stations: 134"
+xth_cp_data_tree_insert 53 1 1 Soleil-Trompeur Soleil-Trompeur "Soleil-Trompeur" "Soleil-Trompeur" "length: 199.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 50.90m (from CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m to A21-janv@Soleil-Trompeur.Soleil-Trompeur at -50.90m)\nnorth-south range: 23.57m (from 1_45@Soleil-Trompeur.Soleil-Trompeur at 23.57m to CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m)\neast-west range: 58.47m (from CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m to 1_44@Soleil-Trompeur.Soleil-Trompeur at -58.47m)\nnumber of shots: 133\nnumber of stations: 134"
+xth_cp_data_tree_insert 55 53 2 Soleil-Trompeur Soleil-Trompeur.Soleil-Trompeur "" "" "length: 199.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 50.90m (from CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m to A21-janv@Soleil-Trompeur.Soleil-Trompeur at -50.90m)\nnorth-south range: 23.57m (from 1_45@Soleil-Trompeur.Soleil-Trompeur at 23.57m to CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m)\neast-west range: 58.47m (from CAF-225@Soleil-Trompeur.Soleil-Trompeur at 0.00m to 1_44@Soleil-Trompeur.Soleil-Trompeur at -58.47m)\nnumber of shots: 133\nnumber of stations: 134"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 169X1 p1 1 MP-Soleil-Trompeur-plan-tot MP-Soleil-Trompeur-plan-tot@Soleil-Trompeur "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 200 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1725609042
+

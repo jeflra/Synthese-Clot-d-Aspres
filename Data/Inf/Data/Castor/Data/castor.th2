@@ -1,0 +1,597 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -208.0 -128.0 398.0 442.9608
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {299.97659999999996 1 1.0} {238.42700000000002 0} ../Outputs/castor-plan.xvi 0 {}
+
+
+
+scrap SP-entree-1 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 221.498 159.686 station -name 1 -subtype painted
+
+point 236.5 129.5 debris
+
+point 240.0 156.0 air-draught -orientation 14.5 -subtype summer
+
+point 182.5 127.75 water-flow -orientation 280.6
+
+line wall -subtype unsurveyed
+  190.0 126.0
+  188.75 127.25 181.75 135.75 183.5 138.5
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  169.5 129.0
+  170.62 128.48 178.99 118.44 182.358 118.89600000000002
+  185.0 119.25 187.25 125.0 189.25 124.25
+  smooth off
+endline
+
+line gradient
+endline
+
+point 176.5 108.75 label -text [barrage<br>à castors] -align bottom
+
+line gradient
+endline
+
+point 173.5 170.75 dig
+
+line gradient
+  207.0 127.75
+  193.25 134.5
+endline
+
+line wall -subtype unsurveyed
+endline
+
+line arrow
+  173.5 113.0
+  164.5 131.0 167.25 132.0 169.75 136.25
+  smooth off
+endline
+
+point 227.5 169.75 entrance -orientation 211.5
+
+line gradient
+  219.25 147.75
+  218.75 134.25
+endline
+
+line gradient
+  168.5 145.5
+  159.5 152.75
+endline
+
+line floor-step
+  173.5 136.0
+  173.25 137.0 173.5 142.0 177.0 144.75
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  179.5 138.5
+  179.5 138.5 178.2 135.3 177.5 134.75
+  175.25 133.0 175.58 130.8 170.75 131.25
+  smooth off
+endline
+
+point 265.25 138.25 water-flow -orientation 244.2
+
+area water
+endarea
+
+line floor-step
+  218.25 119.5
+  217.25 120.75 215.5 128.75 215.75 131.25
+  smooth off
+endline
+
+line floor-step
+  230.0 122.75
+  228.0 125.0 227.75 129.75 227.75 132.75
+  smooth off
+endline
+
+line pit -outline out
+  230.25 142.25
+  232.5 143.0 228.25 160.25 221.498 159.686
+  219.2 159.49 216.75 160.25 214.5 158.5
+  212.25 156.75 210.0 155.5 209.75 152.25
+  smooth off
+endline
+
+line pit -outline none
+  209.75 152.25
+  210.0 144.75 217.76 143.6 219.75 143.25
+  224.0 142.5 229.5 141.5 230.25 142.25
+  smooth off
+endline
+
+line pit
+endline
+
+line pit
+  227.75 132.75
+  224.5 132.0 215.0 130.25 209.0 133.75
+  smooth off
+endline
+
+line wall
+  254.5 135.75
+  253.5 135.25 247.0 131.75 246.0 132.25
+  245.0 132.75 242.25 137.5 239.25 138.25
+  236.25 139.0 232.5 139.25 231.5 137.75
+  230.5 136.25 230.0 132.75 227.75 132.75
+  225.5 132.75 230.25 142.25 230.25 142.25
+  smooth off
+endline
+
+line wall
+  249.5 123.75
+  248.0 126.0 245.5 126.75 248.25 128.0
+  251.0 129.25 257.75 131.5 257.75 131.5
+  smooth off
+endline
+
+line wall
+  183.5 138.5
+  184.75 137.75 187.25 132.25 192.5 129.0
+  197.75 125.75 208.25 120.75 208.25 120.75
+  smooth off
+  208.25 120.75 207.75 118.0 209.5 117.75
+  211.25 117.5 211.25 118.5 214.25 118.5
+  altitude .
+  217.25 118.5 230.0 122.75 230.0 122.75
+  smooth off
+  230.0 122.75 239.5 117.25 248.0 119.25
+  smooth off
+endline
+
+line wall
+  144.25 159.5
+  149.0 156.75 149.0 156.75 150.0 155.75
+  151.0 154.75 168.17 139.72 169.208 138.73600000000002
+  170.25 137.75 173.5 135.0 175.5 135.75
+  177.5 136.5 178.75 139.0 179.5 138.5
+  smooth off
+endline
+
+line wall
+  209.75 152.25
+  210.0 150.25 211.5 133.25 209.0 133.75
+  206.5 134.25 185.5 143.75 184.25 143.75
+  183.0 143.75 176.0 144.75 173.25 146.75
+  smooth off
+endline
+
+line floor-step
+endline
+
+line wall -id l-entree-2
+  157.5 158.0
+  158.75 156.5 166.12 155.92 167.75 154.75
+  169.38 153.57 191.5 144.75 191.5 144.75
+  smooth off
+  191.5 144.75 203.22 141.15 206.25 140.25
+  smooth off
+endline
+
+point 173.622 152.67600000000002 station -name 6
+
+point 206.222 141.656 station -name 6A
+
+line pit -id l-p10
+  168.5 158.75
+  167.75 154.75
+endline
+
+point 194.0 160.25 label -align bottom -text P10
+
+line wall -id l-entree-1
+  207.75 142.0
+  205.0 143.0 186.0 151.0 183.75 151.75
+  181.5 152.5 171.25 157.75 168.5 158.75
+  165.75 159.75 155.25 162.5 154.0 163.5
+  152.75 164.5 146.57 168.62 145.75 168.0
+  143.75 166.5 146.0 163.25 143.0 161.0
+  smooth off
+endline
+
+point 148.25 162.5 debris
+
+line wall
+  173.25 146.75
+  170.5 148.75 157.5 158.0 157.5 158.0
+  smooth off
+endline
+
+point 182.358 118.89600000000002 station -name 3A
+
+point 152.988 161.256 station -name 5
+
+point 169.208 138.73600000000002 station -name 4
+
+point 179.838 143.776 station -name 3
+
+point 215.508 120.07600000000002 station -name 2
+
+point 255.428 133.226 station -name 2A
+
+endscrap
+
+
+
+scrap SP-entree-2 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+line wall
+endline
+
+line border
+  138.0 141.0
+  138.5 142.75 138.75 150.25 137.0 153.0
+  135.25 155.75 130.25 163.5 127.0 166.0
+  smooth off
+endline
+
+line pit
+  157.5 158.0
+  159.75 161.75
+endline
+
+line pit
+  125.5 142.0
+  126.75 143.0 127.74 144.78 132.122 144.01600000000002
+  136.5 143.25 138.0 141.0 138.0 141.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  88.0 185.0
+  60.5 193.5
+endline
+
+line floor-step
+endline
+
+line wall -subtype unsurveyed
+  58.75 190.75
+  85.25 180.75
+endline
+
+line wall -id l-manieres-1
+  85.25 180.75
+  88.16 179.82 102.18 173.63 105.0 172.5
+  altitude .
+  107.5 171.5 101.75 160.0 96.25 161.75
+  smooth off
+endline
+
+point 119.25 157.25 debris
+
+line wall
+endline
+
+point 109.75 180.75 air-draught -orientation 114.4 -subtype summer
+
+point 52.5 194.5 low-end
+
+point 75.5 156.25 air-draught -orientation 75.0 -subtype summer
+
+point 155.0 135.5 water-flow -orientation 252.4
+
+point 136.25 172.75 water-flow -orientation 239.3
+
+point 112.0 169.25 dig -scale xs
+
+point 171.0 155.25 debris
+
+line floor-step -reverse on
+  107.0 153.25
+  104.75 156.0 101.25 161.75 101.25 163.5
+  smooth off
+endline
+
+line wall
+  95.75 159.5
+  100.5 160.0 110.78 150.72 114.25 147.25
+  116.25 145.25 126.75 141.75 130.25 140.0
+  133.75 138.25 164.23 125.27 165.75 123.75
+  smooth off
+endline
+
+line gradient
+  104.75 175.0
+  92.75 180.25
+endline
+
+line contour
+  83.0 186.5
+  80.75 186.25 79.89 185.02 81.75 182.0
+  smooth off
+endline
+
+line contour
+  86.5 180.5
+  89.25 180.0 90.25 182.75 88.0 185.0
+  smooth off
+endline
+
+point 98.25 134.5 label -align bottom -text [P52 des<br>bonnes manières]
+
+line wall -id l-manieres-2
+  166.5 125.5
+  165.75 125.71 138.0 141.0 138.0 141.0
+  smooth off
+  138.0 141.0 148.87 143.99 150.312 142.996
+  151.75 142.0 153.75 141.75 155.0 141.75
+  156.25 141.75 158.25 144.5 158.25 145.75
+  158.25 147.0 156.75 155.75 156.5 156.75
+  156.25 157.75 155.5 159.0 157.5 158.0
+  159.5 157.0 163.89 154.51 164.75 154.0
+  166.0 153.25 179.07 145.87 180.0 145.5
+  181.56 144.88 184.0 146.0 184.75 147.5
+  185.5 149.0 181.62 151.53 180.25 152.5
+  178.78 153.55 170.0 157.75 168.5 158.75
+  167.0 159.75 159.75 161.75 159.75 161.75
+  smooth off
+  159.75 161.75 165.25 169.75 163.75 170.75
+  162.25 171.75 158.0 175.0 157.0 175.25
+  156.0 175.5 149.5 178.0 147.0 175.0
+  144.5 172.0 142.25 166.5 137.75 165.75
+  smooth off
+  133.85 165.57 130.88 165.02 127.0 166.0
+  smooth off
+  123.12 166.98 91.69 183.31 88.0 185.0
+  smooth off
+endline
+
+point 128.42200000000003 162.20600000000002 station -name 13
+
+point 164.96200000000002 125.35600000000001 station -name 12A
+
+point 132.122 144.01600000000002 station -name 12
+
+point 150.312 142.996 station -name 11
+
+point 155.192 154.95600000000002 station -name 10
+
+point 159.05200000000002 164.566 station -name 9
+
+point 155.982 161.496 station -name 8
+
+point 181.02200000000002 148.73600000000002 station -name 7
+
+endscrap
+
+
+
+scrap SP-entree-3 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+line wall -subtype unsurveyed
+  79.0 190.5
+  77.25 189.5 74.0 186.5 73.5 188.25
+  73.0 190.0 73.25 193.0 73.25 193.0
+  smooth off
+  76.25 194.25
+endline
+
+line wall
+endline
+
+line floor-step
+  81.022 183.466
+  81.022 183.466 84.75 182.0 86.75 186.25
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  68.25 182.25
+  72.25 183.0
+  72.25 183.0 72.0 177.25 71.5 176.5
+  71.0 175.75 73.0 173.75 74.25 173.25
+  75.5 172.75 79.0 175.0 79.0 176.25
+  79.0 177.5 78.5 179.75 78.5 179.75
+  smooth off
+  78.5 179.75 77.25 184.5 77.5 185.5
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  65.5 199.75
+  70.0 197.25 71.0 193.25 71.0 191.5
+  71.0 189.75 71.5 185.5 71.5 185.5
+  smooth off
+  67.5 184.25
+endline
+
+line wall -subtype unsurveyed
+  77.5 200.75
+  76.25 200.5 72.0 197.75 66.5 201.5
+  smooth off
+endline
+
+point 45.25 201.75 air-draught -orientation 93.6 -subtype summer -scale s
+
+point 59.0 205.25 water-flow -orientation 302.9
+
+point 75.25 176.25 water-flow -orientation 0.0
+
+line wall -id l-alcove-1
+  77.5 185.5
+  78.0 186.25 81.0 189.0 81.0 189.0
+  smooth off
+  81.0 189.0 80.52 184.72 81.022 183.466
+  81.52 182.22 84.5 179.75 85.25 180.75
+  smooth off
+endline
+
+line wall -id l-alcove-2
+  88.0 185.0
+  84.75 186.75 82.74 191.04 83.62200000000001 193.14600000000002
+  84.63 195.55 90.0 202.25 90.5 205.25
+  91.0 208.25 87.5 207.5 85.5 206.75
+  83.5 206.0 78.5 201.0 77.5 200.75
+  smooth off
+endline
+
+line wall
+  76.25 194.25
+  77.25 194.0 80.75 192.75 80.75 192.75
+  smooth off
+  80.75 192.75 80.0 191.5 79.0 190.5
+  smooth off
+endline
+
+line floor-step
+  80.25 196.0
+  83.62200000000001 193.14600000000002
+endline
+
+line floor-step
+  80.75 192.75
+  81.25 197.0
+endline
+
+line wall -close on
+  78.5 199.5
+  80.0 200.0 82.0 197.5 82.0 197.5
+  smooth off
+  82.0 197.5 81.5 195.75 80.25 196.0
+  79.0 196.25 77.0 199.0 78.5 199.5
+endline
+
+point 69.68200000000002 198.586 station -name 16A
+
+point 81.022 183.466 station -name 15
+
+point 83.62200000000001 193.14600000000002 station -name 16
+
+point 82.68200000000002 203.936 station -name 17
+
+endscrap
+
+
+
+scrap scrap132 -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+endscrap
+
+
+
+scrap SP-entree-4 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 107.5 169.5 water-flow -orientation 313.0
+
+point 86.75 191.0 debris
+
+line pit -reverse on
+  74.75 192.75
+  75.0 194.5 73.5 196.0 77.5 197.25
+  smooth off
+endline
+
+line pit -reverse on
+  80.25 196.0
+  80.0 192.75 77.25 191.75 76.5 191.25
+  smooth off
+endline
+
+line wall
+  70.25 196.5
+  74.5 195.25 74.75 192.25 76.5 191.25
+  78.25 190.25 87.75 186.25 88.0 185.0
+  88.25 183.75 97.5 176.25 97.5 176.25
+  smooth off
+endline
+
+line wall
+endline
+
+line wall -id l-cs-1
+  85.5 206.75
+  85.5 206.75 82.75 198.25 77.5 197.25
+  smooth off
+endline
+
+line wall -id l-cs-2
+  93.0 191.5
+  92.75 196.5 90.5 205.25 90.5 205.25
+  smooth off
+endline
+
+line wall
+  99.75 178.0
+  98.75 178.5 94.0 190.0 93.0 191.5
+  92.0 193.0 79.75 196.75 77.5 197.25
+  75.25 197.75 74.5 195.75 70.75 198.25
+  smooth off
+endline
+
+point 77.322 195.82600000000002 station -name 19
+
+point 96.53200000000001 178.66600000000003 station -name 19A
+
+point 91.102 189.056 station -name 18
+
+endscrap
+
+
+
+scrap SP-entree-5 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 89.0 207.0 water-flow -orientation 63.0
+
+line wall
+  82.0 202.5
+  80.75 202.25 80.25 198.25 81.5 196.0
+  smooth off
+endline
+
+line wall
+  81.5 203.75
+  81.5 203.75 80.0 203.25 79.5 205.0
+  79.0 206.75 77.0 209.75 76.0 210.0
+  75.0 210.25 64.25 213.0 64.25 213.0
+  smooth off
+endline
+
+line pit
+  71.75 208.25
+  73.0 204.25
+endline
+
+line pit
+  71.0 195.25
+  73.01 194.88 74.59 195.17 76.25 198.25
+  smooth off
+endline
+
+line wall
+  63.0 212.0
+  72.5 209.0
+  72.5 209.0 70.25 208.0 68.5 208.0
+  66.75 208.0 63.43 208.69 63.75 206.75
+  64.0 205.25 63.75 205.0 66.25 203.25
+  66.98 202.74 70.75 196.75 71.0 195.25
+  71.25 193.75 77.25 191.75 78.75 193.0
+  80.25 194.25 77.0 197.75 76.25 198.25
+  75.5 198.75 73.0 204.25 73.0 204.25
+  smooth off
+  73.0 204.25 73.47 205.28 74.75 204.0
+  78.5 200.25 81.5 196.0 81.5 196.0
+  smooth off
+endline
+
+point 74.25200000000001 200.476 station -name 20
+
+point 77.712 202.436 station -name 23
+
+point 74.72200000000001 208.89600000000002 station -name 22
+
+point 70.08200000000001 208.036 station -name 21
+
+endscrap
+
+

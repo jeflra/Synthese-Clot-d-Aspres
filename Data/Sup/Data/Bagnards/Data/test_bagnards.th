@@ -2,12 +2,12 @@ survey Bagnards -title "Bagnards" -entrance Bagnards
 #Données créer à partir de MapToCave, il est pas conseillé de reprendre cela pour faire une topographie
 centerline
 cs EPSG:2154
-fix Bagnards	902919.744 6438417.294 1959 
+fix Bagnards	902919.744 6438417.294 1823 #1959 
 station Bagnards "Bagnards"
-
+units length feet   
 		data topofil from to length compass clino left right up down
 
-                  Bagnards                   A2    28.01   358.03   -83.51     0.00     0.00     0.00     0.00
+                  Bagnards             A2    28.01   358.03   -83.51     0.00     0.00     0.00     0.00
                   A2                   A3    14.63   100.18   -81.50     0.00     0.00     0.00     0.00
                   A3                   A4    19.39   138.55   -73.19     0.00     0.00     0.00     0.00
                   A4                   A5     5.90   346.68   -43.76     0.00     0.00     0.00     0.00

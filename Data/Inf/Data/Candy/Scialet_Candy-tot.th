@@ -1,0 +1,16 @@
+encoding utf-8 
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Ce travaille est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Scialet_Candy -title "Scialet_Candy"
+
+	input Data/Scialet_Candy.th
+
+	input Data/Candy.th2
+	input Data/plan.th2
+
+	input Scialet_Candy-maps.th
+
+endsurvey

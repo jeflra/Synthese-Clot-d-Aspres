@@ -5,8 +5,8 @@ encoding utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Apocalypso-plan-tot 
-
+SP-Apo-1
 endmap
-map MC-Apocalypso-coupe-tot 
+# map MC-Apocalypso-coupe-tot 
 
-endmap
+# endmap

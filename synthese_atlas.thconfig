@@ -40,7 +40,7 @@ encoding  utf-8
 
 source synthese.th
 input config.thc 
-
+source GIS/MNT_Fauges.th
 
 
 #input synthese.th2
@@ -118,7 +118,8 @@ endcode
 
   
 
-
+  surface bottom
+   surface-opacity 70
 
 # Auteur 
   doc-author "Benoît Urruty"
@@ -178,7 +179,7 @@ endlayout
 
 
 
-
+select MP-Clot-Aspres@synthese
 
 # Voici les lignes pour exporter le cheminement au format xvi
 #export map -proj plan -fmt xvi -layout xviexport -o synthese_plan.xvi
