@@ -42,7 +42,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 500
+   base-scale 1 200
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -217,7 +217,7 @@ layout my_layout-coupe
    opacity 75
       
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Coupe développée<ss> - Ville, depart, Pays"
+   map-comment "<it>Coupe développée<ss> - Villard-de-Lans, Isère, France"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs
@@ -293,8 +293,12 @@ endlayout
 # EXPORTS
 
 export map -o Outputs/Castor-plan.pdf -layout my_layout
-#export map -fmt xvi -layout xviexport -o Outputs/castor-plan.xvi -layout-scale 1 500
+export map -proj extended -fmt pdf -layout my_layout-coupe -o Outputs/castor_coupe.pdf
 
-#export model -format loch 	-o Outputs/castor.lox
+#export map -fmt xvi -layout xviexport -o Outputs/castor-plan.xvi -layout-scale 1 500
+export map -proj extended -fmt xvi -layout xviexport -o Data/castor_coupe.xvi
+
+
+export model -format loch 	-o Outputs/castor.lox
 #export map -proj plan -fmt kml -o Outputs/Castor.kml -layout my_layout
 #export model -fmt kml -o Outputs/Castor-model.kml
