@@ -1,12 +1,7 @@
 encoding  utf-8
 
 survey Nymphe -title "Nymphe Emue"
-   # input Data/Nymphe.th   
 
-   # input Data/Nymphe_plan.th2
-   # input Data/jonction.th2
-	# input Nymphe-maps.th
-	
 
 
    input Data/Nymphe_MTC.th 

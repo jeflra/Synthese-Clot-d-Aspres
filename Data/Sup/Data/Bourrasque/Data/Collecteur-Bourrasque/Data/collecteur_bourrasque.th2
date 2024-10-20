@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap riviere_menisque -author 2008 "Martin Gerbaux" -copyright 2008 "licence CCby : http://creativecommons.org/licenses/by/2.0/fr" -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m] 
+scrap riviere_menisque -author 2008 "Martin Gerbaux" -copyright 2008 "licence CCby : http://creativecommons.org/licenses/by/2.0/fr" -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m]
 
 point 214.56 537.588 station -name 0@2
 
@@ -101,7 +101,7 @@ line wall
   1101.0 564.0
 endline
 
-line wall -close on
+line wall -close on -reverse on -outline in
   1091.25 590.25
   1086.25 589.5
   1080.5 589.25
@@ -144,7 +144,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   726.5 593.75
   726.5 592.25 726.25 589.0 726.0 586.5
   725.75 584.0 722.5 565.0 722.5 565.0
@@ -695,7 +695,7 @@ line wall -subtype "unsurveyed"
   smooth off
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed" -outline in
   1030.25 639.5
   1034.0 646.0
   1034.0 646.0 1035.25 649.0 1035.25 650.75
@@ -906,8 +906,6 @@ line water-flow
   1310.75 259.25
   1272.5 274.75
 endline
-
-
 
 line border -id l284-1134-492 -reverse on -subtype "invisible"
   1100.75 548.5
@@ -1506,10 +1504,10 @@ line wall
   654.75 520.25 649.75 517.25 637.25 520.25
   624.75 523.25 592.25 531.25 590.25 531.25
   588.25 531.25 586.0 531.0 580.0 533.0
-  574.0 535.0 569.75 537.0 569.75 537.0
+  574.0 535.0 570.5 535.75 570.5 535.75
   smooth off
-  569.75 537.0 571.5 535.75 569.75 538.75
-  568.0 541.75 566.75 544.0 565.0 544.25
+  570.5 535.75 570.25 537.75 568.5 540.75
+  566.75 543.75 566.75 544.0 565.0 544.25
   563.25 544.5 556.5 545.75 556.5 545.75
   smooth off
   556.5 545.75 551.75 547.0 547.5 547.0
@@ -1619,7 +1617,7 @@ line wall -subtype "unsurveyed"
   1134.5 546.75
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed" -outline in
   1078.0 612.0
   1071.75 617.0
   1071.75 617.0 1059.75 626.25 1059.0 627.25
@@ -1662,7 +1660,7 @@ line pit -reverse on
   1079.25 587.5
 endline
 
-line wall
+line wall -reverse on -outline in
   1016.0 669.25
   1016.0 669.25 1013.75 665.75 1015.25 663.75
   1016.75 661.75 1022.0 657.25 1023.0 655.25
@@ -1671,7 +1669,7 @@ line wall
   1030.25 639.5
 endline
 
-line wall
+line wall -reverse on -outline in
   1051.75 611.0
   1053.75 608.5 1065.0 599.5 1066.0 597.5
   1067.0 595.5 1067.5 593.0 1070.0 593.0
@@ -1780,14 +1778,6 @@ line border -id l56-430-1548 -close on -subtype "invisible"
   415.0 1539.75
   358.5 1621.0
 endline
-
-
-
-
-
-
-
-
 
 line border -id l55-481-1465 -close on -subtype "invisible"
   434.0 1504.75

@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -7302.0 5270.37 128.0
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 {}} Nymphe.png 0 {}
+##XTHERION## xth_me_area_adjust -131.0 -7299.5 4090.0 130.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-3.0 1 1.0} {2.5 {}} Nymphe.png 0 {}
 ##XTHERION## xth_me_image_insert {2896.052 1 1.0} {-5109.52 Nymphe} Nymphe-Emue_plan.xvi 0 {}
 
 
@@ -9,8 +9,7 @@ encoding  utf-8
 scrap SP-Nymphe-1 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
-  1954.25 -2632.75
-  1954.75 -2627.25 1950.5 -2626.0 1956.5 -2617.0
+  1956.5 -2617.0
   1962.5 -2608.0 1963.0 -2607.5 1970.5 -2601.0
   1978.0 -2594.5 1968.5 -2593.0 1980.5 -2586.0
   1992.5 -2579.0 1984.0 -2583.5 1999.5 -2583.0
@@ -143,21 +142,20 @@ line wall
   smooth off
 endline
 
-
 line wall
   1684.5 -2634.0
   1679.75 -2628.75 1658.75 -2602.0 1654.5 -2596.25
-  1650.25 -2590.5 1620.75 -2545.5 1618.75 -2543.0
+  1650.25 -2590.5 1562.0 -2468.5 1560.0 -2466.0
   smooth off
 endline
 
 line wall -reverse on
   1667.0 -2635.0
-  1662.75 -2630.25 1608.5 -2560.25 1605.0 -2550.0
+  1662.75 -2630.25 1563.0 -2492.75 1559.5 -2482.5
   smooth off
 endline
 
-line wall -reverse on
+line wall -reverse on -outline in
   1707.75 -2777.0
   1704.25 -2772.0 1687.5 -2761.25 1681.5 -2757.75
   1675.5 -2754.25 1662.0 -2744.5 1662.25 -2736.75
@@ -191,13 +189,36 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline out -subtype invisible
+  1956.5 -2687.5
+  1978.0 -2679.25
+endline
+
+line wall -outline out -subtype invisible
+  1817.5 -2713.0
+  1796.5 -2722.5
+endline
+
+line wall -subtype invisible
+  1560.0 -2466.0
+  1559.5 -2482.5
+endline
+
+area water
+endarea
+
+line wall -subtype invisible
+  1661.0 -2701.75
+  1645.25 -2692.75
+endline
+
+line wall -outline in
   1638.0 -2730.0
   1640.75 -2724.75 1659.25 -2705.0 1661.0 -2701.75
   smooth off
 endline
 
-line wall -reverse on
+line wall -reverse on -outline in
   1638.0 -2730.0
   1644.5 -2737.0 1640.0 -2736.5 1651.5 -2744.0
   1663.0 -2751.5 1681.0 -2768.0 1682.5 -2776.0
@@ -317,7 +338,6 @@ endline
 
 point 1690.5 -2944.75 label -text "R6"
 
-
 line wall
   1612.0 -2946.25
   1628.5 -2941.5 1655.25 -2931.0 1666.75 -2929.5
@@ -355,9 +375,9 @@ line wall
   smooth off
 endline
 
-line wall -close on
-  1874.25 -2861.5
-  1882.75 -2863.5 1897.0 -2876.0 1907.75 -2883.0
+line wall -close on -outline in
+  1874.0 -2860.0
+  1882.5 -2862.0 1897.0 -2876.0 1907.75 -2883.0
   1918.5 -2890.0 1930.5 -2899.5 1935.75 -2908.75
   1941.0 -2918.0 1945.25 -2928.0 1943.75 -2938.0
   1942.25 -2948.0 1935.5 -2982.75 1933.75 -2986.25
@@ -370,10 +390,10 @@ line wall -close on
   1762.25 -2877.5 1753.75 -2874.5 1764.5 -2865.5
   1775.25 -2856.5 1795.5 -2842.0 1803.75 -2841.0
   1812.0 -2840.0 1841.5 -2838.0 1848.0 -2841.5
-  1854.5 -2845.0 1865.75 -2859.5 1874.25 -2861.5
+  1854.5 -2845.0 1865.5 -2858.0 1874.0 -2860.0
 endline
 
-line wall
+line wall -outline none
   1796.5 -2722.5
   1805.0 -2726.5 1816.0 -2723.0 1823.0 -2725.5
   1830.0 -2728.0 1841.5 -2736.5 1846.0 -2743.0
@@ -408,7 +428,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline none
   1978.0 -2678.0
   1981.0 -2675.0 1982.0 -2664.0 1990.0 -2669.0
   1998.0 -2674.0 2011.0 -2675.0 2028.0 -2673.0
@@ -618,8 +638,6 @@ point 2896.052 -5109.5199999999995 station -name Nymphe
 
 point 3955.5820000000003 -2711.0799999999995 station -name A84
 
-
-
 endscrap
 
 
@@ -668,9 +686,10 @@ line wall
   smooth off
   1953.75 -2643.25 1954.5 -2635.0 1954.25 -2632.75
   smooth off
+  1956.5 -2617.0
 endline
 
-line wall
+line wall -outline in
   1852.75 -3066.25
   1853.5 -3061.0 1853.5 -3039.25 1851.25 -3034.5
   1849.0 -3029.75 1844.25 -3021.25 1848.25 -3015.5
@@ -688,7 +707,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1654.25 -2863.25
   1665.75 -2857.25 1683.0 -2841.75 1690.25 -2841.0
   1697.5 -2840.25 1700.5 -2840.0 1714.25 -2836.25
@@ -714,7 +733,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1843.25 -3066.5
   1839.75 -3070.25 1839.5 -3073.25 1839.0 -3075.25
   1838.5 -3077.25 1838.75 -3088.25 1835.25 -3086.5
@@ -751,7 +770,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1883.25 -3096.25
   1881.0 -3105.5 1885.75 -3106.75 1880.5 -3108.0
   1875.25 -3109.25 1869.25 -3112.5 1867.75 -3109.5
@@ -1225,7 +1244,6 @@ line wall
   smooth off
 endline
 
-
 point 1310.0 -5185.0 label -text "P10"
 
 point 1769.0 -3894.0 label -text "P9"
@@ -1405,7 +1423,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   1818.5 -3091.75
   1821.75 -3097.25 1829.25 -3103.25 1825.5 -3105.75
   1821.75 -3108.25 1818.0 -3110.75 1814.25 -3108.5
@@ -1414,7 +1432,7 @@ line wall -close on
   1810.25 -3090.75 1815.25 -3086.25 1818.5 -3091.75
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   1947.0 -3429.0
   1934.0 -3426.5 1932.5 -3428.0 1920.0 -3424.0
   1907.5 -3420.0 1901.5 -3419.5 1889.5 -3417.5
@@ -1725,7 +1743,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   1489.0 -2167.5
   1497.25 -2166.5 1509.5 -2163.75 1516.5 -2165.5
   1523.5 -2167.25 1534.75 -2168.25 1539.25 -2172.5
@@ -2744,8 +2762,8 @@ endscrap
 scrap SP-Nymphe-8 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
 line wall
-  1618.75 -2543.0
-  1611.25 -2531.5 1557.5 -2462.25 1551.0 -2457.75
+  1560.0 -2466.0
+  1552.5 -2454.5 1557.5 -2462.25 1551.0 -2457.75
   smooth off
 endline
 
@@ -2772,6 +2790,20 @@ endline
 line wall
 endline
 
+line pit -close on
+  1528.0 -2472.5
+  1528.0 -2472.5 1494.0 -2486.0 1498.0 -2497.0
+  1502.0 -2508.0 1513.5 -2523.5 1528.0 -2519.5
+  1542.5 -2515.5 1550.0 -2516.5 1551.5 -2509.0
+  1553.0 -2501.5 1528.0 -2472.5 1528.0 -2472.5
+  smooth off
+endline
+
+line wall -subtype invisible
+  1551.0 -2457.75
+  1533.5 -2458.25
+endline
+
 line wall
   1730.25 -2660.0
   1727.0 -2653.25 1714.75 -2639.25 1707.5 -2629.0
@@ -2783,7 +2815,6 @@ line wall
   1574.0 -2530.0 1567.0 -2523.0 1564.75 -2517.75
   1562.5 -2512.5 1546.0 -2475.5 1548.25 -2475.75
   1550.5 -2476.0 1557.25 -2480.0 1559.5 -2482.5
-  1561.75 -2485.0 1602.25 -2543.5 1605.0 -2550.0
   smooth off
 endline
 
@@ -2851,9 +2882,9 @@ line wall -reverse on
   smooth off
 endline
 
-line wall -close on -reverse on
-  1516.25 -2992.5
-  1504.25 -2998.75 1496.25 -3005.0 1492.5 -3008.25
+line wall -close on -reverse on -outline in
+  1512.25 -2993.5
+  1500.25 -2999.75 1496.25 -3005.0 1492.5 -3008.25
   1488.75 -3011.5 1471.0 -3026.5 1458.5 -3028.75
   1446.0 -3031.0 1426.25 -3038.25 1418.75 -3040.25
   1411.25 -3042.25 1396.75 -3051.75 1391.25 -3057.75
@@ -2868,7 +2899,7 @@ line wall -close on -reverse on
   1569.25 -3013.25 1576.75 -2999.25 1574.25 -2995.25
   1571.75 -2991.25 1559.5 -2981.5 1555.75 -2981.0
   1552.0 -2980.5 1539.0 -2976.0 1531.0 -2981.25
-  1523.0 -2986.5 1528.25 -2986.25 1516.25 -2992.5
+  1523.0 -2986.5 1524.25 -2987.25 1512.25 -2993.5
 endline
 
 line wall
@@ -2995,7 +3026,7 @@ line wall
   smooth off
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   1061.5 -3756.0
   1062.5 -3767.0 1065.0 -3785.5 1072.5 -3798.5
   1080.0 -3811.5 1076.5 -3818.5 1082.0 -3822.5
@@ -3006,7 +3037,7 @@ line wall -close on -reverse on
   1061.0 -3746.0 1060.5 -3745.0 1061.5 -3756.0
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   1196.0 -4181.5
   1190.0 -4173.5 1191.0 -4168.5 1186.0 -4167.0
   1181.0 -4165.5 1172.5 -4162.5 1170.5 -4175.0
@@ -3017,7 +3048,7 @@ line wall -close on -reverse on
   1203.0 -4185.5 1202.0 -4189.5 1196.0 -4181.5
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   1242.0 -4112.5
   1248.5 -4124.0 1253.5 -4125.5 1253.5 -4136.5
   1253.5 -4147.5 1249.0 -4153.0 1260.0 -4153.0
@@ -3103,7 +3134,7 @@ line pit
   smooth off
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   1370.5 -4359.5
   1382.0 -4365.0 1398.0 -4386.5 1400.5 -4387.5
   1403.0 -4388.5 1403.5 -4395.5 1412.5 -4386.5
@@ -3158,7 +3189,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1489.5 -5160.5
   1484.5 -5153.0 1456.0 -5131.0 1451.0 -5126.5
   1446.0 -5122.0 1437.5 -5114.5 1445.0 -5113.0
@@ -3170,14 +3201,14 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1515.5 -5247.25
   1515.25 -5254.5 1516.0 -5264.0 1515.75 -5272.25
   1515.5 -5280.5 1515.25 -5307.25 1515.25 -5311.75
   smooth off
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   1698.5 -5259.0
   1698.0 -5263.5 1701.75 -5273.5 1704.5 -5274.5
   1707.25 -5275.5 1715.75 -5280.25 1721.25 -5284.75
@@ -3189,7 +3220,7 @@ line wall -close on -reverse on
   1707.5 -5257.5 1699.0 -5254.5 1698.5 -5259.0
 endline
 
-line wall
+line wall -outline in
   1538.5 -5225.5
   1545.0 -5223.0 1547.25 -5219.75 1550.25 -5219.5
   1553.25 -5219.25 1557.25 -5223.0 1560.5 -5220.75
@@ -3203,7 +3234,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1582.5 -5237.75
   1587.25 -5230.75 1598.0 -5220.0 1597.5 -5216.25
   1597.0 -5212.5 1594.75 -5213.5 1590.0 -5215.25
@@ -3212,7 +3243,7 @@ line wall
   smooth off
 endline
 
-line wall -reverse on
+line wall -reverse on -outline in
   1762.5 -5344.5
   1755.0 -5336.5 1751.0 -5327.0 1749.5 -5321.0
   1748.0 -5315.0 1743.5 -5302.5 1742.0 -5300.5
@@ -3435,7 +3466,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   897.0 -5527.5
   904.5 -5526.0 912.0 -5519.0 930.5 -5520.0
   949.0 -5521.0 949.0 -5520.5 963.5 -5519.5
@@ -3623,7 +3654,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1224.0 -5237.5
   1216.0 -5244.0 1201.0 -5251.0 1199.0 -5257.0
   1197.0 -5263.0 1196.0 -5293.0 1194.5 -5293.5
@@ -3649,13 +3680,13 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1252.0 -5254.0
   1252.5 -5249.0 1241.5 -5221.0 1224.0 -5237.5
   smooth off
 endline
 
-line wall
+line wall -outline in
   1735.5 -5469.5
   1744.0 -5479.5 1749.5 -5487.0 1751.0 -5496.0
   1752.5 -5505.0 1761.0 -5534.0 1762.0 -5537.5
@@ -3676,7 +3707,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1762.5 -5344.5
   1768.0 -5349.5 1776.5 -5357.5 1779.0 -5370.0
   1781.5 -5382.5 1783.5 -5404.5 1771.5 -5406.0
@@ -3693,7 +3724,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1515.25 -5311.75
   1516.0 -5323.5 1515.5 -5359.0 1515.5 -5372.5
   1515.5 -5386.0 1523.0 -5420.0 1522.5 -5429.0
@@ -3712,7 +3743,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1524.25 -5312.75
   1523.75 -5303.0 1526.5 -5280.0 1527.0 -5270.5
   1527.5 -5261.0 1530.0 -5244.0 1531.5 -5241.75
@@ -3720,7 +3751,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1538.5 -5225.5
   1533.25 -5226.75 1526.25 -5233.0 1526.25 -5226.75
   1526.25 -5220.5 1523.0 -5205.75 1521.0 -5201.25
@@ -3728,7 +3759,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1481.5 -5167.5
   1484.75 -5170.0 1496.25 -5182.75 1500.25 -5186.75
   1504.25 -5190.75 1515.0 -5201.25 1514.75 -5210.0
@@ -3736,7 +3767,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   1337.5 -5056.5
   1346.5 -5060.0 1367.0 -5061.0 1376.0 -5061.0
   1385.0 -5061.0 1395.0 -5060.5 1401.5 -5074.0
@@ -3746,7 +3777,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   923.5 -5148.0
   931.5 -5133.0 943.5 -5109.0 951.5 -5099.5
   959.5 -5090.0 982.5 -5077.5 991.0 -5067.5
@@ -4175,7 +4206,7 @@ point 2750.052 -5893.719999999999 station -name A108
 
 point 2783.402 -5877.039999999999 station -name A107
 
-point 2702.25 -5784.75 station -name A107
+point 2702.25 -5784.75 station -name A106
 
 point 2708.332 -5739.369999999999 station -name A105
 
@@ -4778,7 +4809,7 @@ line pit
   smooth off
 endline
 
-line wall -subtype pit
+line pit
   2603.5 -6000.0
   2610.5 -6003.0 2634.0 -6007.5 2644.5 -6007.0
   smooth off
@@ -5119,7 +5150,6 @@ line wall
   2442.5 -6400.5 2441.11 -6399.83 2440.0 -6408.0
   smooth off
 endline
-
 
 endscrap
 
@@ -6101,8 +6131,7 @@ endscrap
 
 scrap SP-Nymphe-19 -projection plan -station-names "" "@Nymphe" -scale [3065.0 -4555.0 3065.0 -3357.75 0.0 0.0 100 0.0 m]
 
-
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   2870.0 -4976.0
   2869.5 -4981.25 2863.75 -4985.5 2866.0 -4988.0
   2868.25 -4990.5 2870.25 -4991.75 2874.0 -4991.75

@@ -1,8 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -332.5 -3999 5080.5 5285.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -332.5 -3999 5080.5 8781.56
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Bagnards_Sc37_Page_3.png 0 {}
-##XTHERION## xth_me_image_insert {-204.5 1 1.0} {5157.0 {}} Bagnards_Sc37.png 0 {}
+##XTHERION## xth_me_image_insert {64.5 1 1.0} {6434.0 {}} Bagnards_Sc37.png 0 {}
 
 
 
@@ -103,6 +103,7 @@ line pit
   1459.5 -2165.0 1458.5 -2153.0 1449.0 -2152.0
   1439.5 -2151.0 1432.0 -2146.5 1431.0 -2151.5
   1430.0 -2156.5 1453.0 -2183.0 1456.5 -2189.5
+  smooth off
 endline
 
 line wall -subtype pit
@@ -233,7 +234,7 @@ line wall -subtype pit
   smooth off
 endline
 
-line wall -reverse on
+line wall -reverse on -outline in
   1225.0 -1853.5
   1231.5 -1857.0 1241.0 -1864.0 1246.0 -1865.0
   1251.0 -1866.0 1253.0 -1868.0 1257.0 -1871.5
@@ -383,6 +384,8 @@ endline
 
 point 1211.5 -2059.0 label -text "P9" -scale xl
 
+point 1283.5 -2330.0 station -name A15@Bagnards
+
 line wall
   1300.0 -2335.5
   1307.5 -2332.5 1324.0 -2327.0 1325.5 -2322.0
@@ -424,7 +427,7 @@ line wall
   smooth off
 endline
 
-line wall -reverse on -subtype pit
+line wall -reverse on -outline in
   1237.5 -1834.0
   1231.5 -1835.0 1217.5 -1847.5 1225.0 -1853.5
   smooth off
@@ -438,6 +441,7 @@ line pit
   1167.5 -2092.0 1175.0 -2070.0 1182.0 -2066.0
   1189.0 -2062.0 1188.5 -2045.5 1184.0 -2039.5
   1179.5 -2033.5 1175.0 -2022.0 1153.0 -2037.0
+  smooth off
 endline
 
 line pit
@@ -445,11 +449,13 @@ line pit
   1210.0 -1867.5 1227.0 -1847.5 1231.0 -1843.0
   1235.0 -1838.5 1248.5 -1815.0 1244.0 -1811.0
   1239.5 -1807.0 1207.5 -1779.0 1206.0 -1778.0
+  smooth off
 endline
 
 line pit
   1172.5 -1823.0
   1173.5 -1840.5 1193.5 -1879.5 1199.0 -1881.0
+  smooth off
 endline
 
 point 1156.0 -1769.0 label -text "P4" -scale xl
@@ -501,11 +507,13 @@ line pit
   1219.5 -2180.5
   1222.5 -2190.5 1229.0 -2215.5 1237.5 -2214.0
   1246.0 -2212.5 1259.0 -2200.0 1266.0 -2197.0
+  smooth off
 endline
 
 line pit
   1203.0 -2307.0
   1216.5 -2306.5 1255.0 -2310.5 1261.0 -2347.5
+  smooth off
 endline
 
 line wall
@@ -646,17 +654,20 @@ line label -text " Boyau et méandre dynamité" -scale xl
   1429.0 -2641.0
   1428.0 -2607.0 1571.0 -2480.0 1646.0 -2486.0
   1721.0 -2492.0 1787.0 -2535.0 1797.0 -2535.0
+  smooth off
 endline
 
 line pit
   1127.0 -3263.0
   1133.0 -3272.0 1158.0 -3316.0 1158.5 -3320.5
+  smooth off
 endline
 
 line pit
   1135.5 -3141.0
   1127.0 -3138.5 1115.0 -3139.0 1105.5 -3146.5
   1096.0 -3154.0 1090.0 -3163.5 1090.0 -3166.5
+  smooth off
 endline
 
 line pit
@@ -668,6 +679,7 @@ line pit
   1148.5 -3216.0 1155.0 -3185.5 1153.0 -3178.0
   1151.0 -3170.5 1138.0 -3146.0 1135.5 -3141.0
   1133.0 -3136.0 1097.5 -3121.0 1094.0 -3119.0
+  smooth off
 endline
 
 point 1103.0 -3317.5 continuation -scale xl
@@ -682,6 +694,7 @@ line pit -reverse on
   1299.0 -2756.5 1311.0 -2768.0 1319.5 -2776.0
   1328.0 -2784.0 1348.5 -2800.0 1370.0 -2792.5
   1391.5 -2785.0 1438.0 -2753.5 1443.0 -2749.0
+  smooth off
 endline
 
 line wall
@@ -765,6 +778,7 @@ line pit
   1502.0 -3404.0 1488.5 -3410.0 1475.5 -3409.5
   1462.5 -3409.0 1447.0 -3402.0 1440.5 -3397.5
   1434.0 -3393.0 1427.5 -3378.5 1421.0 -3377.0
+  smooth off
 endline
 
 line pit
@@ -778,6 +792,7 @@ line pit
   1456.0 -3481.0 1464.0 -3487.0 1472.25 -3485.0
   1480.5 -3483.0 1488.0 -3482.0 1498.5 -3475.75
   1509.0 -3469.5 1512.5 -3466.5 1513.25 -3466.5
+  smooth off
 endline
 
 point 1598.5 -3478.5 label -text "P32" -scale xl
@@ -867,28 +882,32 @@ endline
 line slope
   1073.0 -3073.5
   1057.0 -3069.0 1035.5 -3060.0 1028.0 -3038.5
+  smooth off
   l-size 19.2
 endline
 
 line slope
   1086.5 -3047.0
   1075.5 -3045.0 1050.5 -3030.0 1039.0 -3012.5
+  smooth off
   l-size 16.5
 endline
 
 line slope -reverse on
   1072.5 -2965.0
   1076.0 -2974.5 1082.5 -2992.0 1089.0 -2994.0
+  smooth off
   l-size 24.7
 endline
 
 line slope -reverse on
   1097.5 -2933.0
   1105.5 -2950.5 1102.5 -2960.5 1115.5 -2968.5
+  smooth off
   l-size 17.6
 endline
 
-line wall
+line wall -close off -outline in
   1091.0 -3116.5
   1086.5 -3114.0 1053.25 -3089.5 1052.75 -3085.25
   1052.25 -3081.0 1051.25 -3079.5 1052.0 -3075.75
@@ -914,8 +933,12 @@ line wall
   1132.5 -3051.25 1128.5 -3063.25 1127.75 -3065.75
   1127.0 -3068.25 1120.0 -3085.25 1118.5 -3088.0
   1117.0 -3090.75 1108.75 -3102.5 1107.0 -3105.75
-  1105.25 -3109.0 1098.5 -3112.25 1095.25 -3114.75
-  1092.0 -3117.25 1085.5 -3123.75 1072.75 -3124.5
+  1105.25 -3109.0 1094.25 -3114.0 1091.0 -3116.5
+  smooth off
+endline
+
+line wall
+  1072.75 -3124.5
   1060.0 -3125.25 1052.25 -3124.75 1044.25 -3125.25
   1036.25 -3125.75 1028.25 -3123.25 1026.0 -3129.0
   1023.75 -3134.75 1021.5 -3138.75 1024.25 -3144.5
@@ -938,11 +961,13 @@ line pit -clip off
   1207.0 -2954.5 1205.0 -2973.5 1207.5 -2978.5
   1210.0 -2983.5 1226.5 -3008.5 1237.0 -3016.0
   1247.5 -3023.5 1251.0 -3028.0 1255.0 -3025.5
+  smooth off
 endline
 
 line label -text "Vire du Renard" -scale xl
   1296.5 -3102.5
   1299.5 -3132.0 1331.5 -3256.5 1363.5 -3291.5
+  smooth off
 endline
 
 line pit
@@ -951,6 +976,7 @@ endline
 line pit -reverse on
   1364.0 -2626.0
   1378.5 -2620.5 1388.0 -2610.5 1403.5 -2615.5
+  smooth off
 endline
 
 point 1198.5 -2865.0 label -text "Puits<br>du Figuier" -scale xl
@@ -979,24 +1005,28 @@ endline
 line slope -reverse on
   1274.0 -2962.5
   1276.0 -2969.5 1290.5 -3002.5 1296.0 -3007.5
+  smooth off
   l-size 20.1
 endline
 
 line slope
   1338.5 -2948.5
   1338.5 -2948.5 1311.5 -2945.0 1307.0 -2934.0
+  smooth off
   l-size 17.1
 endline
 
 line slope
   1363.0 -2906.5
   1357.5 -2906.0 1323.5 -2892.5 1315.5 -2891.0
+  smooth off
   l-size 25.9
 endline
 
 line slope -reverse on
   1311.0 -2866.0
   1322.5 -2866.0 1360.39 -2865.82 1379.0 -2869.0
+  smooth off
   l-size 21.0
 endline
 
@@ -1005,12 +1035,14 @@ line border -clip off
   1350.5 -2947.0 1351.0 -2981.0 1344.0 -2987.5
   1337.0 -2994.0 1280.0 -3051.5 1273.5 -3074.0
   1267.0 -3096.5 1252.0 -3127.0 1254.5 -3141.5
+  smooth off
 endline
 
 line border -clip off
   1181.0 -2952.0
   1187.5 -2950.0 1193.5 -2939.5 1199.0 -2951.0
   1204.5 -2962.5 1204.0 -2962.0 1205.0 -2966.5
+  smooth off
 endline
 
 line border -clip off
@@ -1031,6 +1063,7 @@ line border
   1276.5 -3190.5 1305.0 -3254.5 1315.5 -3263.5
   1326.0 -3272.5 1298.5 -3241.0 1357.5 -3315.0
   1416.5 -3389.0 1406.0 -3371.0 1410.5 -3373.5
+  smooth off
 endline
 
 line wall
@@ -1147,6 +1180,12 @@ line wall
   1358.75 -2588.25 1331.25 -2590.5 1330.25 -2592.0
   smooth off
 endline
+
+point 1742.5 -2265.0 station -name A24@Bagnards
+
+point 1526.0 -2277.0 station -name A28@Bagnards
+
+point 1376.5 -2645.5 station -name A30@Bagnards
 
 line wall
   1305.0 -2402.5
@@ -1474,6 +1513,7 @@ point 989.0 -2590.0 label -text "P10" -scale xl
 line pit
   1062.0 -2617.0
   1084.0 -2615.0 1173.0 -2640.0 1186.0 -2642.0
+  smooth off
 endline
 
 line rock-edge -close on
@@ -1507,11 +1547,12 @@ line pit
   1070.5 1270.5 1081.0 1249.0 1094.5 1248.5
   1108.0 1248.0 1136.0 1251.0 1146.0 1271.0
   1156.0 1291.0 1159.0 1292.0 1166.5 1314.5
+  smooth off
 endline
 
 line wall
-  1150.0 -2600.5
-  1145.0 -2590.5 1131.5 -2558.0 1128.0 -2549.5
+  1148.75 -2598.25
+  1143.75 -2588.25 1131.5 -2558.0 1128.0 -2549.5
   1124.5 -2541.0 1116.0 -2514.0 1116.0 -2496.0
   1116.0 -2478.0 1116.0 -2459.0 1117.0 -2448.0
   1118.0 -2437.0 1119.75 -2397.5 1119.5 -2394.5
@@ -1568,6 +1609,7 @@ endline
 line pit
   1533.5 -3202.5
   1533.0 -3230.0 1530.5 -3288.0 1561.0 -3318.5
+  smooth off
 endline
 
 point 1503.0 -3183.5 label -text "P50" -scale xl
@@ -1575,6 +1617,7 @@ point 1503.0 -3183.5 label -text "P50" -scale xl
 line slope
   1737.5 -2960.5
   1744.5 -2946.5 1783.5 -2892.0 1796.5 -2887.5
+  smooth off
   l-size 26.6
 endline
 
@@ -1596,17 +1639,20 @@ endline
 line pit
   1067.0 -2293.0
   1079.5 -2298.5 1126.0 -2321.5 1161.5 -2298.0
+  smooth off
 endline
 
 line slope
   1799.0 -3017.0
   1801.0 -3004.0 1867.5 -2927.0 1887.5 -2917.0
+  smooth off
   l-size 27.0
 endline
 
 line slope
   1768.5 -3000.0
   1769.5 -2973.0 1816.5 -2915.5 1838.5 -2895.5
+  smooth off
   l-size 25.4
 endline
 
@@ -1719,17 +1765,20 @@ line pit
   1833.5 -3069.0
   1837.0 -3078.5 1847.0 -3114.5 1855.0 -3117.5
   1863.0 -3120.5 1882.0 -3132.5 1906.5 -3134.5
+  smooth off
 endline
 
 line pit
   1784.5 -3146.5
   1784.5 -3162.5 1782.0 -3195.0 1810.0 -3209.0
   1838.0 -3223.0 1857.5 -3231.5 1879.5 -3225.0
+  smooth off
 endline
 
 line pit -reverse on
   1708.0 -3450.5
   1713.5 -3442.5 1761.0 -3418.0 1742.5 -3251.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -1826,38 +1875,18 @@ line wall -reverse on
   smooth off
 endline
 
-point 1880.0 -2525.75 station -name Fond88@Bagnards
+point 1013.0 -1765.5 station -name A42@Bagnards
 
-point 1353.5 -2235.25 station -name Bagnards@Bagnards
+point 1110.5 -2243.5 station -name A41@Bagnards
 
-endscrap
+point 1100.5 -2605.5 station -name A40@Bagnards
 
-
-
-scrap SP-Bagnards-6 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.0 10 0.0 m]
+point 1711.5 -2873.0 station -name A39@Bagnards
 
 point 1880.0 -2525.75 station -name Fond88@Bagnards
 
 point 1353.5 -2235.25 station -name Bagnards@Bagnards
 
 endscrap
-
-
-
-scrap SP-Bagnards-7 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.0 10 0.0 m]
-
-point 1880.0 -2525.75 station -name Fond88@Bagnards
-
-point 1353.5 -2235.25 station -name Bagnards@Bagnards
-
-endscrap
-
-# scrap SP-Bagnards-5 -projection plan -scale [462.5 -3507.5 1065.0 -3507.5 0.0 0.0 10 0.0 m]
-
-# point 1880.0 -2525.75 station -name Fond88@Bagnards
-
-# point 1353.5 -2235.25 station -name Bagnards@Bagnards
-# endscrap
-
 
 

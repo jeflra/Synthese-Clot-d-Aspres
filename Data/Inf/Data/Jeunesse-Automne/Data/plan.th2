@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 5436.3 8267.9428
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {2307.55 1 1.0} {8086.942800000001 {}} Jeunesse_1-300.png 0 {}
 ##XTHERION## xth_me_image_insert {2284.3 1 1.0} {8133.192800000001 {}} Jeunesse_rot2.png 0 {}
 ##XTHERION## xth_me_image_insert {2278.3 1 1.0} {8139.942800000001 {}} ../../../../../../Jeunesse_rot2.jpg 0 {}
@@ -461,7 +461,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   3512.25 7179.25
   3510.0 7175.75 3504.25 7164.0 3499.5 7162.0
   3494.75 7160.0 3488.0 7156.75 3478.25 7161.0
@@ -708,7 +708,7 @@ point 3124.6900000000005 7170.1828000000005 station -name 1_149
 
 point 2824.1400000000003 7162.902800000001 station -name 1_150
 
-point 2786.0 7137.0 station -name 1_154
+point 2786.0 7137.0 station -name 1_152
 
 point 2790.5400000000004 7127.352800000001 station -name 1_153
 
@@ -789,7 +789,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -outline in
   4144.75 6028.75
   4140.25 6023.25 4137.25 6023.25 4136.5 6020.0
   4135.75 6016.75 4138.25 6000.75 4135.25 5999.5
@@ -850,7 +850,16 @@ point 3984.04 5836.562800000001 station -name 11_3
 
 point 3964.7 5891.522800000001 station -name 11_2
 
-line wall
+line wall -close on -reverse on -outline in
+  3825.5 5965.5
+  3819.75 5965.5 3819.5 5961.0 3820.25 5960.25
+  3821.0 5959.5 3823.25 5960.5 3827.25 5956.0
+  3831.25 5951.5 3837.5 5946.25 3835.5 5952.5
+  3833.5 5958.75 3833.75 5958.75 3832.0 5960.0
+  3830.25 5961.25 3831.25 5965.5 3825.5 5965.5
+endline
+
+line wall -outline in
   3979.25 5952.0
   3981.5 5952.0 3984.75 5949.75 3989.0 5952.0
   3993.25 5954.25 3996.75 5961.0 4000.5 5964.5
@@ -955,7 +964,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   4090.5 6029.0
   4097.0 6034.25 4097.25 6040.0 4104.25 6036.25
   4111.25 6032.5 4113.75 6026.0 4118.0 6029.5
@@ -1323,11 +1332,13 @@ line label -text "Réseau des oilus"
   3327.0 5918.0
   3336.75 5922.75 3379.5 5935.5 3393.75 5941.0
   3408.0 5946.5 3455.5 5939.5 3467.0 5939.25
+  smooth off
 endline
 
 line label -text "Réseau perdu"
   3206.25 5784.5
   3217.25 5801.5 3269.75 5839.0 3285.75 5852.5
+  smooth off
 endline
 
 point 3309.5 5879.75 label -text "Salle Africa"
@@ -1506,7 +1517,7 @@ point 3438.0699999999997 5981.652800000001 station -name 1_34
 
 point 3463.66 5990.1828000000005 station -name 1_35
 
-point 3494.0 5966.5 station -name 1_38
+point 3494.0 5966.5 station -name 1_36
 
 point 3496.47 5971.812800000001 station -name 1_37
 
@@ -1617,6 +1628,7 @@ line wall
   4029.5 5753.0 4025.5 5755.0 4025.5 5764.75
   4025.5 5774.5 4024.75 5783.25 4024.0 5788.75
   4023.25 5794.25 4023.0 5796.5 4021.5 5801.0
+  smooth off
 endline
 
 line wall
@@ -1627,6 +1639,7 @@ line wall
   4389.5 5995.25 4390.0 5973.0 4388.75 5968.25
   4387.5 5963.5 4377.5 5958.75 4374.0 5957.25
   4370.5 5955.75 4362.5 5955.25 4360.5 5955.25
+  smooth off
 endline
 
 line wall
@@ -1695,6 +1708,7 @@ line wall
   4698.5 5993.25 4693.25 5985.75 4693.25 5990.25
   4693.25 5994.75 4693.5 5998.5 4691.5 6001.0
   4689.5 6003.5 4688.75 6004.25 4686.5 6005.5
+  smooth off
 endline
 
 line wall
@@ -1722,6 +1736,7 @@ line wall
   4776.5 5977.0 4775.5 5966.25 4776.5 5963.5
   4777.5 5960.75 4785.0 5953.5 4787.25 5954.25
   4789.5 5955.0 4800.25 5960.25 4802.0 5958.75
+  smooth off
 endline
 
 point 4561.0 5852.0 continuation -attr Code Q -attr Cavite "Jeunesse Automne" -attr Reseau "Réseau des retrouvailles" -attr CA '' -text ""
@@ -1737,6 +1752,7 @@ point 4418.0 6075.0 continuation -attr Code E -attr Cavite "Jeunesse Automne" -a
 line label -text "Réseau des retrouvailles"
   4286.0 5634.0
   4344.0 5662.0 4558.53 5764.6 4606.0 5801.0
+  smooth off
 endline
 
 point 4630.0 5892.5 label -text "Canyon 'Glacial'"
@@ -1809,6 +1825,7 @@ line wall
   4529.75 5865.25 4529.75 5871.25 4532.0 5868.0
   4534.25 5864.75 4531.75 5864.0 4536.5 5862.0
   4541.25 5860.0 4543.0 5858.5 4545.5 5858.5
+  smooth off
 endline
 
 point 4838.07 5968.0028 station -name 12_38

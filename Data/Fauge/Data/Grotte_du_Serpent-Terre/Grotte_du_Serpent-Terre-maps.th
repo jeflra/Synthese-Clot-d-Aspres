@@ -5,12 +5,15 @@ encoding utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Grotte_du_Serpent-Terre-plan-tot -title "Grotte_du_Serpent-Terre"
-	SP-Grotte_du_Serpent-Terre-1
-	#break
-	#SP-Grotte_du_Serpent-Terre-2
+	break
+	SP-Serpenterre-2
+	break
+	
+	SP-Serpenterre-1
+	
 endmap
-map MC-Grotte_du_Serpent-Terre-coupe-tot -title "Grotte_du_Serpent-Terre"
-	SC-Grotte_du_Serpent-Terre-1
-	#break
-	#SC-Grotte_du_Serpent-Terre-2
-endmap
+# map MC-Grotte_du_Serpent-Terre-coupe-tot -title "Grotte_du_Serpent-Terre"
+# 	SC-Grotte_du_Serpent-Terre-1
+# 	#break
+# 	#SC-Grotte_du_Serpent-Terre-2
+# endmap

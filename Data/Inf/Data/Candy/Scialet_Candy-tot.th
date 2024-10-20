@@ -13,4 +13,6 @@ survey Scialet_Candy -title "Scialet_Candy"
 
 	input Scialet_Candy-maps.th
 
+	join SP-Candy-1 candy_transfauge
+
 endsurvey

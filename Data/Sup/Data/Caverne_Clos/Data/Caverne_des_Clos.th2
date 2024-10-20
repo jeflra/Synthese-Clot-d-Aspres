@@ -1,11 +1,11 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -1230.367 -1250.0480000000002 482.32299999999987 982.6296296296297
 ##XTHERION## xth_me_area_zoom_to 108
-##XTHERION## xth_me_image_insert {157.47800000000007 1 1.0} {354.3349999999998 Entree_1} Caverne_des_clos_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {157.47800000000052 1 1.0} {354.33500000000004 Entree_1} Caverne_des_clos_plan.xvi 0 {}
 
 
 
-scrap Grande_Salle -author 2019 "Martin Gerbaux" -copyright 2019 "licence CC-by-sa 4.0 : https://creativecommons.org/licenses/by-sa/4.0/" -scale [-1171.3110000000001 -383.89700000000005 423.2689999999998 -383.89700000000005 0.0 0.0 40.502331999999996 0.0 m]
+scrap Grande_Salle -station-names "" "@Caverne_des_clos" -author 2019 "Martin Gerbaux" -copyright 2019 "licence CC-by-sa 4.0 : https://creativecommons.org/licenses/by-sa/4.0/" -scale [-1171.3110000000001 -383.89700000000005 423.2689999999998 -383.89700000000005 0.0 0.0 40.502331999999996 0.0 m]
 
 area sand
   l120--488-373
@@ -229,7 +229,7 @@ line overhang -clip off
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   44.9 370.41
   37.31 395.1 70.41 374.49 70.41 374.49
   smooth off
@@ -304,7 +304,7 @@ endscrap
 
 
 
-scrap galerie_superieure -scale [-1171.3110000000001 -383.89700000000005 423.2689999999998 -383.89700000000005 0.0 0.0 40.502331999999996 0.0 m]
+scrap galerie_superieure -station-names "" "@Caverne_des_clos" -scale [-1171.3110000000001 -383.89700000000005 423.2689999999998 -383.89700000000005 0.0 0.0 40.502331999999996 0.0 m]
 
 point -335.71428571428567 -917.3469387755102 air-draught -orientation 293.7 -subtype summer
 
@@ -560,7 +560,7 @@ endscrap
 
 
 
-scrap coulee_calcite -scale [-1171.3110000000001 -383.89700000000005 423.2689999999998 -383.89700000000005 0.0 0.0 40.502331999999996 0.0 m]
+scrap coulee_calcite -station-names "" "@Caverne_des_clos" -scale [-1171.3110000000001 -383.89700000000005 423.2689999999998 -383.89700000000005 0.0 0.0 40.502331999999996 0.0 m]
 
 area debris
   l122--600-78

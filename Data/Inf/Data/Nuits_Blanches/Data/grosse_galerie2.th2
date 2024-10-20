@@ -277,7 +277,7 @@ point 1278.568 3010.55 station -name 2_1
 
 point 1308.578 3000.86 station -name 2_0
 
-line wall -close on
+line wall -close on -reverse on -outline in
   1156.0 3174.5
   1156.75 3179.25
   1156.0 3184.75

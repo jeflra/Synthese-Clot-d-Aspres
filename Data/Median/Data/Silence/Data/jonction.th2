@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -329.78999999999894 -2006.4599999999991 10920.131 12809.057
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {1120.5 1 1.0} {11499.453 {}} Silence_plan_jonction.png 0 {}
 ##XTHERION## xth_me_image_insert {5333.700000000001 1 1.0} {3423.1400000000003 00@silence_7eme_art.Silence} Silence_plan.xvi 0 {}
 
@@ -280,7 +280,7 @@ point 5008.77 5971.81 station -name 211
 
 point 4991.82 5977.570000000001 station -name 7
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   2842.5 4823.25
   2835.75 4821.0 2839.0 4823.0 2826.5 4814.25
   2814.0 4805.5 2811.25 4798.25 2807.25 4792.5
@@ -315,7 +315,7 @@ line wall -close on -reverse on
   2857.0 4829.0 2849.25 4825.5 2842.5 4823.25
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   3075.0 4828.25
   3062.25 4826.75 3067.0 4830.25 3046.5 4814.75
   3026.0 4799.25 3015.75 4793.5 3004.25 4781.5
@@ -747,7 +747,7 @@ line pit
   smooth off
 endline
 
-line wall -close off
+line wall -close off -outline in
   3694.0 8888.5
   3704.25 8896.75 3744.0 8906.0 3774.0 8912.0
   3804.0 8918.0 3811.0 8920.75 3817.5 8923.75

@@ -16,20 +16,18 @@ endline
 line wall
 endline
 
+line wall -reverse on
+  144.0 51.0
+  146.75 48.5 151.25 48.0 153.5 48.0
+  smooth off
+endline
+
 line wall
   144.0 51.0
   144.0 51.0 135.0 66.25 134.25 69.0
   133.5 71.75 130.68 94.42 131.5 95.75
   smooth off
   altitude .
-endline
-
-line wall -close on
-  153.25 48.0
-  148.0 48.75
-  145.5 49.5
-  150.25 49.75
-  153.25 48.0
 endline
 
 line wall
@@ -64,6 +62,20 @@ line wall
 endline
 
 line wall
+  119.75 110.75
+  117.5 108.5 114.75 108.5 116.5 104.75
+  118.25 101.0 119.25 95.0 124.0 94.25
+  smooth off
+endline
+
+line wall
+  131.5 95.75
+  133.75 98.0 135.0 104.75 134.75 108.0
+  134.5 111.25 130.0 112.25 127.75 112.25
+  smooth off
+endline
+
+line wall
   127.75 112.25
   126.0 113.0 122.0 115.0 120.25 117.75
   smooth off
@@ -83,7 +95,7 @@ line pit
   smooth off
 endline
 
-line pit -outline out
+line pit
   119.75 110.75
   117.0 108.75 116.0 106.0 116.5 104.75
   117.0 103.5 119.75 95.0 124.0 94.25

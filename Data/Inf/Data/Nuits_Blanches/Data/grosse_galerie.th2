@@ -1,13 +1,13 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -17.5 -941.0 5831.1813 8216.737
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -24.0 -946.0 3531.488 2798.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {3403.488 1 1.0} {2314.85 7@jonction_nuits_blanches-brumes_matinales.nuits_blanches} Nuits_Blanches_plan.xvi 0 {}
 
 
 
 scrap scrap1 -scale [-128 -886 1328 -886 0.0 0.0 36.9824 0.0 m]
 
-line wall -close on
+line wall -close on -reverse on -outline in
   627.0 -548.0
   624.0 -557.0
   635.0 -562.0
@@ -102,7 +102,7 @@ line pit -reverse on
   267.0 -492.0
 endline
 
-line wall -close off -reverse on
+line wall -close off -reverse on -outline in
   267.0 -492.0
   267.0 -511.0
   282.0 -531.0
@@ -194,7 +194,7 @@ line wall -id mur_g -reverse on
   1310.0 -689.0
 endline
 
-line wall -close on
+line wall -close on -reverse on -outline in
   204.0 -497.0
   203.0 -503.0
   201.0 -516.0
@@ -1044,7 +1044,7 @@ line wall -id cc_g -reverse on
   smooth off
 endline
 
-line wall -close on -reverse on
+line wall -close on -outline in
   1281.25 2609.0
   1287.0 2610.5
   1291.25 2612.0
