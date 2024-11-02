@@ -61,6 +61,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Soleil Trompeur CAF225
 - P200 
 - Serpent Terre -> livre azimut 0
+- Apocalypso -> livre azimut 0
 
 
 
@@ -79,7 +80,6 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Agnes
 - Bourrasque -> par Océane T.
 - Vladimir -> livre azimut 0
-- Apocalypso -> livre azimut 0
 
 
 ### Manque données
