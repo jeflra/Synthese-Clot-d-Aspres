@@ -30,6 +30,6 @@ input Data/Brise_coeur_plan.th2
 # input Data/Brise_de_Coeur-coupe.th2
 
 # ## Appel des maps
-# input Brise_de_Coeur-maps.th
+input Brise_de_Coeur-maps.th
 
 endsurvey
