@@ -7,17 +7,21 @@ map MP-Bourrasque-tot -title "Bourrasque"
 	break
 	SP-Bourrasque-3
 	break
+	SP-Bourrasque-7
+	break
 	SP-Bourrasque-4
 	break
-	# SP-Bourrasque-5
-	# break
-	# SP-Bourrasque-6
-	# break
-	SP-Bourrasque-7
+	SP-Bourrasque-5
+	break
+	SP-Bourrasque-6
 	break
 	SP-Bourrasque-11
 	break
 	SP-Bourrasque-10
+	break
+	SP-Bourrasque-13
+	break
+	SP-Bourrasque-14
 	break
 	SP-Bourrasque-8
 	break
