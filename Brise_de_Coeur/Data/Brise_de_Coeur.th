@@ -6,7 +6,7 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		cs long-lat 
-		# fix 1_0  5.5796 45.0255 1680
+		fix 1_0  5.5796 45.0255 1680
 
 		#date 2015
 		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
