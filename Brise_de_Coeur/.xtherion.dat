@@ -7,8 +7,9 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 191X1 p1 1 MP-Brise_de_Coeur-plan-tot MP-Brise_de_Coeur-plan-tot@Brise_de_Coeur "Brise\_de\_Coeur" "Brise\_de\_Coeur"
 xth_cp_map_tree_create
-xth_cp_comp_stat 214 0
+xth_cp_comp_stat 214 4
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1723017263
+set xth(th_exit_number) 1729602616
 

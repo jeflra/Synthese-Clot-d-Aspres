@@ -1,15 +1,17 @@
-survey Bourrasque
+encoding utf-8
+
+survey Bourrasque -title "Bourrasque"
 
 
 # input Data/bourrasque.th2
 
 
 input Data/bourrasque_MTC.th
-# input Data/bourrasque_MTD.th2
+input Data/bourrasque_MTD.th2
 
 
 # input Data/bourrasque.th
-# input Bourrasque_maps.th
+input Bourrasque_maps.th
 
 
 
