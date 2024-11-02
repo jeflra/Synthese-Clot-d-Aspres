@@ -26,7 +26,7 @@ input Data/Sup/Sup-tot.th
 
 # Le réseau Médian
 input Data/Median/Median-tot.th
-    equate 49@2.menisque.bourrasque.superieur A60@riviere_casse_pieds.riviere_casse_pieds.blizzard.median
+    equate 49@toto2.collecteur_bourrasque.bourrasque.superieur A60@riviere_casse_pieds.riviere_casse_pieds.blizzard.median
 
 
 

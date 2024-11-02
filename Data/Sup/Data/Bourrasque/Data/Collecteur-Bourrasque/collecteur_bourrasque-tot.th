@@ -1,11 +1,10 @@
 encoding  utf-8
 
-survey collecteur_bourrasque -title "collecteur_bourrasque"
+survey collecteur_bourrasque -title "Rivière du Ménisque"
    input Data/collecteur_bourrasque.th
-
-
-   # input Data/collecteur_bourrasque.th2
-	# input collecteur_bourrasque-maps.th
-	# input Data/2_soeurs-1s.th2
-	
+   equate point_topo_B@toto1 b@toto2
+   equate 00@toto2 00@toto3
+   
+   input Data/collecteur_bourrasque.th2
+	input collecteur_bourrasque-maps.th	
 endsurvey

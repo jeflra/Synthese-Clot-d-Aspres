@@ -4,9 +4,3 @@ map MP-collecteur_bourrasque-plan-tot -title "collecteur_bourrasque"
   break
   reseau_sup
 endmap
-
-
-# map MC-collecteur_bourrasque-coupe-tot -title "collecteur_bourrasque"
-#   SC-collecteur_bourrasque-1
-
-# endmap
