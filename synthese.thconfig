@@ -315,14 +315,14 @@ export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox
 #export model  -o Outputs/Synthese.dxf
-#export continuation-list -o Outputs/questions.html
-#export cave-list -o Outputs/Synthese.html  
+export continuation-list -o Outputs/questions.html
+export cave-list -o Outputs/Synthese.html  
 
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Synthese -layout my_layout
-#export model  -fmt esri -o Outputs/Synthese-model
+export model  -fmt esri -o Outputs/Synthese-model
 
 
 # Export des fichiers kml
-#export map -proj plan -fmt kml -o Outputs/Synthese.kml -layout my_layout
-#export model -fmt kml -o Outputs/Synthese-model.kml
+export map -proj plan -fmt kml -o Outputs/Synthese.kml -layout my_layout
+export model -fmt kml -o Outputs/Synthese-model.kml

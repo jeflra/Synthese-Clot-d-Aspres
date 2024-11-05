@@ -18,5 +18,7 @@ equate A22@pre_achard_suite.pre_achard-tot A76@Silence.Silence
 
 input Median_maps.th
 
+join SP-Principal-5@Blizzard.blizzard SP-SB-5@pre_achard-tot
+join SP-Principal-5@Blizzard.blizzard SP-BM-4@brumes-tot
 endsurvey
 

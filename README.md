@@ -62,6 +62,8 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - P200 
 - Serpent Terre -> livre azimut 0
 - Apocalypso -> livre azimut 0
+- Brise de Coeur (SGCAF) -> Dessin Oceane
+- Bourrasque -> par Océane T.
 
 
 
@@ -72,13 +74,11 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Brume matinal
 - 2 Soeurs
 - Jeunesse d'autonme
-- Brise de Coeur (SGCAF) -> Dessin Oceane
 
 
 ### Dessin a commencer
 - Scialet de la Malléole -> livre azimut 0
 - Agnes
-- Bourrasque -> par Océane T.
 - Vladimir -> livre azimut 0
 
 
@@ -94,7 +94,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - ID-cuve
 - Mistral (ou recupération des données)
 - Pre Achard (fait)
-- Silence
+- Silence (fait)
 
 ### Données générées par MapToDat
 
