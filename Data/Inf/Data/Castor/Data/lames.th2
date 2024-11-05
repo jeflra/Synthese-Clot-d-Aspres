@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128.0 -128.0 285.48040000000003 285.48040000000003
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {78.7426 1 1.0} {78.74000000000001 0} ../Outputs/castor-plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {300.2346 1 1.0} {238.42600000000002 1} ../Outputs/castor-plan.xvi 0 {}
 
 
 
@@ -16,18 +16,20 @@ endline
 line wall
 endline
 
-line wall -reverse on
-  144.0 51.0
-  146.75 48.5 151.25 48.0 153.5 48.0
-  smooth off
-endline
-
 line wall
   144.0 51.0
   144.0 51.0 135.0 66.25 134.25 69.0
   133.5 71.75 130.68 94.42 131.5 95.75
   smooth off
   altitude .
+endline
+
+line wall -close on
+  153.25 48.0
+  148.0 48.75
+  145.5 49.5
+  150.25 49.75
+  153.25 48.0
 endline
 
 line wall
@@ -62,20 +64,6 @@ line wall
 endline
 
 line wall
-  119.75 110.75
-  117.5 108.5 114.75 108.5 116.5 104.75
-  118.25 101.0 119.25 95.0 124.0 94.25
-  smooth off
-endline
-
-line wall
-  131.5 95.75
-  133.75 98.0 135.0 104.75 134.75 108.0
-  134.5 111.25 130.0 112.25 127.75 112.25
-  smooth off
-endline
-
-line wall
   127.75 112.25
   126.0 113.0 122.0 115.0 120.25 117.75
   smooth off
@@ -95,7 +83,7 @@ line pit
   smooth off
 endline
 
-line pit
+line pit -outline out
   119.75 110.75
   117.0 108.75 116.0 106.0 116.5 104.75
   117.0 103.5 119.75 95.0 124.0 94.25
@@ -209,7 +197,7 @@ point 96.0726 102.74000000000001 station -name 2
 
 point 91.8026 102.31 station -name 3
 
-line pit -close on
+line pit -id l-lames-1 -close on
   70.75 105.75
   73.5 105.25 80.25 102.0 82.0 103.5
   83.75 105.0 86.5 105.5 85.25 107.25
@@ -296,7 +284,27 @@ line border
   smooth off
 endline
 
-line wall
+line contour
+  102.25 94.75
+  98.75 94.75 90.75 95.5 90.25 96.25
+endline
+
+line contour
+  102.75 91.0
+  99.5 90.5 94.5 90.5 92.5 90.25
+  90.5 90.0 83.5 89.0 83.5 89.0
+  smooth off
+endline
+
+line contour
+  107.75 88.25
+  106.25 87.75 96.25 84.0 93.5 84.0
+  90.75 84.0 79.75 85.5 78.0 84.75
+  76.25 84.0 73.25 82.25 73.25 82.25
+  smooth off
+endline
+
+line wall -id l-lames-0
   69.5 108.5
   69.5 108.5 66.25 103.75 65.75 100.25
   65.09 95.65 69.0 78.5 72.0 75.0

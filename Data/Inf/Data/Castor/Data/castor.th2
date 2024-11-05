@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -84.0 -20.5 427.97659999999996 366.427
+##XTHERION## xth_me_area_adjust -208.0 -128.0 398.0 442.9608
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {299.97659999999996 1 1.0} {238.42700000000002 0} ../Outputs/castor-plan.xvi 0 {}
 
@@ -369,7 +369,7 @@ endscrap
 
 scrap SP-entree-3 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
 
-line wall -subtype unsurveyed -outline in
+line wall -subtype unsurveyed
   79.0 190.5
   77.25 189.5 74.0 186.5 73.5 188.25
   73.0 190.0 73.25 193.0 73.25 193.0
@@ -436,7 +436,7 @@ line wall -id l-alcove-2
   smooth off
 endline
 
-line wall -outline in
+line wall
   76.25 194.25
   77.25 194.0 80.75 192.75 80.75 192.75
   smooth off
@@ -454,7 +454,7 @@ line floor-step
   81.25 197.0
 endline
 
-line wall -close on -outline in
+line wall -close on
   78.5 199.5
   80.0 200.0 82.0 197.5 82.0 197.5
   smooth off
@@ -524,10 +524,7 @@ endline
 line wall
   99.75 178.0
   98.75 178.5 94.0 190.0 93.0 191.5
-endline
-
-line wall
-  77.5 197.25
+  92.0 193.0 79.75 196.75 77.5 197.25
   75.25 197.75 74.5 195.75 70.75 198.25
   smooth off
 endline
