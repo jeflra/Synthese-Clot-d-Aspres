@@ -6,18 +6,19 @@ xth_cp_data_tree_insert 47 41 2 castor-lames castor-lames.Castor "" "" "length: 
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 0 253X1 p1 1 MP-castor MP-castor@Castor "" ""
-xth_cp_map_tree_insert map 1 254X1 253X1 2 MP-castor-entree MP-castor-entree@Castor "" ""
-xth_cp_map_tree_insert map 0 259X1 253X1 2 MP-castor-alcove-et-dessous MP-castor-alcove-et-dessous@Castor "" ""
-xth_cp_map_tree_insert map 1 255X1 259X1 3 MP-castor-alcove MP-castor-alcove@Castor "" ""
-xth_cp_map_tree_insert map 0 258X1 259X1 3 MP-castor-sous-alcove-decale MP-castor-sous-alcove-decale@Castor "" ""
-xth_cp_map_tree_insert map 1 256X1 258X1 4 MP-castor-sous-alcove MP-castor-sous-alcove@Castor "" ""
-xth_cp_map_tree_insert map 1 257X1 258X1 4 MP-castor-fond-fosse MP-castor-fond-fosse@Castor "" ""
-xth_cp_map_tree_insert map 1 260X1 253X1 2 MP-lames MP-lames@Castor "" ""
-xth_cp_map_tree_insert map 1 261X1 253X1 2 MP-lames-milieu MP-lames-milieu@Castor "" ""
-xth_cp_map_tree_insert map 1 262X1 253X1 2 MP-lames-fond MP-lames-fond@Castor "" ""
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 388X1 p1 1 MP-castor MP-castor@Castor "" ""
+xth_cp_map_tree_insert map 1 389X1 388X1 2 MP-castor-entree MP-castor-entree@Castor "" ""
+xth_cp_map_tree_insert map 0 394X1 388X1 2 MP-castor-alcove-et-dessous MP-castor-alcove-et-dessous@Castor "" ""
+xth_cp_map_tree_insert map 1 390X1 394X1 3 MP-castor-alcove MP-castor-alcove@Castor "" ""
+xth_cp_map_tree_insert map 0 393X1 394X1 3 MP-castor-sous-alcove-decale MP-castor-sous-alcove-decale@Castor "" ""
+xth_cp_map_tree_insert map 1 391X1 393X1 4 MP-castor-sous-alcove MP-castor-sous-alcove@Castor "" ""
+xth_cp_map_tree_insert map 1 392X1 393X1 4 MP-castor-fond-fosse MP-castor-fond-fosse@Castor "" ""
+xth_cp_map_tree_insert map 1 395X1 388X1 2 MP-lames MP-lames@Castor "" ""
+xth_cp_map_tree_insert map 1 396X1 388X1 2 MP-lames-milieu MP-lames-milieu@Castor "" ""
+xth_cp_map_tree_insert map 1 397X1 388X1 2 MP-lames-fond MP-lames-fond@Castor "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 274 11
+xth_cp_comp_stat 274 12
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1726254015
+set xth(th_exit_number) 1730804590
 
