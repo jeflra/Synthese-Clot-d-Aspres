@@ -20,6 +20,7 @@ equate A28@Oreade.Oreade A35@Nymphe.Nymphe
 # Pour la Bourrasque, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Sup/Bourrasque
 #input Data/Bourrasque/Bourrasque/Bourrasque-tot.th
     equate A48@bourrasque.Bourrasque.bourrasque A85@Nymphe.Nymphe
+    equate A172@Nymphe.Nymphe 64@2-soeurs.2-Soeurs
 #input Data/Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
     # equate TT@1.menisque.bourrasque A69@bourrasque.Bourrasque.bourrasque
 #    equate 49@2.menisque A60@riviere_casse_pieds.riviere_casse_pieds   # Ajouté dans le dossier amont car jonctionne le median et le supérieur

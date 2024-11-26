@@ -1,14 +1,14 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 2460.29m (surface 0.00m, duplicated 0.00m)\nvertical range: 470.43m (from Nymphe@Nymphe.Nymphe at 0.00m to A139@Nymphe.Nymphe at -470.43m)\nnorth-south range: 429.38m (from A95@Nymphe.Nymphe at 320.71m to A102@Nymphe.Nymphe at -108.66m)\neast-west range: 301.99m (from A36@Nymphe.Nymphe at 142.89m to A95@Nymphe.Nymphe at -159.10m)\nnumber of shots: 143\nnumber of stations: 144"
-xth_cp_data_tree_insert 52 1 1 Nymphe Nymphe "Nymphe Emue" "Nymphe Emue" "length: 2460.29m (surface 0.00m, duplicated 0.00m)\nvertical range: 470.43m (from Nymphe@Nymphe.Nymphe at 0.00m to A139@Nymphe.Nymphe at -470.43m)\nnorth-south range: 429.38m (from A95@Nymphe.Nymphe at 320.71m to A102@Nymphe.Nymphe at -108.66m)\neast-west range: 301.99m (from A36@Nymphe.Nymphe at 142.89m to A95@Nymphe.Nymphe at -159.10m)\nnumber of shots: 143\nnumber of stations: 144"
-xth_cp_data_tree_insert 54 52 2 Nymphe Nymphe.Nymphe "Nymphe Emue" "Nymphe Emue" "length: 2460.29m (surface 0.00m, duplicated 0.00m)\nvertical range: 470.43m (from Nymphe@Nymphe.Nymphe at 0.00m to A139@Nymphe.Nymphe at -470.43m)\nnorth-south range: 429.38m (from A95@Nymphe.Nymphe at 320.71m to A102@Nymphe.Nymphe at -108.66m)\neast-west range: 301.99m (from A36@Nymphe.Nymphe at 142.89m to A95@Nymphe.Nymphe at -159.10m)\nnumber of shots: 143\nnumber of stations: 144"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 2962.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 484.85m (from Nymphe@Nymphe.Nymphe at 2026.80m to A148@Nymphe.Nymphe at 1541.95m)\nnorth-south range: 548.01m (from A95@Nymphe.Nymphe at 6437800.57m to A172@Nymphe.Nymphe at 6437252.56m)\neast-west range: 322.47m (from A36@Nymphe.Nymphe at 903098.05m to A95@Nymphe.Nymphe at 902775.59m)\nnumber of shots: 170\nnumber of stations: 171"
+xth_cp_data_tree_insert 52 1 1 Nymphe Nymphe "Nymphe Emue" "Nymphe Emue" "length: 2962.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 484.85m (from Nymphe@Nymphe.Nymphe at 2026.80m to A148@Nymphe.Nymphe at 1541.95m)\nnorth-south range: 548.01m (from A95@Nymphe.Nymphe at 6437800.57m to A172@Nymphe.Nymphe at 6437252.56m)\neast-west range: 322.47m (from A36@Nymphe.Nymphe at 903098.05m to A95@Nymphe.Nymphe at 902775.59m)\nnumber of shots: 170\nnumber of stations: 171"
+xth_cp_data_tree_insert 54 52 2 Nymphe Nymphe.Nymphe "Nymphe Emue" "Nymphe Emue" "length: 2962.49m (surface 0.00m, duplicated 0.00m)\nvertical range: 484.85m (from Nymphe@Nymphe.Nymphe at 2026.80m to A148@Nymphe.Nymphe at 1541.95m)\nnorth-south range: 548.01m (from A95@Nymphe.Nymphe at 6437800.57m to A172@Nymphe.Nymphe at 6437252.56m)\neast-west range: 322.47m (from A36@Nymphe.Nymphe at 903098.05m to A95@Nymphe.Nymphe at 902775.59m)\nnumber of shots: 170\nnumber of stations: 171"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 1 663X1 p1 1 MP-Nymphe-tot MP-Nymphe-tot@Nymphe "" ""
+xth_cp_map_tree_insert map 1 670X1 p1 1 MP-Nymphe-tot MP-Nymphe-tot@Nymphe "" ""
 xth_cp_map_tree_create
-xth_cp_comp_stat 2460 23
+xth_cp_comp_stat 2962 23
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1722895013
+set xth(th_exit_number) 1732576502
 

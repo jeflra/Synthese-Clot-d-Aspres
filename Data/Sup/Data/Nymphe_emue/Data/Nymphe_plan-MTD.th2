@@ -1,8 +1,8 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -131.0 -7299.5 4090.0 130.5
-##XTHERION## xth_me_area_zoom_to 200
-##XTHERION## xth_me_image_insert {-3.0 1 1.0} {2.5 {}} Nymphe.png 0 {}
-##XTHERION## xth_me_image_insert {2896.052 1 1.0} {-5109.52 Nymphe} Nymphe-Emue_plan.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {-2.0 1 1.0} {-2.5 {}} Nymphe.png 0 {}
+##XTHERION## xth_me_image_insert {2919.052 1 1.0} {-5054.5199999999995 Nymphe} Nymphe-Emue_plan.xvi 0 {}
 
 
 
@@ -5644,7 +5644,17 @@ line wall
   smooth off
 endline
 
-point 2095.172 -4546.45 station -name A139
+point 1673.0620000000001 -5315.5599999999995 station -name A153
+
+point 1713.602 -5873.549999999999 station -name A159
+
+point 2328.0 -6842.0 station -name A164
+
+point 1869.5 -6476.0 station -name A163
+
+point 1832.712 -6497.369999999999 station -name A162
+
+point 2043.172 -4496.45 station -name A139
 
 point 2107.682 -4604.839999999999 station -name A138
 
