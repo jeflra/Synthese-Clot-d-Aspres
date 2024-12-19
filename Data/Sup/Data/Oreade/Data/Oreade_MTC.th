@@ -5,8 +5,8 @@ survey Oreade -title "Oreade" -entrance Oreade
 centerline
 date 1989
 
-cs UTM31
-fix Oreade	703352.231 4986928.385	2017
+cs EPSG:2154
+# fix Oreade	903274.27 6437479.08 2017 200 10 50
 station Oreade "Oreade"
 
 units length feet
@@ -94,6 +94,5 @@ AB40                 AB140    94.85   350.54   -85.74     0.00     0.00     0.00
                 AB143                 AB144    24.52   330.95   -13.60     0.00     0.00     0.00     0.00
                 AB144                 AB145    76.95   248.84     0.00     0.00     0.00     0.00     0.00
 endcenterline
-
-
 endsurvey
+

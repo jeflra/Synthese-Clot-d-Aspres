@@ -3,7 +3,6 @@ survey Oreade
 
 input Data/Oreade_MTC.th
 input "Data/Oreade_plan.th2"
-
 input Oreade_maps.th
 
 endsurvey

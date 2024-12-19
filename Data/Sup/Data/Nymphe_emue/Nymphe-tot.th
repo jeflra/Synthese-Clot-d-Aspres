@@ -11,4 +11,5 @@ survey Nymphe -title "Nymphe Emue"
 
    join SP-jonction-1 SP-Nymphe-2
    join SP-jonction-2 SP-Nymphe-1
+   join ID1 ID2 
 endsurvey

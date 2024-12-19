@@ -36,7 +36,7 @@ layout my_layout
 
    # Pour faire la topo dans le system UTM  
    # Decommenter la ligne, et remplacer xx par la zone UTM
-   cs UTM31
+   cs EPSG:2154
 
    # "base-scale" specifie l echelle auquel nous avons
    # dessine nos croquis. Par defaut, c est 1/200.
@@ -118,11 +118,12 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   symbol-hide line survey
+   #symbol-hide line survey
    #symbol-hide point cave-station
 
    debug station-names
-
+   debug on
+   
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
    grid bottom
@@ -301,7 +302,7 @@ export map -proj plan -fmt xvi -layout xviexport -o Data/Oreade_plan.xvi
 export map -proj extended -fmt xvi -layout xviexport -o Data/Oreade_coupe.xvi 
 
 # Select maps
-#	select MP-collecteur_bourrasque-plan-tot@Oreade
+	select allcave@Oreade
 #  select MC-collecteur_bourrasque-plan-tot@Oreade
 	 
 export map -proj plan -fmt pdf -layout my_layout -o Outputs/Oreade_plan.pdf

@@ -1,6 +1,13 @@
 encoding  utf-8
 
+map allcave2
+MP-Nymphe-tot
+break
+Nymphe
+endmap
+
 map MP-Nymphe-tot 
+
 SP-Nymphe-19
 break
 

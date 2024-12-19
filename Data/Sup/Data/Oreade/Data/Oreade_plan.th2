@@ -1,9 +1,9 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -456.5500000000004 -3945.75 5732 128
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -128.5 -3945.75 12201.020700000001 2782.0180000000005
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Oreade.png 0 {}
 ##XTHERION## xth_me_image_insert {-0.5 1 1.0} {-0.75 {}} ../MapToCave/Export.png 0 {}
-##XTHERION## xth_me_image_insert {3670.8599999999997 1 1.0} {-2059.3999999999996 Oreade} Oreade_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {11643.539999999999 1 1.0} {1162.7300000000002 Oreade} Oreade_plan.xvi 0 {}
 
 
 
@@ -726,6 +726,9 @@ line wall -outline in
   smooth off
 endline
 
+line wall -outline in
+endline
+
 line wall
   1917.5 -1701.5
   1912.75 -1701.25 1897.25 -1695.5 1890.5 -1696.75
@@ -873,12 +876,6 @@ line wall -subtype pit
 endline
 
 line wall -subtype pit
-  1961.0 -1723.75
-  1963.25 -1722.0 1973.25 -1700.75 1980.0 -1702.0
-  smooth off
-endline
-
-line wall -subtype pit
   1985.5 -1680.5
   1979.72 -1672.55 1979.5 -1661.5 1973.0 -1656.0
   1969.86 -1653.34 1942.85 -1655.07 1938.0 -1658.0
@@ -968,8 +965,9 @@ line wall -outline in
   1875.5 -1726.5 1885.5 -1726.5 1892.5 -1731.0
   1899.5 -1735.5 1898.0 -1738.75 1907.75 -1741.75
   1917.5 -1744.75 1929.0 -1739.75 1934.25 -1739.0
-  1939.5 -1738.25 1956.5 -1730.5 1961.0 -1723.75
+  1939.5 -1738.25 1956.25 -1729.5 1960.75 -1722.75
   smooth off
+  1960.75 -1722.75 1971.5 -1701.0 1980.0 -1702.0
 endline
 
 line wall -subtype pit

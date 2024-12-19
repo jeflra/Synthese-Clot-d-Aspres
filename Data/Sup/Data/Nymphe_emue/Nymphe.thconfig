@@ -120,6 +120,7 @@ layout my_layout
    #symbol-hide point cave-station
 
    debug station-names
+   debug on
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -255,6 +256,7 @@ layout my_layout-coupe
    #symbol-hide point cave-station
 
    debug station-names
+   debug on
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -297,7 +299,7 @@ export map -proj plan -fmt xvi -layout xviexport -o Data/Nymphe-Emue_plan.xvi
 export map -proj extended -fmt xvi -layout xviexport -o Data/Nymphe-Emue_coupe.xvi 
 
 # Select maps
-#	select MP-Nymphe-Emue-plan-tot@Nymphe-Emue
+    select allcave2@Nymphe
 #  select MC-Nymphe-Emue-coupe-tot@Nymphe-Emue
 	 
  export map -proj plan -fmt pdf -layout my_layout -o Outputs/Nymphe-Emue_plan.pdf
