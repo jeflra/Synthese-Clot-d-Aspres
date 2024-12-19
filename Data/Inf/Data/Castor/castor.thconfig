@@ -298,3 +298,4 @@ export map -o Outputs/Castor-plan.pdf -layout my_layout
 #export model -format loch 	-o Outputs/castor.lox
 #export map -proj plan -fmt kml -o Outputs/Castor.kml -layout my_layout
 #export model -fmt kml -o Outputs/Castor-model.kml
+export map -proj plan -fmt shp -o Outputs/Castor -layout my_layout

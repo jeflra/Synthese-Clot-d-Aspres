@@ -1,24 +1,24 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 273.89m (surface 0.00m, duplicated 0.00m)\nvertical range: 138.97m (from 1@castor-entree.Castor at 1450.00m to 1@castor-lames.Castor at 1311.03m)\nnorth-south range: 22.71m (from 6@castor-lames.Castor at 4992687.81m to 3A@castor-entree.Castor at 4992665.10m)\neast-west range: 34.27m (from 2A@castor-entree.Castor at 230692.44m to 6@castor-lames.Castor at 230658.17m)\nnumber of shots: 229\nnumber of stations: 226"
-xth_cp_data_tree_insert 41 1 1 Castor Castor "Scialet du grand castor" "Scialet du grand castor" "length: 273.89m (surface 0.00m, duplicated 0.00m)\nvertical range: 138.97m (from 1@castor-entree.Castor at 1450.00m to 1@castor-lames.Castor at 1311.03m)\nnorth-south range: 22.71m (from 6@castor-lames.Castor at 4992687.81m to 3A@castor-entree.Castor at 4992665.10m)\neast-west range: 34.27m (from 2A@castor-entree.Castor at 230692.44m to 6@castor-lames.Castor at 230658.17m)\nnumber of shots: 229\nnumber of stations: 226"
-xth_cp_data_tree_insert 43 41 2 castor-entree castor-entree.Castor "" "" "length: 180.61m (surface 0.00m, duplicated 0.00m)\nvertical range: 115.88m (from 1@castor-entree.Castor at 1450.00m to 23@castor-entree.Castor at 1334.12m)\nnorth-south range: 11.43m (from 22@castor-entree.Castor at 4992676.53m to 3A@castor-entree.Castor at 4992665.10m)\neast-west range: 23.59m (from 2A@castor-entree.Castor at 230692.44m to 16A@castor-entree.Castor at 230668.85m)\nnumber of shots: 139\nnumber of stations: 137"
-xth_cp_data_tree_insert 47 41 2 castor-lames castor-lames.Castor "" "" "length: 93.28m (surface 0.00m, duplicated 0.00m)\nvertical range: 45.35m (from 11@castor-lames.Castor at 1356.39m to 1@castor-lames.Castor at 1311.03m)\nnorth-south range: 13.28m (from 6@castor-lames.Castor at 4992687.81m to 11@castor-lames.Castor at 4992674.53m)\neast-west range: 12.45m (from 11@castor-lames.Castor at 230670.62m to 6@castor-lames.Castor at 230658.17m)\nnumber of shots: 90\nnumber of stations: 89"
+xth_cp_data_tree_insert 42 1 1 Castor Castor "Scialet du grand castor" "Scialet du grand castor" "length: 273.89m (surface 0.00m, duplicated 0.00m)\nvertical range: 138.97m (from 1@castor-entree.Castor at 1450.00m to 1@castor-lames.Castor at 1311.03m)\nnorth-south range: 22.71m (from 6@castor-lames.Castor at 4992687.81m to 3A@castor-entree.Castor at 4992665.10m)\neast-west range: 34.27m (from 2A@castor-entree.Castor at 230692.44m to 6@castor-lames.Castor at 230658.17m)\nnumber of shots: 229\nnumber of stations: 226"
+xth_cp_data_tree_insert 44 42 2 castor-entree castor-entree.Castor "" "" "length: 180.61m (surface 0.00m, duplicated 0.00m)\nvertical range: 115.88m (from 1@castor-entree.Castor at 1450.00m to 23@castor-entree.Castor at 1334.12m)\nnorth-south range: 11.43m (from 22@castor-entree.Castor at 4992676.53m to 3A@castor-entree.Castor at 4992665.10m)\neast-west range: 23.59m (from 2A@castor-entree.Castor at 230692.44m to 16A@castor-entree.Castor at 230668.85m)\nnumber of shots: 139\nnumber of stations: 137"
+xth_cp_data_tree_insert 48 42 2 castor-lames castor-lames.Castor "" "" "length: 93.28m (surface 0.00m, duplicated 0.00m)\nvertical range: 45.35m (from 11@castor-lames.Castor at 1356.39m to 1@castor-lames.Castor at 1311.03m)\nnorth-south range: 13.28m (from 6@castor-lames.Castor at 4992687.81m to 11@castor-lames.Castor at 4992674.53m)\neast-west range: 12.45m (from 11@castor-lames.Castor at 230670.62m to 6@castor-lames.Castor at 230658.17m)\nnumber of shots: 90\nnumber of stations: 89"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
-xth_cp_map_tree_insert map 0 388X1 p1 1 MP-castor MP-castor@Castor "" ""
-xth_cp_map_tree_insert map 1 389X1 388X1 2 MP-castor-entree MP-castor-entree@Castor "" ""
-xth_cp_map_tree_insert map 0 394X1 388X1 2 MP-castor-alcove-et-dessous MP-castor-alcove-et-dessous@Castor "" ""
-xth_cp_map_tree_insert map 1 390X1 394X1 3 MP-castor-alcove MP-castor-alcove@Castor "" ""
-xth_cp_map_tree_insert map 0 393X1 394X1 3 MP-castor-sous-alcove-decale MP-castor-sous-alcove-decale@Castor "" ""
-xth_cp_map_tree_insert map 1 391X1 393X1 4 MP-castor-sous-alcove MP-castor-sous-alcove@Castor "" ""
-xth_cp_map_tree_insert map 1 392X1 393X1 4 MP-castor-fond-fosse MP-castor-fond-fosse@Castor "" ""
-xth_cp_map_tree_insert map 1 395X1 388X1 2 MP-lames MP-lames@Castor "" ""
-xth_cp_map_tree_insert map 1 396X1 388X1 2 MP-lames-milieu MP-lames-milieu@Castor "" ""
-xth_cp_map_tree_insert map 1 397X1 388X1 2 MP-lames-fond MP-lames-fond@Castor "" ""
+xth_cp_map_tree_insert map 0 393X1 p1 1 MP-castor MP-castor@Castor "" ""
+xth_cp_map_tree_insert map 1 394X1 393X1 2 MP-castor-entree MP-castor-entree@Castor "" ""
+xth_cp_map_tree_insert map 0 399X1 393X1 2 MP-castor-alcove-et-dessous MP-castor-alcove-et-dessous@Castor "" ""
+xth_cp_map_tree_insert map 1 395X1 399X1 3 MP-castor-alcove MP-castor-alcove@Castor "" ""
+xth_cp_map_tree_insert map 0 398X1 399X1 3 MP-castor-sous-alcove-decale MP-castor-sous-alcove-decale@Castor "" ""
+xth_cp_map_tree_insert map 1 396X1 398X1 4 MP-castor-sous-alcove MP-castor-sous-alcove@Castor "" ""
+xth_cp_map_tree_insert map 1 397X1 398X1 4 MP-castor-fond-fosse MP-castor-fond-fosse@Castor "" ""
+xth_cp_map_tree_insert map 1 400X1 393X1 2 MP-lames MP-lames@Castor "" ""
+xth_cp_map_tree_insert map 1 401X1 393X1 2 MP-lames-milieu MP-lames-milieu@Castor "" ""
+xth_cp_map_tree_insert map 1 402X1 393X1 2 MP-lames-fond MP-lames-fond@Castor "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 274 12
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1730804590
+set xth(th_exit_number) 1734564692
 

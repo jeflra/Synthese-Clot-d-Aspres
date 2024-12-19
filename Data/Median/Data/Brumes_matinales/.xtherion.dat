@@ -7,9 +7,9 @@ set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
 xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
-xth_cp_map_tree_insert map 1 353X1 p1 1 BM-plan-1 BM-plan-1@brumes-tot "" ""
+xth_cp_map_tree_insert map 1 486X1 p1 1 BM-plan BM-plan@brumes-tot "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 2112 12
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1725819930
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1734561159
 
