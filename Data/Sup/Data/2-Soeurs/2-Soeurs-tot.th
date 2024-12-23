@@ -4,10 +4,14 @@ survey 2-Soeurs -title "2-Soeurs"
    input Data/2-soeurs.th
    input Data/2_soeursA.th
 
-   equate 73@2_soeursA 0@2-soeurs
-
    input Data/2_soeurs-1p.th2
-	input 2-Soeurs-maps.th
 	input Data/2_soeurs-1s.th2
+   input Data/Plan_MTC_enrages.th2
+   input Data/Plan_MTC_grenoblois.th2
+   
+   input 2-Soeurs-maps.th
+
+   equate 73@2_soeursA 0@2-soeurs
+   join SP-Enr-1 SP-2S-2
 	
 endsurvey

@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SP-JA-1 -projection plan -station-names "" "@Scialet_Jeunesse_Automne" -scale [3007.0 5281.0 3663.057 5283.118399999999 0.0 0.0 50 0.0 m] -sketch ../../../../../../Jeunesse_rot2.jpg 2285.3 4277.442800000001
+scrap SP-JA-1 -projection plan -station-names "" "@Scialet_Jeunesse_Automne" -scale [3007.0 5281.0 3663.057 5283.118399999999 0.0 0.0 50 0.0 m] 
 
 point 3863.76 7075.652800000001 station -name 1_118
 

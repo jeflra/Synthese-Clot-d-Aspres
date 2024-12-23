@@ -20,8 +20,8 @@ equate AB46@Oreade.Oreade A46@Nymphe.Nymphe
 
 # Pour la Bourrasque, il faut revoir l'architecture et intégrer les lignes ci-dessous dans Data/Sup/Bourrasque
 
-    # equate A48@bourrasque.Bourrasque.bourrasque A85@Nymphe.Nymphe
-    # equate A172@Nymphe.Nymphe 64@2-soeurs.2-Soeurs
+    equate A48@bourrasque.Bourrasque.bourrasque A85@Nymphe.Nymphe
+    equate Jonction-16@Nymphe.Nymphe 64@2-soeurs.2-Soeurs
 
 # input Data/Bourrasque/Collecteur-Bourrasque/Data/collecteur_bourrasque.th
 #     equate TT@1.menisque.bourrasque A69@bourrasque.Bourrasque.bourrasque

@@ -1,10 +1,30 @@
 encoding  utf-8
+
+map allcave
+MP-Grenoblois
+break
+MP-2-Soeurs-plan-tot
+break
+2-soeurs
+endmap
+
 map MP-2-Soeurs-plan-tot -title "2-Soeurs"
   SP-2S-1
   break
   SP-2S-2
+  break
+  SP-Enr-1
 endmap
 
+map MP-Grenoblois
+SP-Gre-1
+SP-Gre-2
+SP-Gre-3
+SP-Gre-4
+SP-Gre-5
+SP-Gre-6
+SP-Gre-7
+endmap
 
 map MC-2-Soeurs-coupe-tot -title "2-Soeurs"
   SC-2S-1

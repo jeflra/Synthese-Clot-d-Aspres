@@ -533,10 +533,103 @@ survey 2-soeurs -title "2-soeurs"
     63 64 1.46 36.9 15.0
   endcenterline
 
-  # input "2-soeurs-1p.th2"
 
-  # map m1p -projection plan
-  #   2-soeurs-1p
-  # endmap
+#donnees cree avec MapToCave
 
+
+
+centerline
+  date 1989
+
+  units length meters
+data topofil from to length compass clino left right up down
+
+30                   Enrages2    15.61   205.02    41.93     0.00     0.00     0.00     0.00
+Enrages2                   Enrages3    16.91   285.95   -63.05     0.00     0.00     0.00     0.00
+Enrages3                   Enrages4    17.50   195.52   -41.49     0.00     0.00     0.00     0.00
+Enrages4                   Enrages5    17.67   215.36    41.00     0.00     0.00     0.00     0.00
+Enrages5                   Enrages6    19.47   222.27   -36.53     0.00     0.00     0.00     0.00
+Enrages6                   Enrages7    19.15   204.68    41.75     0.00     0.00     0.00     0.00
+Enrages7                   Enrages8    12.42   231.34    57.14     0.00     0.00     0.00     0.00
+Enrages8                   Enrages9    49.65   161.57    69.05     0.00     0.00     0.00     0.00
+Enrages9                  Enrages10    44.12    68.63    66.87     0.00     0.00     0.00     0.00
+Enrages10                  Enrages11    23.81   156.57    61.20     0.00     0.00     0.00     0.00
+Enrages11                  Enrages12    25.46   217.23    30.06     0.00     0.00     0.00     0.00
+Enrages12                  Enrages13    26.19   151.93    76.84     0.00     0.00     0.00     0.00
+Enrages13                  Enrages14    79.94    91.74    73.15     0.00     0.00     0.00     0.00
+Enrages14                  Enrages15    31.33   161.79    26.36     0.00     0.00     0.00     0.00
+Enrages15                  Enrages16    34.38   197.10   -13.65     0.00     0.00     0.00     0.00
+Enrages10                  Enrages17    94.30    65.31    69.13     0.00     0.00     0.00     0.00
+Enrages17                  Enrages18    25.41    99.29    39.69     0.00     0.00     0.00     0.00
+Enrages18                  Enrages19    17.00    73.61    42.99     0.00     0.00     0.00     0.00           
+endcenterline
+
+centerline
+  date 1989
+
+  units length feet
+data topofil from to length compass clino left right up down
+                  Enrages8                   Grenoblois2    76.05   257.66     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois2                   Grenoblois3    77.32   277.77     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois3                   Grenoblois4    19.70   315.00     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois4                   Grenoblois5    95.05   261.57     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois5                   Grenoblois6    46.23   298.50     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois6                   Grenoblois7    21.02   276.34     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois7                   Grenoblois8    12.82   354.81     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois8                   Grenoblois9    42.68   315.00     0.00     0.00     0.00     0.00     0.00
+                  Grenoblois9                  Grenoblois10    44.20   256.33     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois10                  Grenoblois11    82.64   330.55     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois11                  Grenoblois12    28.55   206.57     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois12                  Grenoblois13    70.66   284.26     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois13                  Grenoblois14    52.94   254.74     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois14                  Grenoblois15    96.64   335.90     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois15                  Grenoblois16    51.13   309.47     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois16                  Grenoblois17    20.57    16.39     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois17                  Grenoblois18    35.36   336.80     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois18                  Grenoblois19   105.91   226.33     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois19                  Grenoblois20    61.17   146.61     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois20                  Grenoblois21    82.25   171.07     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois21                  Grenoblois22    18.72   119.74     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois22                  Grenoblois23    19.21   205.02     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois23                  Grenoblois24    66.33   147.14     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois24                  Grenoblois25    42.95   180.00     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois25                  Grenoblois26    78.50   336.47     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois26                  Grenoblois27    38.18    19.54     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois27                  Grenoblois28    46.21   348.41     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois28                  Grenoblois29    43.51    43.92     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois29                  Grenoblois30    27.17   340.02     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois30                  Grenoblois31    79.22    39.05     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois31                  Grenoblois32    49.93    91.33     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois32                  Grenoblois33    36.06    33.18     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois33                  Grenoblois34    38.92   342.65     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois34                  Grenoblois35    41.67    77.12     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois25                  Grenoblois36    64.21   130.60     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois36                  Grenoblois37    57.72   195.15     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois37                  Grenoblois38   146.92   185.44     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois38                  Grenoblois39    57.63   161.20     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois39                  Grenoblois40    79.62    97.54     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois40                  Grenoblois41    44.12   125.36     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois41                  Grenoblois42    56.16   108.06     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois39                  Grenoblois43    55.73   178.81     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois43                  Grenoblois44    72.92   103.82     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois44                  Grenoblois45    52.14   106.82     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois43                  Grenoblois46    46.46   192.99     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois46                  Grenoblois47    23.93   112.83     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois47                  Grenoblois48    37.31   174.64     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois48                  Grenoblois49    67.36    91.97     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois49                  Grenoblois50    18.90   137.49     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois50                  Grenoblois51    43.20    83.83     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois51                  Grenoblois52    30.91    55.71     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois36                  Grenoblois53    28.24   350.54     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois53                  Grenoblois54    15.62    48.01     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois54                  Grenoblois55    39.47    90.00     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois55                  Grenoblois56    54.51    63.43     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois56                  Grenoblois57    55.81    16.93     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois57                  Grenoblois58    37.43   352.87     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois56                  Grenoblois59    19.73    90.00     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois59                  Grenoblois60    29.59    41.82     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois60                  Grenoblois61    44.20    13.67     0.00     0.00     0.00     0.00     0.00
+                 Grenoblois61                  Grenoblois62    42.36     9.46     0.00     0.00     0.00     0.00     0.00
+
+endcenterline
 endsurvey
