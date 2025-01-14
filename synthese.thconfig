@@ -127,8 +127,9 @@ layout my_layout
    #symbol-hide line survey
    #symbol-hide point cave-station
 
-   # debug station-names
-   # debug scrap-names
+   debug station-names
+   debug scrap-names
+   # debug on
     
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
