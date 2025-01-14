@@ -17,13 +17,29 @@ map MP-2-Soeurs-plan-tot -title "2-Soeurs"
 endmap
 
 map MP-Grenoblois
-SP-Gre-1
-SP-Gre-2
-SP-Gre-3
-SP-Gre-4
 SP-Gre-5
+break
+SP-Gre-8
+break
+SP-Gre-1
+break
+SP-Gre-2
+break
 SP-Gre-6
+break
+SP-Gre-3
+break
+SP-Gre-4
+break
+
+
 SP-Gre-7
+break
+
+SP-Gre-9
+break
+SP-Gre-10
+break
 endmap
 
 map MC-2-Soeurs-coupe-tot -title "2-Soeurs"

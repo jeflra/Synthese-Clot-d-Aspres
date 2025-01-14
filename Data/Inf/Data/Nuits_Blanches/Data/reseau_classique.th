@@ -25,7 +25,7 @@ units clino grad
 
 cs EPSG:2154
 #fix  00 855384.424	2007774.545 1760 #1760 en lambert 2 étendu
-fix  00 902913.15	6439306.375 1761 # L93 trou au tamponnoir devant l'entrée
+fix  00 902913.15	6439306.375 1761 0.01 0.01 0.01 # L93 trou au tamponnoir devant l'entrée
 
 data topofil from to fromcount tocount compass clino
 00 0 0 600 0 -100

@@ -32,7 +32,7 @@ layout my_layout
    copy langue-fr
    copy for_print 
      
-   debug on 
+   # debug on 
    
    # Titre  
    doc-title "Synthèse"
@@ -127,8 +127,8 @@ layout my_layout
    #symbol-hide line survey
    #symbol-hide point cave-station
 
-   debug station-names
-   debug scrap-names
+   # debug station-names
+   # debug scrap-names
     
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -263,7 +263,7 @@ layout my_layout-coupe
    #symbol-hide line survey
    #symbol-hide point cave-station
 
-   debug station-names
+   # debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
