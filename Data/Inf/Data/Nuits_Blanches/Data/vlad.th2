@@ -462,7 +462,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   95.25 265.25
   99.75 268.75
   104.75 272.0
@@ -490,7 +490,7 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
+line wall -reverse on -outline in
   95.25 265.25
   97.5 263.5
   97.5 263.5 99.75 261.75 100.75 261.0
@@ -517,14 +517,13 @@ point 111.75 232.0 label -align right -text  "E20"
 
 point 123.75 266.25 label -align right -text  "E4"
 
-line wall
-  128.5 244.0
+line wall -reverse on -outline in
   128.25 246.0
   129.75 248.25
   130.5 250.5
 endline
 
-line wall
+line wall -outline in
   136.0 256.75
   136.0 256.75 135.25 257.0 134.25 256.75
   133.25 256.5 130.0 256.5 130.0 256.5
@@ -558,7 +557,7 @@ line pit -reverse on
   smooth off
 endline
 
-line wall
+line wall -reverse on -outline in
   136.0 256.75
   136.0 256.75 136.75 259.0 137.0 260.25
   137.25 261.5 137.25 264.5 137.25 264.5
@@ -566,7 +565,10 @@ line wall
   137.25 264.5 135.5 268.0 135.0 269.0
   134.5 270.0 132.75 273.75 132.75 273.75
   smooth off
-  130.0 277.0
+endline
+
+line wall
+  131.5 276.0
   124.222 283.937
   129.5 283.5
   131.5 283.25

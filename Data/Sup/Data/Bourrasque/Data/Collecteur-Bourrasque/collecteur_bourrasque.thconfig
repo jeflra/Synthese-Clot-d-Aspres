@@ -7,7 +7,7 @@ source collecteur_bourrasque-tot.th
 
 
 # Add config file
-input ../../config.thc 
+input ../../../../../../config.thc 
 
 # 2-LAYOUT   
 

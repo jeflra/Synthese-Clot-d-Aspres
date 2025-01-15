@@ -72,30 +72,12 @@ point 27.25 103.75 water-flow -orientation 48.4
 line wall -outline in
 endline
 
-line wall -outline none
-  54.0 126.5
-  54.0 126.5 53.72 124.5 54.25 122.75
-  55.0 120.25 51.75 121.5 51.75 121.5
-  smooth off
-endline
-
 line wall -outline in
 endline
 
-line wall -reverse on -outline none
-  65.25 122.5
-  65.25 122.5 67.25 106.5 52.75 113.5
-  smooth off
-endline
-
-line wall -reverse on -outline none -subtype underlying
-  54.0 126.5
-  65.25 122.5
-endline
-
 line pit -scale l
-  52.75 113.5
-  51.75 121.5
+  65.25 122.5
+  54.0 126.5
 endline
 
 line pit -scale l
@@ -234,6 +216,11 @@ line wall
   203.0 109.0 201.5 109.0 201.5 110.0
   201.5 111.0 205.0 112.25 205.5 113.0
   smooth off
+endline
+
+line wall -subtype invisible
+  190.0 319.0
+  198.25 323.5 233.5 320.25 240.0 318.75
 endline
 
 line wall

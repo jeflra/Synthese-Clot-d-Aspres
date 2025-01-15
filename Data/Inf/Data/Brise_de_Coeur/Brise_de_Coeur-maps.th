@@ -5,12 +5,16 @@ encoding utf-8
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
 map MP-Brise_de_Coeur-plan-tot -title "Brise_de_Coeur"
-	SP-Brise_de_Coeur-1
-	#break
-	#SP-Brise_de_Coeur-2
+	SP-BC-1
+	break
+	SP-BC-2
+	break
+	SP-BC-3
+	break
+	SP-BC-4
 endmap
-map MC-Brise_de_Coeur-coupe-tot -title "Brise_de_Coeur"
-	SC-Brise_de_Coeur-1
-	#break
-	#SC-Brise_de_Coeur-2
-endmap
+# map MC-Brise_de_Coeur-coupe-tot -title "Brise_de_Coeur"
+# 	SC-Brise_de_Coeur-1
+# 	#break
+# 	#SC-Brise_de_Coeur-2
+# endmap

@@ -1,26 +1,58 @@
-map MP-Bourrasque
-	entree_bourrasque
-	break
-	puits_bourrasque
-	break
-	passagers_du_vent
-	aventure_interieure_haute
-	break
-	aventure_interieure
+encoding utf-8 
 
-	nakanai
+map MP-Bourrasque-tot -title "Bourrasque"
+	SP-Bourrasque-1
 	break
-	terres_creuses
+	SP-Bourrasque-2
 	break
-	graal
-	nakanai_bas
+	SP-Bourrasque-3
 	break
-
-	fleurs_du_mal
+	SP-Bourrasque-7
 	break
-	sous_P18
+	SP-Bourrasque-4
 	break
-	cascades_du_fond
-
-
+	SP-Bourrasque-5
+	break
+	SP-Bourrasque-6
+	break
+	SP-Bourrasque-11
+	break
+	SP-Bourrasque-10
+	break
+	SP-Bourrasque-13
+	break
+	SP-Bourrasque-14
+	break
+	SP-Bourrasque-8
+	break
+	SP-Bourrasque-12
+	break
+	SP-Bourrasque-9
+	break
 endmap
+# map map1
+# 	entree_bourrasque
+# 	break
+# 	puits_bourrasque
+# 	break
+# 	passagers_du_vent
+# 	aventure_interieure_haute
+# 	break
+# 	aventure_interieure
+
+# 	nakanai
+# 	break
+# 	terres_creuses
+# 	break
+# 	graal
+# 	nakanai_bas
+# 	break
+
+# 	fleurs_du_mal
+# 	break
+# 	sous_P18
+# 	break
+# 	cascades_du_fond
+
+
+# endmap

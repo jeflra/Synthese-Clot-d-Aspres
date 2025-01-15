@@ -3,11 +3,13 @@ encoding  utf-8
 map MP-castor
     # Map principale
     MP-castor-entree
-    MP-castor-alcove-et-dessous  [0 6 m] below # décalage pour les galeries superposées
+    MP-castor-alcove-et-dessous  [0 0 m] below # décalage pour les galeries superposées
     break
-    MP-lames [-8 -8 m] below
-    MP-lames-milieu [-10 -10] below
-    MP-lames-fond [-12 -12 m] below	
+    MP-lames
+    # [-8 -8 m] below
+    MP-lames-milieu
+    #[-10 -10] below
+    MP-lames-fond [-2 -2 m] below	
 endmap
 
 map MP-castor-entree

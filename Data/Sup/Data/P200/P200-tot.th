@@ -1,0 +1,10 @@
+
+survey P200
+
+input Data/P200.th
+input "Data/p200-1p.th2"
+# input "Data/p200-1s.th2"
+
+input P200_maps.th
+
+endsurvey

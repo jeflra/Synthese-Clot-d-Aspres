@@ -47,7 +47,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 
 ### Dessin fini sans relecture :
 - Bagnards (F. de Felix, A. Figuiers, E. Sibert)
-- NympheEmue
+- NympheEmue (revoir entrée)
 - Oreade
 - Chambre froide CAF 132
 - Caverne des Clos
@@ -59,6 +59,12 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Femmes Fortes
 - TQF
 - Soleil Trompeur CAF225
+- P200 
+- Serpent Terre -> livre azimut 0
+- Apocalypso -> livre azimut 0
+- Brise de Coeur (SGCAF) -> Dessin Oceane
+- Bourrasque -> par Océane T.
+
 
 
 ### Dessin commencé :
@@ -68,22 +74,17 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - Brume matinal
 - 2 Soeurs
 - Jeunesse d'autonme
-- Brise de Coeur (SGCAF) -> Dessin Oceane
 
 
 ### Dessin a commencer
 - Scialet de la Malléole -> livre azimut 0
 - Agnes
-- Bourrasque -> par Océane T.
-- Serpent Terre -> livre azimut 0
 - Vladimir -> livre azimut 0
-- Apocalypso -> livre azimut 0
 
 
 ### Manque données
-- Antre des glaces (Pascal Groseil, Christian Hubert, )
+- Antre des glaces (Pascal Groseil, Christian Hubert )
 - Mistral (Robert Crozier du C.A.S.C. et Jean Philippe Grandcolas des Tritons)
-- P200 (Barnabé Fourgous)
 
 ## Création de données : MapToDat
 
@@ -93,7 +94,7 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 - ID-cuve
 - Mistral (ou recupération des données)
 - Pre Achard (fait)
-- Silence
+- Silence (fait)
 
 ### Données générées par MapToDat
 
@@ -111,6 +112,12 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 ## Exploration en cours
 
 - CAF 159
+
+## Remerciement
+Merci Barnabé Fourgous pour les données TopoDroid
+Clément Garnier pour l'ensemble des données dont ils disposaient.
+Martin Gerbaux pour son ébauche de synthèse du clots d'aspres aval qu'il avait commencé sur Therion.
+Jean-Paul Hereil pour les données qu'il avait synthétisé sur une partie du clots d'aspres.
 
 ## Auteur de la base de données
 

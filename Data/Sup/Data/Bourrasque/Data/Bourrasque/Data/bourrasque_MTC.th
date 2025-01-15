@@ -4,13 +4,13 @@ survey bourrasque -title "Bourrasque" -entrance A1
 
 centerline
 cs EPSG:2154
-# fix A1    	902945.572 6438070.851	1886 #BOURRASQUE (scialet de la)
+fix A1    	902945.572 6438070.851	1886 #BOURRASQUE (scialet de la)
 
 date 1989
 
 units length feet
 data topofil from to length compass clino left right up down
-A1                   A2    58.47   295.20   -68.21     0.00     0.00     0.00     0.00
+                  A1                   A2    58.47   295.20   -68.21     0.00     0.00     0.00     0.00
                   A2                   A3    31.89   356.99   -46.42     0.00     0.00     0.00     0.00
                   A3                   A4    31.34   288.43   -62.20     0.00     0.00     0.00     0.00
                   A4                   A5    80.08   250.71   -72.20     0.00     0.00     0.00     0.00

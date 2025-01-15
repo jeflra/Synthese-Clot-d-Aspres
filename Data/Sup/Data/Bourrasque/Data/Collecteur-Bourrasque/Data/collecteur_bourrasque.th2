@@ -1,76 +1,76 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -525.785 -117.295 2687.6774 3304.7823
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {1102.6 1 1.0} {551.712 point_topo_B@1.menisque} collecteur_bourrasque_plan.xvi 0 {}
-##XTHERION## xth_me_image_insert {276.221 1 1.0} {2861.8237 TT@1.menisque} collecteur_bourrasque_coupe.xvi 0 {}
+##XTHERION## xth_me_image_insert {1102.6 1 1.0} {551.712 point_topo_B@toto1.menisque} collecteur_bourrasque_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {276.221 1 1.0} {2861.8237 TT@toto1.menisque} collecteur_bourrasque_coupe.xvi 0 {}
 
 
 
 scrap riviere_menisque -author 2008 "Martin Gerbaux" -copyright 2008 "licence CCby : http://creativecommons.org/licenses/by/2.0/fr" -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m] 
 
-point 214.56 537.588 station -name 0@2
+point 214.56 537.588 station -name 0@toto2
 
-point 271.2 534.208 station -name 1@2
+point 271.2 534.208 station -name 1@toto2
 
-point 344.87 537.538 station -name 2@2
+point 344.87 537.538 station -name 2@toto2
 
-point 377.06 561.428 station -name 3@2
+point 377.06 561.428 station -name 3@toto2
 
-point 415.0 542.588 station -name 4@2
+point 415.0 542.588 station -name 4@toto2
 
-point 410.45 554.688 station -name 5@2
+point 410.45 554.688 station -name 5@toto2
 
-point 426.96 557.178 station -name 6@2
+point 426.96 557.178 station -name 6@toto2
 
-point 437.76 566.428 station -name 7@2
+point 437.76 566.428 station -name 7@toto2
 
-point 472.73 556.128 station -name 8@2
+point 472.73 556.128 station -name 8@toto2
 
-point 489.3 559.828 station -name 9@2
+point 489.3 559.828 station -name 9@toto2
 
-point 523.75 552.868 station -name 10@2
+point 523.75 552.868 station -name 10@toto2
 
-point 560.99 553.248 station -name 11@2
+point 560.99 553.248 station -name 11@toto2
 
-point 634.59 539.718 station -name 12@2
+point 634.59 539.718 station -name 12@toto2
 
-point 700.84 523.918 station -name 13@2
+point 700.84 523.918 station -name 13@toto2
 
-point 725.15 559.408 station -name 14@2
+point 725.15 559.408 station -name 14@toto2
 
-point 728.67 580.628 station -name 15@2
+point 728.67 580.628 station -name 15@toto2
 
-point 727.06 597.038 station -name 16@2
+point 727.06 597.038 station -name 16@toto2
 
-point 736.07 616.898 station -name 17@2
+point 736.07 616.898 station -name 17@toto2
 
-point 737.94 628.118 station -name 18@2
+point 737.94 628.118 station -name 18@toto2
 
-point 746.56 633.218 station -name 19@2
+point 746.56 633.218 station -name 19@toto2
 
-point 754.33 646.998 station -name 20@2
+point 754.33 646.998 station -name 20@toto2
 
-point 791.61 633.858 station -name 21@2
+point 791.61 633.858 station -name 21@toto2
 
-point 797.74 648.728 station -name 22@2
+point 797.74 648.728 station -name 22@toto2
 
-point 862.0 612.498 station -name 23@2
+point 862.0 612.498 station -name 23@toto2
 
-point 910.2 585.328 station -name 24@2
+point 910.2 585.328 station -name 24@toto2
 
-point 938.72 575.278 station -name 25@2
+point 938.72 575.278 station -name 25@toto2
 
-point 962.24 575.518 station -name 26@2
+point 962.24 575.518 station -name 26@toto2
 
-point 987.61 566.578 station -name 27@2
+point 987.61 566.578 station -name 27@toto2
 
-point 1029.05 553.578 station -name 28@2
+point 1029.05 553.578 station -name 28@toto2
 
-point 1066.06 557.198 station -name 29@2
+point 1066.06 557.198 station -name 29@toto2
 
-point 1102.36 551.178 station -name T@1
+point 1102.36 551.178 station -name T@toto1
 
-point 1068.68 590.498 station -name 31@2
+point 1068.68 590.498 station -name 31@toto2
 
 line border -close on -subtype "invisible"
   1082.0 617.25
@@ -101,7 +101,7 @@ line wall
   1101.0 564.0
 endline
 
-line wall -close on
+line wall -close on -reverse on -outline in
   1091.25 590.25
   1086.25 589.5
   1080.5 589.25
@@ -144,7 +144,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   726.5 593.75
   726.5 592.25 726.25 589.0 726.0 586.5
   725.75 584.0 722.5 565.0 722.5 565.0
@@ -498,27 +498,27 @@ endline
 line wall
 endline
 
-point 1327.77 474.546 station -name A@1
+point 1327.77 474.546 station -name A@toto1
 
-point 1308.31 476.726 station -name B@1
+point 1308.31 476.726 station -name B@toto1
 
-point 1300.21 489.906 station -name C@1
+point 1300.21 489.906 station -name C@toto1
 
-point 1263.89 507.936 station -name D@1
+point 1263.89 507.936 station -name D@toto1
 
-point 1251.6 514.576 station -name E@1
+point 1251.6 514.576 station -name E@toto1
 
-point 1241.25 522.496 station -name F@1
+point 1241.25 522.496 station -name F@toto1
 
-point 1190.24 546.726 station -name G@1
+point 1190.24 546.726 station -name G@toto1
 
-point 1169.35 559.476 station -name H@1
+point 1169.35 559.476 station -name H@toto1
 
-point 1155.14 563.656 station -name I@1
+point 1155.14 563.656 station -name I@toto1
 
-point 1133.28 580.376 station -name J@1
+point 1133.28 580.376 station -name J@toto1
 
-point 1127.1 584.936 station -name K@1
+point 1127.1 584.936 station -name K@toto1
 
 line wall
   1099.75 586.25
@@ -562,15 +562,15 @@ line wall
   smooth off
 endline
 
-point 1102.36 601.246 station -name L@1
+point 1102.36 601.246 station -name L@toto1
 
-point 1081.9 613.256 station -name M@1
+point 1081.9 613.256 station -name M@toto1
 
-point 1085.08 605.626 station -name N@1
+point 1085.08 605.626 station -name N@toto1
 
-point 1091.59 593.676 station -name O@1
+point 1091.59 593.676 station -name O@toto1
 
-point 1081.13 591.906 station -name P@1
+point 1081.13 591.906 station -name P@toto1
 
 line wall -subtype "unsurveyed"
   1415.75 458.25
@@ -695,7 +695,7 @@ line wall -subtype "unsurveyed"
   smooth off
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed" -outline in
   1030.25 639.5
   1034.0 646.0
   1034.0 646.0 1035.25 649.0 1035.25 650.75
@@ -906,8 +906,6 @@ line water-flow
   1310.75 259.25
   1272.5 274.75
 endline
-
-
 
 line border -id l284-1134-492 -reverse on -subtype "invisible"
   1100.75 548.5
@@ -1286,37 +1284,37 @@ line wall
   smooth off
 endline
 
-point -189.09 286.086 station -name 13@3
+point -189.09 286.086 station -name 13@toto3
 
-point -181.95 285.026 station -name 12@3
+point -181.95 285.026 station -name 12@toto3
 
-point -164.15 282.706 station -name 11@3
+point -164.15 282.706 station -name 11@toto3
 
-point -163.19 292.786 station -name 10@3
+point -163.19 292.786 station -name 10@toto3
 
-point -143.83 285.576 station -name 9@3
+point -143.83 285.576 station -name 9@toto3
 
-point -121.69 287.736 station -name 8@3
+point -121.69 287.736 station -name 8@toto3
 
-point -75.32 277.526 station -name 7@3
+point -75.32 277.526 station -name 7@toto3
 
-point -59.19 278.256 station -name 6@3
+point -59.19 278.256 station -name 6@toto3
 
-point -38.58 280.996 station -name 5@3
+point -38.58 280.996 station -name 5@toto3
 
-point -18.19 283.706 station -name 4@3
+point -18.19 283.706 station -name 4@toto3
 
-point 1.39 290.296 station -name 3@3
+point 1.39 290.296 station -name 3@toto3
 
-point 24.93 290.946 station -name 2@3
+point 24.93 290.946 station -name 2@toto3
 
-point 46.41 300.766 station -name 1-1@3
+point 46.41 300.766 station -name 1-1@toto3
 
-point 12.11 454.466 station -name 1@3
+point 12.11 454.466 station -name 1@toto3
 
-point 48.64 467.466 station -name 0@3
+point 48.64 467.466 station -name 0@toto3
 
-point 120.68 538.456 station -name 0-1@3
+point 120.68 538.456 station -name 0-1@toto3
 
 line wall
   401.25 555.75
@@ -1506,10 +1504,10 @@ line wall
   654.75 520.25 649.75 517.25 637.25 520.25
   624.75 523.25 592.25 531.25 590.25 531.25
   588.25 531.25 586.0 531.0 580.0 533.0
-  574.0 535.0 569.75 537.0 569.75 537.0
+  574.0 535.0 570.5 535.75 570.5 535.75
   smooth off
-  569.75 537.0 571.5 535.75 569.75 538.75
-  568.0 541.75 566.75 544.0 565.0 544.25
+  570.5 535.75 570.25 537.75 568.5 540.75
+  566.75 543.75 566.75 544.0 565.0 544.25
   563.25 544.5 556.5 545.75 556.5 545.75
   smooth off
   556.5 545.75 551.75 547.0 547.5 547.0
@@ -1619,7 +1617,7 @@ line wall -subtype "unsurveyed"
   1134.5 546.75
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed" -outline in
   1078.0 612.0
   1071.75 617.0
   1071.75 617.0 1059.75 626.25 1059.0 627.25
@@ -1662,7 +1660,7 @@ line pit -reverse on
   1079.25 587.5
 endline
 
-line wall
+line wall -reverse on -outline in
   1016.0 669.25
   1016.0 669.25 1013.75 665.75 1015.25 663.75
   1016.75 661.75 1022.0 657.25 1023.0 655.25
@@ -1671,7 +1669,7 @@ line wall
   1030.25 639.5
 endline
 
-line wall
+line wall -reverse on -outline in
   1051.75 611.0
   1053.75 608.5 1065.0 599.5 1066.0 597.5
   1067.0 595.5 1067.5 593.0 1070.0 593.0
@@ -1781,14 +1779,6 @@ line border -id l56-430-1548 -close on -subtype "invisible"
   358.5 1621.0
 endline
 
-
-
-
-
-
-
-
-
 line border -id l55-481-1465 -close on -subtype "invisible"
   434.0 1504.75
   443.75 1509.75
@@ -1857,41 +1847,41 @@ line wall -id menisque_aval_droit -reverse on
   524.5 1362.5
 endline
 
-point 1027.44 638.648 station -name 32@2
+point 1027.44 638.648 station -name 32@toto2
 
-point 994.93 670.498 station -name 33@2
+point 994.93 670.498 station -name 33@toto2
 
-point 925.14 738.868 station -name 34@2
+point 925.14 738.868 station -name 34@toto2
 
-point 865.5 808.498 station -name 35@2
+point 865.5 808.498 station -name 35@toto2
 
-point 786.92 918.318 station -name 36@2
+point 786.92 918.318 station -name 36@toto2
 
-point 745.18 988.938 station -name 37@2
+point 745.18 988.938 station -name 37@toto2
 
-point 681.8 1077.508 station -name 38@2
+point 681.8 1077.508 station -name 38@toto2
 
-point 637.84 1128.828 station -name 39@2
+point 637.84 1128.828 station -name 39@toto2
 
-point 609.51 1176.768 station -name 40@2
+point 609.51 1176.768 station -name 40@toto2
 
-point 570.52 1258.188 station -name 41@2
+point 570.52 1258.188 station -name 41@toto2
 
-point 550.32 1292.358 station -name 42@2
+point 550.32 1292.358 station -name 42@toto2
 
-point 518.93 1371.718 station -name 43@2
+point 518.93 1371.718 station -name 43@toto2
 
-point 498.89 1405.618 station -name 44@2
+point 498.89 1405.618 station -name 44@toto2
 
-point 478.86 1439.508 station -name 45@2
+point 478.86 1439.508 station -name 45@toto2
 
-point 438.8 1507.288 station -name 46@2
+point 438.8 1507.288 station -name 46@toto2
 
-point 418.77 1541.188 station -name 47@2
+point 418.77 1541.188 station -name 47@toto2
 
-point 368.68 1625.918 station -name 48@2
+point 368.68 1625.918 station -name 48@toto2
 
-point 358.67 1642.858 station -name 49@2
+point 358.67 1642.858 station -name 49@toto2
 
 line wall
   -175.25 275.25
@@ -2070,47 +2060,47 @@ endscrap
 
 
 
-scrap reseau_sup -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m]
+scrap reseau_sup -scale [-128.0 -128.0 1624.0638 -128.0 0.0 0.0 44.50242052 0.0 m] 
 
-point 1283.33 239.434 station -name 0@1
+point 1283.33 239.434 station -name 0@toto1
 
-point 1286.24 241.844 station -name 1@1
+point 1286.24 241.844 station -name 1@toto1
 
-point 1278.04 250.764 station -name 2@1
+point 1278.04 250.764 station -name 2@toto1
 
-point 1271.46 262.834 station -name 3@1
+point 1271.46 262.834 station -name 3@toto1
 
-point 1254.04 266.664 station -name 4@1
+point 1254.04 266.664 station -name 4@toto1
 
-point 1256.6 262.504 station -name 5@1
+point 1256.6 262.504 station -name 5@toto1
 
 point 1254.75 254.25 label -text "E4" -align left
 
-point 1251.19 269.534 station -name 6@1
+point 1251.19 269.534 station -name 6@toto1
 
-point 1246.75 275.25 station -name 7@1
+point 1246.75 275.25 station -name 7@toto1
 
-point 1254.06 283.344 station -name 8@1
+point 1254.06 283.344 station -name 8@toto1
 
-point 1237.44 310.364 station -name 9@1
+point 1237.44 310.364 station -name 9@toto1
 
-point 1223.44 336.054 station -name 10@1
+point 1223.44 336.054 station -name 10@toto1
 
-point 1202.32 359.844 station -name 11@1
+point 1202.32 359.844 station -name 11@toto1
 
-point 1197.61 380.904 station -name 12@1
+point 1197.61 380.904 station -name 12@toto1
 
-point 1183.09 397.844 station -name 13@1
+point 1183.09 397.844 station -name 13@toto1
 
-point 1178.32 411.254 station -name 14@1
+point 1178.32 411.254 station -name 14@toto1
 
-point 1149.59 431.674 station -name 15@1
+point 1149.59 431.674 station -name 15@toto1
 
-point 1145.58 447.074 station -name 16@1
+point 1145.58 447.074 station -name 16@toto1
 
-point 1143.21 467.594 station -name 17@1
+point 1143.21 467.594 station -name 17@toto1
 
-point 1131.21 481.104 station -name 18@1
+point 1131.21 481.104 station -name 18@toto1
 
 line wall -reverse on
   1132.25 268.0

@@ -1,8 +1,9 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1051.0 -3176.25 4497.3702 500.4283
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -769.0 -2646.0 4779.3702 3389.1783
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-641.0 1 1.0} {-270.25 {}} topo_1991/Nuits_Blanches_plan2.gif 0 {}
 ##XTHERION## xth_me_image_insert {28.01 1 1.0} {-233.98 1} ../topo_biboc/reseau_classique_plan.xvi 0 {}
+##XTHERION## xth_me_image_insert {79.76000000000022 1 1.0} {-277.73 1} ../../../../../../clot_d_aspres-Martin/Nuits_blanches/topographie/topo_biboc/reseau_classique_plan.xvi 0 {}
 
 
 
@@ -70,7 +71,7 @@ line wall
   3083.5 -2165.0
 endline
 
-line wall -close on
+line wall -close on -outline in
   3199.0 -1917.5
   3194.5 -1923.5
   3191.5 -1930.0
@@ -78,7 +79,7 @@ line wall -close on
   3190.0 -1948.5
   3192.5 -1952.0
   3198.0 -1946.5
-  3199.0 -1938.0
+  3198.5 -1937.5
   3201.0 -1930.0
   3207.0 -1924.0
   3199.0 -1917.5
@@ -87,7 +88,7 @@ endline
 line wall
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   3081.0 -2051.0
   3085.0 -2038.0
   3092.0 -2027.0
@@ -148,7 +149,7 @@ line wall
   3061.0 -2174.0
 endline
 
-line wall
+line wall -reverse on -outline in
   2357.0 -2430.0
   2376.0 -2428.0
   2397.0 -2422.0
@@ -331,9 +332,9 @@ line wall
   2465.0 -1003.0
   2444.0 -1000.0
   2440.0 -993.0
-  2447.0 -983.0
-  2459.0 -983.0
-  2469.0 -987.0
+  2446.25 -986.5
+  2456.75 -987.5
+  2481.5 -992.5
 endline
 
 line wall -subtype "unsurveyed"
@@ -354,7 +355,7 @@ line wall -subtype "unsurveyed"
   3465.0 -1439.0
 endline
 
-line wall -subtype "unsurveyed"
+line wall -subtype "unsurveyed" -outline in
   2357.0 -2430.0
   2366.0 -2423.5
   2366.0 -2423.5 2374.5 -2417.0 2376.5 -2416.5
@@ -367,7 +368,7 @@ line wall -subtype "unsurveyed"
   2448.0 -2421.0
 endline
 
-line wall -id tremie_bd
+line wall -id tremie_bd -reverse on
   1007.0 -2275.0
   1007.0 -2275.0 1016.0 -2274.5 1020.0 -2271.5
   1024.0 -2268.5 1028.0 -2263.5 1031.0 -2260.5
@@ -454,7 +455,7 @@ line wall -id tremie_bd
   smooth off
 endline
 
-line wall -id tremie_bg
+line wall -id tremie_bg -reverse on
   -197.0 -1951.0
   -194.5 -1950.5 -192.0 -1949.5 -185.5 -1949.5
   -179.0 -1949.5 -168.0 -1947.0 -160.5 -1946.0
@@ -674,7 +675,7 @@ line pit -close on -reverse on
   1744.5 -2152.5
 endline
 
-line wall -close on -reverse on
+line wall -close on -outline in
   1731.0 -2150.0
   1732.0 -2144.0
   1736.0 -2138.5
@@ -962,7 +963,7 @@ line wall -id mur_d -reverse on
   3361.0 -1318.0
 endline
 
-line wall -close on -reverse on
+line wall -close on -outline in
   2108.0 -661.5
   2110.0 -665.5
   2108.0 -669.0
@@ -1042,9 +1043,9 @@ line pit -close on
   2491.0 -989.0
 endline
 
-line wall
+line wall -reverse on
   2481.5 -992.5
-  2476.5 -990.5
+  2476.0 -989.75
   2469.0 -987.0
   2468.0 -981.5
   2467.5 -972.5
@@ -1566,7 +1567,7 @@ point 2092.19 -654.69 station -name 175
 
 point 2094.61 -664.2 station -name 174
 
-line wall -subtype "presumed"
+line wall -outline in
   3368.0 -1325.0
   3375.0 -1320.5
   3382.5 -1320.5
@@ -1637,7 +1638,7 @@ line wall
   3423.0 -1467.0
 endline
 
-line wall
+line wall -reverse on -outline in
   3368.0 -1325.0
   3365.0 -1328.0
   3365.5 -1334.0
@@ -1940,7 +1941,7 @@ endline
 line wall
 endline
 
-line wall
+line wall -reverse on
   -9.0 -2084.5
   -15.5 -2086.5
   -15.5 -2086.5 -18.5 -2089.5 -20.0 -2092.0
@@ -1990,12 +1991,6 @@ line wall
 endline
 
 point -513.57 -2136.43 station -name 600
-
-point -269.0 -2044.0 station -name 606
-
-point -286.09 -2079.7 station -name 605
-
-point -140.93 -1954.83 station -name 520
 
 line wall
   363.0 -2042.0
@@ -2063,13 +2058,7 @@ line water-flow
   1077.0 -2007.0
 endline
 
-point 654.45 -2101.52 station -name 531
-
-point 2049.02 -2297.46 station -name 510
-
-point 851.85 -2127.54 station -name 532
-
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   643.0 -2041.0
   653.0 -2022.0
   663.0 -2005.0
@@ -2080,8 +2069,6 @@ line wall -subtype "unsurveyed"
   851.0 -1988.0
   984.0 -1995.0
 endline
-
-point 1034.0 -2094.5 station -name 500
 
 line wall -subtype "unsurveyed"
   672.0 -2021.0
@@ -2096,7 +2083,7 @@ line wall -subtype "unsurveyed"
   985.0 -2010.0
 endline
 
-line wall
+line wall -reverse on
   275.0 -2124.5
   266.5 -2127.5
   264.5 -2132.5
@@ -2108,7 +2095,7 @@ line wall
   247.0 -2163.0
 endline
 
-line wall
+line wall -reverse on
   672.0 -2021.0
   656.0 -2048.0
   636.0 -2075.0
@@ -2130,7 +2117,7 @@ line wall
   272.0 -2110.0
 endline
 
-line wall -close off
+line wall -close off -reverse on -outline in
   223.5 -2034.5
   193.0 -2033.0
   142.0 -2026.0
@@ -2291,8 +2278,6 @@ line wall
   1829.0 -2196.0
 endline
 
-point 2698.06 -2315.81 station -name 516
-
 line wall -subtype "unsurveyed"
   2247.0 -2307.0
   2264.0 -2308.0
@@ -2399,11 +2384,9 @@ point 3390.28 -2062.02 station -name 1000
 
 point 3857.0 -1806.5 station -name 1002
 
-point 3064.97 -2146.16 station -name 358
-
 point 227.67 -2028.49 station -name 616-11
 
-point 263.5 -2125.0 station -name 620
+point 263.5 -2125.0 station -name 618
 
 point 213.93 -2153.71 station -name 619
 
@@ -2411,13 +2394,11 @@ point 146.5 -2137.21 station -name 620
 
 point 66.51 -2111.43 station -name 621
 
-point 28.0 -2107.5 station -name 624
+point 28.0 -2107.5 station -name 622
 
 point -16.69 -2074.33 station -name 623
 
 point -39.15 -2094.03 station -name 624
-
-point -72.85 -2031.3 station -name 609
 
 point 641.65 -2058.89 station -name 632
 
@@ -2439,9 +2420,9 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   446.0 -2169.5
-  443.5 -2168.5 453.5 -2161.5 450.0 -2159.5
+  447.0 -2165.5 453.5 -2161.5 450.0 -2159.5
   446.5 -2157.5 429.0 -2152.5 425.5 -2151.5
   422.0 -2150.5 409.0 -2149.5 406.5 -2149.5
   404.0 -2149.5 393.0 -2147.5 389.5 -2146.5
@@ -2903,7 +2884,7 @@ point 1832.94 -2148.03 station -name 508
 
 point 2049.02 -2297.46 station -name 510
 
-line wall
+line wall -reverse on
   1904.5 -2156.5
   1912.0 -2147.0
   1912.0 -2147.0 1920.0 -2141.5 1922.5 -2141.5
@@ -2994,6 +2975,11 @@ line wall
   smooth off
   1710.5 -2176.0
   1717.0 -2167.5
+  1719.0 -2159.5
+  1722.0 -2154.0
+  1731.0 -2150.0
+  1744.5 -2152.5
+  1748.0 -2168.0
 endline
 
 line wall
@@ -3022,7 +3008,7 @@ endline
 
 point 1643.77 -2200.29 station -name 506
 
-line wall
+line wall -reverse on
   1736.5 -2176.0
   1736.5 -2176.0 1727.5 -2179.0 1726.0 -2180.5
   1724.5 -2182.0 1718.0 -2188.0 1716.0 -2190.0
@@ -3577,7 +3563,7 @@ point 421.0 -328.25 label -text "P10" -align right
 
 point 392.5 -234.5 label -text "P15" -align right
 
-line pit
+line pit -reverse on
   407.0 -300.0
   408.5 -287.5
   415.0 -278.5
@@ -3627,15 +3613,15 @@ line pit
   544.0 -323.0
 endline
 
-point 858.3 -569.07 station -name g
+point 848.8 -618.07 station -name g
 
-point 840.37 -595.9 station -name f
+point 823.37 -609.4 station -name f
 
-point 829.0 -571.25 station -name d
+point 821.0 -580.75 station -name e
 
-point 827.43 -546.14 station -name d
+point 818.18 -548.14 station -name d
 
-point 840.66 -529.66 station -name c
+point 818.66 -524.16 station -name c
 
 line pit
   840.0 -502.5
@@ -3703,7 +3689,7 @@ line pit
   716.0 -427.0
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   827.5 -511.0
   824.5 -520.5
   825.0 -530.5
@@ -3744,56 +3730,33 @@ line wall -subtype "unsurveyed"
   810.5 -631.0
 endline
 
-line wall -close on
-  800.0 -463.5
-  802.5 -458.5
-  802.5 -450.5
-  802.5 -450.5 799.0 -449.0 797.0 -450.5
-  795.0 -452.0 791.0 -454.0 791.0 -454.0
-  smooth off
-  787.5 -459.0
-  791.0 -463.5
-  800.0 -463.5
+line wall -close on -reverse on -outline in
+  790.75 -456.25
+  786.5 -459.25 783.0 -459.25 788.0 -461.5
+  793.0 -463.75 800.0 -468.5 800.0 -463.5
+  800.0 -458.5 807.5 -456.5 801.0 -453.5
+  794.5 -450.5 795.0 -453.25 790.75 -456.25
 endline
 
 line wall
   729.5 -391.5
-  732.0 -395.0
-  729.5 -403.0
-  724.5 -411.5
-  725.5 -420.5
-  725.5 -420.5 724.0 -423.0 720.0 -426.0
-  716.0 -429.0 710.0 -435.0 710.0 -435.0
+  731.75 -394.5 731.75 -398.25 728.5 -405.25
+  725.25 -412.25 725.75 -414.25 725.25 -419.0
+  724.75 -423.75 721.0 -421.25 713.5 -431.0
+  706.0 -440.75 703.75 -448.75 704.75 -455.75
+  705.75 -462.75 710.25 -479.5 713.25 -482.25
+  716.25 -485.0 722.5 -489.0 720.5 -494.0
+  718.5 -499.0 715.5 -512.75 722.0 -517.5
+  728.5 -522.25 738.0 -525.0 742.75 -520.5
+  747.5 -516.0 752.0 -511.0 750.5 -506.0
+  749.0 -501.0 737.75 -494.25 743.0 -492.0
+  748.25 -489.75 759.5 -490.75 766.0 -494.0
+  772.5 -497.25 789.25 -505.25 799.0 -505.5
+  808.75 -505.75 809.5 -502.75 812.5 -506.0
   smooth off
-  710.0 -435.0 706.5 -443.5 706.0 -446.5
-  705.5 -449.5 704.5 -456.5 705.0 -458.5
-  705.5 -460.5 707.5 -467.5 707.5 -467.5
-  smooth off
-  707.5 -467.5 706.5 -472.0 709.0 -476.0
-  711.5 -480.0 718.5 -488.5 718.5 -488.5
-  smooth off
-  720.5 -494.0
-  717.5 -502.0
-  720.0 -514.5
-  720.0 -514.5 721.5 -519.5 725.0 -521.5
-  728.5 -523.5 735.5 -524.5 737.5 -523.0
-  739.5 -521.5 744.0 -520.5 745.5 -518.5
-  747.0 -516.5 752.0 -508.0 752.0 -508.0
-  smooth off
-  752.0 -508.0 753.0 -502.0 750.0 -500.5
-  747.0 -499.0 743.0 -496.0 743.0 -496.0
-  smooth off
-  744.5 -490.5
-  754.0 -490.0
-  764.5 -493.5
-  777.5 -500.5
-  789.5 -505.5
-  804.5 -506.5
-  812.5 -506.0
 endline
 
-line wall
-  384.0 -237.0
+line wall -reverse on
   385.5 -243.0
   390.0 -250.5
   390.5 -256.5
@@ -3843,13 +3806,11 @@ line wall
   739.0 -382.0 746.5 -384.5 746.5 -384.5
   smooth off
   752.0 -394.5
-  750.5 -403.0
-  748.5 -412.0
-  740.5 -423.0
-  735.5 -430.0
-  735.0 -438.0
-  731.0 -447.5
-  729.0 -457.5
+  755.25 -401.25
+  756.75 -412.75
+  748.0 -434.5
+  745.0 -441.25
+  736.75 -453.25
   735.0 -464.5
   740.0 -469.0
   749.0 -464.5
@@ -3859,13 +3820,12 @@ line wall
   779.0 -443.0 784.0 -438.5 786.0 -435.0
   788.0 -431.5 791.5 -428.0 794.0 -426.0
   796.5 -424.0 804.0 -420.0 806.5 -419.5
-  809.0 -419.0 814.5 -418.0 818.0 -419.0
-  821.5 -420.0 828.0 -422.5 828.5 -425.5
-  829.0 -428.5 831.5 -433.0 829.0 -438.5
-  826.5 -444.0 822.5 -452.0 822.5 -452.0
+  809.0 -419.0 828.25 -404.0 831.75 -405.0
+  835.25 -406.0 847.25 -408.75 847.75 -411.75
+  848.25 -414.75 831.5 -433.0 829.0 -438.5
+  826.5 -444.0 823.75 -443.25 823.75 -443.25
   smooth off
-  818.0 -462.5
-  816.0 -469.5
+  819.25 -451.75
   819.5 -474.5
   822.5 -479.5
   827.0 -483.0
@@ -3893,9 +3853,7 @@ line wall
 endline
 
 line wall
-  384.0 -237.0
-  376.5 -238.0
-  377.5 -249.5
+  375.5 -243.5
   386.0 -264.0
   390.5 -274.5
   398.5 -283.0
@@ -3952,9 +3910,9 @@ point 839.31 -465.3 station -name 69
 
 point 811.2 -452.93 station -name 68
 
-point 836.74 -414.71 station -name 67
+point 836.7500000000001 -415.7099999999999 station -name 67
 
-point 814.23 -428.37 station -name 66
+point 814.2300000000001 -429.37 station -name 66
 
 point 745.72 -478.6 station -name 65
 
@@ -4042,7 +4000,7 @@ line pit
 endline
 
 line pit
-  2470.5 -1040.0
+  2466.5 -1041.5
   2468.5 -1047.0
   2469.5 -1059.0
   2469.5 -1073.0
@@ -4136,7 +4094,7 @@ line pit -reverse on
   2135.0 -664.0
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed"
   2485.5 -1078.5
   2477.5 -1083.5
   2471.5 -1094.0
@@ -4154,7 +4112,7 @@ line wall -subtype "unsurveyed"
   2337.5 -1070.0
 endline
 
-line wall -subtype "unsurveyed"
+line wall -reverse on -subtype "unsurveyed" -outline in
   2352.0 -1073.5
   2355.5 -1081.5
   2355.5 -1081.5 2362.0 -1089.0 2363.5 -1091.0
@@ -4170,7 +4128,7 @@ line wall -subtype "unsurveyed"
   2475.0 -1072.5
 endline
 
-line wall
+line wall -reverse on -outline in
   2475.0 -1072.5
   2475.0 -1072.5 2472.5 -1067.0 2469.0 -1066.5
   2465.5 -1066.0 2466.5 -1068.5 2461.5 -1066.5
@@ -4300,7 +4258,10 @@ line wall
   1492.0 -506.0 1502.5 -501.0 1502.5 -501.0
   smooth off
   1512.0 -500.0
-  1512.0 -500.0 1520.0 -497.5 1524.0 -505.5
+endline
+
+line wall
+  1524.0 -505.5
   1528.0 -513.5 1531.5 -515.0 1536.0 -520.5
   1540.5 -526.0 1545.0 -531.5 1548.5 -535.5
   1552.0 -539.5 1554.5 -543.0 1558.5 -546.5
@@ -4523,10 +4484,18 @@ line wall
 endline
 
 line wall
-  2202.0 -694.0
-  2202.5 -688.0
-  2202.5 -688.0 2204.0 -685.5 2207.0 -685.5
-  2210.0 -685.5 2215.0 -685.5 2219.0 -685.5
+endline
+
+line wall -subtype invisible
+  2196.0 -688.0
+  2201.5 -689.75
+endline
+
+line wall
+  2201.5 -689.75
+  2203.25 -686.25
+  2203.25 -686.25 2206.25 -683.5 2209.25 -683.5
+  2212.25 -683.5 2215.0 -685.5 2219.0 -685.5
   2223.0 -685.5 2227.5 -685.5 2232.5 -685.5
   2237.5 -685.5 2244.0 -684.0 2244.0 -684.0
   smooth off
@@ -4546,6 +4515,10 @@ line wall
   2311.5 -643.0 2319.5 -642.5 2321.0 -641.0
   2322.5 -639.5 2327.0 -633.5 2327.0 -633.5
   smooth off
+  2329.0 -626.5
+endline
+
+line wall
   2329.0 -626.5
   2334.5 -629.0
   2334.5 -629.0 2338.0 -634.5 2338.0 -637.5
@@ -4753,11 +4726,11 @@ line wall
   2186.5 -650.5 2189.0 -655.0 2190.5 -657.5
   2192.0 -660.0 2194.5 -662.5 2195.0 -666.0
   2195.5 -669.5 2195.5 -674.5 2195.5 -677.5
-  2195.5 -680.5 2195.5 -691.0 2195.5 -691.0
+  2195.5 -680.5 2196.0 -688.0 2196.0 -688.0
   smooth off
 endline
 
-line wall
+line wall -reverse on
   2124.0 -652.5
   2129.0 -646.5
   2136.0 -642.5
@@ -4957,7 +4930,7 @@ point 2531.65 -1055.31 station -name 126
 
 point 2486.62 -1056.29 station -name 125
 
-point 2463.87 -1070.79 station -name 125
+point 2466.37 -1058.29 station -name 124
 
 point 2404.31 -1037.67 station -name 122
 

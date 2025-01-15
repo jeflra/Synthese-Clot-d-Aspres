@@ -20,8 +20,7 @@ source Scialet_Jeunesse_Automne-tot.th
 #input legends/entrances_coordinates.th
 
 # Ajoute un fichier de configuration
-# Voir https://github.com/robertxa/Th-Config-Xav pour un exemple
-input ../config.thc  
+input ../../../../config.thc  
 
 
 # 2-LAYOUT   

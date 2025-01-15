@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 261.85834 265.79535
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -119.0 -125.0 263.0 262.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {15.747600000000006 1 1.0} {82.67710000000001 1.53} Grotte_Clots_Aspres-map-05.xvi 0 {}
 
 
@@ -13,6 +13,7 @@ endline
 line wall -reverse on
   121.5 119.75
   121.5 119.75 118.5 121.0 117.0 119.5
+  altitude .
   115.5 118.0 113.25 118.5 111.25 115.5
   109.25 112.5 109.0 112.5 107.25 110.5
   105.5 108.5 104.75 105.5 104.5 104.0
@@ -44,17 +45,13 @@ point 129.5 122.25 narrow-end
 
 point 128.0 128.5 water-flow -orientation 50.3
 
-line wall -close on -subtype pit
+line pit -close on -clip off
   121.5 127.25
   121.5 127.25 118.0 127.75 117.25 124.75
   116.5 121.75 118.5 119.0 121.5 119.75
-  altitude .
-  subtype presumed
   124.5 120.5 124.75 121.75 124.25 124.0
-  subtype presumed
   123.75 126.25 121.5 127.25 121.5 127.25
   smooth off
-  subtype presumed
 endline
 
 line pit -scale l
@@ -82,6 +79,7 @@ point 90.5 63.75 label -text R4
 line pit
   81.5 83.0
   81.5 83.0 75.75 72.25 78.5 69.5
+  smooth off
 endline
 
 line wall

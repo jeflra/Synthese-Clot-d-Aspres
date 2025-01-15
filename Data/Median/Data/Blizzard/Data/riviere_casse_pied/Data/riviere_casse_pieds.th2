@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -41.0 -146.0 1533.0 1970.0246
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {87.0 1 1.0} {1842.0246 {}} riviere_casse_pieds_(topo_GSM).gif 0 {}
 ##XTHERION## xth_me_image_insert {1191.239 1 1.0} {1638.54 A00} riviere_casse_pieds_plan.xvi 0 {}
 
@@ -1223,7 +1223,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   373.75 771.25
   376.5 771.5 377.25 772.0 380.5 774.0
   383.75 776.0 388.75 779.0 388.75 779.0
@@ -1235,7 +1235,7 @@ line wall -close on
   378.0 769.5 371.0 771.0 373.75 771.25
 endline
 
-line wall -close on
+line wall -close on -outline in
   387.25 794.75
   385.25 794.5 383.75 793.5 381.25 792.25
   378.75 791.0 375.75 789.5 373.5 786.5

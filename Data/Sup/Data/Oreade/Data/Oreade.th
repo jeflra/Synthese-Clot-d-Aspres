@@ -6,7 +6,7 @@ centerline
 date 1989
 
 cs UTM31
-fix Oreade	703352.231 4986928.385	2017
+fix Oreade	703352.231 4986928.385	2017 50 50 50
 # fix Oreade	703402.231 4986928.385	2017
 station Oreade "Oreade"
 # declination -3.87 grad 

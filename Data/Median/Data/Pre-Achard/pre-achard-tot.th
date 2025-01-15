@@ -19,7 +19,7 @@ equate A1@Autoroute A86@pre_achard_suite
 
 input pre-achard_maps.th
 
-
+join SP-Pre-suite-2 SP-SB-4
 
 endsurvey
 

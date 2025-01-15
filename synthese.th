@@ -26,16 +26,15 @@ input Data/Sup/Sup-tot.th
 
 # Le réseau Médian
 input Data/Median/Median-tot.th
-    equate 49@2.menisque.bourrasque.superieur A60@riviere_casse_pieds.riviere_casse_pieds.blizzard.median
+    equate 49@toto2.collecteur_bourrasque.bourrasque.superieur A60@riviere_casse_pieds.riviere_casse_pieds.blizzard.median
+    join riviere_menisque@collecteur_bourrasque.bourrasque.superieur casse-pied_1@riviere_casse_pieds.blizzard.median
 
-
-
-
+                
 # Le réseau Inférieur
 input Data/Inf/Inf-tot.th
 # Il faut intégrer Jeunesse d'Automne à Nuits Blanches, c'est le même trou. Voir s'il faut le faire au niveau de la donnée topo ?
 equate jonc@brumes_matinales.brumes-tot.median 0@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
-
+join brumes_fond-570@brumes-tot.median jonction_haut@jonction_nuits_blanches-brumes_matinales.nuits_blanches.inferieur
 
 
 # Le réseau de la Fauge

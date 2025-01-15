@@ -1,6 +1,14 @@
 encoding  utf-8
 
+map allcave2
+MP-Nymphe-tot
+break
+Nymphe
+endmap
+
 map MP-Nymphe-tot 
+SP-jonc2S-1
+break
 SP-Nymphe-19
 break
 
@@ -30,6 +38,8 @@ break
 SP-Nymphe-9
 break
 SP-Nymphe-10
+break
+SP-Nymphe-17
 break
 SP-Nymphe-18
 break

@@ -1,12 +1,6 @@
 encoding  utf-8
 
-survey menisque -title "Rivière du Ménisque"
-  equate point_topo_B@1 b@2
-
-  equate 00@2 00@3
-
-
-survey 1 -title "toto"
+survey toto1 -title "toto"
 
 
 
@@ -79,7 +73,7 @@ T point_topo_B 1 0 -90 0 0 0 0
 endcenterline
 endsurvey
 
-survey 2 -title "toto2"
+survey toto2 -title "toto2"
 centerline
 #jonction bourrasque-blizzard
   declination -2.65 grad # (calcul avec logiciel declimag) + gisement UTM
@@ -171,7 +165,7 @@ endcenterline
 
 endsurvey
 
-survey 3 -title "toto3"
+survey toto3 -title "toto3"
 centerline
 #jonction bourrasque-blizzard
   declination -1.55 grad # (calcul avec logiciel declimag) + gisement UTM
@@ -210,14 +204,4 @@ endcenterline
 endsurvey
 
 
-input collecteur_bourrasque.th2
-
-map MP-collecteur_bourrasque-plan-tot -title "collecteur_bourrasque"
-  riviere_menisque
-  break
-  reseau_sup
-endmap
-
-
-endsurvey
 

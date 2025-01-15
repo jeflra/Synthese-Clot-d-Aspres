@@ -11,7 +11,7 @@ input config.thc
 # Add entrances coordinates
 # input legendes/entrances_coordinates.th
 
-source GIS/MNT_Fauges.th
+#source GIS/MNT_Fauges.th
 
 # 2-LAYOUT   
 
@@ -31,7 +31,9 @@ layout my_layout
    copy headerl
    copy langue-fr
    copy for_print 
-      
+     
+   # debug on 
+   
    # Titre  
    doc-title "Synthèse"
    # Auteur
@@ -121,11 +123,14 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   symbol-hide line survey
-   symbol-hide point cave-station
+   
+   #symbol-hide line survey
+   #symbol-hide point cave-station
 
-   #debug station-names
-
+   debug station-names
+   debug scrap-names
+   # debug on
+    
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
    grid bottom
@@ -259,7 +264,7 @@ layout my_layout-coupe
    #symbol-hide line survey
    #symbol-hide point cave-station
 
-   debug station-names
+   # debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -311,18 +316,18 @@ select MP-Clot-Aspres@synthese
 	 
 #export map -projection [elevation 6] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
 #export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
-#export map -o Outputs/Synthese-plan.pdf -layout my_layout
+export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox
 #export model  -o Outputs/Synthese.dxf
-#export continuation-list -o Outputs/questions.html
-#export cave-list -o Outputs/Synthese.html  
+export continuation-list -o Outputs/questions.html
+export cave-list -location on -o Outputs/Synthese.html  
 
 # Export des fichiers ESRI
-#export map -proj plan -fmt esri -o Outputs/Synthese -layout my_layout
-#export model  -fmt esri -o Outputs/Synthese-model
+export map -proj plan -fmt esri -o Outputs/Synthese -layout my_layout
+export model  -fmt esri -o Outputs/Synthese-model
 
 
 # Export des fichiers kml
-#export map -proj plan -fmt kml -o Outputs/Synthese.kml -layout my_layout
-#export model -fmt kml -o Outputs/Synthese-model.kml
+export map -proj plan -fmt kml -o Outputs/Synthese.kml -layout my_layout
+export model -fmt kml -o Outputs/Synthese-model.kml

@@ -131,7 +131,7 @@ point 294.0 163.25 entrance -orientation 12.6
 
 point 294.25 153.25 label -text [Entrée sup]
 
-line wall -close on -subtype pit
+line pit -close on -clip off
   293.75 177.0
   293.75 177.0 292.25 175.25 294.5 173.75
   296.75 172.25 297.75 172.0 299.25 173.5
@@ -156,8 +156,8 @@ line wall -reverse on
 endline
 
 line wall -reverse on
-  256.0 444.0
-  256.0 444.0 251.25 444.75 247.5 443.75
+  255.5 447.0
+  255.5 447.0 251.25 444.75 247.5 443.75
   243.75 442.75 241.75 445.25 243.75 440.25
   altitude .
   245.75 435.25 250.75 427.25 253.75 425.25

@@ -259,7 +259,7 @@ endline
 line wall
 endline
 
-line wall -close on -reverse on
+line wall -close on -reverse on -outline in
   156.25 376.0
   158.5 376.0 160.25 375.75 162.75 375.5
   165.25 375.25 165.75 374.5 167.0 374.5
@@ -512,7 +512,7 @@ endscrap
 
 scrap patayoyo_C -scale [-128.0 -128.0 521.701 -128.0 0.0 0.0 16.5024054 0.0 m]
 
-line wall
+line wall -outline in
   293.25 332.25
   296.75 332.0
   295.75 336.5
@@ -696,7 +696,7 @@ line pit
   352.5 339.75
 endline
 
-line wall -reverse on
+line wall -reverse on -outline in
   337.0 329.5
   339.75 329.5
   339.75 329.5 329.75 329.75 332.0 330.25

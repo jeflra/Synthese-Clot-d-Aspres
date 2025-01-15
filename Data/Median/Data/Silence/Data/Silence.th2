@@ -1,8 +1,8 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -239.5 -4413.25 2854.0 128.25
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.25 {}} Silence_plan.png 0 {}
-##XTHERION## xth_me_image_insert {-111.5 1 1.0} {-26.25 {}} {Silence_plan [Récupéré].png} 0 {}
+##XTHERION## xth_me_image_insert {-54.5 1 1.0} {38.75 {}} {Silence_plan [Récupéré].png} 0 {}
 
 
 
@@ -951,7 +951,7 @@ line border -id l91-2536--1247 -close on -subtype invisible
   smooth off
 endline
 
-line wall -close on -subtype unsurveyed
+line wall -close on -outline in
   2503.0 -1424.5
   2508.0 -1427.5 2513.5 -1431.0 2514.5 -1436.0
   2515.5 -1441.0 2516.0 -1448.5 2514.0 -1454.0
@@ -964,7 +964,7 @@ line wall -close on -subtype unsurveyed
   2488.5 -1414.5 2498.0 -1421.5 2503.0 -1424.5
 endline
 
-line wall -close on -subtype unsurveyed
+line wall -close on -outline in
   2470.5 -1466.5
   2484.5 -1473.5 2502.0 -1478.5 2509.0 -1485.0
   2516.0 -1491.5 2525.0 -1497.0 2525.0 -1502.0
@@ -981,7 +981,7 @@ line wall -close on -subtype unsurveyed
   2457.5 -1461.0 2456.5 -1459.5 2470.5 -1466.5
 endline
 
-line wall -subtype unsurveyed
+line wall
   2519.5 -1567.0
   2514.5 -1564.5 2507.0 -1565.5 2510.0 -1562.0
   2513.0 -1558.5 2519.5 -1552.0 2523.5 -1546.0
@@ -1018,7 +1018,7 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-line wall -subtype unsurveyed
+line wall
   2212.75 -1784.75
   2217.0 -1773.5 2224.0 -1751.5 2226.0 -1742.0
   2228.0 -1732.5 2227.5 -1726.5 2233.5 -1721.5
@@ -1059,7 +1059,7 @@ line wall -subtype unsurveyed
   smooth off
 endline
 
-line wall -subtype unsurveyed
+line wall -subtype unsurveyed -outline in
   2183.5 -2323.5
   2182.75 -2317.75 2184.0 -2299.75 2184.25 -2292.75
   2184.5 -2285.75 2184.25 -2275.5 2183.5 -2271.25
@@ -1329,7 +1329,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -outline in
   2260.25 -2215.25
   2262.25 -2216.5 2260.25 -2217.5 2258.0 -2221.0
   2255.75 -2224.5 2250.5 -2233.0 2249.25 -2235.25
@@ -2672,7 +2672,7 @@ line pit -clip off
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   2512.5 -3556.75
   2515.75 -3558.0 2519.25 -3556.25 2520.5 -3561.75
   2521.75 -3567.25 2522.75 -3576.25 2523.0 -3582.75
@@ -2683,7 +2683,7 @@ line wall -close on
   2509.0 -3556.25 2509.25 -3555.5 2512.5 -3556.75
 endline
 
-line wall -close on
+line wall -close on -outline in
   2520.5 -3625.25
   2520.25 -3627.75 2519.0 -3638.25 2518.0 -3640.75
   2517.0 -3643.25 2514.25 -3651.5 2512.25 -3653.25
@@ -2701,7 +2701,7 @@ line wall -close on
   2518.25 -3620.5 2520.75 -3622.75 2520.5 -3625.25
 endline
 
-line wall -close on
+line wall -close on -outline in
   2405.75 -3581.5
   2407.75 -3580.75 2414.5 -3576.75 2410.0 -3585.5
   2405.5 -3594.25 2400.5 -3595.75 2399.5 -3597.75
@@ -2723,7 +2723,7 @@ line pit
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   2317.25 -3632.5
   2317.0 -3636.0 2317.0 -3640.5 2315.75 -3642.0
   2314.5 -3643.5 2311.5 -3645.5 2309.0 -3647.25
