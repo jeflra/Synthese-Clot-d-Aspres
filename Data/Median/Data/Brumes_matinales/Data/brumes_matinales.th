@@ -1,5 +1,5 @@
 encoding  utf-8
-survey brumes_matinales -title "Réseau 1991" -entrance 0
+survey brumes_matinales -title "Réseau 1991"
 
 
 
@@ -24,6 +24,7 @@ units compass  degree
 units clino grad
 cs EPSG:2154
 fix  0 902837.499 6439042.054 1772 #spit devant l'entrée
+station 0 "Brumes Matinales (Scialet des)" entrance
 
 data topofil from to fromcount tocount backcompass clino
 

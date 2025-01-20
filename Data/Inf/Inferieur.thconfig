@@ -116,8 +116,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
+   color map-fg altitude
+	color-legend smooth
 
    debug station-names
 
@@ -149,10 +151,11 @@ layout my_layout
       \edef\nostring{}            % empty string
       \ifx\temp\nostring          % Inferieur if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Inferieur} 		
+         \cavename={Réseau du Clos d'Aspres Inférieur} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
+      \newtoks\synth \synth={Benoit Urruty (2024)}
    endcode  
 
    # add extended-elev on the same pdf

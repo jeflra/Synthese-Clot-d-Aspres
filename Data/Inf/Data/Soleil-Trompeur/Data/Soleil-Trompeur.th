@@ -270,7 +270,8 @@ declination 1 degrees
 units length meters
 units compass degrees 
 units clino degrees
-data normal  to from compass clino length 
+data normal  to from compass backclino length 
+# Clino inversé par Xavier Robert, le 20/01/2025
 
 A22     1_37     89.0    -28.0     3.7
           
@@ -289,10 +290,6 @@ A22     1_37     89.0    -28.0     3.7
 1_43     1_44    104.8     -23.0     2.7
           
 1_44     1_45     0.0     -90.0     9.1
-
-
-
-
 
 endcenterline
 
