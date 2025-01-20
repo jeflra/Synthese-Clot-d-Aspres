@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -84.0 -20.5 427.97659999999996 366.427
+##XTHERION## xth_me_area_adjust -84.0 -47.25 427.97659999999996 366.427
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {299.97659999999996 1 1.0} {238.42700000000002 0} ../Outputs/castor-plan.xvi 0 {}
 
@@ -31,12 +31,12 @@ endline
 line gradient
 endline
 
-point 176.5 108.75 label -text [barrage<br>à castors] -align bottom
+point 178.25 82.0 label -text [barrage<br>à Castors] -align bottom
 
 line gradient
 endline
 
-point 173.5 170.75 dig
+point 176.0 178.0 dig
 
 line gradient
   207.0 127.75
@@ -47,12 +47,14 @@ line wall -subtype unsurveyed
 endline
 
 line arrow
-  173.5 113.0
-  164.5 131.0 167.25 132.0 169.75 136.25
+  178.0 89.0
+  169.0 107.0 167.25 132.0 169.75 136.25
   smooth off
 endline
 
-point 227.5 169.75 entrance -orientation 211.5
+point 237.5 230.0 label -text "<bf>CAF159" -scale xl
+
+point 229.5 179.5 entrance -orientation 199.9
 
 line gradient
   219.25 147.75
@@ -187,7 +189,7 @@ line pit -id l-p10
   167.75 154.75
 endline
 
-point 194.0 160.25 label -align bottom -text P10
+point 199.75 169.25 label -align bottom -text P10
 
 line wall -id l-entree-1
   207.75 142.0
@@ -263,7 +265,6 @@ endline
 line wall -id l-manieres-1
   85.25 180.75
   88.16 179.82 102.18 173.63 105.0 172.5
-  altitude .
   107.5 171.5 101.75 160.0 96.25 161.75
   smooth off
 endline
@@ -277,7 +278,7 @@ point 109.75 180.75 air-draught -orientation 114.4 -subtype summer
 
 point 52.5 194.5 low-end
 
-point 75.5 156.25 air-draught -orientation 75.0 -subtype summer
+point 68.5 163.25 air-draught -orientation 96.9 -subtype summer
 
 point 155.0 135.5 water-flow -orientation 252.4
 
@@ -295,6 +296,7 @@ endline
 
 line wall
   95.75 159.5
+  altitude .
   100.5 160.0 110.78 150.72 114.25 147.25
   116.25 145.25 126.75 141.75 130.25 140.0
   133.75 138.25 164.23 125.27 165.75 123.75
@@ -318,7 +320,7 @@ line contour
   smooth off
 endline
 
-point 98.25 134.5 label -align bottom -text [P52 des<br>bonnes manières]
+point 98.25 134.5 label -align bottom -text [<center>P52 des<br>Bonnes Manières]
 
 line wall -id l-manieres-2
   166.5 125.5
@@ -524,11 +526,17 @@ endline
 line wall
   99.75 178.0
   98.75 178.5 94.0 190.0 93.0 191.5
+  smooth off
 endline
+
+point 71.18200000000002 197.336 map-connection
+
+point 98.75 177.0 map-connection
 
 line border
   93.0 191.5
   92.0 193.0 79.75 196.75 77.5 197.25
+  smooth off
 endline
 
 line wall
@@ -548,6 +556,10 @@ endscrap
 
 
 scrap SP-entree-5 -projection plan -station-names "" "@castor-entree" -author 2024 "Jean-Florent Raymond" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 82.68200000000002 203.936 map-connection
+
+point 63.0 212.0 map-connection
 
 point 89.0 207.0 water-flow -orientation 63.0
 
