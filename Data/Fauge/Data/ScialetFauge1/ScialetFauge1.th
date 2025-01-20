@@ -4,7 +4,7 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Grotte_du_Serpent-Terre-plan-tot -title "Grotte du Serpent-Terre - CAF-236"
+map MP-ScialetFauge1-plan-tot -title "Scialet de la Fauge n°1"
 	break
 	SP-Serpenterre-2
 	break
@@ -12,8 +12,8 @@ map MP-Grotte_du_Serpent-Terre-plan-tot -title "Grotte du Serpent-Terre - CAF-23
 	SP-Serpenterre-1
 	
 endmap
-# map MC-Grotte_du_Serpent-Terre-coupe-tot -title "Grotte du Serpent-Terre - CAF-236"
-# 	SC-Grotte_du_Serpent-Terre-1
+# map MC-ScialetFauge1-coupe-tot -title "Perte de la Fauge"
+# 	SC-ScialetFauge1-1
 # 	#break
-# 	#SC-Grotte_du_Serpent-Terre-2
+# 	#SC-ScialetFauge1-2
 # endmap

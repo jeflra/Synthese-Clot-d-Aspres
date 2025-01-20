@@ -11,7 +11,7 @@ encoding  utf-8
 # les donn�es du dessin, comme �a, ce fichier thconfig appelera  
 # nomcavite.th" et a son tour, "nomcavite.th" appelera 
 # "nomcavite.th2") 
-source Grotte_du_Serpent-Terre-tot.th
+source PerteFauge-tot.th
 
 
 # Appeller le fichier de coordonn�es de la cavit�
@@ -41,7 +41,7 @@ layout my_layout
    copy langue-fr
       
    # Titre  
-   doc-title "Serpent-Terre"
+   doc-title "Perte de la Fauge"
    # Auteur
    doc-author "Benoît Urruty"
 
@@ -56,7 +56,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 500
+   base-scale 1 200
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -67,13 +67,13 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 500
+   scale 1 200
 
    #surface bottom
    #surface-opacity 70
 
    # echelle graphique 100 m ampleur
-   scale-bar 50 m
+   scale-bar 20 m
 
    # Pour faire une rotation
    #rotate 90
@@ -110,8 +110,8 @@ layout my_layout
    legend off
 
    # Par defaut, la legende est de 14 cm de largeur
-   legend-width 15 cm
-   legend-columns 2
+   legend-width 25 cm
+   legend-columns 3
 
    # Specification la position de la manchette : interieur
    # occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -129,10 +129,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   symbol-hide line survey
+   #symbol-hide line survey
    #symbol-hide point cave-station
 
-   #debug station-names
+   debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -160,9 +160,9 @@ layout my_layout
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Serpent-Terre if cavename is empty
+      \ifx\temp\nostring          % PerteFauge if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Grotte du Serpent-Terre - CAF-236} 		
+         \cavename={Perte de la Fauge} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -181,7 +181,7 @@ layout my_layout-coupe
    copy langue-fr
       
    # Titre  
-   doc-title "Serpent-Terre"
+   doc-title "PerteFauge"
    # Auteur
    doc-author "Benoit Urruty"
 
@@ -293,9 +293,9 @@ layout my_layout-coupe
       % This code allows you to define an output map title {cavename} if it happens to be empty
       \edef\temp{\the\cavename}   % cavename from Therion
       \edef\nostring{}            % empty string
-      \ifx\temp\nostring          % Serpent-Terre if cavename is empty
+      \ifx\temp\nostring          % PerteFauge if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Grotte du Serpent-Terre - CAF-236} 		
+         \cavename={PerteFauge} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -306,28 +306,28 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Serpent-Terre-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Serpent-Terre-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/Serpent-Terre-coupe_elevation.xvi 
+export map -fmt xvi -layout xviexport -o Data/PerteFauge-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/PerteFauge-coupe.xvi
+export map -proj [elevation 17] -layout xviexport -o Data/PerteFauge-coupe_elevation.xvi 
 
 # Select maps
-#	select MP-Serpent-Terre-plan-tot@Serpent-Terre
-#  select MC-Serpent-Terre-coupe-tot@Serpent-Terre
+#	select MP-PerteFauge-plan-tot@PerteFauge
+#  select MC-PerteFauge-coupe-tot@PerteFauge
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Serpent-Terre-coupe_elevation.pdf 
-export map -projection extended -layout my_layout-coupe -o Outputs/Serpent-Terre-coupe.pdf 
-export map -o Outputs/Serpent-Terre-plan.pdf -layout my_layout
+#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/PerteFauge-coupe_elevation.pdf 
+#export map -projection extended -layout my_layout-coupe -o Outputs/PerteFauge-coupe.pdf 
+#export map -o Outputs/PerteFauge-plan.pdf -layout my_layout
  
-export model -enable centerline -o Outputs/Serpent-Terre.lox
-export model -enable centerline -o Outputs/Serpent-Terre.dxf
-export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Serpent-Terre.html  
+#export model -enable centerline -o Outputs/PerteFauge.lox
+#export model -enable centerline -o Outputs/PerteFauge.dxf
+#export continuation-list -o Outputs/questions.html
+#export cave-list -o Outputs/PerteFauge.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Serpent-Terre -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Serpent-Terre-model
+#export map -proj plan -fmt esri -o Outputs/PerteFauge -layout my_layout
+#export model -enable centerline -fmt esri -o Outputs/PerteFauge-model
 
 
 # Export des fichiers kml
-export map -proj plan -fmt kml -o Outputs/Serpent-Terre.kml -layout my_layout
-export model -fmt kml -o Outputs/Serpent-Terre-model.kml
+#export map -proj plan -fmt kml -o Outputs/PerteFauge.kml -layout my_layout
+export model -fmt kml -o Outputs/PerteFauge-model.kml
