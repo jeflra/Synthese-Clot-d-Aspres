@@ -1,6 +1,6 @@
 encoding  utf-8
 
-map MP-castor
+map MP-castor -title "Scialet du Grand Castor - CAF-159"
     # Map principale
     MP-castor-entree
     MP-castor-alcove-et-dessous  [0 0 m] below # décalage pour les galeries superposées
