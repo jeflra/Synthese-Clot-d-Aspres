@@ -4,7 +4,7 @@ encoding utf-8
 # Ce travaille est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-survey Grotte_du_Serpent-Terre -title "Grotte_du_Serpent-Terre"
+survey Grotte_du_Serpent-Terre -title "Grotte du Serpent-Terre - CAF-236"
 
 	# Pour importer les diff�rentes donn�es de diff�rents fichiers topos :
 	input Data/Grotte_du_Serpent-Terre.th

@@ -4,7 +4,7 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Grotte_du_Serpent-Terre-plan-tot -title "Grotte_du_Serpent-Terre"
+map MP-Grotte_du_Serpent-Terre-plan-tot -title "Grotte du Serpent-Terre - CAF-236"
 	break
 	SP-Serpenterre-2
 	break
@@ -12,7 +12,7 @@ map MP-Grotte_du_Serpent-Terre-plan-tot -title "Grotte_du_Serpent-Terre"
 	SP-Serpenterre-1
 	
 endmap
-# map MC-Grotte_du_Serpent-Terre-coupe-tot -title "Grotte_du_Serpent-Terre"
+# map MC-Grotte_du_Serpent-Terre-coupe-tot -title "Grotte du Serpent-Terre - CAF-236"
 # 	SC-Grotte_du_Serpent-Terre-1
 # 	#break
 # 	#SC-Grotte_du_Serpent-Terre-2
