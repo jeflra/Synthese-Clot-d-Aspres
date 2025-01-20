@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -141.67999999999984 -3652.8488 4421.32 2663.1512
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -141.67999999999984 94.49199999999996 4068.2156000000004 2663.1512
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {-13.679999999999836 1 1.0} {2535.1512 {}} {../../../../../../../../../../Downloads/Caf 225 Soleil Trompeur prnPlani1000.jpg} 0 {}
 ##XTHERION## xth_me_image_insert {3643.17 1 1.0} {533.684 CAF-225} Soleil-Trompeur-map.xvi 0 {}
 
@@ -14,15 +14,17 @@ line pit
   smooth off
 endline
 
-point 2715.5 1605.0 air-draught -orientation 348.1 -subtype summer
+point 2695.5 1797.0 air-draught -orientation 355.5 -subtype summer
 
 point 2683.0 1454.5 air-draught -orientation 62.5 -subtype summer
 
-point 1645.5 1475.0 air-draught -orientation 266.4 -subtype summer
+point 1699.5 1578.0 air-draught -orientation 266.4 -subtype summer
 
 point 981.5 1619.0 air-draught -orientation 281.1 -subtype summer
 
-point 1022.5 1823.5 air-draught -orientation 245.1 -subtype summer
+point 837.0 1502.0 height -value [-10 m]
+
+point 983.5 1909.5 air-draught -orientation 245.1 -subtype summer
 
 line pit
   951.0 1590.5
@@ -90,6 +92,22 @@ line wall
   2806.0 1458.0 2863.0 1452.0 2876.0 1451.0
   smooth off
 endline
+
+point 2147.0 1843.0 label -text "<center>puits de la<br>Dame des Preys"
+
+point 1578.0 1216.0 label -text "<center>m. des<br>Séducteurs"
+
+line arrow
+  2150.0 1824.0
+  2145.0 1469.0
+endline
+
+line arrow
+  1430.0 2079.0
+  1370.0 1579.0
+endline
+
+point 1433.0 2119.0 label -text "<center>puits du<br>Gros Manche"
 
 line wall
   860.0 1765.0
@@ -187,6 +205,8 @@ area blocks
   l70-2780-1561
 endarea
 
+point 2858.0 1690.0 continuation -attr Code D -attr Cavite 'Soleil-Trompeur' -attr CA "Courant d'air aspirant en été" -text "Courant d'air aspirant en été, arrêt dans trémie remontante dangeureuse"
+
 line border -id l70-2780-1561 -close on -subtype invisible
   2671.5 1626.0
   2671.0 1608.5 2687.0 1532.0 2688.5 1526.0
@@ -204,14 +224,29 @@ line slope
   l-size 16.3
 endline
 
+point 2718.0 1635.0 breakdown-choke -orientation 0.0
+
+line pit
+  1382.0 1563.0
+  1382.0 1563.0 1361.0 1449.0 1340.0 1439.0
+endline
+
+point 978.0 1348.0 label -text "R3"
+
+point 1291.0 1349.0 height -value [-17 m]
+
+point 2087.0 1209.0 height -value [-10 m]
+
 line wall
   2685.0 1631.0
+  altitude .
   2685.0 1616.0 2681.0 1589.0 2687.0 1573.0
   2693.0 1557.0 2706.0 1517.0 2695.0 1501.0
   2684.0 1485.0 2617.0 1456.0 2613.0 1452.0
   2609.0 1448.0 2527.0 1407.0 2508.0 1406.0
   2489.0 1405.0 2459.0 1433.0 2445.0 1434.0
   2431.0 1435.0 2400.0 1452.0 2394.0 1433.0
+  altitude .
   2388.0 1414.0 2392.0 1401.0 2389.0 1389.0
   2386.0 1377.0 2384.0 1361.0 2355.0 1361.0
   2326.0 1361.0 2286.0 1354.0 2274.0 1365.0
@@ -279,17 +314,63 @@ endscrap
 
 scrap SP-ST-2 -projection plan -station-names "" "@Soleil-Trompeur" -scale [-128.0 -128.0 4143.7502 -128.0 0.0 0.0 108.50245508 0.0 m]
 
-point 716.5 1757.5 blocks
+area flowstone
+  l147-684-1706
+endarea
 
-point 611.0 1727.0 blocks
+line label -id l147-684-1706 -close on
+  683.0 1706.0
+  683.0 1706.0 664.0 1664.0 676.0 1658.0
+  688.0 1652.0 705.0 1670.0 701.0 1684.0
+  697.0 1698.0 683.0 1706.0 683.0 1706.0
+  smooth off
+endline
 
-point 490.0 1657.5 blocks
+area flowstone
+  l145-727-1772
+endarea
 
-point 431.0 1793.0 label -text "Salle concrétionnée"
+line label -id l145-727-1772 -close on
+  726.0 1771.0
+  726.0 1771.0 684.0 1769.0 686.0 1749.0
+  688.0 1729.0 719.0 1721.0 736.0 1741.0
+  753.0 1761.0 764.0 1774.0 748.0 1774.0
+  732.0 1774.0 726.0 1771.0 726.0 1771.0
+  smooth off
+endline
 
-point 493.5 1957.5 continuation -attr Code D -attr Cavite 'Soleil-Trompeur' -attr CA 'présent' -text "Impénétrable"
+area flowstone
+  l143-615-1766
+endarea
 
-point 571.0 1946.0 air-draught -orientation 292.8
+line label -id l143-615-1766 -close on
+  613.0 1764.0
+  613.0 1764.0 581.0 1716.0 596.0 1700.0
+  611.0 1684.0 637.0 1688.0 635.0 1718.0
+  633.0 1748.0 613.0 1764.0 613.0 1764.0
+  smooth off
+endline
+
+area flowstone
+  l141-523-1699
+endarea
+
+line label -id l141-523-1699 -close on
+  523.0 1699.0
+  523.0 1699.0 405.0 1652.0 390.0 1634.0
+  375.0 1616.0 396.0 1610.0 452.0 1612.0
+  508.0 1614.0 548.0 1621.0 574.0 1630.0
+  600.0 1639.0 614.0 1655.0 581.0 1656.0
+  548.0 1657.0 526.0 1655.0 537.0 1677.0
+  548.0 1699.0 523.0 1699.0 523.0 1699.0
+  smooth off
+endline
+
+point 366.0 1368.0 label -text "<center>salle<br>concrétionnée"
+
+point 444.5 1970.5 continuation -attr Code D -attr Cavite 'Soleil-Trompeur' -attr CA "Courant d'air aspirant en été" -text "Impénétrable ; courant d'air aspirant en été"
+
+point 352.0 2078.0 air-draught -orientation 292.8
 
 line wall
   248.5 1650.5
@@ -314,6 +395,7 @@ line wall
   748.5 1702.5 767.5 1714.5 772.0 1726.5
   776.5 1738.5 780.0 1799.5 776.0 1820.0
   772.0 1840.5 745.5 1885.0 735.0 1892.5
+  altitude .
   724.5 1900.0 689.5 1930.5 678.0 1944.5
   666.5 1958.5 665.5 1965.5 615.5 1972.5
   565.5 1979.5 533.5 1979.5 515.5 1972.0
@@ -347,7 +429,7 @@ endscrap
 
 scrap SP-ST-3 -projection plan -station-names "" "@Soleil-Trompeur" -scale [-128.0 -128.0 4143.7502 -128.0 0.0 0.0 108.50245508 0.0 m]
 
-point 3699.5 498.5 entrance -orientation 299.3
+point 3732.5 484.5 entrance -orientation 299.3
 
 line floor-meander
   2558.5 942.0
@@ -358,13 +440,56 @@ endline
 
 point 2730.5 1026.5 air-draught -orientation 244.9
 
-point 2994.5 792.0 air-draught -orientation 319.3
+point 2913.5 816.0 air-draught -orientation 307.9
 
 point 3222.5 866.5 air-draught -orientation 319.3
 
-point 3521.5 989.0 air-draught -orientation 270.1
+point 3853.5 1074.0 air-draught -orientation 259.3
 
-point 3314.0 967.0 air-draught -orientation 312.7
+point 3724.0 987.0 entrance -orientation 268.7
+
+line wall -subtype invisible
+  3383.5 853.0
+  3413.5 848.0
+endline
+
+line wall -subtype invisible
+  3321.5 979.5
+  3300.0 958.5
+endline
+
+line wall -subtype invisible
+  3636.5 951.5
+  3636.5 951.5 3656.0 1012.0 3621.0 1022.0
+endline
+
+line wall -subtype presumed
+  3553.0 1001.5
+  3479.5 1002.5
+endline
+
+line wall -subtype presumed
+  3491.5 972.5
+  3564.5 974.5
+endline
+
+line arrow
+  2956.0 354.0
+  3155.0 679.0
+  3232.0 793.0
+endline
+
+line arrow
+  2912.0 602.0
+  3149.0 696.0
+  3223.0 835.0
+endline
+
+point 2933.0 289.0 remark -text "<center>c.a. mesuré<br>à 1 m3/s<br>le 07/02/2015" -scale xs
+
+point 2884.0 588.0 label -text "etr."
+
+point 3228.0 1084.0 air-draught -orientation 319.3
 
 point 2380.0 1103.5 air-draught -orientation 37.4
 
@@ -377,6 +502,13 @@ line wall
   2308.5 1235.5 2300.5 1277.5 2299.0 1292.0
   smooth off
 endline
+
+line arrow
+  2556.0 665.0
+  2693.0 935.0
+endline
+
+point 2540.0 618.0 label -text "<center>puits du<br>Manche"
 
 line wall
   3300.0 958.5
@@ -487,6 +619,30 @@ line wall
   smooth off
 endline
 
+line arrow
+  3006.0 1290.0
+  3103.0 1154.0
+  3103.0 1014.0
+endline
+
+point 2990.0 1329.0 label -text "<center>m. des<br>Ferrailleurs"
+
+point 2642.0 1181.0 height -value [-4 m]
+
+line arrow
+  3654.0 1424.0
+  3529.0 1029.0
+endline
+
+point 3685.0 1463.0 label -text "<center>jonction<br>à la voix"
+
+point 3706.0 240.0 label -text "<bf>CAF-225" -scale xl
+
+line wall -subtype invisible
+  3623.0 485.5
+  3623.0 485.5 3671.0 531.0 3664.0 566.0
+endline
+
 line wall
   2991.0 784.5
   3003.5 776.0 3006.0 777.5 3018.0 770.0
@@ -537,6 +693,7 @@ line wall
   3568.0 550.0 3604.0 511.0 3610.0 503.5
   3616.0 496.0 3618.0 488.0 3623.0 485.5
   smooth off
+  altitude .
 endline
 
 line wall
@@ -571,6 +728,25 @@ line wall
   smooth off
 endline
 
+line wall -subtype invisible
+  2895.5 974.5
+  2931.0 942.5
+endline
+
+line arrow
+  2197.0 629.0
+  2507.0 778.0
+  2594.0 921.0
+endline
+
+line arrow
+  2167.0 648.0
+  2167.0 912.0
+  2334.0 999.0
+endline
+
+point 2170.0 621.0 label -text "etr."
+
 line wall
   2276.0 1291.0
   2281.0 1272.5 2292.0 1253.0 2285.0 1239.5
@@ -587,6 +763,7 @@ line wall
   2355.5 982.5 2345.0 971.0 2337.0 959.5
   2329.0 948.0 2320.0 933.0 2326.5 920.5
   2333.0 908.0 2349.5 871.0 2363.0 864.0
+  altitude .
   2376.5 857.0 2401.5 861.5 2416.5 860.0
   2431.5 858.5 2464.5 851.5 2486.0 853.0
   2507.5 854.5 2533.0 852.5 2543.0 866.0

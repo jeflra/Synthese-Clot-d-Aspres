@@ -11,7 +11,7 @@ input config.thc
 # Add entrances coordinates
 # input legendes/entrances_coordinates.th
 
-#source GIS/MNT_Fauges.th
+source GIS/MNT_Fauges.th
 
 # 2-LAYOUT   
 
@@ -124,11 +124,11 @@ layout my_layout
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
    
-   #symbol-hide line survey
+   symbol-hide line survey
    #symbol-hide point cave-station
 
-   debug station-names
-   debug scrap-names
+   #debug station-names
+   #debug scrap-names
    # debug on
     
    # Specifier qu il faut imprimer une grille
@@ -261,9 +261,8 @@ layout my_layout-coupe
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
+   symbol-hide line survey
    #symbol-hide point cave-station
-
    # debug station-names
 
    # Specifier qu il faut imprimer une grille
