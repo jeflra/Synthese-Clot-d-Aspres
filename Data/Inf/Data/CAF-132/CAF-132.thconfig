@@ -9,7 +9,7 @@ encoding  utf-8
 source CAF-132_tot.th
 
 # Add config file
-input ../config.thc 
+input ../../../../config.thc 
 
 
 
