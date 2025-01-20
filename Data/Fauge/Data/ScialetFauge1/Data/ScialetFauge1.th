@@ -1,0 +1,29 @@
+encoding utf-8 
+
+survey ScialetFauge1 -title "Perte de la Fauge" -entrance "ScialetFauge1" 
+
+	centerline 
+		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
+		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
+		#cs long-lat
+		cs UTM31 
+		fix ScialetFauge1   703086 4990996 1326
+
+		station ScialetFauge1 "Scialet de la Fauge n°1" entrance
+			 
+		explo-date 1989 
+			explo-team "Pierre Garcin"
+			explo-team "Christian Hubert"
+			explo-team "FJS"
+
+		#units length meters 
+		#units compass degrees 
+		#units clino degrees 
+
+		#data topofil from to length compass clino left right up down
+		
+
+	endcenterline
+
+
+endsurvey

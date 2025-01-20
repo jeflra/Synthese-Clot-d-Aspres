@@ -1,0 +1,29 @@
+encoding utf-8 
+
+survey PerteFauge -title "Perte de la Fauge" -entrance "PerteFauge" 
+
+	centerline 
+		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
+		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
+		#cs long-lat
+		cs UTM31 
+		fix PerteFauge   703025 4990973 1326
+
+		station PerteFauge "Perte de la Fauge" entrance
+			 
+		explo-date 1989 
+			explo-team "Pierre Garcin"
+			explo-team "Christian Hubert"
+			explo-team "FJS"
+
+		#units length meters 
+		#units compass degrees 
+		#units clino degrees 
+
+		#data topofil from to length compass clino left right up down
+		
+
+	endcenterline
+
+
+endsurvey
