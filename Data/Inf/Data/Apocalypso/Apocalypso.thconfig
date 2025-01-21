@@ -60,7 +60,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 200
+   base-scale 1 500
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -71,13 +71,13 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 200
+   scale 1 500
 
    #surface bottom
    #surface-opacity 70
 
    # echelle graphique 100 m ampleur
-   scale-bar 20 m
+   scale-bar 50 m
 
    # Pour faire une rotation
    #rotate 90
@@ -99,23 +99,23 @@ layout my_layout
    opacity 75
 
    # Un commentaire a ajounter au titule,
-   map-comment "<it>Plan<ss> - Ville, depart, Pays"
+   map-comment "<it>Plan<ss> - Villard-de-Lans, 38, Vercors"
 
    # Afficher les statistiques d explo par équipe/nom. C est lourd
    # si la cavite est importante et qu il y a beaucoup d explorateurs
    statistics explo-length off
    # Afficher developpement et profondeur de la cavite
-   statistics topo-length on
+   statistics topo-length off
 
    # Nous voulons une legende pour expliquer les symboles. "on" imprimera
    # seulement la legende des symboles dessines sur la topo, si l on veut
    # pour tous les symboles, utilises ou pas, il faut indiquer "all".
    # "legend off" = pas de legende
-   legend on
+   legend off
 
    # Par defaut, la legende est de 14 cm de largeur
-   legend-width 25 cm
-   legend-columns 3
+   legend-width 14 cm
+   legend-columns 2
 
    # Specification la position de la manchette : interieur
    # occuppe par le titule, auteurs, etc. Nous pouvons indiquer
@@ -133,10 +133,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
+   symbol-hide line survey
    #symbol-hide point cave-station
 
-   debug station-names
+   #debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -166,7 +166,7 @@ layout my_layout
       \edef\nostring{}            % empty string
       \ifx\temp\nostring          % Scialet-Apocalypso if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Apocalypso} 		
+         \cavename={Scialet Apocalypso} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -299,7 +299,7 @@ layout my_layout-coupe
       \edef\nostring{}            % empty string
       \ifx\temp\nostring          % Scialet-Apocalypso if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Apocalypso} 		
+         \cavename={Scialet Apocalypso} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -310,9 +310,9 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Apocalypso-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Apocalypso-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/Apocalypso-coupe_elevation.xvi 
+#export map -fmt xvi -layout xviexport -o Data/Apocalypso-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Apocalypso-coupe.xvi
+#export map -proj [elevation 17] -layout xviexport -o Data/Apocalypso-coupe_elevation.xvi 
 
 # Select maps
 #	select MP-Apocalypso-plan-tot@Apocalypso
@@ -321,14 +321,14 @@ export map -proj [elevation 17] -layout xviexport -o Data/Apocalypso-coupe_eleva
 export map -projection extended -layout my_layout-coupe -o Outputs/Apocalypso-coupe.pdf 
 export map -o Outputs/Apocalypso-plan.pdf -layout my_layout
  
-export model -enable centerline -o Outputs/Apocalypso.lox
-export model -enable centerline -o Outputs/Apocalypso.dxf
-export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Apocalypso.html  
+#export model -enable centerline -o Outputs/Apocalypso.lox
+#export model -enable centerline -o Outputs/Apocalypso.dxf
+#export continuation-list -o Outputs/questions.html
+#export cave-list -o Outputs/Apocalypso.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Apocalypso -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Apocalypso-model
+#export map -proj plan -fmt esri -o Outputs/Apocalypso -layout my_layout
+#export model -enable centerline -fmt esri -o Outputs/Apocalypso-model
 
 
 # Export des fichiers kml

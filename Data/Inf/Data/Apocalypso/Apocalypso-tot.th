@@ -1,7 +1,7 @@
 encoding utf-8 
 
 
-survey Apocalypso -title "Apocalypso"
+survey Apocalypso -title "Scialet Apocalypso"
 
 	input Data/Apocalypso.th
 	input Data/Plan.th2

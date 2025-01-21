@@ -1,13 +1,13 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -873.0 -1582.8186 2725.0 1080.1814
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -873.0 -1582.8186 2872.0 1752.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {-745.0 1 1.0} {952.1814 {}} Apocalypso-plan.png 0 {}
 
 
 
 scrap SP-Apo-1 -projection plan -station-names "" "@Apocalypso" -scale [-128.0 -128.0 1387.8432 -128.0 0.0 0.0 38.502417279999996 0.0 m]
 
-point 1249.0 278.0 entrance -orientation 261.9
+point 1529.0 322.0 entrance -orientation 261.9
 
 point 1621.476 277.20099999999996 station -name Apocalypso
 
@@ -36,32 +36,46 @@ endarea
 line border -clip off
   1064.0 180.0
   1061.0 156.0 1001.0 -132.0 996.0 -181.0
+  smooth off
 endline
 
 line border -reverse on -clip off
   1075.0 362.0
   1084.0 382.0 1146.0 837.0 1143.0 884.0
+  smooth off
 endline
 
-point 626.0 440.0 air-draught -orientation 60.0
+line overhang -clip off
+  1752.0 780.0
+  1752.0 780.0 1748.0 200.0 1724.0 80.0
+  1700.0 -40.0 1616.0 -256.0 1604.0 -316.0
+endline
 
-point 678.0 242.0 label -text "P4"
+point 76.0 836.0 continuation -attr Code D -attr Cavite "Scialet Apocalypso" -attr CA "Courant d'air soufflant estival" -text "Arrêt sur méandre mondmilcheux impénétrable ; courant d'air soufflant"
 
-point 1040.0 587.0 label -text "P5"
+point 2724.0 1604.0 label -text "<center><bf>scialet<br>Apocalypso" -scale xl
+
+point 1650.0 192.0 air-draught -orientation 90.5
+
+point 518.0 -502.0 label -text "P4"
+
+point 912.0 879.0 label -text "P5"
 
 line slope -reverse on
   927.0 562.0
   907.0 538.0 790.0 404.0 802.0 334.0
+  smooth off
   l-size 40.0
 endline
 
 line slope -reverse on
   316.0 197.0
   312.0 164.0 237.0 84.0 291.0 -5.0
+  smooth off
   l-size 40.0
 endline
 
-point -24.0 462.0 air-draught -orientation 246.9
+point 244.0 590.0 air-draught -orientation 242.0
 
 line border -id l21--206-483 -close on -subtype invisible
   -214.0 156.0
@@ -80,15 +94,18 @@ line pit
   594.0 228.0
   582.0 219.0 548.0 172.0 530.0 180.0
   512.0 188.0 458.0 212.0 449.0 220.0
+  smooth off
 endline
 
 line pit
   1006.0 172.0
   995.0 201.0 1002.0 390.0 1052.0 484.0
+  smooth off
 endline
 
 line wall
   -63.0 481.0
+  altitude .
   -80.0 464.0 -106.0 452.0 -139.0 446.0
   -172.0 440.0 -202.0 423.0 -219.0 445.0
   -236.0 467.0 -236.0 499.0 -299.0 491.0
@@ -113,6 +130,8 @@ line wall
   808.0 343.0 879.0 256.0 907.0 235.0
   935.0 214.0 981.0 190.0 1002.0 187.0
   1023.0 184.0 1048.0 180.0 1064.0 180.0
+  smooth off
+  altitude .
 endline
 
 line wall
@@ -132,6 +151,7 @@ line wall
   -82.0 266.0 -113.0 287.0 -124.0 319.0
   -135.0 351.0 -150.0 356.0 -135.0 375.0
   -120.0 394.0 -62.0 415.0 -44.0 419.0
+  smooth off
 endline
 
 endscrap
