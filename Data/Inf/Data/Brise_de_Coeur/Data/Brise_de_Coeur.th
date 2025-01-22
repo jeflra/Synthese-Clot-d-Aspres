@@ -1,20 +1,22 @@
 encoding utf-8 
 
-survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0" 
+survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0" 
 
 	centerline 
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		cs long-lat 
 		fix 1_0  5.5796 45.0255 1680
+		station 1_0 "Brise de Coeur - CAF-232" entrance
 
-		#date 2015
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# # declination Inc degrees 
-			team "SGCAF" 
+		date 2014
+			team "SGCAF"
+			team "Kori Ditmeyer"
+			team "Cédric Astier"
+			team "Clément Garnier"
+			team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -47,13 +49,14 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 
 
 	centerline 
-		#date 2015
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
-			team "SGCAF" 
+		date 2014
+			team "SGCAF"
+			team "Kori Ditmeyer"
+			team "Cédric Astier"
+			team "Clément Garnier"
+			team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -71,13 +74,14 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 
 
 	centerline 
-		#date 2015
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
-			team "SGCAF" 
+		date 2015
+			team "SGCAF"
+			team "Kori Ditmeyer"
+			team "Cédric Astier"
+			team "Clément Garnier"
+			team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -92,13 +96,14 @@ survey Brise_de_Coeur -title "Brise de Coeur" -entrance "1_0"
 
 
 	centerline 
-		#date 2015
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
-			team "SGCAF" 
+		date 2018
+			team "SGCAF"
+			team "Kori Ditmeyer"
+			team "Cédric Astier"
+			team "Clément Garnier"
+			team "Pierre Metzger" 
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 

@@ -4,7 +4,7 @@ encoding utf-8
 # Ce travaille est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-survey Brise_de_Coeur -title "Brise_de_Coeur"
+survey Brise_de_Coeur -title "Brise de Coeur - CAF-232"
 
 	# Pour importer les diff�rentes donn�es de diff�rents fichiers topos :
 	input Data/Brise_de_Coeur.th
