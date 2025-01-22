@@ -1,16 +1,13 @@
 encoding  utf-8
 
-survey CAF-132
-input Data/CAF-132.th
-input Data/CAF-131.th
-input Data/CAF-132.th2
-input Data/CAF-131.th2
-input CAF-132_maps.th
+survey CAF-132 -title "La Chambre Froide - CAF-132"
+    
+    input Data/CAF-132.th
+        equate 1_00@CAF-132 11@CAF-132
+        equate 1_26@CAF-132 2_26@CAF-132
+    input Data/CAF-132.th2
 
-equate 1_00@CAF-132 11@CAF-132
-equate 1_26@CAF-132 2_26@CAF-132
-
-
+    input CAF-132_maps.th
 
 
 endsurvey

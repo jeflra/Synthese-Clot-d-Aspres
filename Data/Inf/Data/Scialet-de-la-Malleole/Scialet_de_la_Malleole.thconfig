@@ -166,7 +166,7 @@ layout my_layout
       \edef\nostring{}            % empty string
       \ifx\temp\nostring          % Scialet-Malleole if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Scialet-Malleole} 		
+         \cavename={Scialet de la Malléole} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -299,7 +299,7 @@ layout my_layout-coupe
       \edef\nostring{}            % empty string
       \ifx\temp\nostring          % Scialet-Malleole if cavename is empty
          % if empty reassign cavename to describe selected maps as a group
-         \cavename={Scialet-Malleole} 		
+         \cavename={Scialet de la Malléole} 		
       \else % if not empty keep the value set by therion, or assign an override cavename here
       \fi
       \newtoks\club \club={}
@@ -310,26 +310,26 @@ endlayout
   
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Scialet-Malleole-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/Scialet-Malleole-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/Scialet-Malleole-coupe_elevation.xvi 
+#export map -fmt xvi -layout xviexport -o Data/Scialet-Malleole-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Scialet-Malleole-coupe.xvi
+#export map -proj [elevation 17] -layout xviexport -o Data/Scialet-Malleole-coupe_elevation.xvi 
 
 # Select maps
-#	select MP-Scialet-Malleole-plan-tot@Scialet-Malleole
+	select MP-Scialet-Malleole-plan-tot@Scialet-Malleole
 #  select MC-Scialet-Malleole-coupe-tot@Scialet-Malleole
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Scialet-Malleole-coupe_elevation.pdf 
+#export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Scialet-Malleole-coupe_elevation.pdf 
 export map -projection extended -layout my_layout-coupe -o Outputs/Scialet-Malleole-coupe.pdf 
 export map -o Outputs/Scialet-Malleole-plan.pdf -layout my_layout
  
 export model -enable centerline -o Outputs/Scialet-Malleole.lox
-export model -enable centerline -o Outputs/Scialet-Malleole.dxf
-export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Scialet-Malleole.html  
+#export model -enable centerline -o Outputs/Scialet-Malleole.dxf
+#export continuation-list -o Outputs/questions.html
+#export cave-list -o Outputs/Scialet-Malleole.html  
 
 # Export des fichiers ESRI
-export map -proj plan -fmt esri -o Outputs/Scialet-Malleole -layout my_layout
-export model -enable centerline -fmt esri -o Outputs/Scialet-Malleole-model
+#export map -proj plan -fmt esri -o Outputs/Scialet-Malleole -layout my_layout
+#export model -enable centerline -fmt esri -o Outputs/Scialet-Malleole-model
 
 
 # Export des fichiers kml

@@ -6,8 +6,8 @@ survey CAF-131 -title "CAF-131" -entrance CAF131
   centerline
   # declination -1.13 grad # (calcul avec logiciel declimag)
   date 2011.7.9
-  team "Yann Cairo"
-  team "Gilles Palué"
+    team "Yann Cairo"
+    team "Gilles Palué"
 
 units compass grad
 units clino degree
@@ -16,14 +16,13 @@ units clino degree
 #fix CAF131 703218.97839	4989461.34231	1593 #UTM31 gps douteux ?
 cs UTM31
 fix CAF131 703218	4989445	1573 #UTM31 par rapport au CAF132 !
+station CAF131 "CAF-131" entrance
+
 units count cm
 units compass  degree
 units clino degree
 
 data topofil from to fromcount tocount compass clino
-
-
-
 CAF131	1 	825	1066	271.0	-17		
 1	2	1157	1452	284	-27
 2	3	1544	1755	344	-24

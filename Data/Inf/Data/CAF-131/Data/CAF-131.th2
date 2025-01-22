@@ -1,13 +1,13 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1309.1 3671.3
+##XTHERION## xth_me_area_adjust 191.5 198.75 794.039 1182.59
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {666.039 1 1.0} {1054.59 1_00@CAF-132} CAF-132_plan.xvi 0 {}
 
 
 
-scrap CAF-131_entree -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm] -station-names "" "@CAF-131" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0"
+scrap CAF-131_entree -station-names "" "@CAF-131" -author 2013 "Martin Gerbaux" -copyright 2013 "licence CC-by-sa 3.0 : http://creativecommons.org/licenses/by-sa/3.0" -scale [-128.0 -128.0 246.1103 -128.0 0.0 0.0 9.50240162 0.0 cm]
 
-line wall
+line wall -reverse on
   342.5 589.75
   344.25 581.0 332.9 576.66 345.5 570.75
   357.75 565.0 381.5 551.25 392.5 553.25
@@ -16,24 +16,27 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   460.25 381.25
   459.25 411.0 433.23 394.6 431.75 415.25
+  altitude .
   430.25 436.25 411.82 440.71 437.25 460.0
   444.5 465.5 429.25 479.25 448.5 502.0
   453.03 507.35 449.25 531.0 429.25 536.0
   409.25 541.0 393.0 538.0 378.0 542.0
   363.0 546.0 330.75 553.5 322.25 569.25
   313.01 586.37 338.0 575.75 338.0 591.0
+  smooth off
 endline
 
-line wall
+line wall -reverse on
   556.0 477.0
   529.0 479.0 488.23 490.07 483.25 490.25
   455.75 491.25 478.04 488.89 475.75 466.75
   475.0 459.5 455.75 473.75 456.0 451.25
   456.11 441.27 466.0 430.0 455.0 411.25
   450.19 403.05 465.75 407.0 467.25 381.25
+  smooth off
 endline
 
 line wall
@@ -46,7 +49,9 @@ line wall
   413.0 556.75 408.75 551.0 413.75 568.0
   418.75 585.0 419.0 603.25 419.0 603.25
   smooth off
+  altitude .
   419.0 603.25 417.25 613.25 401.25 624.0
+  smooth off
 endline
 
 point 413.079 605.67 station -name 5
@@ -63,11 +68,14 @@ point 505.809 492.12 station -name 1
 
 point 551.179 492.13 station -name CAF131
 
-point 588.25 479.25 label -text "CAF-131"  -align right
+point 593.75 490.5 entrance -orientation 271.2
+
+point 612.0 585.75 label -text "<bf>CAF-131" -scale xl -align right
 
 line pit
   429.25 536.0
   433.75 536.0 440.52 546.25 428.0 551.75
+  smooth off
 endline
 
 line contour -reverse on
@@ -106,15 +114,20 @@ endline
 line wall
 endline
 
-point 510.5 519.0 label -text "R3"  -align right
+line wall -subtype invisible
+  556.0 477.0
+  556.0 477.0 556.25 504.75 551.25 505.75
+endline
 
-point 393.75 627.25 air-draught -orientation 314.9 -subtype "summer"
+point 505.75 554.75 label -text "R3"  -align right
 
-point 465.0 361.0 air-draught -orientation 0.0 -subtype "summer"
+point 351.75 665.75 air-draught -orientation 307.3 -subtype "summer"
 
-point 479.75 380.0 label -text "Amont impénétrable"  -align right
+point 463.25 328.0 air-draught -orientation 0.0 -subtype "summer"
 
-point 435.0 559.0 label -text "R3"  -align right
+point 480.75 379.5 label -text "amont imp."  -align right
+
+point 360.75 492.5 label -text "R3"  -align right
 
 endscrap
 

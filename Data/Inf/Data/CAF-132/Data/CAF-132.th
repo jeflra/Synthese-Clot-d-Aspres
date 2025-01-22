@@ -1,14 +1,14 @@
 encoding  utf-8
 
-survey CAF-132 -title "CAF-132 La Chambre froide" -entrance CAF132
+survey CAF-132 -title "La Chambre Froide - CAF-132" -entrance CAF132
 
 
 
   centerline
   date 2011.07.07
   # declination -1.13 grad # (calcul avec logiciel declimag) + gisement UTM
-  team "Cécile Souleau"
-  team "Gilles Palué"
+    team "Cécile Souleau"
+    team "Gilles Palué"
 
   units compass grad
   units clino degree

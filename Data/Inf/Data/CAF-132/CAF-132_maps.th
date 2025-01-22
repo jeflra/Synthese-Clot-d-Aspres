@@ -1,7 +1,7 @@
   encoding  utf-8
 
-  map MP-CAF132
-  CAF-131_entree
+  map MP-CAF132 -title "La Chambre Froide - CAF-132"
+  #CAF-131_entree
     scrap1
   break
     puits_sous_entree

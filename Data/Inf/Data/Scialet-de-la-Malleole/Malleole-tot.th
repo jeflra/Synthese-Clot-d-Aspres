@@ -24,7 +24,7 @@ survey Scialet_de_la_Malleole -title "Scialet_de_la_Malleole"
 #	join scrap1 scrap2 #-count n
 
 # ## Pour le plan
-# input Data/Malleole.th2
+ input Data/Plan.th2
 
 # ## Pour la coupe d�velopp�e
 # input Data/Malleole-coupe.th2
