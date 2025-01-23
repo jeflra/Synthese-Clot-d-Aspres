@@ -3,17 +3,16 @@ encoding utf-8
 survey Scialet_de_la_Malleole -title "Scialet de la Malleole [YB 03-31]" -entrance "1_0" 
 
 	centerline 
-		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
-		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		cs long-lat
 		fix 1_0  5.57774521939684 45.0275666134105 1630
-		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
+		station 1_0 "Scialet de la Malleole [YB 03-31]" entrance
+
+		date 2014.02 
 			team "SGCAF" 
+			team "Jean Héraud"
+			team "Florna Quiec"
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -62,13 +61,12 @@ survey Scialet_de_la_Malleole -title "Scialet de la Malleole [YB 03-31]" -entran
 
 
 	centerline 
-		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
+		date 2014.02 
 			team "SGCAF" 
+			team "Jean Héraud"
+			team "Florna Quiec"
 		#explo-date YYYY.MM.DD 
 			explo-team "SGCAF" 
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 

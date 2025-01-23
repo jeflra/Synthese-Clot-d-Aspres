@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey CAF-131  -title "CAF-131"
+
+    input Data/CAF-131.th
+    input Data/CAF-131.th2
+
+    input CAF-131_maps.th
+
+endsurvey

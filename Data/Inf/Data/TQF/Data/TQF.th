@@ -1,4 +1,4 @@
-survey TQF
+survey TQF "Scialet TQF"
 
 centerline
 
@@ -8,8 +8,8 @@ fix 16 855385.7 3309470.6	1426.7
 station 16 "Scialet TQF" entrance
 
 date 2011.07.7
-team "Cécile S."
-team "Gilles"
+    team "Cécile S."
+    team "Gilles"
 
 units length meters
 units compass grads 

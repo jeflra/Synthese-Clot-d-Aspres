@@ -4,7 +4,7 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Apocalypso-plan-tot 
+map MP-Apocalypso-plan-tot -title "Scialet Apocalypso"
 SP-Apo-1
 endmap
 # map MC-Apocalypso-coupe-tot 

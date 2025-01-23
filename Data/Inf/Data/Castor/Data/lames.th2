@@ -78,11 +78,13 @@ endline
 line pit -reverse on
   116.0 110.5
   125.25 113.0 125.25 114.75 131.25 114.5
+  smooth off
 endline
 
 line pit
   122.25 94.25
   127.75 94.75 124.25 93.5 135.75 96.5
+  smooth off
 endline
 
 line wall -subtype pit
@@ -144,11 +146,12 @@ line pit
   smooth off
 endline
 
-point 101.25 142.0 label -text [Puits des lames<br>(P40)]
+point 91.25 174.5 label -text [<center>puits<br>des Lames<br>(P40)]
 
 line wall
   45.75 151.25
   44.25 149.75 32.0 149.75 28.75 143.0
+  altitude .
   27.78 140.98 29.75 134.25 34.5 130.5
   39.25 126.75 61.75 119.25 69.5 117.75
   smooth off
@@ -310,6 +313,12 @@ line contour
   76.25 84.0 73.25 82.25 73.25 82.25
   smooth off
 endline
+
+point 99.75 98.0 map-connection
+
+point 77.0 108.25 map-connection
+
+point 117.25 82.5 map-connection
 
 line wall -id l-lames-0
   69.5 108.5

@@ -1,14 +1,16 @@
 survey castor-entree
   centerline
     date 2024.07.06
-    team "Alexis Delanoë" instruments # distoX du SGCAF
-    team "Jef Gaucher" notes 
+      team "Alexis Delanoë" instruments # distoX du SGCAF
+      team "Jef Gaucher" notes 
     units length meters
     units compass clino degrees
     data normal from to length compass clino
 
     cs UTM32
     fix 1 230688.13 4992670.28 1450 # 1: peinture orange
+
+    station 1 "Scialet du Grand Castor" entrance
 
     extend right
     1 . 2.43 149.6 -1.8
