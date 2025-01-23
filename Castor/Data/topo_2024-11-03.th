@@ -1,0 +1,21 @@
+survey castor-pince
+  centerline -extend right
+    date 2024.11.03
+    team "Jeffery Wade" notes
+    team "Jean Héraud" instruments # shuntoo + lasermètre :( :( 
+    units length meters
+    units compass clino degrees
+    data normal from to length backcompass backclino left right up down
+
+    0 1 3.97  262 -61   1   1   4    0    # le point est sur l'amarrage qui est pret pour le puits qui suit (gauche). Habillge fictif
+    1 2 2.35  266 -56.9 0   0.3 0.5  1.2  # En face de l'amarrage sur un point.
+    2 3 6.90  264 -68   0   1   1    1    # Sur un rebord à gauche en arrivant par le bas du puits.
+    3 4 3.96  195 -80.3 2   0   2    1    # Milieu du puit sur un point (il faudra un dev autour d'ici car la courde frotte).
+    4 5 11.31 188 -74.8 1.5 0   2    1    # Point est sur l'amerrage.
+    5 6 3.07  306 -58.3 0   1   3    2    # Mur au derrière à droite (longueur d'un bras) quand en face l'amarrage.
+    6 7 2.98  297 -18.3 0.2 0.2 0.5  1.5  # 5cm décalé vers le centre de la gallerie depuis le noeud de Y.  
+    7 8 2.85  336 -22.9 0.3 0.2 0    1    # collé au plafound sur un surface très plat.
+    8 9 4.13  89   1.1  0.2 1   0.25 1    # l'extérieur du virage sur le pas.
+    9 10 2    90   0    1   1   1    1    # FICTIVE ! 9 est le grand pierre et sa face vers le boyau, cairn sur ce pierre en bas du puit des lames. 10 doit être le bas du puits des lames.
+  endcenterline
+endsurvey
