@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 628.00027 624.06326
+##XTHERION## xth_me_area_adjust -73.25 -82.25 575.5 603.0
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {59.05500000000001 1 1.0} {433.067 1.2} Grotte_Clots_Aspres-map-03.xvi 0 {}
 
@@ -61,9 +61,15 @@ line wall -reverse on
   424.25 71.25 422.25 70.5 420.5 67.0
   418.75 63.5 418.25 58.5 417.5 55.5
   smooth off
+  altitude .
 endline
 
-point 234.75 466.0 label -text [Entrée inf]
+line wall -subtype invisible
+  255.5 447.0
+  255.5 447.0 230.5 448.0 222.75 441.75
+endline
+
+point 234.5 473.75 label -text [Entrée inf]
 
 point 235.0 455.5 entrance -orientation 160.2
 
@@ -129,7 +135,7 @@ endline
 
 point 294.0 163.25 entrance -orientation 12.6
 
-point 294.25 153.25 label -text [Entrée sup]
+point 294.0 142.5 label -text [Entrée sup]
 
 line pit -close on -clip off
   293.75 177.0
@@ -181,6 +187,7 @@ line wall -reverse on
   306.25 298.75 312.75 293.0 317.25 293.75
   321.75 294.5 326.0 292.75 329.5 292.75
   smooth off
+  altitude .
 endline
 
 line wall -reverse on
@@ -302,7 +309,7 @@ point 234.525 320.197 station -name 6.1
 
 point 413.25 47.0 narrow-end
 
-point 345.5 291.0 breakdown-choke
+point 331.75 290.25 breakdown-choke -orientation 272.7
 
 point 238.385 441.807 station -name 5.15
 
@@ -353,7 +360,7 @@ line wall
   smooth off
 endline
 
-point 400.75 169.0 label -text [Entrée sup]
+point 421.25 178.75 label -text [Entrée sup]
 
 point 401.0 159.25 entrance -orientation 140.0
 

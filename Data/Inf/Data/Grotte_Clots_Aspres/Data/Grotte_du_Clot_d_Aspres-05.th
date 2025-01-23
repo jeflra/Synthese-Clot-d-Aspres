@@ -4,13 +4,15 @@ survey Grotte_du_Clot_d_Aspres-05 -title "Grotte du Clot Aspres (fond)"
 	
 	centerline
 		date 2013.09.21
+			team "Guy Lamure"
+			team "Olivier Venaut"
+			team "Fabien Darne"
 		
-		team "Guy Lamure"
-		team "Olivier Venaut"
-		team "Fabien Darne"
-		
+		explo-date 2006
+			explo-team "Clan/des Tritons"
+			explo-team "G.S. Vulcain"
 		explo-date 2013
-		explo-team "Clan/des Tritons"
+			explo-team "Clan/des Tritons"
 		
 		units length meters
 		units compass grad

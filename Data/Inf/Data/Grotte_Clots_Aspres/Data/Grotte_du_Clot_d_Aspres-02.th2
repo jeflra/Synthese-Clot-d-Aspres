@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 612.25223 600.4412
+##XTHERION## xth_me_area_adjust -86.5 -76.75 566.5 554.0
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {433.07 1 1.0} {409.446 1.21} Grotte_Clots_Aspres-map-02.xvi 0 {}
 
@@ -47,6 +47,7 @@ point 42.75 424.75 narrow-end
 line wall
   54.49000000000001 419.176
   54.49000000000001 419.176 53.25 415.75 58.25 411.25
+  altitude .
   63.25 406.75 72.75 400.75 76.0 398.25
   79.25 395.75 81.5 394.0 81.5 391.5
   81.5 389.0 81.0 385.5 81.75 382.5
@@ -169,7 +170,7 @@ endline
 
 point 236.25 346.75 height -value [+5 m]
 
-point 105.75 322.0 label -text [Galerie fait péter les nounours] -scale l
+point 105.75 322.0 label -text [g. fait péter les nounours] -scale l
 
 line pit -scale l
   93.5 394.5
@@ -217,7 +218,7 @@ point 389.5 265.0 blocks
 
 point 400.0 268.75 blocks
 
-point 437.25 329.25 label -text [Galerie Benji] -scale l
+point 437.25 329.25 label -text [g. Benji] -scale l
 
 line arrow
   424.0 387.75

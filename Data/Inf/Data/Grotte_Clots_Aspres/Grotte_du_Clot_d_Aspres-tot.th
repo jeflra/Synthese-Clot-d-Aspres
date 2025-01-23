@@ -8,35 +8,36 @@ survey Grotte_du_Clot_Aspres -title "Grotte du Clot d'Aspres"
 	
 	input Data/Grotte_du_Clot_d_Aspres-01.th
 	input Data/Grotte_du_Clot_d_Aspres-02.th
-	equate  1.21@Grotte_du_Clot_d_Aspres-01 1.21@Grotte_du_Clot_d_Aspres-02
+		equate  1.21@Grotte_du_Clot_d_Aspres-01 1.21@Grotte_du_Clot_d_Aspres-02
 	input Data/Grotte_du_Clot_d_Aspres-03.th
-	equate  1.2@Grotte_du_Clot_d_Aspres-01 1.2@Grotte_du_Clot_d_Aspres-03
+		equate  1.2@Grotte_du_Clot_d_Aspres-01 1.2@Grotte_du_Clot_d_Aspres-03
 	input Data/Grotte_du_Clot_d_Aspres-04.th
-	equate  11.0@Grotte_du_Clot_d_Aspres-02 11.0@Grotte_du_Clot_d_Aspres-04
+		equate  11.0@Grotte_du_Clot_d_Aspres-02 11.0@Grotte_du_Clot_d_Aspres-04
 	input Data/Grotte_du_Clot_d_Aspres-05.th
-	equate  1.53@Grotte_du_Clot_d_Aspres-01 1.53@Grotte_du_Clot_d_Aspres-05
+		equate  1.53@Grotte_du_Clot_d_Aspres-01 1.53@Grotte_du_Clot_d_Aspres-05
 	
 	## Pour le plan
 	input Data/Grotte_du_Clot_d_Aspres-01.th2
 	input Data/Grotte_du_Clot_d_Aspres-02.th2
-	join SP-Grotte_du_Clot_d_Aspres-01	SP-Grotte_du_Clot_d_Aspres-02 #-count 4
+		join SP-Grotte_du_Clot_d_Aspres-01	SP-Grotte_du_Clot_d_Aspres-02 #-count 4
 	input Data/Grotte_du_Clot_d_Aspres-03.th2
-	join SP-Grotte_du_Clot_d_Aspres-01	SP-Grotte_du_Clot_d_Aspres-03 #-count 4
+		join SP-Grotte_du_Clot_d_Aspres-01	SP-Grotte_du_Clot_d_Aspres-03 #-count 4
 	input Data/Grotte_du_Clot_d_Aspres-04.th2
-	join SP-Grotte_du_Clot_d_Aspres-02	SP-Grotte_du_Clot_d_Aspres-04 #-count 4
+		join SP-Grotte_du_Clot_d_Aspres-02	SP-Grotte_du_Clot_d_Aspres-04 #-count 4
 	input Data/Grotte_du_Clot_d_Aspres-05.th2
-	join SP-Grotte_du_Clot_d_Aspres-01	SP-Grotte_du_Clot_d_Aspres-05 #-count 4
+		join SP-Grotte_du_Clot_d_Aspres-01	SP-Grotte_du_Clot_d_Aspres-05 #-count 4
 	
 	## Pour la coupe développée
 	input Data/Grotte_du_Clot_d_Aspres-coupe-01.th2
 	input Data/Grotte_du_Clot_d_Aspres-coupe-02.th2
-	join SC-Grotte_du_Clot_d_Aspres-01	SC-Grotte_du_Clot_d_Aspres-02
+		join SC-Grotte_du_Clot_d_Aspres-01	SC-Grotte_du_Clot_d_Aspres-02
 	input Data/Grotte_du_Clot_d_Aspres-coupe-03.th2
-	join SC-Grotte_du_Clot_d_Aspres-01	SC-Grotte_du_Clot_d_Aspres-03
+		join SC-Grotte_du_Clot_d_Aspres-01	SC-Grotte_du_Clot_d_Aspres-03
 	input Data/Grotte_du_Clot_d_Aspres-coupe-04.th2
-	join SC-Grotte_du_Clot_d_Aspres-02	SC-Grotte_du_Clot_d_Aspres-04
+		join SC-Grotte_du_Clot_d_Aspres-02	SC-Grotte_du_Clot_d_Aspres-04
 	input Data/Grotte_du_Clot_d_Aspres-coupe-05.th2
-	join SC-Grotte_du_Clot_d_Aspres-01	SC-Grotte_du_Clot_d_Aspres-05
+		join SC-Grotte_du_Clot_d_Aspres-01	SC-Grotte_du_Clot_d_Aspres-05
+	
 	## Appel des maps
 	input Grotte_du_Clot_d_Aspres-maps.th
 	

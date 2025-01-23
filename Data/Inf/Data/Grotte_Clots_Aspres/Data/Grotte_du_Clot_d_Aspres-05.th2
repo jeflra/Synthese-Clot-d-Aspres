@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -119.0 -125.0 263.0 262.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -116.0 -121.5 258.75 257.75
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {15.747600000000006 1 1.0} {82.67710000000001 1.53} Grotte_Clots_Aspres-map-05.xvi 0 {}
 
 
@@ -37,6 +37,7 @@ line wall -reverse on
   68.0 38.25 70.5 32.0 70.25 29.0
   70.0 26.0 70.25 19.5 71.0 17.75
   smooth off
+  altitude .
 endline
 
 point 68.25 7.75 narrow-end
@@ -71,7 +72,6 @@ point 95.0 114.5 water-flow -orientation 50.5
 line wall -subtype invisible
   66.75 16.25
   71.0 17.75
-  altitude .
 endline
 
 point 90.5 63.75 label -text R4
@@ -87,7 +87,7 @@ endline
 
 point 53.25 100.0 height -value [-6 m]
 
-point 27.25 99.0 label -text [Siphon temporaire]
+point 27.25 99.0 label -text [siphon temp.]
 
 area sump
   l45-20-72
