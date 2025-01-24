@@ -1,13 +1,15 @@
 encoding utf-8 
 
-survey Scialet_Candy -title "Scialet Candy" -entrance "Candy" 
+survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy" 
 
 	centerline
 	date 2012.7.31
-	team "Clément Garnier"
-	team "Baudouin Lismonde"
+		team "Clément Garnier"
+		team "Baudouin Lismonde"
+
 	cs UTM31
 	fix Candy 702998 4989356 1580 
+	station Candy "Scialet Candy - Grotte à Cédric" entrance
 
 	units compass clino degree
 	data normal from to length backcompass backclino right left up down
@@ -43,8 +45,9 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 
 	#declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
 	date 2012.08.04
-	team "Clément Garnier"
-	team "Martin Gerbaux"
+		team "Clément Garnier"
+		team "Martin Gerbaux"
+
 	data normal from to length backcompass backclino left right up down
 
 	1_23       1_24                      1.70  156.00   23.00   0.50   0.50   1.00   5.00
@@ -176,9 +179,10 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 
 	# declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
 	date 2012.8.14
-	team "Clément Garnier"
-	team "Guy Masson"
-	team "Cédric Astier"
+		team "Clément Garnier"
+		team "Guy Masson"
+		team "Cédric Astier"
+
 	data normal from to length backcompass backclino left right up down
 
 	1_140      1_141                     3.60  168.00    0.00   0.20   0.20   0.50   1.00
@@ -263,8 +267,8 @@ survey Scialet_Candy -title "Scialet Candy" -entrance "Candy"
 
 	# declination -0.87 grad # (calcul avec logiciel declimag) + gisement UTM
 	date 2012.8.31
-	team "Clément Garnier"
-	team "Martin Gerbaux"
+		team "Clément Garnier"
+		team "Martin Gerbaux"
 
 	data normal from to length backcompass backclino left right up down
 	1_213      1_214                     1.50  285.00   35.00   0.00   2.00  10.00   1.00

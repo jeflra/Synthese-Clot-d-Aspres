@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 387.84265999999997 482.3309
+##XTHERION## xth_me_area_adjust -139.25 -93.0 408.25 507.5
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {212.59799999999998 1 1.0} {314.957 Grotte_du_Clot_Aspres} Grotte_Clots_Aspres-map-01.xvi 0 {}
 
@@ -12,6 +12,8 @@ line pit -reverse on -scale l
   132.5 310.0 165.25 305.25 175.0 295.25
   smooth off
 endline
+
+point 279.0 378.25 label -text "<bf>G. du Clos d'Aspres" -scale xl
 
 point 207.75 345.5 label -text Entrée -scale l
 
@@ -221,6 +223,7 @@ endline
 line wall -subtype invisible
   190.0 319.0
   198.25 323.5 233.5 320.25 240.0 318.75
+  smooth off
 endline
 
 line wall
@@ -380,11 +383,11 @@ point 106.25 45.25 height -value [-14 m]
 
 point 101.25 60.0 height -value [-21 m]
 
-point -10.0 121.0 label -text [Puits de la <br>Nouvelle génération]
+point -10.0 121.0 label -text [<center>puits de la <br>Nouvelle Génération]
 
 point 137.25 220.5 dig
 
-point 173.5 234.75 label -text [Siphon temporaire]
+point 153.0 236.25 label -text [siphon temp.] -align right
 
 line pit-chimney -close on
   126.0 233.75

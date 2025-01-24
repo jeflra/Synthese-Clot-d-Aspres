@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1762.1900000000005 -1803.08 10501.66 21681.22
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust 353.0 260.0 7427.0 11291.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1279.1899999999996 1 1.0} {608.4099999999999 Candy} Scialet_Candy-map.xvi 0 {}
 
 
@@ -65,6 +65,7 @@ line wall -reverse on
   1222.75 631.75 1229.5 635.5 1222.5 640.0
   1215.5 644.5 1215.0 643.5 1211.0 653.5
   1207.0 663.5 1160.0 684.5 1155.0 696.0
+  altitude .
   1150.0 707.5 1178.5 730.5 1203.5 702.0
   smooth off
 endline
@@ -245,24 +246,28 @@ line chimney -close on
   1318.0 703.0 1298.0 730.5 1293.0 730.0
 endline
 
-point 903.5 1358.5 air-draught -orientation 300.0 -subtype summer
+point 898.5 1341.5 air-draught -orientation 300.0 -subtype summer
 
 line wall
 endline
 
-point 1242.0 569.5 label -text "Candy<br><center>1580m" -scale xl -align bottom
+point 1336.0 575.0 entrance -orientation 299.5
 
-point 1223.0 592.5 air-draught -orientation 30.0 -subtype summer
+point 1272.0 561.0 entrance -orientation 26.7
 
-point 1360.5 846.5 label -text "R18" -align right
+point 1568.0 606.5 label -text "<center><bf>scialet<br>Candy" -scale xl -align bottom
+
+point 1181.0 498.5 air-draught -orientation 30.0 -subtype summer
+
+point 1369.5 843.5 label -text "R18" -align right
 
 point 1319.5 728.0 label -text "P8" -align right
 
-point 1278.0 641.5 label -text "P14" -align right
+point 1298.0 636.5 label -text "P14" -align right
 
-point 1330.0 590.0 label -text "Raton" -align right
+point 1174.0 393.0 label -text "<bf>s. du Raton" -scale xl -align right
 
-point 1201.5 617.5 label -text "P5" -align bottom-left
+point 1183.5 616.5 label -text "P5" -align bottom-left
 
 point 1269.0 945.0 label -text "E22" -align bottom-left
 
@@ -272,7 +277,7 @@ line chimney -close on
   1228.5 732.5 1257.0 754.5 1246.0 760.5
 endline
 
-point 1417.5 945.0 label -text "Salle des<br>campeurs" -align right
+point 1417.5 945.0 label -text "salle des<br>Campeurs" -align right
 
 line chimney -close on
   1292.5 971.0
@@ -413,7 +418,7 @@ point 1025.0 1378.5 label -text "P4" -align right
 
 point 919.5 1419.5 label -text "P15" -align right
 
-point 671.0 1464.0 label -text "Salle des Associés<br><center>Savourant leur Victoire" -align bottom
+point 486.0 1803.0 label -text "<center>salle des Associés<br>Savourant leur Victoire"
 
 line pit
   763.5 1514.0
@@ -562,9 +567,9 @@ point 1615.5 3809.0 label -text "P9" -align top
 
 point 1829.5 3894.0 label -text "P28" -align top
 
-point 2618.5 4035.0 label -text "P12" -align top-left
+point 2644.5 3828.0 label -text "P12 de la Perte (siphon)" -align top-right
 
-point 2736.0 4055.0 label -text "P10" -align top-right
+point 2743.0 4055.0 label -text "P10" -align top-right
 
 line water-flow
   2676.5 4042.0
@@ -578,7 +583,16 @@ line water-flow
   2759.0 3994.0
 endline
 
-point 2297.0 3832.0 label -text "R8" -align bottom
+line wall -close on -reverse on -outline in
+  2250.0 3982.0
+  2226.0 3973.0
+  2226.0 3973.0 2215.0 3956.0 2225.0 3956.0
+  2235.0 3956.0 2256.0 3958.0 2254.0 3967.0
+  2252.0 3976.0 2250.0 3982.0 2250.0 3982.0
+  smooth off
+endline
+
+point 2308.0 3817.0 label -text "R8" -align bottom
 
 line wall -subtype "unsurveyed"
   2263.0 3842.5
@@ -592,7 +606,7 @@ line wall -reverse on -subtype "unsurveyed"
   2311.0 3858.5
 endline
 
-point 2250.5 3822.0 label -text "P10" -align bottom
+point 2232.5 3761.0 label -text "P10" -align bottom
 
 line water-flow
   2649.0 3891.0
@@ -734,7 +748,7 @@ line pit
   smooth off
 endline
 
-point 1064.5 3149.0 label -text "P22 du<br>nouveau pays" -align right
+point 1112.5 3156.0 label -text "P22 du<br>nouveau pays" -align right
 
 line pit
   1012.5 3115.0
@@ -803,7 +817,7 @@ line wall -close on -reverse on -outline in
   1173.5 2670.0 1155.0 2662.5 1155.5 2658.5
 endline
 
-point 1065.0 3080.5 label -text "R3" -align right
+point 1083.0 3080.5 label -text "R3" -align right
 
 point 1143.0 2814.0 label -text "R3" -align right
 
@@ -836,6 +850,22 @@ endline
 line pit
   1153.0 2621.5
   1156.5 2624.5 1160.0 2634.0 1160.0 2634.0
+  smooth off
+endline
+
+point 1373.0 2448.0 continuation -attr Code ? -attr Cavite "Scialet Candy" -text "Départ à voir ?"
+
+line wall
+  1362.0 2489.0
+  1362.0 2489.0 1350.0 2513.0 1343.0 2513.0
+  1336.0 2513.0 1331.0 2511.0 1331.0 2511.0
+  smooth off
+endline
+
+line wall
+  1323.5 2490.0
+  1323.5 2490.0 1331.0 2505.0 1334.0 2500.0
+  1337.0 2495.0 1348.0 2477.0 1348.0 2477.0
   smooth off
 endline
 
@@ -895,7 +925,11 @@ line wall -reverse on
   1190.98 2607.89 1238.0 2632.5 1249.0 2625.5
   1260.0 2618.5 1291.0 2589.5 1296.5 2582.5
   1301.89 2575.64 1324.5 2535.5 1327.0 2526.5
-  1328.93 2519.54 1327.0 2498.0 1323.5 2490.0
+  1328.93 2519.54 1334.5 2519.0 1331.0 2511.0
+endline
+
+line wall -reverse on
+  1323.5 2490.0
   1320.0 2482.0 1302.0 2395.0 1293.5 2391.0
   1285.0 2387.0 1233.0 2369.5 1223.5 2373.5
   1214.0 2377.5 1208.5 2380.5 1193.5 2383.5
@@ -1069,7 +1103,7 @@ line pit
   smooth off
 endline
 
-point 1124.0 2009.0 label -text "P12" -align right
+point 1124.0 2009.0 label -text "P12 à Silex" -align right
 
 point 1095.11 1993.9499999999996 station -name 1_35
 
@@ -1096,7 +1130,7 @@ line pit -close on
   2162.5 3828.5 2171.16 3827.42 2172.08 3833.7099999999996
 endline
 
-point 1342.5 2499.0 label -text "P8" -align right
+point 1357.5 2569.0 label -text "P8" -align right
 
 point 1280.5 2618.5 label -text "P10 de la<br>cathédrale" -align top-right
 
@@ -1202,6 +1236,7 @@ line wall
   1096.5 3275.5 1088.0 3270.5 1084.5 3266.0
   1081.0 3261.5 1056.5 3251.5 1049.0 3241.5
   1041.5 3231.5 992.5 3241.0 991.0 3229.0
+  altitude .
   989.5 3217.0 1003.5 3183.5 1005.5 3171.5
   1007.04 3162.28 1012.0 3133.5 1018.0 3118.5
   1024.0 3103.5 1042.0 3103.5 1046.0 3102.0
@@ -1234,7 +1269,7 @@ line pit -close on
   1090.0 2382.0 1097.0 2389.5 1092.5 2393.0
 endline
 
-line wall -reverse on -outline in
+line wall -reverse on -outline in -subtype unsurveyed
   1227.5 2565.0
   1223.5 2560.0 1208.01 2559.39 1213.5 2540.0
   1221.0 2513.5 1221.5 2478.0 1222.5 2467.5
@@ -1251,7 +1286,7 @@ line water-flow
   smooth off
 endline
 
-line wall
+line wall -subtype unsurveyed
   1217.5 2569.0
   1217.5 2569.0 1202.0 2553.5 1203.0 2550.0
   1204.0 2546.5 1215.5 2488.0 1215.0 2476.5
