@@ -4,7 +4,7 @@ encoding  utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #  <http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Scialet_Candy-plan-tot -title "Scialet_Candy"
+map MP-Scialet_Candy -title "Scialet Candy - Grotte à Cédric"
   candy_entree
   break
   candy_transfauge
@@ -14,7 +14,7 @@ map MP-Scialet_Candy-plan-tot -title "Scialet_Candy"
   candy_Nino_Ferrer
 
 
-
+  break
   SP-Candy-1
   break
   SP-Candy-2
@@ -44,7 +44,7 @@ map MP-Scialet_Candy-plan-tot -title "Scialet_Candy"
   SP-Candy-14
 
 endmap
-# map MC-Scialet_Candy-coupe-tot -title "Scialet_Candy"
+# map MC-Scialet_Candy -title "Scialet Candy - Grotte à Cédric"
 #   # SC-Scialet_Candy-1
 #   #break
 #   #SC-Scialet_Candy-2
