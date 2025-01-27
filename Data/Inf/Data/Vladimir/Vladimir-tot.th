@@ -1,0 +1,11 @@
+encoding utf-8 
+
+
+survey Vladimir -title "Glacière Vladimir - YB 3 39"
+
+	input Data/Vladimir.th
+	#input Data/Plan.th2
+	
+	#input Vladimir-maps.th
+
+endsurvey
