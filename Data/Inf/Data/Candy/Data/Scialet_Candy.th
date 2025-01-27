@@ -730,12 +730,8 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -758,12 +754,8 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -775,19 +767,15 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 			100_35	100_36	4.20	81.00	18.00	0.00	1.00	1.00	0.50
 			100_36	100_37	9.00	134.00	12.00	1.00	1.00	8.00	1.00
 			100_37	100_38	8.40	0.00	90.00	2.00	0.00	15.00	1.00
-			100_38	100_38d	0.00	0.00	0.00	4.00	0.00	0.00	0.00	# arret bas de diaclase remontante de 15m
+			100_38	100_38d	0.00	0.00	0.00	4.00	0.00	0.00	0.00	# arret bas de diaclase remontante de 15 m
 
 	endcenterline
 
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -806,12 +794,9 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+
 
 		units length meters 
 		units compass degrees 
@@ -836,12 +821,8 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 		units length meters 
 		units compass degrees 
@@ -864,12 +845,9 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -899,12 +877,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -998,12 +974,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1031,12 +1006,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1069,12 +1042,9 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1093,12 +1063,9 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
 			 
 		#explo-date YYYY.MM.DD 
-			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1120,12 +1087,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1150,12 +1116,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1173,12 +1138,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1197,12 +1161,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1220,12 +1183,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1251,12 +1213,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1275,12 +1236,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1295,12 +1255,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1328,12 +1287,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1362,12 +1320,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1395,12 +1352,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1415,12 +1371,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1446,12 +1401,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1470,12 +1424,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1498,12 +1451,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1533,12 +1485,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1580,12 +1531,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1603,12 +1552,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1631,12 +1579,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1703,12 +1650,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1727,12 +1673,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1756,12 +1701,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1781,12 +1725,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1802,12 +1745,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1827,12 +1769,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1860,12 +1801,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1887,12 +1827,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1920,12 +1859,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1947,12 +1885,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -1984,12 +1921,8 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	# centerline 
 	# 	#date YYYY.MM.DD 
-	# 	# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-	# 	# declination Dep degrees 
 			 
 	# 	#explo-date YYYY.MM.DD 
-			
-	# 	# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
 
 	# 	units length meters 
 	# 	units compass degrees 
@@ -2007,12 +1940,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	# centerline 
 	# 	#date YYYY.MM.DD 
-	# 	# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-	# 	# declination Dep degrees 
 			 
 	# 	#explo-date YYYY.MM.DD 
 			
-	# 	# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+	# 	
 
 	# 	units length meters 
 	# 	units compass degrees 
@@ -2030,12 +1961,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2071,12 +2001,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2100,12 +2029,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2133,12 +2061,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2157,12 +2084,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2183,13 +2109,13 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 
 	centerline 
-		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Inc degrees 
+		date 2017.08.26
+			team "Jean-Paul Héreil"
+			team "Hervé Vico"
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2218,12 +2144,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2243,12 +2168,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2264,12 +2188,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2285,12 +2208,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2321,12 +2242,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2343,12 +2262,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2363,12 +2280,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2382,12 +2297,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2401,12 +2314,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2428,12 +2339,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2449,12 +2358,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2478,12 +2385,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2497,12 +2402,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2517,12 +2420,10 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Arr degrees 
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2538,12 +2439,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2566,12 +2466,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2586,12 +2485,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2613,12 +2511,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2642,12 +2539,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
@@ -2672,12 +2568,11 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 
 	centerline 
 		#date YYYY.MM.DD 
-		# Si date est utilis�, commenter la ligne "# declination", la date sera utilis�e pour la calculer
-		# declination Dep degrees 
+
 			 
 		#explo-date YYYY.MM.DD 
 			
-		# (peut �tre compl�t� en ajoutant le nombre de lignes n�cessaires) 
+		
 
 		units length meters 
 		units compass degrees 
