@@ -4,13 +4,12 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Amadjide-plan-tot -title "Scialet Amadjide"
-	SP-Amadjide-1
-    break
-    SP-Amadjide-2
+map MP-Vladimir -title "Glacière Vladimir - YB 3 39"
+    #SP-TQF-2
+    
 endmap
 
 
-# map MC-Amadjide-coupe-tot  -title "Scialet Amadjide"
+# map MC-Vladimir -title "Glacière Vladimir - YB 3 39"
 
 # endmap

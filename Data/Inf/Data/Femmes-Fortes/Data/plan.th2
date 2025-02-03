@@ -1,13 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 2332.7256 1702.804
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -127.99999999999989 -128.00200000000007 2716.0 1800.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2047.25 1 1.0} {866.1389999999999 Femmes_Fortes} Femmes-Fortes-map.xvi 0 {}
 
 
 
 scrap SP-FF-1 -projection plan -station-names "" "@Femmes_fortes" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
-point 498.0 1294.0 continuation -attr Code D -attr Cavite "Femmes Fortes" -attr CA 'Présent' -text "Meandre avec courant d'air"
+point 400.0 1400.0 air-draught -orientation 233.1
+
+point 498.0 1294.0 continuation -attr Code D -attr Cavite "Femmes Fortes" -attr CA "Courant d'air" -text "Meandre avec courant d'air"
 
 line slope
   604.0 808.0
@@ -23,7 +25,12 @@ line slope -reverse on
   l-size 57.7
 endline
 
-point 1298.0 424.0 label -text "<center>P7<br>Puits du moteur<br>à eau"
+line arrow
+  1776.0 1620.0
+  1236.0 724.0
+endline
+
+point 1810.0 1652.0 label -text "<center>P7<br>p. du moteur<br>à eau"
 
 line pit
   686.0 622.0
@@ -31,9 +38,9 @@ line pit
   smooth off
 endline
 
-point 578.0 626.0 label -text "P7"
+point 486.0 530.0 label -text "P7"
 
-point 372.0 824.0 label -text "P5"
+point 328.0 756.0 label -text "P5"
 
 line pit -reverse on
   486.0 1024.0
@@ -53,7 +60,9 @@ line pit
   smooth off
 endline
 
-point 2096.0 884.0 entrance -orientation 245.3
+point 2568.0 520.0 label -text "<center><bf>s. des<br>Femmes Fortes"
+
+point 2224.0 944.0 entrance -orientation 245.3
 
 line wall
   942.0 826.0
@@ -72,6 +81,7 @@ endline
 
 line wall
   2038.0 910.0
+  altitude .
   1980.0 892.0 1890.0 862.0 1842.0 836.0
   1794.0 810.0 1748.0 680.0 1696.0 672.0
   1644.0 664.0 1574.0 678.0 1542.0 666.0
@@ -109,6 +119,7 @@ line wall
   434.0 1272.0
   406.0 1252.0 366.0 1196.0 340.0 1194.0
   314.0 1192.0 220.0 1148.0 192.0 1128.0
+  altitude .
   164.0 1108.0 100.0 1034.0 136.0 1010.0
   172.0 986.0 260.0 908.0 268.0 890.0
   276.0 872.0 382.0 910.0 426.0 908.0

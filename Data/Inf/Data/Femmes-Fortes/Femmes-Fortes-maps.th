@@ -4,9 +4,9 @@ encoding utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Femmes-Fortes-plan-tot 
+map MP-Femmes-Fortes-plan-tot -title "Scialet des Femmes Fortes"
 	SP-FF-1
 endmap
-# map MC-Femmes-Fortes-coupe-tot 
+# map MC-Femmes-Fortes-coupe-tot -title "Scialet des Femmes Fortes"
 
 # endmap

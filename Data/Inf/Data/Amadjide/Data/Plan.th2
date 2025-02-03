@@ -1,13 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -723.4870000000001 1757.0 1183.6226000000001
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -68.0 -556.0 1414.0 1294.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {80.0 1 1.0} {895.6226000000001 {}} {../Archive/Scialet Amadjide avec squelette 001.jpg} 0 {}
 
 
 
 scrap SP-Amadjide-1 -projection plan -station-names "" "@Amadjide" -scale [-128.0 -723.4870000000001 1757.0 -723.4870000000001 0.0 0.0 47.879 0.0 m]
 
-point 695.0 95.5 entrance -orientation 329.7
+point 795.0 -354.0 label -text "<bf>Scialet Amadjide" -scale xl
+
+point 801.0 21.5 entrance -orientation 319.0
 
 point 995.1769999999999 -416.01700000000005 station -name Amadjide
 
@@ -22,11 +24,51 @@ line wall
   548.5 220.5 579.5 189.0 589.0 181.0
   598.5 173.0 608.5 159.5 617.5 153.5
   626.5 147.5 644.0 127.5 655.0 132.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  416.0 542.5
+  365.5 524.5
+endline
+
+line pit
+  629.5 518.5
+  629.5 518.5 623.0 467.0 667.0 484.5
+endline
+
+line pit
+  550.0 447.0
+  550.0 447.0 554.5 410.0 581.5 409.0
+endline
+
+line pit
+  581.0 189.0
+  581.0 189.0 660.0 235.0 643.0 287.0
+endline
+
+line pit
+  520.0 246.0
+  520.0 246.0 575.0 274.0 560.0 313.0
+endline
+
+point 70.0 249.0 height -value [-15 m]
+
+line pit
+  472.0 382.0
+  472.0 382.0 490.0 333.5 524.0 333.5
+endline
+
+line wall -subtype invisible
+  655.0 132.0
+  655.0 132.0 730.0 173.0 724.5 200.5
 endline
 
 line wall
   724.5 200.5
+  altitude .
   728.0 225.5 728.0 247.0 717.0 251.5
+  smooth off
 endline
 
 line wall
@@ -76,7 +118,6 @@ endscrap
 
 scrap SP-Amadjide-2 -projection plan -station-names "" "@Amadjide" -scale [-128.0 -723.4870000000001 1757.0 -723.4870000000001 0.0 0.0 47.879 0.0 m]
 
-
 point 678.4169999999998 792.473 station -name 6.2
 
 point 490.9069999999998 825.0229999999999 station -name 7
@@ -91,6 +132,7 @@ line wall
   604.5 773.5 587.5 793.0 582.0 801.5
   576.5 810.0 567.5 817.5 547.5 821.5
   527.5 825.5 485.0 841.0 483.0 837.5
+  altitude .
   481.0 834.0 449.5 793.5 448.0 787.5
   446.5 781.5 427.0 752.5 424.5 744.5
   422.0 736.5 421.5 723.0 420.0 702.0
@@ -114,6 +156,13 @@ line pit -close on
   517.0 802.0 501.0 798.5 499.0 783.0
 endline
 
+line wall -subtype invisible
+  707.0 781.0
+  673.5 803.5
+endline
+
+point 1275.0 1156.0 label -text "<center>boyau<br>du Chat"
+
 line wall
   399.0 402.0
   381.5 398.5 382.0 398.0 384.5 384.0
@@ -135,6 +184,6 @@ endline
 
 point 396.8369999999998 388.7729999999999 station -name 4
 
-
-
 endscrap
+
+
