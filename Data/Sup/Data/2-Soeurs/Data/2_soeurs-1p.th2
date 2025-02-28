@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -23689.17 -5656.580000000001 5936.924600000002 6016.748999999999
 ##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {-14656.089999999997 1 1.0} {-2250.380000000001 0@2-soeurs.2-Soeurs} 2-Soeurs-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {-13188.089999999997 1 1.0} {-4982.379999999999 0@2-soeurs.2-Soeurs} 2-Soeurs-map.xvi 0 {}
 
 
 
@@ -44,6 +44,35 @@ point 3636.0 -868.0 entrance
 point -6136.0 -1860.0 air-draught -orientation 116.6 -scale xl
 
 point -56.0 -448.0 air-draught -orientation 124.4 -scale xl
+
+line pit -reverse on
+  -1540.0 384.0
+  -1484.0 380.0 -1068.0 224.0 -1112.0 92.0
+endline
+
+line water-flow
+  -8540.0 -2460.0
+  -8592.0 -2468.0 -8680.0 -2548.0 -8820.0 -2584.0
+  -8960.0 -2620.0 -9188.0 -2584.0 -9252.0 -2584.0
+  -9316.0 -2584.0 -9600.0 -2528.0 -9668.0 -2520.0
+  -9736.0 -2512.0 -9860.0 -2496.0 -9900.0 -2496.0
+  -9940.0 -2496.0 -10096.0 -2488.0 -10172.0 -2476.0
+  -10248.0 -2464.0 -10376.0 -2476.0 -10456.0 -2508.0
+endline
+
+point -10156.0 -2744.0 label -text "P20"
+
+line pit -reverse on
+  -10112.0 -2320.0
+  -10032.0 -2392.0 -9944.0 -2440.0 -10048.0 -2584.0
+endline
+
+point -3040.0 -676.0 label -text "P6"
+
+line pit -reverse on
+  -3156.0 -236.0
+  -3120.0 -268.0 -2968.0 -444.0 -3024.0 -552.0
+endline
 
 line wall
   3270.0 -760.0
@@ -362,7 +391,7 @@ line wall -reverse on
   smooth off
 endline
 
-point -19296.0 3504.0 label -text "Puits de la Verna"
+point -20136.0 3472.0 label -text "Puits de la Verna"
 
 line wall
   -17858.0 980.0

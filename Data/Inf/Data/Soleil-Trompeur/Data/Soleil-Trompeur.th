@@ -3,9 +3,9 @@ survey Soleil-Trompeur
 
 centerline
 
-cs EPSG:27573#lambertIII
-# cs UTM31
- fix CAF-225 855385.7  3309470.6  1426.7
+cs EPSG:2154
+
+ fix CAF-225 903159.738 6440793.570 1430
 
 station CAF-225 "Scialet Soleil-Trompeur" entrance
 
