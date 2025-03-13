@@ -9,7 +9,7 @@ survey blizzard -title "Scialet du Blizzard"
 input Data/riviere_casse_pied/RCP-tot.th
 input Data/Principal/Principal-tot.th
 equate A51@Principal.Blizzard A0@riviere_casse_pieds.riviere_casse_pieds
-
+join SP-Principal-3@Blizzard   casse-pied_1@riviere_casse_pieds
 
 
 endsurvey

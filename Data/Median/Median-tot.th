@@ -16,6 +16,8 @@ input Data/Silence/Silence-tot.th #add maps
 input Data/Pre-Achard/pre-achard-tot.th
 equate A22@pre_achard_suite.pre_achard-tot A76@Silence.Silence
 
+equate 323@Silence.Silence A3@riviere_casse_pieds.riviere_casse_pieds.blizzard # jonction a confirmer
+
 input Median_maps.th
 
 join SP-Principal-5@Blizzard.blizzard SP-SB-5@pre_achard-tot

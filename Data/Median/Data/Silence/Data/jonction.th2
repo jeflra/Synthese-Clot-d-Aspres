@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -329.78999999999894 -2006.4599999999991 10920.131 12809.057
-##XTHERION## xth_me_area_zoom_to 25
-##XTHERION## xth_me_image_insert {1120.5 1 1.0} {11499.453 {}} Silence_plan_jonction.png 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1123.5 1 1.0} {11542.453 {}} Silence_plan_jonction.png 0 {}
 ##XTHERION## xth_me_image_insert {5333.700000000001 1 1.0} {3423.1400000000003 00@silence_7eme_art.Silence} Silence_plan.xvi 0 {}
 
 

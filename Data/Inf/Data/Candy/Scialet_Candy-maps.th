@@ -4,7 +4,7 @@ encoding  utf-8
 # Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
 #  <http://creativecommons.org/licenses/by-nc-sa/4.0/>
 
-map MP-Scialet_Candy -title "Scialet Candy - Grotte à Cédric"
+map MP-Scialet_Candy-plan-tot -title "Scialet Candy - Grotte à Cédric"
   candy_entree
   break
   candy_transfauge

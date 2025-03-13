@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -41.0 -146.0 1533.0 1970.0246
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {87.0 1 1.0} {1842.0246 {}} riviere_casse_pieds_(topo_GSM).gif 0 {}
 ##XTHERION## xth_me_image_insert {1191.239 1 1.0} {1638.54 A00} riviere_casse_pieds_plan.xvi 0 {}
 
@@ -156,11 +156,6 @@ endline
 area water
   l156-416-780
 endarea
-
-line water-flow
-  1196.75 1633.25
-  1236.75 1634.75
-endline
 
 line water-flow
   929.25 1439.0
@@ -1441,6 +1436,7 @@ line label -text "Rivière Casse Pieds"
   772.0 1361.0
   795.71 1379.77 895.0 1387.0 934.0 1409.0
   973.0 1431.0 1052.0 1478.0 1072.0 1495.0
+  smooth off
 endline
 
 line wall

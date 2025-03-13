@@ -122,6 +122,8 @@ layout my_layout
 	color-legend smooth
 
    debug station-names
+   debug on
+   debug scrap-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
