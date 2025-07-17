@@ -13,8 +13,8 @@ survey CAF-132 -title "La Chambre Froide - CAF-132" -entrance CAF132
   units compass grad
   units clino degree
 
-  cs UTM31
-  fix CAF132 703218 4989471 1568 #UTM31
+  cs EPSG:2154
+  fix CAF132 903138 6440020 1568 #UTM31
   #fix CAF132 855522 3308320 0 #1568
 
   data normal from to compass clino length

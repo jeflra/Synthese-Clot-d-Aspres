@@ -79,12 +79,12 @@ Une convention a été mise en place pour la gestion des points d\'interrogation
 ### Dessin a commencer
 - Scialet de la Malléole -> livre azimut 0
 - Agnes
-- Vladimir -> livre azimut 0
-
+- Mistral (Merci à Sophie et Yannick Carfantan pour les données)
 
 ### Manque données
 - Antre des glaces (Pascal Groseil, Christian Hubert )
-- Mistral (Robert Crozier du C.A.S.C. et Jean Philippe Grandcolas des Tritons)
+- Vladimir -> livre azimut 0
+
 
 ## Création de données : MapToDat
 

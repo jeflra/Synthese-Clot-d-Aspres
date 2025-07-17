@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -332.5 -3999 5080.5 8781.56
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Bagnards_Sc37_Page_3.png 0 {}
 ##XTHERION## xth_me_image_insert {64.5 1 1.0} {6434.0 {}} Bagnards_Sc37.png 0 {}
 
@@ -1053,7 +1053,7 @@ line border -clip off
   smooth off
 endline
 
-line border
+line pit
   1243.5 -2968.0
   1246.0 -2974.0 1257.0 -2986.5 1258.0 -2995.0
   1259.0 -3003.5 1253.5 -3024.5 1255.5 -3034.0

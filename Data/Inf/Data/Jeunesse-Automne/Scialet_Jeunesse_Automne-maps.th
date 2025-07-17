@@ -9,7 +9,11 @@ map MP-Scialet_Jeunesse_d'Automne-plan-tot -title "Scialet_Jeunesse_Automne"
 	break
 	SP-JA-2
 	break
+	SP-JA-4
+	break
 	SP-JA-3
+	break
+	SP-JA-5
 endmap
 # map MC-Scialet_Jeunesse_d'Automne-coupe-tot -title "Scialet_Jeunesse_Automne"
 # 	SC-Scialet_Jeunesse_d'Automne-1

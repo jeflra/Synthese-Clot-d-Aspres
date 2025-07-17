@@ -117,10 +117,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
 
-   debug station-names
+   # debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  

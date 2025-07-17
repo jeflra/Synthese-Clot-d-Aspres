@@ -2,8 +2,8 @@ survey Vladimir "Glacière Vladimir - YB 3 39"
 
 centerline
 
-cs EPSG:27573#lambertIII
-#fix Vladimir 855385.7 3309470.6	1426.7  # A définir
+cs EPSG:2154
+fix Vladimir 903177.94 6439681.91	1426.7  # A définir
 station Vladimir "Glacière Vladimir - YB 3 39" entrance
 
 #date 2011.07.7

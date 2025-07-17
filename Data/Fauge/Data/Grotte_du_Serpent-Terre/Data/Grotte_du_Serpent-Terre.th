@@ -5,8 +5,8 @@ survey serpenterre -title "Grotte du Serpent-Terre - CAF-236" -entrance "1.0"
 	centerline 
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
-		cs long-lat 
-		fix 1.0   5.5730 45.0478 1350
+		cs EPSG:2154 
+		fix 1.0   902541.95 6442028.07 1350
 		station 1.0 "Grotte du Serpent-Terre - CAF236" entrance
 
 		#date YYYY.MM.DD 

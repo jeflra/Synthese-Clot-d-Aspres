@@ -4,8 +4,8 @@ survey TQF -title "Scialet TQF"
 
 centerline
 
-cs EPSG:27573#lambertIII
-fix 16 855385.7 3309470.6	1426.7
+cs EPSG:2154#lambertIII
+fix 16 903145.11 6439970.80	1586
 
 station 16 "Scialet TQF" entrance
 

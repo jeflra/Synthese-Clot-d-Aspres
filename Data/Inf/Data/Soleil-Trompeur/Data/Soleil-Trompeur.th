@@ -5,14 +5,14 @@ centerline
 
 cs EPSG:2154
 
- fix CAF-225 903159.738 6440793.570 1430
+fix CAF-225 903159.738 6440793.570 1430
 
 station CAF-225 "Scialet Soleil-Trompeur" entrance
 
-# date 2014.11.08
+date 2014.11.08
 team "Clément Garnier"  
 team "Jean Héraud"
-declination 1 degrees
+# declination 1 degrees
 
 units length meters
 units compass degrees 
@@ -42,7 +42,7 @@ endcenterline
 centerline
 date 2015.02.07
 team "Jean-Paul Héreil"  
-declination 1 degrees
+# declination 1 degrees
 
 units length meters
 units compass degrees 
@@ -55,9 +55,9 @@ data normal from to  compass clino length
 endcenterline
 
 centerline
-# date 2015.02.07
+date 2015.02.07
 team "Jean-Paul Héreil"  
-declination 1 degrees
+# declination 1 degrees
 
 units length meters
 units compass degrees 

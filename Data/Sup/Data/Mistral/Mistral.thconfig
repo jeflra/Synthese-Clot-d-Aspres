@@ -18,7 +18,7 @@ layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo
 	#scale 1 50 # pour le plan
-	scale 1 1000 # pour la coupe
+	scale 1 100 # pour la coupe
 	# taille de la grille
 	grid-size 1 1 1 m
 	# mettre la grille en arrière plan
@@ -48,7 +48,7 @@ layout my_layout
    # employee, c est le cas apres avoir dessine la topo
    # sur un cheminement exporte avec le layout "xviexport"
    # (voir en bas)
-   base-scale 1 500
+   base-scale 1 100
 
    # "scale" : specification de l echelle,
    # pour imprimer la topo. La combination entre scale et base-scale
@@ -59,7 +59,7 @@ layout my_layout
    # l imprimante ne specifie pas l option "Fit in page"
    # ou similaire, sinon, l echelle sera change pendant
    # l impression
-   scale 1 500
+   scale 1 100
 
    #surface bottom
    #surface-opacity 70
@@ -307,7 +307,7 @@ export map -proj [elevation 17] -layout xviexport -o Data/Mistral-coupe_elevatio
 #  select MC-Mistral-coupe-tot@Mistral
 	 
 #export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Mistral-coupe_elevation.pdf 
-#export map -projection extended -layout my_layout-coupe -o Outputs/Mistral-coupe.pdf 
+export map -projection extended -layout my_layout-coupe -o Outputs/Mistral-coupe.pdf 
 export map -o Outputs/Mistral-plan.pdf -layout my_layout
  
 export model -enable centerline -o Outputs/Mistral.lox

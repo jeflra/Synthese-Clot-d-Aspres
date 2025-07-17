@@ -33,7 +33,7 @@ encoding  utf-8
 
 source synthese.th
 input config.thc 
-source GIS/MNT_Fauges.th
+# source GIS/MNT_Fauges.th
 
 
 #input synthese.th2

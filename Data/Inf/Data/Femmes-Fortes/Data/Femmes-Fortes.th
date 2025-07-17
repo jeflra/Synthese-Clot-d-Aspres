@@ -2,9 +2,8 @@ survey Femmes_fortes -title "Scialet des Femmes Fortes"
 
 centerline
 
-cs EPSG:27573#lambertIII
-#cs UTM31
-fix Femmes_Fortes 855540 3308200	1600
+cs EPSG:2154
+fix Femmes_Fortes 903156 6439898	1607
 
 station Femmes_Fortes "Scialet des Femmes Fortes" entrance
 

@@ -4,8 +4,10 @@ survey P200 -title "P200"
     
 
   centerline
-    cs long-lat
-    fix 0 5.577677 45.002700 2042
+    # cs long-lat
+    # fix 0 5.577677 45.002700 2042
+    cs EPSG:2154
+    fix 0 903073.47 6437033.75 2042
 
     date 2018.07.22 
     team ced 

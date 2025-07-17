@@ -6,8 +6,9 @@ survey PerteFauge -title "Perte de la Fauge" -entrance "PerteFauge"
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		#cs long-lat
-		cs UTM31 
-		fix PerteFauge   703025 4990973 1326
+		cs EPSG:2154 
+		# fix PerteFauge   703025 4990973 1326 #UTM31 
+		fix PerteFauge 902944 6441520 1326
 
 		station PerteFauge "Perte de la Fauge" entrance
 			 

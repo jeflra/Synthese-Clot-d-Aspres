@@ -2,9 +2,9 @@ survey Apocalypso -title "Scialet Apocalypso"
 
 centerline
 
-cs EPSG:27573#lambertIII
-#cs UTM31
-fix Apocalypso 855385.7	3309470.6	1426.7
+cs EPSG:2154
+
+fix Apocalypso 903010.54	6441170.22	1426.7
 station Apocalypso "Scialet Apocalypso" entrance
 
 date 2016.04.16 

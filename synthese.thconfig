@@ -11,7 +11,7 @@ input config.thc
 # Add entrances coordinates
 # input legendes/entrances_coordinates.th
 
-source GIS/MNT_Fauges.th
+source GIS/Data/MNT_Fauges.th
 
 # 2-LAYOUT   
 
@@ -330,3 +330,5 @@ export model  -fmt esri -o Outputs/Synthese-model
 # Export des fichiers kml
 export map -proj plan -fmt kml -o Outputs/Synthese.kml -layout my_layout
 export model -fmt kml -o Outputs/Synthese-model.kml
+
+export cave-list -output ../Output/cave-list.csv

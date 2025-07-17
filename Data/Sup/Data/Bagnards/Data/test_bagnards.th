@@ -1,6 +1,8 @@
 survey Bagnards -title "Bagnards" -entrance Bagnards
 #Données créer à partir de MapToCave, il est pas conseillé de reprendre cela pour faire une topographie
 centerline
+date 1989.06.01 #date adapté
+
 cs EPSG:2154
 fix Bagnards	902919.744 6438417.294 1823 #1959 
 station Bagnards "Bagnards"

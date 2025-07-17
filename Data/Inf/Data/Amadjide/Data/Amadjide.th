@@ -2,8 +2,8 @@ survey Amadjide -title "Scialet Amadjide"
 
 centerline
 
-cs UTM31
-fix Amadjide 703251 4989302 1616
+cs EPSG:2154
+fix Amadjide 903171.19 6439850.91 1624
 station Amadjide "Scialet Amadjide" entrance
 
 date 2011.07.16 
