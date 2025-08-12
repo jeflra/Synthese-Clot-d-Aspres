@@ -44,9 +44,6 @@ station Flippes  "Flippés (Scialet des)" entrance
 fix SCV92-FLT  5.5830349 45.0137883 1877
 station SCV92-FLT  "SCV 92-FLT (Grotte)" entrance
 
-fix F01 5.580936 45.036329 1441
-station F01 "F01 (Scialet) [F1] [CAF 159]" entrance
-
 fix Coucou 5.5824836 45.0271764 1715
 station Coucou  "Coucou (Scialet du) [F3]" entrance #diam 0 5m P=15 m pas de suite
 
@@ -71,12 +68,6 @@ station T46 "T 46"entrance
 fix Feutre 5.582087 45.0367004 1437
 station Feutre "Feutré (Scialet) [CAF 160]" entrance
 
-fix Vladimir 5.5800942 45.0265463 1662	
-station Vladimir "Vladimir (Grotte) [YB 3 39]" entrance
-
-fix Femmes-Fortes 5.5799132 45.0284498 1607
-station Femmes-Fortes "Femmes Fortes (Scialet des) [CAF 139]" entrance
-
 fix Tout-Fauge 5.5772076 45.0278448 1598	
 station Tout-Fauge "Tout Fauge (Scialet) [YB 3 32]" entrance
 
@@ -88,9 +79,6 @@ station Isa "Isa (Scialet d')" entrance
 
 fix P08 5.58548115	45.0336079 1615.868
 station P08 "FJS P08" entrance
-
-
-
 
 fix YB48 5.57988496906059 45.0247146355246 1702 
 station YB48 "YB48"  entrance
@@ -180,8 +168,7 @@ fix CAF135 5.58074503904141 45.0367847147937 1349.0
 station CAF135 "CAF135"  entrance
 fix CAF130 5.58387374089133 45.0345543869035 1557.0 
 station CAF130 "CAF130"  entrance
-fix Caf236 5.57298045503647 45.0478979154859 1340.0 
-station Caf236 "Caf 236" entrance
+
 fix CAF210 5.58026400358882 45.0288490000551 1608.4 
 station CAF210 "CAF210"  entrance
 fix Arche 5.58176847289536 45.0225656029746 1805.0 
@@ -218,8 +205,7 @@ fix AVEN11 5.58071095158892 45.0315103871793 1570.0
 station AVEN11 "11"  entrance
 fix AVEN10 5.58008968421338 45.0312453762295 1542.0 
 station AVEN10 "10"  entrance
-fix 1_0 5.57561937367621 45.0267735213728 1584.0 
-station 1_0 "1_0"  entrance
+
 fix AVEN1 5.58008444675303 45.0280228240846 1624.0 
 station AVEN1 "1"  entrance
 fix AVEN034 5.57979800358976 45.0421300000565 1334.2 

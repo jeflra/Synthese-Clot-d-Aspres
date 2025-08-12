@@ -5,7 +5,7 @@ centerline
 cs EPSG:2154
 fix Femmes_Fortes 903145.35	6439948.02	1593.061
 
-station Femmes_Fortes "Scialet des Femmes Fortes" entrance
+station Femmes_Fortes "Scialet des Femmes Fortes [CAF139]" entrance
 
 date 2011.09.19
     team "Yann Cairo"
