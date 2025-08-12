@@ -89,6 +89,9 @@ station Isa "Isa (Scialet d')" entrance
 fix P08 5.58548115	45.0336079 1615.868
 station P08 "FJS P08" entrance
 
+
+
+
 fix YB48 5.57988496906059 45.0247146355246 1702 
 station YB48 "YB48"  entrance
 fix YB45b 5.57990547994949 45.0246061537366 1660.0 
@@ -139,14 +142,8 @@ fix SPL1 5.57948596908038 45.0380989866471 1398.0
 station SPL1 "SPL1"  entrance
 fix Sonde 5.57366990479526 45.0452132086118 1392.0 
 station Sonde "Sonde"  entrance
-fix Scialet-1-Fauge 5.57867658767702 45.0433038131002 1326.0 
-station Scialet-1-Fauge "Scialet 1 Fauge"  entrance
 fix Saut-ange 5.57515743442495 45.0434067363374 1422.0 
 station Saut-ange "Saut de l'ange"  entrance
-fix Perte-Fauge 5.57789353270999 45.0431144555353 1324.0 
-station Perte-Fauge "Perte Fauge"  entrance
-fix Grotte-Tritons 5.57502977059944 45.0266878709795 1681.0 
-station Grotte-Tritons "Grotte des Tritons"  entrance
 fix FJS23 5.58248574683369 45.0320193568242 1606.0 
 station FJS23 "FJS23"  entrance
 fix FJS17 5.58095321212064 45.0329452084906 1547.0 
@@ -232,6 +229,8 @@ station AVEN0 "0"  entrance
 fix AVEN0b 5.58105454349681 45.0284239759713 1607.0 
 station AVEN0b "0b"  entrance
 
-
+cs EPSG:2154
+fix P06 902945.06	6441522.01	1331.022
+station P06 "FJS P06" entrance
 endcenterline
 endsurvey

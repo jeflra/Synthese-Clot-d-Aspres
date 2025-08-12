@@ -6,7 +6,7 @@ survey Brise_de_Coeur -title "Brise de Coeur - CAF-232" -entrance "1_0"
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		cs EPSG:2154 
-		fix 1_0  903142.21 6439569.62 1680
+		fix 1_0  903140.182	6439564.411	1670.556
 		station 1_0 "Brise de Coeur - CAF-232" entrance
 
 		date 2014

@@ -14,7 +14,7 @@ units clino degree
 
 
 cs EPSG:2154
-fix CAF131 903138	6439994	1573 
+fix CAF131 903136.175	6440005.884	1578.944
 station CAF131 "CAF-131" entrance
 
 units count cm

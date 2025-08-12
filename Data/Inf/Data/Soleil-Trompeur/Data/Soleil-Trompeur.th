@@ -5,7 +5,7 @@ centerline
 
 cs EPSG:2154
 
-fix CAF-225 903159.738 6440793.570 1430
+fix CAF-225 903158 6440791 1431.5
 
 station CAF-225 "Scialet Soleil-Trompeur" entrance
 

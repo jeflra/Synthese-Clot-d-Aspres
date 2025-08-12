@@ -6,7 +6,8 @@ survey Grotte_du_Clot_d_Aspres-03 -title "Grotte du Clot Aspres (entrées sup)"
 	centerline
 		
 		date 2007.04.22
-		
+		cs EPSG:2154
+
 		team "Guy Lamure"
 		team "Claude Schaan"
 		team "Jean-Philippe Grandcolas"
@@ -21,9 +22,15 @@ survey Grotte_du_Clot_d_Aspres-03 -title "Grotte du Clot Aspres (entrées sup)"
 		explo-team "G.S. Pont-de-Claix"
 		
 		station 5.15 "Entrée inf" entrance 
+		fix 5.15 902823.803	6439676.81	1653.201
+
 		station 8.5 "Entrée sup" entrance 
+		fix 8.5 902838.096	6439608.381	1682.223
+
 		station 6.18 "Entrée sup (Principale)" entrance 
-		
+		fix 6.18 902864.122	6439604.284	1680.427
+
+
 		units length meters
 		units compass grad
 		units clino degrees

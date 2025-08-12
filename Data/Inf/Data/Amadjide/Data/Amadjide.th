@@ -3,7 +3,7 @@ survey Amadjide -title "Scialet Amadjide"
 centerline
 
 cs EPSG:2154
-fix Amadjide 903171.19 6439850.91 1624
+fix Amadjide 903152.86	6439867.97 1610.37 #DGPS pas sur d'etre sur la bonne entrée
 station Amadjide "Scialet Amadjide" entrance
 
 date 2011.07.16 

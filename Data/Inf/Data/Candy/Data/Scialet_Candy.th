@@ -7,8 +7,8 @@ survey Scialet_Candy -title "Scialet Candy - Grotte à Cédric" -entrance "Candy
 		team "Clément Garnier"
 		team "Baudouin Lismonde"
 
-	cs UTM31
-	fix Candy 702998 4989356 1580 
+	cs EPSG:2154
+	fix Candy 902917.428 6439903.442 1577.173 
 	station Candy "Scialet Candy - Grotte à Cédric" entrance
 
 	units compass clino degree

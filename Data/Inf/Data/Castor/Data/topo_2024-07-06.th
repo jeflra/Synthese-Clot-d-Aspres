@@ -7,10 +7,9 @@ survey castor-entree
     units compass clino degrees
     data normal from to length compass clino
 
-    # cs UTM32
-    # fix 1 230688.13 4992670.28 1450 # 1: peinture orange
     cs EPSG:2154
-    fix 1 903200 6440771 1450
+    fix 1 903204.763	6440774.625	1439.776
+
 
     station 1 "Scialet du Grand Castor" entrance
 

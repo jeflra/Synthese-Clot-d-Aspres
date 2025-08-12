@@ -3,7 +3,7 @@ survey Femmes_fortes -title "Scialet des Femmes Fortes"
 centerline
 
 cs EPSG:2154
-fix Femmes_Fortes 903156 6439898	1607
+fix Femmes_Fortes 903145.35	6439948.02	1593.061
 
 station Femmes_Fortes "Scialet des Femmes Fortes" entrance
 

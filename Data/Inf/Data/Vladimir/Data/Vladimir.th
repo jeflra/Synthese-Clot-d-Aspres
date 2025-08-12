@@ -3,7 +3,7 @@ survey Vladimir "Glacière Vladimir - YB 3 39"
 centerline
 
 cs EPSG:2154
-fix Vladimir 903177.94 6439681.91	1426.7  # A définir
+fix Vladimir 903177.479 6439686.848	1662  # inventaire clement
 station Vladimir "Glacière Vladimir - YB 3 39" entrance
 
 #date 2011.07.7

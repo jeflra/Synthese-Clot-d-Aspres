@@ -4,7 +4,7 @@ survey Scialet_de_la_Malleole -title "Scialet de la Malleole [YB 03-31]" -entran
 
 	centerline 
 		cs EPSG:2154
-		fix 1_0 902988.70 6439794.25 1630
+		fix 1_0 902987.236	6439793.76	1611.611
 		station 1_0 "Scialet de la Malleole [YB 03-31]" entrance
 
 		date 2014.02 

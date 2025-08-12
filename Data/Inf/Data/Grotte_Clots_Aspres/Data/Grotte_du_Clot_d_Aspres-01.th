@@ -4,9 +4,9 @@ survey Grotte_du_Clot_d_Aspres-01 -title "Grotte du Clot Aspres (entrée)" -entr
 	
 	centerline
 		
-		cs EPSG:27573  # Lambert III
-		fix Grotte_du_Clot_Aspres 855163.00 3307984.00 1672
-		
+		cs EPSG:2154  # Lambert III
+		fix Grotte_du_Clot_Aspres 902775.273 6439685.607	1673.881 # DGPS cailloux 5m devant entree
+
 		date 2006.06.17
 		team "Guy Lamure"
 		team "Claude Schaan"

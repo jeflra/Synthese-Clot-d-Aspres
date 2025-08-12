@@ -6,7 +6,7 @@ survey Scialet_Jeunesse_Automne -title "Scialet Jeunesse Automne" -entrance "1_0
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		cs EPSG:2154 
-		fix 1_0 903041.980 6439598.529 1666 1.0 1.0 1.0
+		fix 1_0 903038.736	6439599.609	1663.166
 		
 
 		date 2016

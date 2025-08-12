@@ -4,7 +4,7 @@ centerline
 date 1989
 
 cs EPSG:2154
-fix Nymphe	902954.2 6437490.3 2026.8
+fix Nymphe	902954.225 6437490.707 2027.4 #pointage carte
 station Nymphe "Nymphe Emue"
 
 units length feet

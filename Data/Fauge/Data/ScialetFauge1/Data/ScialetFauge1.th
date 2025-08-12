@@ -1,15 +1,15 @@
 encoding utf-8 
 
-survey ScialetFauge1 -title "Perte de la Fauge" -entrance "ScialetFauge1" 
+survey ScialetFauge1 -title "Perte de la Fauge" 
 
 	centerline 
 		# Si le systeme de coordonn�es n'est pas le syst�me Lambert fran�ais, voir le Thbook et le fichier extern/proj4/nad/epsg dans le dossier source de Therion 
 		# Si les coordonn�es de l'entr�e sont connues, copier dans la centerline correspondante et d�commenter les 2 lignes suivantes : 
 		#cs long-lat
-		cs UTM31 
-		fix ScialetFauge1   703086 4990996 1326
+		cs EPSG:2154 
+		fix 5   902994.797	6441557.709	1333.272 #DGPS point sur poteau
 
-		station ScialetFauge1 "Scialet de la Fauge n°1" entrance
+		station 3 "Scialet de la Fauge n°1" entrance
 			 
 		explo-date 1989 
 			explo-team "Pierre Garcin"
@@ -22,6 +22,72 @@ survey ScialetFauge1 -title "Perte de la Fauge" -entrance "ScialetFauge1"
 
 		#data topofil from to length compass clino left right up down
 		
+    date 2025.08.09 
+    team "Oceane Terral"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    # extend auto
+    0 . 0.62 106.3 23.6
+    0 . 1.28 127.0 16.0
+    0 . 1.99 141.6 12.6
+    0 . 1.32 160.6 17.2
+    0 . 0.90 209.0 10.2
+    0 . 0.94 221.0 43.0
+    0 . 0.94 221.7 63.6
+    0 . 0.50 63.3 81.1
+    0 . 1.62 163.8 43.7
+    0 . 2.00 155.5 51.0
+    0 . 1.63 136.9 59.4
+    0 . 1.33 115.6 50.7
+    0 . 0.97 204.3 -41.7
+    0 . 1.06 199.3 -77.8
+    0 . 0.66 66.6 -79.0
+    0 . 0.83 329.9 -17.6
+    0 . 1.37 320.8 -18.1
+    0 . 0.97 251.3 6.6
+    0 . 1.94 265.1 20.4
+    0 . 1.14 299.8 28.7
+    extend right
+    0 1 1.76 284.8 -51.6
+    # extend auto
+    1 . 1.82 338.3 -31.8
+    1 . 1.58 352.7 -30.2
+    1 . 1.41 353.7 -31.6
+    1 . 0.69 15.3 -9.6
+    1 . 0.90 43.9 10.6
+    1 . 1.76 67.7 59.6
+    1 . 1.92 44.5 82.9
+    1 . 2.14 216.4 73.3
+    1 . 1.70 208.9 60.6
+    1 . 1.23 218.0 36.5
+    1 . 1.85 242.9 45.6
+    1 . 1.70 260.8 7.2
+    1 . 1.74 281.5 8.0
+    1 . 2.66 301.6 50.9
+    1 . 3.79 296.6 56.1
+    extend right
+    1 2 3.68 296.7 56.0
+    # extend auto
+    2 . 2.42 110.3 -16.6
+    2 . 2.42 126.4 -19.3
+    2 . 1.61 102.4 -20.7
+    2 . 1.30 89.5 -29.4
+    2 . 3.86 108.2 -52.6
+    2 . 3.48 126.2 -45.7
+    2 . 0.71 94.8 -57.0
+    2 . 0.99 185.1 -36.0
+    2 . 1.29 199.7 -3.9
+    2 . 2.26 177.1 0.7
+    2 . 2.46 182.9 -10.3
+    2 . 1.27 222.9 19.2
+    extend left
+    2 3 1.40 201.6 11.1
+    extend right
+    3 4 4.88 18.6 39.9
+    extend vertical
+    4 5 7.70 88.2 9.6
+  
 
 	endcenterline
 
