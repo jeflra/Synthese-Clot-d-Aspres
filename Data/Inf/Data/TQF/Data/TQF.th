@@ -1,0 +1,49 @@
+encoding  utf-8
+
+survey TQF -title "Scialet TQF"
+
+centerline
+
+cs EPSG:2154#lambertIII
+fix 16 903145.11 6439970.80	1586
+
+station 16 "Scialet TQF" entrance
+
+date 2011.07.7
+    team "Cécile S."
+    team "Gilles"
+
+units length meters
+units compass grads 
+units clino degrees
+data normal from to  length backcompass clino  
+
+0 1 2.06 250 -14
+1 2 3.5 0 -90
+2 3 1.53 275 0
+3 4 4.56 0 -90
+4 5 3.47 125 -31.4
+5 6 4.61 62 -23.9
+
+data normal from to  length compass clino  
+
+6 6'' 6.46 237 45
+6 6' 4.26 342 -4.5
+
+data normal from to  length backcompass clino
+6 7 5.55 345 -21.6
+7 8 8.28 0 -90
+8 9 2.32 265 0
+9 10 7 0 -90
+10 11 3.16 76 -11.8
+11 12 1 65 -2.58
+12 13 4.11 32 -1.1
+13 14 5.67 395 -10.4 
+data normal from to  length compass clino  
+
+14 15 5.32 126 20.9
+data normal from to  length backcompass clino
+15 16 6.9 0 0
+endcenterline
+
+endsurvey

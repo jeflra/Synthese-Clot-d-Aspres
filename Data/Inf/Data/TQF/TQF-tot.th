@@ -1,0 +1,11 @@
+encoding utf-8 
+
+
+survey TQF -title "TQF"
+
+	input Data/TQF.th
+
+	input Data/Plan.th2
+	input TQF-maps.th
+	join SP-TQF-2 SP-TQF-1
+endsurvey

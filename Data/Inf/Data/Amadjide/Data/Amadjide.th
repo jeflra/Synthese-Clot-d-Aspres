@@ -1,0 +1,31 @@
+survey Amadjide -title "Scialet Amadjide"
+
+centerline
+
+cs EPSG:2154
+fix Amadjide 903152.86	6439867.97 1610.37 #DGPS pas sur d'etre sur la bonne entrée
+station Amadjide "Scialet Amadjide" entrance
+
+date 2011.07.16 
+    #team 
+
+units length meters
+units compass grads
+units clino degrees
+data normal from to  compass clino length 
+
+Amadjide	   1	 366.0 	 -18.0 		7.00	
+1	   2	 328.0 	 -73.0 		4.46	
+2	   3	 352.0 	 -82.0 		5.53	
+3	   4	   0.0 	 -90.0 		8.85	
+4	   5	 180.0 	 -55.0 		1.80	
+5	   6	  93.0 	 -34.0 		2.17		
+6	   7	 382.0 	 -48.0 		7.00		
+2	 2bis	 380.0 	0	1.10							 # méandre 2 au fractio
+2	 2ter	  52.0 	0	2.00	# galerie meandre au fractio
+6    6.1	 382.0 	 -34.0 		4.05								 # point de visée avant le boyau du chat
+6.1	 6.2  57.0 	  -2.0 	1.60								 
+
+endcenterline
+
+endsurvey

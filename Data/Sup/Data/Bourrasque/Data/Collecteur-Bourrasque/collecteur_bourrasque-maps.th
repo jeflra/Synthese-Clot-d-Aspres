@@ -1,0 +1,6 @@
+encoding  utf-8
+map MP-collecteur_bourrasque-plan-tot -title "collecteur_bourrasque"
+  riviere_menisque
+  break
+  reseau_sup
+endmap

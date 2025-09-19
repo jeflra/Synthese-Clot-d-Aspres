@@ -1,0 +1,20 @@
+survey ID-cuve -entrance ID-cuve -title "ID-cuve"
+
+
+
+centerline
+date 1989
+# cs EPSG:27573
+# fix ID-cuve	855280	3306740	1807
+cs EPSG:2154
+fix ID-cuve	902886.59	6438442.13	1807
+
+endcenterline
+
+
+
+
+
+
+
+endsurvey

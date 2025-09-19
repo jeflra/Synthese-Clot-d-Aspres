@@ -1,0 +1,21 @@
+encoding  utf-8
+
+map MP-Principal-tot 
+  SP-Principal-1
+  break
+  
+    SP-Principal-7
+  break
+  SP-Principal-8
+  break
+  SP-Principal-2
+  break
+  SP-Principal-5
+  break
+  SP-Principal-3
+  break
+SP-Principal-4
+  break
+  
+  SP-Principal-6
+endmap

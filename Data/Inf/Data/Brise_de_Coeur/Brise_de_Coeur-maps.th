@@ -1,0 +1,20 @@
+encoding utf-8 
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Brise_de_Coeur-plan-tot -title "Brise de Coeur - CAF-232"
+	SP-BC-1
+	break
+	SP-BC-2
+	break
+	SP-BC-3
+	break
+	SP-BC-4
+endmap
+# map MC-Brise_de_Coeur-coupe-tot -title "Brise de Coeur - CAF-232"
+# 	SC-Brise_de_Coeur-1
+# 	#break
+# 	#SC-Brise_de_Coeur-2
+# endmap

@@ -1,0 +1,13 @@
+survey Bagnards
+
+
+
+input "Data/Bagnards-plan.th2"
+
+input Data/test_bagnards.th 
+
+input Bagnards_maps.th
+
+
+endsurvey
+

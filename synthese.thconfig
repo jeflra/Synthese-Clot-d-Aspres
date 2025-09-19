@@ -3,13 +3,15 @@ encoding  utf-8
 # 1-SOURCES 
 
 source synthese.th
+
+
 # Add config file
 input config.thc 
 
 # Add entrances coordinates
 # input legendes/entrances_coordinates.th
 
-#source GIS/dem.th
+source GIS/Data/MNT_Fauges.th
 
 # 2-LAYOUT   
 
@@ -29,7 +31,9 @@ layout my_layout
    copy headerl
    copy langue-fr
    copy for_print 
-      
+     
+   # debug on 
+   
    # Titre  
    doc-title "Synthèse"
    # Auteur
@@ -59,8 +63,8 @@ layout my_layout
    # l impression
    scale 1 1000
 
-   #surface bottom
-   #surface-opacity 70
+   surface bottom
+   surface-opacity 70
 
    # echelle graphique 100 m ampleur
    scale-bar 100 m
@@ -119,11 +123,14 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
+   
    symbol-hide line survey
-   symbol-hide point cave-station
+   #symbol-hide point cave-station
 
    #debug station-names
-
+   #debug scrap-names
+   # debug on
+    
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
    grid bottom
@@ -254,10 +261,9 @@ layout my_layout-coupe
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
+   symbol-hide line survey
    #symbol-hide point cave-station
-
-   debug station-names
+   # debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -299,22 +305,22 @@ endlayout
 
 # 3-EXPORTS
 
-export map -fmt xvi -layout xviexport -o Data/Synthèse-map.xvi
-# export map -proj extended -layout xviexport -fmt xvi -o Data/Synthese-coupe.xvi
-# export map -proj [elevation 17] -layout xviexport -o Data/Synthese-coupe_elevation.xvi 
+#export map -fmt xvi -layout xviexport -o Data/Synthese-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Synthese-coupe.xvi
+#export map -proj [elevation 6] -layout xviexport -o Data/Synthese-coupe_elevation.xvi 
 
 # Select maps
-#	select MP-Synthèse-plan-tot@Synthese
+select MP-Clot-Aspres@synthese
 #  select MC-Synthèse-coupe-tot@Synthese
 	 
-# export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
-# export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
+#export map -projection [elevation 6] -layout my_layout-coupe -o Outputs/Synthese-coupe_elevation.pdf 
+#export map -projection extended -layout my_layout-coupe -o Outputs/Synthese-coupe.pdf 
 export map -o Outputs/Synthese-plan.pdf -layout my_layout
  
 export model  -o Outputs/Synthese.lox
-export model  -o Outputs/Synthese.dxf
+#export model  -o Outputs/Synthese.dxf
 export continuation-list -o Outputs/questions.html
-export cave-list -o Outputs/Synthese.html  
+export cave-list -location on -o Outputs/Synthese.html  
 
 # Export des fichiers ESRI
 export map -proj plan -fmt esri -o Outputs/Synthese -layout my_layout
@@ -324,3 +330,5 @@ export model  -fmt esri -o Outputs/Synthese-model
 # Export des fichiers kml
 export map -proj plan -fmt kml -o Outputs/Synthese.kml -layout my_layout
 export model -fmt kml -o Outputs/Synthese-model.kml
+
+export cave-list -output ../Output/cave-list.csv

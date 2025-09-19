@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 775.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 275.57m (from CAF132@CAF-132.CAF-132 at 1568.00m to 2_140@CAF-132.CAF-132 at 1292.43m)\nnorth-south range: 172.51m (from 2_134@CAF-132.CAF-132 at 4989637.81m to 4@CAF-132.CAF-132 at 4989465.30m)\neast-west range: 104.06m (from 02_4_1@CAF-132.CAF-132 at 703306.82m to 2_135@CAF-132.CAF-132 at 703202.76m)\nnumber of shots: 251\nnumber of stations: 254"
+xth_cp_data_tree_insert 45 1 1 CAF-132 CAF-132 "La Chambre Froide - CAF-132" "La Chambre Froide - CAF-132" "length: 775.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 275.57m (from CAF132@CAF-132.CAF-132 at 1568.00m to 2_140@CAF-132.CAF-132 at 1292.43m)\nnorth-south range: 172.51m (from 2_134@CAF-132.CAF-132 at 4989637.81m to 4@CAF-132.CAF-132 at 4989465.30m)\neast-west range: 104.06m (from 02_4_1@CAF-132.CAF-132 at 703306.82m to 2_135@CAF-132.CAF-132 at 703202.76m)\nnumber of shots: 251\nnumber of stations: 254"
+xth_cp_data_tree_insert 47 45 2 CAF-132 CAF-132.CAF-132 "La Chambre Froide - CAF-132" "La Chambre Froide - CAF-132" "length: 775.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 275.57m (from CAF132@CAF-132.CAF-132 at 1568.00m to 2_140@CAF-132.CAF-132 at 1292.43m)\nnorth-south range: 172.51m (from 2_134@CAF-132.CAF-132 at 4989637.81m to 4@CAF-132.CAF-132 at 4989465.30m)\neast-west range: 104.06m (from 02_4_1@CAF-132.CAF-132 at 703306.82m to 2_135@CAF-132.CAF-132 at 703202.76m)\nnumber of shots: 251\nnumber of stations: 254"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 592X1 p1 1 MP-CAF132 MP-CAF132@CAF-132 "La Chambre Froide - CAF-132" "La Chambre Froide - CAF-132"
+xth_cp_map_tree_create
+xth_cp_comp_stat 776 11
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1737544375
+

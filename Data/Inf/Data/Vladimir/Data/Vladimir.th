@@ -1,0 +1,20 @@
+survey Vladimir "Glacière Vladimir - YB 3 39"
+
+centerline
+
+cs EPSG:2154
+fix Vladimir 903177.479 6439686.848	1662  # inventaire clement
+station Vladimir "Glacière Vladimir - YB 3 39" entrance
+
+#date 2011.07.7
+#    team "Cécile S."
+#    team "Gilles"
+
+#units length meters
+#units compass grads 
+#units clino degrees
+#data normal from to  length backcompass clino  
+
+endcenterline
+
+endsurvey

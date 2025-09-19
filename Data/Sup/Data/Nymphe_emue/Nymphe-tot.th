@@ -1,0 +1,15 @@
+encoding  utf-8
+
+survey Nymphe -title "Nymphe Emue"
+
+
+
+   input Data/Nymphe_MTC.th 
+   input Data/Nymphe_plan-MTD.th2
+   input Data/jonction_plan-MTD.th2
+   input Nymphe-maps.th
+
+   join SP-jonction-1 SP-Nymphe-2
+   join SP-jonction-2 SP-Nymphe-1
+   join ID1 ID2 
+endsurvey

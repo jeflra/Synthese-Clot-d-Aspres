@@ -1,0 +1,120 @@
+encoding utf-8
+
+survey Grotte_du_Clot_d_Aspres-01 -title "Grotte du Clot Aspres (entrée)" -entrance "Grotte_du_Clot_Aspres"
+	
+	centerline
+		
+		cs EPSG:2154  # Lambert III
+		fix Grotte_du_Clot_Aspres 902775.273 6439685.607	1673.881 # DGPS cailloux 5m devant entree
+
+		date 2006.06.17
+		team "Guy Lamure"
+		team "Claude Schaan"
+		team "Laurence Tanguille"
+		
+		explo-date 2006
+		explo-team "Clan/des Tritons"
+		
+		
+		units length meters
+		units compass grad
+		units clino degrees
+		
+		data topofil from to length compass clino left right up down
+		extend right
+		Grotte_du_Clot_Aspres	0d	0.00	0.00	0.00	1.65	1.57	1.90	0.00	#
+		Grotte_du_Clot_Aspres	1.A	1.40	0.00	90.00	1.65	1.57	0.50	1.40	#  N ;porche d'entrée 3
+		1.A	1.1	5.13	166.00	-10.00	0.00	3.00	0.30	0.40	#
+		1.1	1.2	3.16	200.00	-10.00	1.03	2.60	0.82	0.20	#  N ;carrefour départ nouveau réseau - 1.2 = 5.0
+		1.2	1.3	5.65	328.00	3.00	0.00	0.50	0.76	1.04	#  N ;mondmilch
+		1.3	1.4	1.30	350.00	13.00	0.00	0.70	1.60	1.24	#  N ;départ en hauteur au-dessus du pt 1.4
+		1.4	1.5	4.65	305.00	-25.00	0.00	1.51	0.99	1.20	#
+		1.5	1.6	4.77	326.00	-28.00	0.00	2.83	1.62	1.05	#  N ;point 1.6 en haut de l'échelle
+		1.6	1.7	2.53	244.00	-55.00	0.00	0.96	2.74	1.32	#
+		1.7	2.1	5.54	328.00	7.00	0.56	0.55	1.23	1.23	#
+		1.7	1.8	3.48	179.00	-22.00	0.00	0.76	1.89	0.97	#  N ;méandre - azimut à vérifier !!
+		1.8	1.9	5.13	235.00	-21.00	0.96	0.00	2.70	1.51	#  N ;méandre
+		1.9	1.10	5.40	240.00	-27.00	0.00	1.14	0.37	0.70	#  N ;galerie se rabaisse
+		1.10	1.11	3.12	244.00	-27.00	0.91	0.68	0.66	0.38	#  N ;escaliers de déblais
+		1.11	1.12	1.68	225.00	-33.00	0.80	0.35	0.50	0.00	#  N ;point bas - passage désobstrué et siphon temporaire
+		extend left
+		1.13	1.12	1.49	23.00	-47.00	1.15	0.00	0.96	1.00	#
+		extend right
+		1.13	1.14	4.16	260.00	-20.00	0.71	0.63	1.65	0.00	#  N ;salle glaiseuse - cheminée de 7 métres qui queute
+		1.14	1.14a	0.40	0.00	90.00	0.71	0.63	1.25	0.40	#  N ;visée fictive : remontée de 0,40 au dessus du pt topo 1.14
+		extend left
+		1.14	1.14b	7.00	350.00	80.00	0.80	0.80	0.50	7.20	#  N ;puits remontant non topo
+		extend right
+		1.14a	1.15	1.96	258.00	3.00	0.20	0.20	0.40	0.00	#  N ;1.15 arrivée sur 2e passage désobstrué
+		1.16	1.15	1.24	320.00	-55.00	0.40	0.45	0.41	0.00	#  N ;visée inverse dans passage désobstrué - remontée de 1m dans le remplissage
+		1.16	1.17	3.77	231.00	22.00	2.88	1.65	0.56	0.59	#  N ;pont rocheux en travers de la galerie
+		1.17	1.18	7.43	232.00	15.00	0.00	1.20	1.33	0.81	#  N ;cheminées et arrivée d'eau
+		1.18	1.19	9.84	316.00	4.00	1.18	0.00	1.71	0.60	#
+		1.19	1.20	9.15	219.00	16.00	1.80	0.00	0.63	1.47	#  N ;perles
+		1.20	1.21	11.61	198.00	2.00	1.11	2.07	2.05	1.59	#  N ;point 21 marquage sur paroi - galerie 2x2
+		1.21	1.22	2.03	324.00	8.00	2.00	1.00	3.70	1.49	#  N ;pt 1.22 sur noeud du Y
+		1.22	1.23	13.69	0.00	-90.00	2.00	1.00	17.39	0.00	#  N ;P12
+		extend left
+		1.23	1.23a	3.65	324.00	0.00	2.87	1.26	20.00	0.00	#  N ;base du puits
+		extend right
+		1.23	1.24	4.16	124.00	-14.00	0.87	0.00	2.74	1.24	#  N ;méandre surcreuse la galerie
+		1.24	1.25	2.19	92.00	-11.00	0.00	0.40	1.75	1.04	#  N ;méandre surcreuse la galerie
+		1.25	1.26	2.03	185.00	-10.00	0.47	0.00	2.10	0.98	#  N ;hauteur dr 2,10 à 1,19 - méandre surcreuse la galerie
+		1.26	1.27	2.45	120.00	-24.00	0.00	0.67	2.50	0.45	#  N ;méandre
+		1.27	1.28	5.31	148.00	-18.00	0.40	0.35	2.23	0.66	#  N ;méandre
+		1.28	1.29	4.92	103.00	8.00	0.59	0.00	2.00	0.84	#  N ;méandre
+		1.29	1.30	2.73	130.00	4.00	0.57	0.58	1.12	1.34	#  N ;méandre
+		1.30	1.31	0.64	285.00	2.00	0.46	0.00	0.96	1.42	#  N ;visée en travers du méandre au niveau du virage à 90 ° droite
+		1.31	1.32	2.29	203.00	-32.00	0.34	0.31	1.06	0.86	#  N ;méandre
+		1.32	1.33	2.16	213.00	4.00	0.41	0.41	0.87	3.47	#  N ;hauteur bas 3,47 en visant au bas du ressaut - Pt33 marqué sur paroie
+		
+	endcenterline
+	
+	
+	centerline
+		
+		date 2006.07.01
+		team "Laurent Cadilhac"
+		team "Joêl Gailhard"
+		team "Guy Lamure"
+		
+		explo-date 2006
+		explo-team "Clan/des Tritons"
+		
+		units length meters
+		units compass grad
+		units clino degrees
+		
+		data topofil from to length backcompass backclino left right up down
+		extend right
+		1.33	1.34	3.42	37.00	38.00	0.75	0.84	0.23	1.11	#  N ;point 1.34 sur y du haut du P20 - visee inverse - 1,11m du pt topo au sol en bas du ressaut
+		
+		data topofil from to length compass clino left right up down
+		extend right	
+		1.34	1.35	21.68	120.00	-88.00	1.36	1.51	20.06	0.00	#  N ;puits
+		1.35	1.36	0.94	0.00	90.00	1.36	1.51	9.12	0.94	#  N ;remontée de 0.94m au -dessus du point topo 1.35
+		1.36	1.37	2.01	137.00	-31.00	1.76	0.10	2.00	0.20	#  N ;+1.08 ??? -
+		1.37	1.38	3.21	236.00	-4.00	0.30	0.30	0.40	14.00	#  N ;PT 1.38 en bout de main-courante
+		extend left
+		1.38	1.38a	1.97	262.00	0.00	0.20	0.20	0.40	14.00	#  N ;bout du puits
+		extend right
+		1.38	1.39	14.22	277.00	-85.00	1.00	1.50	7.68	0.00	#  N ;puits
+		1.39a	1.40	3.73	69.00	-12.00	0.46	0.47	0.80	1.53	#  N ;base de puits - visees H et B incertaines : carnet topo effacé en partie
+		1.39	1.39a	1.61	0.00	90.00	1.00	1.50	6.07	1.61	#  N ;remontée de 1,61m au-dessus du point topo 1.39
+		1.40	1.41	4.86	90.00	-32.00	0.47	0.49	0.95	1.52	#  N ;1.41 sur y départ de puits - ressaut de 2.47m
+		1.41	1.42	11.62	52.00	-86.00	1.45	0.44	11.50	1.50	#  N ;puits avec 1 palier à 7,5m du départ - palier avec fractio - 1.42 à 1,5m du sol du palier
+		1.42	1.43	5.27	266.00	-70.00	1.15	0.00	5.40	1.80	#  N ;puits : 2e tronéon
+		1.43	1.44	3.32	143.00	-29.00	0.46	0.50	1.03	0.80	#  N ;base du puits - 1 départ étroit avec c.a derriére pont rocheux
+		1.44	1.45	2.48	45.00	-24.00	0.45	0.20	1.50	0.76	#  N ;méandre - arrivée affluent étroit - ressaut de 1,31m au niveau du point topo 1.45
+		1.45	1.46	3.07	399.00	-21.00	0.20	0.61	0.70	1.26	#  N ;méandre - ressaud de 1m - pt topo 1.46 marqué sur paroie - en dessous du point 1.46 soutirage de l actif trés étroit qui doit rejoindre en haut du puits terminal
+		1.46	1.47	6.05	72.00	-4.00	0.20	0.08	0.50	0.90	#  N ;méandre
+		1.47	1.48	2.35	87.00	-12.00	0.51	0.56	0.85	1.43	#  N ;méandre - pt topo 1.48 sommet du ressaut
+		1.48	1.49	5.79	38.00	-50.00	0.51	0.05	0.42	1.56	#  N ;ressaut
+		1.49	1.50	4.34	46.00	-38.00	0.44	0.06	1.20	1.97	#  N ;méandre - ressaut 1m
+		1.50	1.51	1.62	354.00	-19.00	0.00	1.45	1.74	0.74	#  N ;ressaut 1.5m
+		1.51	1.52	5.40	324.00	-62.00	0.31	1.23	6.50	1.24	#  N ;puits de 5,44m - point topo 1.52 marqué sur paroi
+		1.52	1.53	4.07	56.00	-16.00	0.50	0.80	1.20	0.00	#  N ;arrivée sur siphon
+		
+	endcenterline
+
+endsurvey

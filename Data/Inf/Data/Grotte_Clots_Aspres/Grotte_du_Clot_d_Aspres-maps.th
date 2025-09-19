@@ -1,0 +1,35 @@
+encoding utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Grotte_du_Clot_d_Aspres-plan-tot -title "Grotte du Clot d'Aspres"
+	SP-Grotte_du_Clot_d_Aspres-01
+	break
+	SP-Grotte_du_Clot_d_Aspres-02
+	break
+	SP-Grotte_du_Clot_d_Aspres-02B
+	break
+	SP-Grotte_du_Clot_d_Aspres-03B
+	break
+	SP-Grotte_du_Clot_d_Aspres-03
+	break
+	SP-Grotte_du_Clot_d_Aspres-04
+	break
+	SP-Grotte_du_Clot_d_Aspres-05
+endmap
+
+map MC-Grotte_du_Clot_d_Aspres-coupe-tot -title "Grotte du Clot d'Aspres"
+	SC-Grotte_du_Clot_d_Aspres-01
+	break
+	SC-Grotte_du_Clot_d_Aspres-02
+	break
+	SC-Grotte_du_Clot_d_Aspres-03B
+	break
+	SC-Grotte_du_Clot_d_Aspres-03
+	break
+	SC-Grotte_du_Clot_d_Aspres-04
+	break
+	SC-Grotte_du_Clot_d_Aspres-05
+endmap

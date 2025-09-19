@@ -1,0 +1,35 @@
+encoding utf-8 
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Ce travaille est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+survey Brise_de_Coeur -title "Brise de Coeur - CAF-232"
+
+	# Pour importer les diff�rentes donn�es de diff�rents fichiers topos :
+	input Data/Brise_de_Coeur.th
+
+#	centerline
+		##Rajout des longueurs explor�es, non topo, ou topos perdues
+#		station Ca.31@Brise_de_Coeur "+78 m explor�s " continuation explored 78m
+		## Pour assembler plusieurs fichiers topos
+#		equate  6@Brise_de_Coeur  0@Brise_de_Coeur2
+
+#	endcenterline)
+
+#	##########################################################################################
+#	## Pour importer les diff�rents fichiers de dessins en plan
+#	## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+#	## join scrap1 scrap2 -count n (o� n = nombre de galerie � connecter, par d�faut n = 1). C'est tout simple !
+#	join scrap1 scrap2 #-count n
+
+## Pour le plan
+input Data/Brise_coeur_plan.th2
+
+# ## Pour la coupe d�velopp�e
+# input Data/Brise_de_Coeur-coupe.th2
+
+# ## Appel des maps
+input Brise_de_Coeur-maps.th
+
+endsurvey

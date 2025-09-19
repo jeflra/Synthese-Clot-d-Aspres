@@ -1,0 +1,11 @@
+encoding utf-8 
+
+
+survey Amadjide -title "Scialet Amadjide"
+
+	input Data/Amadjide.th
+	input Data/Plan.th2
+	
+	input Amadjide-maps.th
+	
+endsurvey

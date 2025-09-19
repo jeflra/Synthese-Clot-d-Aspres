@@ -1,0 +1,25 @@
+survey pre_achard-tot
+
+
+
+centerline
+
+
+
+
+endcenterline
+input Data/pre_achard_MTD.th #fix pre_achard	703046.794	4987854.818	1821 #PRE DE L'ACHARD (scialet du)
+input Data/Pre_suite.th
+input Data/Auto_soleil.th
+input Data/pre_achard_MTD.th2
+input Data/pre_achard_suite.th2
+input Data/Autoroute.th2
+equate A28@pre_achard A1@pre_achard_suite
+equate A1@Autoroute A86@pre_achard_suite
+
+input pre-achard_maps.th
+
+join SP-Pre-suite-2 SP-SB-4
+
+endsurvey
+

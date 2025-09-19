@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 332.56m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.34m (from 1b@Caverne_des_clos.Caverne_des_clos at 1897.53m to 21@Caverne_des_clos.Caverne_des_clos at 1856.19m)\nnorth-south range: 76.42m (from 22a@Caverne_des_clos.Caverne_des_clos at 6437756.29m to entree_2@Caverne_des_clos.Caverne_des_clos at 6437679.87m)\neast-west range: 51.64m (from Entree_1@Caverne_des_clos.Caverne_des_clos at 903310.69m to 0a@Caverne_des_clos.Caverne_des_clos at 903259.04m)\nnumber of shots: 31\nnumber of stations: 32"
+xth_cp_data_tree_insert 52 1 1 Caverne_des_clos Caverne_des_clos "" "" "length: 332.56m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.34m (from 1b@Caverne_des_clos.Caverne_des_clos at 1897.53m to 21@Caverne_des_clos.Caverne_des_clos at 1856.19m)\nnorth-south range: 76.42m (from 22a@Caverne_des_clos.Caverne_des_clos at 6437756.29m to entree_2@Caverne_des_clos.Caverne_des_clos at 6437679.87m)\neast-west range: 51.64m (from Entree_1@Caverne_des_clos.Caverne_des_clos at 903310.69m to 0a@Caverne_des_clos.Caverne_des_clos at 903259.04m)\nnumber of shots: 31\nnumber of stations: 32"
+xth_cp_data_tree_insert 54 52 2 Caverne_des_clos Caverne_des_clos.Caverne_des_clos "Caverne des Clos" "Caverne des Clos" "length: 332.56m (surface 0.00m, duplicated 0.00m)\nvertical range: 41.34m (from 1b@Caverne_des_clos.Caverne_des_clos at 1897.53m to 21@Caverne_des_clos.Caverne_des_clos at 1856.19m)\nnorth-south range: 76.42m (from 22a@Caverne_des_clos.Caverne_des_clos at 6437756.29m to entree_2@Caverne_des_clos.Caverne_des_clos at 6437679.87m)\neast-west range: 51.64m (from Entree_1@Caverne_des_clos.Caverne_des_clos at 903310.69m to 0a@Caverne_des_clos.Caverne_des_clos at 903259.04m)\nnumber of shots: 31\nnumber of stations: 32"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 191X1 p1 1 MP-Clos MP-Clos@Caverne_des_clos "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 333 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1728456806
+

@@ -1,0 +1,55 @@
+encoding  utf-8
+
+map MP-castor -title "Scialet du Grand Castor - CAF-159"
+    # Map principale
+    MP-castor-entree
+    MP-castor-alcove-et-dessous  [0 0 m] below # décalage pour les galeries superposées
+    break
+    MP-lames
+    # [-8 -8 m] below
+    MP-lames-milieu
+    #[-10 -10] below
+    MP-lames-fond [-2 -2 m] below	
+endmap
+
+map MP-castor-entree
+    SP-entree-1
+    break
+    SP-entree-2
+endmap
+
+map MP-castor-alcove
+    SP-entree-3
+endmap
+    
+map MP-castor-sous-alcove
+    SP-entree-4
+endmap
+
+map MP-castor-fond-fosse
+    SP-entree-5
+endmap
+
+map MP-castor-sous-alcove-decale
+    MP-castor-sous-alcove
+    MP-castor-fond-fosse [0 5 m] below
+endmap
+
+map MP-castor-alcove-et-dessous
+    MP-castor-alcove
+    MP-castor-sous-alcove-decale [0 5 m] below
+endmap
+
+map MP-lames
+    SP-lames-1
+    break
+    SP-lames-2
+endmap
+
+map MP-lames-milieu
+    SP-lames-3
+endmap
+
+map MP-lames-fond
+    SP-lames-4
+endmap

@@ -1,0 +1,14 @@
+survey Silence
+input Data/silence_7eme_art.th
+input Data/Silence_MTD.th
+equate A27@Silence 0@silence_7eme_art
+input Data/silence_7eme_art.th2
+input Data/Silence.th2
+input Data/jonction.th2
+input Silence_maps.th
+
+join id1 id1-1
+join id1-2 id1-1
+
+
+endsurvey

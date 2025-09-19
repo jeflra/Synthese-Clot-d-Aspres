@@ -1,0 +1,36 @@
+encoding  utf-8
+survey CAF-131 -title "CAF-131" -entrance CAF131
+
+
+
+  centerline
+  # declination -1.13 grad # (calcul avec logiciel declimag)
+  date 2011.7.9
+    team "Yann Cairo"
+    team "Gilles Palué"
+
+units compass grad
+units clino degree
+
+
+cs EPSG:2154
+fix CAF131 903136.175	6440005.884	1578.944
+station CAF131 "CAF-131" entrance
+
+units count cm
+units compass  degree
+units clino degree
+
+data topofil from to fromcount tocount compass clino
+CAF131	1 	825	1066	271.0	-17		
+1	2	1157	1452	284	-27
+2	3	1544	1755	344	-24
+3	4	1855	2160	284	-48
+4	5	 2284	2610	9	-27
+2	2-1	2613	3092	185	-8
+
+endcenterline
+
+  
+
+endsurvey

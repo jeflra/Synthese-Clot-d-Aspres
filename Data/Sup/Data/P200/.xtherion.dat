@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 396.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 276.30m (from A1@P200.P200 at 2114.37m to 24@P200.P200 at 1838.08m)\nnorth-south range: 26.71m (from 24@P200.P200 at 4986490.56m to 10@P200.P200 at 4986463.85m)\neast-west range: 55.03m (from 0@P200.P200 at 703150.92m to 9@P200.P200 at 703095.89m)\nnumber of shots: 215\nnumber of stations: 216"
+xth_cp_data_tree_insert 52 1 1 P200 P200 "" "" "length: 396.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 276.30m (from A1@P200.P200 at 2114.37m to 24@P200.P200 at 1838.08m)\nnorth-south range: 26.71m (from 24@P200.P200 at 4986490.56m to 10@P200.P200 at 4986463.85m)\neast-west range: 55.03m (from 0@P200.P200 at 703150.92m to 9@P200.P200 at 703095.89m)\nnumber of shots: 215\nnumber of stations: 216"
+xth_cp_data_tree_insert 54 52 2 P200 P200.P200 "P200" "P200" "length: 396.44m (surface 0.00m, duplicated 0.00m)\nvertical range: 276.30m (from A1@P200.P200 at 2114.37m to 24@P200.P200 at 1838.08m)\nnorth-south range: 26.71m (from 24@P200.P200 at 4986490.56m to 10@P200.P200 at 4986463.85m)\neast-west range: 55.03m (from 0@P200.P200 at 703150.92m to 9@P200.P200 at 703095.89m)\nnumber of shots: 215\nnumber of stations: 216"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 199X1 p1 1 MP-P200 MP-P200@P200 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 396 2
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1728423652
+

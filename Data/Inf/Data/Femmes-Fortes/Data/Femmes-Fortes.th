@@ -1,0 +1,38 @@
+survey Femmes_fortes -title "Scialet des Femmes Fortes"
+
+centerline
+
+cs EPSG:2154
+fix Femmes_Fortes 903145.35	6439948.02	1593.061
+
+station Femmes_Fortes "Scialet des Femmes Fortes [CAF139]" entrance
+
+date 2011.09.19
+    team "Yann Cairo"
+    team "Jean-Paul Héreil"
+
+units length meters
+units compass degrees 
+units clino degrees
+data normal from to compass clino length left right up down
+
+Femmes_Fortes	 1	 252.0 	 -43.0 		3.33				0.5	0.5	0.8	0.0													
+1	2	 225.0 	 -15.0 		2.95				0.3	0.3	0.3	0.4	 			
+2	3	 270.0 	 -47.0 		3				0.3	0.3	0.8	0.7	 						
+3	4	 232.0 	 -14.0 		2.23				0.3	0.3	0.7	0.8	 							
+4	5	 266.0 	 -17.0 		2.63				2	0.3	0.2	1.2	 # haut du puits					
+5	6	   0.0 	-90	7					1	1	6	0.0	 # puits du moteur à eau							
+6	6.1	 312.0 	 -20.0 		3				0.3	0.3	0.3	0.3	 # départ vers le puits						
+6	 6.2	 323.0 	 -28.0 		6				0.3	0.3	0.3	0.3	 # regard sur le puits	
+6	   7	 295.0 	  10.0 		3.5				0.5	0.5	0.8	0.0	  		
+7	 7.1	 168.0 	  43.0 		6				0.4	0.4	1.4	0.8							
+7	   8	 278.0 	   2.0 		3.48				0.0	3	1	0.0	  # haut du puits				
+9	8	 200.0 	  58.0 		8.15				1.8	1.9	6	0.0	 # salle					
+9	   10-haut	 268.0 	 -30.0 		5.8				0.5	0.5	0.8	0.0					
+10-haut	   10-bas	   0.0 	-90	5					2	1	5.8	0.0	 					
+10-bas	11	 345.0 	0		2.9				0.2	0.2	0.4	0.0							
+11	12	  55.0 	0		1.5				0.2	0.2	0.3	0.0		# méandre à élargir
+
+endcenterline
+
+endsurvey

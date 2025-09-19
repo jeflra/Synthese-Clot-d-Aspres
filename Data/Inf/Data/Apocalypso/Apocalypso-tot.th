@@ -1,0 +1,10 @@
+encoding utf-8 
+
+
+survey Apocalypso -title "Scialet Apocalypso"
+
+	input Data/Apocalypso.th
+	input Data/Plan.th2
+	input Apocalypso-maps.th
+	
+endsurvey

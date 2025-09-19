@@ -1,13 +1,6 @@
 encoding  utf-8
 #encoding  utf-8
 
-
-# Copyright (C) 2006 Roman Muñoz <tatel@euskalnet.net> Martin Gerbaux <martin.gerbaux@wanadoo.fr>
-# This work is under the GPLv2
-
-#
-# 
-
 # INTRO
 
 # Dans cet fichier on met les specifications generaux;
@@ -40,7 +33,7 @@ encoding  utf-8
 
 source synthese.th
 input config.thc 
-
+# source GIS/MNT_Fauges.th
 
 
 #input synthese.th2
@@ -118,7 +111,8 @@ endcode
 
   
 
-
+  surface bottom
+   surface-opacity 70
 
 # Auteur 
   doc-author "Benoît Urruty"
@@ -178,7 +172,7 @@ endlayout
 
 
 
-
+select MP-Clot-Aspres@synthese
 
 # Voici les lignes pour exporter le cheminement au format xvi
 #export map -proj plan -fmt xvi -layout xviexport -o synthese_plan.xvi

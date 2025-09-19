@@ -1,0 +1,27 @@
+encoding  utf-8
+
+
+survey inferieur -title "Réseau Inférieur du Clot d'Aspres"
+
+# Le réseau Inférieur
+
+# Il faut intégrer Jeunesse d'Automne à Nuits Blanches, c'est le même trou ?
+input Data/Amadjide/Amadjide-tot.th
+input Data/Apocalypso/Apocalypso-tot.th
+input Data/Brise_de_Coeur/Brise_de_Coeur-tot.th
+input Data/CAF-132/CAF-132_tot.th
+input Data/Candy/Scialet_Candy-tot.th
+input Data/Castor/castor-tot.th
+input Data/Femmes-Fortes/Femmes-Fortes-tot.th
+input Data/Grotte_Clots_Aspres/Grotte_du_Clot_d_Aspres-tot.th
+input Data/Jeunesse-Automne/Scialet_Jeunesse_Automne-tot.th
+input Data/Nuits_Blanches/nuits_blanches-tot.th
+input Data/Scialet-de-la-Malleole/Malleole-tot.th
+input Data/Soleil-Trompeur/Soleil-Trompeur-tot.th
+input Data/TQF/TQF-tot.th
+
+input inferieur-maps.th
+
+# equate 352@reseau_classique.nuits_blanches 1_143232@Scialet_Jeunesse_Automne.Scialet_Jeunesse_Automne
+endsurvey
+

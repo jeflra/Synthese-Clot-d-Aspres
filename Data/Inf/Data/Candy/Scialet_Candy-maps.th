@@ -1,0 +1,52 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# Ce travail est sous la licence Creative Commons Attribution-ShareAlike-NonCommecial :
+#  <http://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+map MP-Scialet_Candy-plan-tot -title "Scialet Candy - Grotte à Cédric"
+  candy_entree
+  break
+  candy_transfauge
+  break
+  candy_sirocco
+  break
+  candy_Nino_Ferrer
+
+
+  break
+  SP-Candy-1
+  break
+  SP-Candy-2
+  break
+  SP-Candy-3
+  break
+  SP-Candy-4
+  break
+  SP-Candy-5
+  break 
+  SP-Candy-6
+  break 
+  SP-Candy-7
+  break 
+  SP-Candy-8
+  break 
+  SP-Candy-9
+  break 
+  SP-Candy-10
+  break 
+  SP-Candy-11
+  break 
+  SP-Candy-12
+  break 
+  SP-Candy-13
+  break
+  SP-Candy-14
+
+endmap
+# map MC-Scialet_Candy -title "Scialet Candy - Grotte à Cédric"
+#   # SC-Scialet_Candy-1
+#   #break
+#   #SC-Scialet_Candy-2
+# endmap
+

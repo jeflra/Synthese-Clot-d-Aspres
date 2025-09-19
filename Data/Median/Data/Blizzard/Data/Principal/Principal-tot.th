@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey Blizzard -title "Blizzard"
+   input Data/Blizzard_principal.th   
+
+   input Data/Principal_plan.th2
+	input Principal-maps.th
+	
+	
+endsurvey
