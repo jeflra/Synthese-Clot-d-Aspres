@@ -5,11 +5,12 @@ survey Castor -title "Scialet du Grand Castor  - CAF-159" # -entrance 0@topo_202
        # import des relevés
        input Data/topo_2024-07-06.th
        input Data/topo_2024-08-11.th
-       input Data/topo_2024-11-03.th
+#       input Data/topo_2024-11-03.th
+       input Data/topo_2025-09-18.th
 
        # raccords des relevés
        equate 11@castor-lames 16@castor-entree
-       equate 10@castor-pince 1@castor-lames
+       equate 32@castor-fond 2@castor-lames
 
        # import des dessins
        input Data/castor.th2

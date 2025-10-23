@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 31.5 7.5 744.5 1514.5
+##XTHERION## xth_me_area_adjust -128.00500000000002 -834.9230000000001 994.1372 1547.0623999999998
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {236.22 1 1.0} {1259.847 1@castor-entree.Castor} castor_coupe.xvi 0 {}
 
@@ -100,17 +100,11 @@ point 418.25 379.5 debris
 
 point 399.0 424.75 debris
 
-point 443.0 159.75 blocks
-
 point 484.0 158.0 debris
 
 point 323.0 625.0 water-flow -orientation 169.0
 
 point 310.25 891.5 water-flow -orientation 180.0
-
-point 298.5 -72.25 debris
-
-point 303.75 -76.0 debris
 
 point 312.75 1085.0 debris
 
@@ -134,12 +128,6 @@ line wall
   329.5 1093.25 331.25 1098.5 334.5 1099.0
   smooth off
 endline
-
-point 335.5 -79.5 air-draught -orientation 270.6 -scale xs -subtype undefined
-
-point 436.0 174.25 air-draught -orientation 85.9 -scale xs
-
-point 419.0 159.0 air-draught -orientation 85.9 -scale xs
 
 point 598.75 292.25 air-draught -orientation 343.9 -scale xs
 
@@ -169,8 +157,6 @@ line wall
   345.25 603.75 341.25 606.0 346.75 606.75
   smooth off
 endline
-
-point 457.5 137.75 dig
 
 point 444.0 506.0 dig
 
@@ -396,8 +382,6 @@ endline
 
 point 487.0 229.75 continuation
 
-point 349.25 -80.25 continuation
-
 point 558.0 371.25 continuation
 
 point 470.0 544.0 continuation
@@ -426,72 +410,6 @@ line wall -subtype invisible
 endline
 
 point 412.75 333.25 continuation
-
-point 439.75 174.5 continuation
-
-point 389.75 62.25 label -text [P26<br>Puits pince-mi] -scale l
-
-line wall
-  322.5 -77.5
-  322.5 -77.5 318.0 -78.5 316.25 -76.25
-  315.31 -75.04 314.25 -63.75 314.25 -61.5
-  314.25 -59.25 314.75 -50.75 321.0 -49.5
-  323.81 -48.94 320.0 -39.29 328.5 -40.0
-  altitude .
-  337.5 -40.75 349.75 6.25 351.5 12.0
-  353.25 17.75 355.75 37.25 357.25 42.0
-  358.75 46.75 375.5 120.0 378.5 126.0
-  381.5 132.0 395.25 139.0 400.75 141.75
-  406.25 144.5 424.0 156.5 428.25 157.0
-  altitude .
-  432.5 157.5 457.0 157.25 457.0 157.25
-  smooth off
-endline
-
-line wall
-  295.25 -82.25
-  295.5 -81.25 301.25 -79.34 302.75 -79.75
-  304.25 -80.17 322.25 -80.5 322.25 -80.5
-  smooth off
-endline
-
-line wall
-  460.25 168.25
-  460.25 168.25 429.99 166.39 428.12 166.69699999999995
-  426.25 167.0 412.0 160.5 407.5 161.75
-  403.0 163.0 393.0 175.25 389.5 175.25
-  386.0 175.25 373.0 152.5 370.25 147.5
-  367.5 142.5 355.25 127.0 352.75 119.25
-  350.25 111.5 334.75 53.75 333.75 47.5
-  332.75 41.25 336.75 20.75 336.5 17.0
-  336.25 13.25 327.0 -15.0 325.25 -17.0
-  323.5 -19.0 311.75 -23.75 311.0 -25.25
-  310.25 -26.75 299.5 -42.25 297.75 -47.5
-  296.0 -52.75 295.75 -76.0 295.0 -77.0
-  altitude .
-  294.25 -78.0 293.5 -81.0 293.5 -81.0
-  smooth off
-endline
-
-point 298.25 -79.83300000000008 station -name 0@castor-pince
-
-point 313.41 -52.513000000000034 station -name 1@castor-pince
-
-point 323.51 -37.00300000000004 station -name 2@castor-pince
-
-point 343.86 13.396999999999935 station -name 3@castor-pince
-
-point 349.12 44.09699999999998 station -name 4@castor-pince
-
-point 372.47 130.08699999999993 station -name 5@castor-pince
-
-point 385.17 150.63699999999994 station -name 6@castor-pince
-
-point 407.45 157.95699999999994 station -name 7@castor-pince
-
-point 428.12 166.69699999999995 station -name 8@castor-pince
-
-point 460.63 166.06699999999995 station -name 9@castor-pince
 
 line wall
   368.25 430.5
@@ -608,14 +526,6 @@ line wall -close on -outline none
   484.25 228.25 485.75 226.5 487.25 226.75
   488.75 227.0 489.75 229.25 489.75 230.25
 endline
-
-point 306.25 -54.75 water-flow -orientation 177.5
-
-point 344.5 23.75 water-flow -orientation 193.8
-
-point 361.0 109.25 water-flow -orientation 193.8
-
-point 461.75 159.25 water-flow -orientation 271.1
 
 point 471.75 227.0 water-flow -orientation 186.1
 

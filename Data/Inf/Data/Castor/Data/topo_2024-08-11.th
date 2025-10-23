@@ -19,7 +19,7 @@ survey castor-lames
     1 . 4.26 273.7 2.4
     1 . 1.97 46.8 0.2
     extend vertical
-    1 2 11.07 340.0 68.8
+    1 2 11.07 340.0 68.8 # 2: becquet sous l'AF de gauche, peinture orange en train de partir
     extend vertical
     2 3 0.82 264.2 48.4
     # extend auto
