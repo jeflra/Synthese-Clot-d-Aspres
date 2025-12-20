@@ -53,3 +53,9 @@ endmap
 map MP-lames-fond
     SP-lames-4
 endmap
+
+map MC-castor
+    SC-castor-1
+    SC-castor-2
+    SC-castor-3
+endmap

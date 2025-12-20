@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.00500000000002 -834.9230000000001 994.1372 1547.0623999999998
+##XTHERION## xth_me_area_adjust -206.74399999999991 -834.9230000000001 1387.8394 1547.0623999999998
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {236.22 1 1.0} {1259.847 1@castor-entree.Castor} castor_coupe.xvi 0 {}
+##XTHERION## xth_me_image_insert {236.22000000000003 1 1.0} {1259.847 1@castor-entree.Castor} castor_coupe.xvi 0 {}
 
 
 
@@ -17,7 +17,6 @@ endline
 
 line wall -subtype debris
   288.75 1020.25
-  altitude .
   291.0 1019.5 308.0 1016.0 310.25 1014.0
   smooth off
   altitude .
@@ -37,13 +36,12 @@ endline
 
 line wall -subtype debris
   215.5 1195.25
-  219.09 1194.22 234.75 1187.0 236.0 1187.0
-  altitude .
-  237.25 1187.0 238.25 1182.0 238.75 1179.75
-  239.25 1177.5 241.0 1175.5 243.25 1175.5
-  245.5 1175.5 250.75 1175.25 251.25 1174.25
-  251.75 1173.25 253.0 1168.5 257.0 1166.5
-  261.0 1164.5 274.25 1155.25 275.75 1152.75
+  219.09 1194.22 231.25 1188.75 232.5 1188.75
+  233.75 1188.75 236.75 1185.0 237.25 1182.75
+  237.75 1180.5 237.25 1175.75 239.5 1175.75
+  241.75 1175.75 250.75 1175.25 251.25 1174.25
+  251.75 1173.25 250.75 1169.25 254.75 1167.25
+  258.75 1165.25 274.25 1155.25 275.75 1152.75
   smooth off
 endline
 
@@ -58,9 +56,32 @@ line wall
   smooth off
 endline
 
-point 422.5 358.25 water-flow -orientation 200.1
+line wall
+  354.75 374.25
+  354.0 375.25 352.75 377.25 352.75 377.25
+  smooth off
+endline
 
-point 227.5 1383.75 label -text "<bf>CAF-159" -scale xl
+line wall
+endline
+
+line wall -reverse on
+  359.25 374.5
+  358.5 374.25 359.16 355.37 359.0 354.25
+  358.5 350.75 360.5 348.25 361.5 348.25
+  362.5 348.25 366.5 348.0 366.5 348.0
+  smooth off
+endline
+
+line wall
+  354.75 374.25
+  357.5 373.75 353.94 346.26 357.0 345.75
+  altitude .
+  358.5 345.5 366.25 346.0 366.25 346.0
+  smooth off
+endline
+
+point 379.0 346.75 water-flow -orientation 89.3
 
 point 227.75 1290.5 entrance -orientation 181.5
 
@@ -94,13 +115,7 @@ line wall
   smooth off
 endline
 
-point 415.75 489.5 debris
-
-point 418.25 379.5 debris
-
-point 399.0 424.75 debris
-
-point 484.0 158.0 debris
+point 422.25 487.0 debris
 
 point 323.0 625.0 water-flow -orientation 169.0
 
@@ -129,23 +144,19 @@ line wall
   smooth off
 endline
 
-point 598.75 292.25 air-draught -orientation 343.9 -scale xs
+point 443.25 497.25 air-draught -orientation 291.1 -scale s -subtype summer
 
-point 442.25 459.0 air-draught -orientation 291.1 -scale s
+point 379.0 382.75 air-draught -orientation 11.7 -scale xs -subtype summer
 
-point 396.25 394.75 air-draught -orientation 343.3 -scale xs
+point 350.5 569.25 air-draught -orientation 308.2 -scale s -subtype summer
 
-point 414.75 559.75 air-draught -orientation 292.2 -scale xs
+point 440.25 491.25 water-flow -orientation 109.9
 
-point 350.5 569.25 air-draught -orientation 308.2 -scale s
+point 422.0 532.25 water-flow -orientation 176.9
 
-point 426.25 487.25 water-flow -orientation 115.6
+point 266.75 1229.0 air-draught -orientation 348.8 -scale m -subtype summer
 
-point 410.75 518.25 water-flow -orientation 167.9
-
-point 259.25 1243.75 air-draught -orientation 348.8 -scale m -subtype summer
-
-point 374.5 612.75 air-draught -orientation 264.0 -scale s
+point 374.5 612.75 air-draught -orientation 264.0 -scale s -subtype summer
 
 line wall
   379.5 583.75
@@ -158,17 +169,17 @@ line wall
   smooth off
 endline
 
-point 444.0 506.0 dig
+point 424.25 470.25 dig
 
-point 279.0 1118.75 dig
+point 311.5 1125.0 dig
 
 point 346.75 1052.0 height -value [-10 m]
 
-point 438.5 842.75 label -text "<center>P52 des<br>Bonnes Manières"
+point 438.5 842.75 label -text "<center>Puits des<br>Bonnes Manières<br>(P52)"
 
 point 317.0 1063.5 dig
 
-point 279.0 1177.5 dig
+point 270.5 1180.75 dig
 
 point 322.25 556.0 dig
 
@@ -194,6 +205,7 @@ line wall
   466.25 532.0
   466.25 528.25 464.25 482.5 463.25 481.25
   462.25 480.0 461.0 479.0 458.0 480.0
+  altitude .
   455.0 481.0 435.0 487.25 435.0 487.25
   smooth off
   435.0 487.25 419.25 494.25 417.75 495.5
@@ -202,116 +214,191 @@ line wall
   smooth off
 endline
 
+line wall -reverse on
+  503.75 151.0
+  503.75 151.0 495.5 155.5 491.25 155.5
+  487.0 155.5 469.5 155.75 464.5 155.75
+  altitude .
+  459.5 155.75 456.5 156.25 456.5 161.0
+  456.5 165.75 454.0 240.75 454.0 244.5
+  454.0 254.0 454.75 264.25 464.5 265.25
+  476.09 266.44 484.5 261.25 484.75 272.0
+  484.98 282.01 484.75 336.0 484.75 336.0
+  smooth off
+endline
+
 line wall
-  541.75 362.25
-  541.75 358.0 541.25 345.25 536.75 344.5
-  532.25 343.75 523.5 349.5 520.75 351.75
-  518.0 354.0 512.5 364.5 511.0 366.5
+  506.75 156.25
+  506.75 156.25 501.25 158.5 501.5 162.25
+  501.8 166.79 501.5 245.0 501.5 245.0
+  smooth off
+  501.5 245.0 515.25 244.75 521.25 245.0
+  523.32 245.09 525.5 243.5 525.75 248.75
+  525.92 252.25 529.5 251.25 529.5 251.25
+  smooth off
+  530.75 250.75 534.5 251.75 534.25 257.5
+  smooth off
+  534.25 257.5 535.25 300.0 535.5 320.75
+  535.71 337.98 512.5 364.5 511.0 366.5
   509.5 368.5 496.25 384.0 494.75 391.25
   493.25 398.5 485.5 461.25 484.5 471.5
-  483.5 481.75 477.0 532.75 477.0 532.75
-  smooth off
-endline
-
-line wall
-  457.0 157.25
-  459.25 157.0 466.25 154.75 470.0 154.25
-  473.75 153.75 504.75 157.0 507.5 157.25
-  altitude .
-  510.25 157.5 514.5 170.0 514.75 172.0
-  515.0 174.0 516.5 252.25 516.0 255.0
-  515.5 257.75 506.5 320.5 506.5 327.75
-  506.5 335.0 521.25 331.0 524.0 324.0
-  526.75 317.0 537.75 294.5 537.0 291.75
-  smooth off
-endline
-
-line wall -subtype debris
-  537.0 291.75
-  536.25 289.0 529.5 270.0 536.75 266.75
-  544.0 263.5 563.0 262.5 564.25 265.0
-  smooth off
-endline
-
-line wall
-  564.25 265.0
-  altitude .
-  565.5 267.5 563.25 288.5 563.25 291.25
-  563.25 294.0 566.0 322.0 569.25 327.25
-  572.5 332.5 573.25 353.25 573.25 356.25
+  483.5 481.75 469.25 518.0 470.25 532.5
   smooth off
 endline
 
 line wall -close on
   404.75 505.0
-  413.75 482.75
-  413.75 482.75 408.75 482.25 407.5 491.25
+  410.75 486.75
+  410.75 486.75 408.75 482.25 407.5 491.25
   407.02 494.72 403.25 502.5 404.75 505.0
   smooth off
 endline
 
 line wall
-  417.5 423.25
-  416.75 423.0 413.75 421.0 413.0 422.5
-  412.25 424.0 410.0 442.0 410.5 445.0
-  411.0 448.0 409.94 476.54 410.25 477.25
+endline
+
+line wall
+  359.25 374.5
+  361.25 374.25 368.75 374.0 369.25 376.75
+  369.75 379.5 372.0 396.5 372.0 399.0
+  372.0 401.5 370.75 405.0 373.5 405.0
+  376.25 405.0 379.0 406.0 379.0 407.5
+  379.0 409.0 379.25 417.0 379.25 418.5
+  smooth off
+endline
+
+line wall -subtype debris -scale xs
+  379.25 418.5
+  381.25 418.75 397.5 419.5 399.5 419.75
+  smooth off
+endline
+
+line wall
+  399.5 419.75
+  401.5 420.0 402.25 419.0 404.25 424.25
+  smooth off
+  407.0 426.25 410.25 428.5 410.75 430.5
+  smooth off
+endline
+
+line wall
+  408.5 431.75
+  406.25 429.75 407.0 429.25 406.0 430.0
+  405.0 430.75 407.25 432.5 407.5 433.5
+  smooth off
+endline
+
+line wall
+  404.25 434.25
+  402.75 428.5 398.5 426.25 398.5 426.25
+  smooth off
+  391.5 425.25 393.75 426.25 393.0 427.75
+  392.25 429.25 393.75 440.75 394.25 443.75
+  394.75 446.75 409.94 476.54 410.25 477.25
   410.56 477.95 410.14 481.5 413.0 481.5
   417.25 481.5 432.5 482.5 433.75 482.0
   435.0 481.5 457.5 472.75 459.5 469.5
-  altitude .
   461.5 466.25 464.75 453.0 464.25 443.25
-  463.75 433.5 464.75 397.25 466.0 393.5
-  467.25 389.75 473.75 372.25 473.75 367.75
-  473.75 363.25 442.5 332.5 441.0 319.0
-  439.5 305.5 433.25 267.25 433.75 262.75
-  434.25 258.25 445.0 253.0 449.0 252.5
-  altitude .
-  453.0 252.0 472.75 252.25 473.25 250.0
-  473.75 247.75 470.75 247.25 469.25 244.5
-  467.75 241.75 463.0 184.25 463.0 181.25
-  463.0 178.25 465.5 169.0 460.25 168.25
+  463.75 433.5 465.0 394.5 466.25 390.75
+  467.5 387.0 475.65 389.22 477.75 385.25
+  480.0 381.0 484.25 380.0 482.75 366.5
+  481.25 353.0 448.25 353.82 446.5 358.0
+  443.25 365.75 439.0 391.25 439.0 391.25
   smooth off
 endline
 
 line wall
-  431.75 370.0
-  430.0 371.5 428.25 374.25 428.5 375.0
-  428.75 375.75 436.0 377.0 436.25 377.75
-  436.5 378.5 419.5 397.25 418.0 404.5
-  416.5 411.75 413.25 418.5 414.0 419.25
-  414.75 420.0 418.25 420.75 418.25 420.75
+endline
+
+line wall
+  484.75 336.0
+  484.75 336.0 466.0 330.25 461.5 325.25
+  457.0 320.25 454.25 319.25 454.25 310.75
+  454.25 302.25 454.25 297.25 454.25 297.25
   smooth off
 endline
 
-point 380.0 593.25 label -text etr.
-
-point 518.75 460.0 label -text [P40<br>Puits des lames] -scale l
-
-point 403.5 350.5 label -text faux<br>fond
-
 line wall
-  419.75 342.25
-  419.75 343.25 419.75 343.75 421.0 344.75
-  422.25 345.75 432.0 346.0 432.0 346.0
+  413.0 391.25
+  413.75 386.0 412.58 339.3 412.5 334.0
   smooth off
+  412.42 328.7 417.77 274.8 418.0 269.5
+  418.23 264.02 419.87 263.83 425.25 262.75
   altitude .
 endline
 
-line wall
-  412.75 347.0
-  415.5 346.25 418.5 347.0 417.5 345.25
+line wall -subtype debris
+  425.25 262.75
+  altitude .
+  427.75 262.25 444.44 263.59 447.25 265.0
+  451.25 267.0 454.75 270.5 454.75 278.0
+  454.75 291.25 454.25 297.25 454.25 297.25
   smooth off
 endline
 
-point 281.0 1137.0 tree-trunk -orientation 199.4
+point 407.25 589.75 label -text [etr.<br>présidentielle] -align right
 
-point 279.75 1144.5 tree-trunk -orientation 18.8
+point 589.25 449.0 label -text [<center>Puits des lames<br>(P40)] -scale l
+
+point 323.25 375.5 label -text faux<br>fond
+
+point 273.0 1138.75 tree-trunk -orientation 199.4 -scale xs -clip off
+
+point 271.0 1144.75 tree-trunk -orientation 18.8 -scale xs
 
 line wall -subtype invisible
 endline
 
+line wall
+endline
+
 line wall -subtype invisible
-  477.0 532.75
+  306.0 1148.25
+  306.5 1150.25
+endline
+
+line wall -subtype invisible
+  334.5 1099.0
+  335.0 1101.0
+endline
+
+line wall -subtype invisible
+  331.75 1009.0
+  334.0 1012.25
+endline
+
+line wall -subtype invisible
+  346.75 932.5
+  342.75 934.5
+endline
+
+line wall -subtype invisible
+  354.25 379.5
+  352.75 377.25
+endline
+
+line wall -subtype invisible
+  367.25 422.0
+  367.25 420.0
+endline
+
+line wall -subtype invisible
+  407.5 433.5
+  404.25 434.25
+endline
+
+line wall -subtype invisible
+  410.75 430.5
+  408.5 431.75
+endline
+
+line wall -subtype invisible
+  366.25 346.0
+  366.5 348.0
+endline
+
+line wall -subtype invisible
+  470.25 532.5
   466.25 532.0
 endline
 
@@ -328,21 +415,6 @@ endline
 line wall -subtype invisible
   412.5 530.75
   412.5 533.0
-endline
-
-line wall -subtype invisible
-  418.25 420.75
-  417.5 423.25
-endline
-
-line wall -subtype invisible
-  371.0 431.5
-  368.25 430.5
-endline
-
-line wall -subtype invisible
-  378.0 433.5
-  374.25 433.25
 endline
 
 line wall -subtype invisible
@@ -380,56 +452,21 @@ line wall
   220.5 1259.0
 endline
 
-point 487.0 229.75 continuation
-
-point 558.0 371.25 continuation
+point 477.75 229.25 continuation
 
 point 470.0 544.0 continuation
 
-point 358.0 441.0 continuation
-
-line wall -subtype invisible
-  573.25 356.25
-  541.75 362.25
-endline
-
-line wall -subtype invisible
-  432.0 346.0
-  431.75 370.0
-endline
-
-line wall -subtype invisible
-  417.5 345.25
-  419.75 342.25
-endline
-
-line wall -subtype invisible
-  412.75 363.75
-  412.75 347.0
-  altitude .
-endline
-
-point 412.75 333.25 continuation
+point 373.0 337.75 continuation
 
 line wall
-  368.25 430.5
-  369.75 428.0 376.13 425.03 381.69 424.01700000000005
-  387.25 423.0 405.0 422.0 406.0 420.5
-  407.0 419.0 404.66 409.2 405.25 407.5
-  smooth off
-  405.84 405.8 409.75 407.25 411.5 404.5
-  412.71 402.6 415.5 384.0 415.0 381.75
-  414.5 379.5 415.0 376.5 417.25 376.5
-  419.5 376.5 424.0 376.0 424.0 376.0
-  smooth off
-  424.0 376.0 420.5 370.25 419.0 369.5
-  417.5 368.75 415.5 364.75 412.75 363.75
-  smooth off
 endline
 
 line wall
-  374.25 433.25
-  374.25 432.0 374.25 426.75 371.0 431.5
+  367.25 420.0
+  368.25 419.75 374.78 420.92 374.25 418.5
+  373.0 412.75 366.25 408.0 365.75 404.75
+  365.25 401.5 360.25 386.0 360.25 384.5
+  360.25 383.0 357.25 379.5 354.25 379.5
   smooth off
 endline
 
@@ -441,10 +478,9 @@ line wall
   386.0 526.5 387.5 526.0 388.75 525.5
   390.0 525.0 391.75 524.75 392.75 522.5
   393.75 520.25 395.0 482.75 395.25 479.25
-  395.5 475.75 391.43 446.53 392.09000000000003 444.01700000000005
-  392.75 441.5 390.75 431.5 387.75 431.25
-  384.75 431.0 382.75 430.25 380.75 430.75
-  378.75 431.25 378.0 433.5 378.0 433.5
+  395.5 475.75 375.46 448.09 375.25 445.5
+  374.75 439.25 378.25 422.0 375.25 421.75
+  372.25 421.5 369.25 421.5 367.25 422.0
   smooth off
 endline
 
@@ -472,8 +508,10 @@ endline
 
 line wall
   304.5 683.0
-  305.5 683.0 309.5 684.5 309.75 680.0
-  310.0 675.5 322.25 593.5 326.5 593.0
+  305.5 683.0 312.5 682.94 313.5 683.0
+  318.0 683.25 318.75 679.0 318.5 672.25
+  318.31 667.18 320.75 603.25 321.0 598.75
+  321.25 594.25 322.25 593.5 326.5 593.0
   smooth off
 endline
 
@@ -504,14 +542,6 @@ line wall
   smooth off
 endline
 
-line wall -close on -outline in
-  480.25 250.5
-  482.5 250.5 486.75 251.25 488.0 250.75
-  489.25 250.25 490.75 248.0 489.5 247.25
-  488.25 246.5 483.75 246.75 482.5 247.25
-  481.25 247.75 478.0 250.5 480.25 250.5
-endline
-
 line arrow -scale l
   608.75 219.75
   492.5 229.5
@@ -527,11 +557,13 @@ line wall -close on -outline none
   488.75 227.0 489.75 229.25 489.75 230.25
 endline
 
-point 471.75 227.0 water-flow -orientation 186.1
+point 499.0 203.25 water-flow -orientation 180
 
-point 440.0 298.25 water-flow -orientation 186.1
+point 530.75 298.75 water-flow -orientation 180
 
-point 374.25 441.25 water-flow -orientation 171.9
+point 417.5 442.75 water-flow -orientation 216.3
+
+point 367.0 453.0 water-flow -orientation 171.9
 
 point 293.0 1161.25 water-flow -orientation 147.2
 
@@ -572,22 +604,70 @@ endline
 
 line arrow
   172.0 1145.25
-  268.0 1143.5
+  263.25 1143.0
 endline
 
 point 162.0 1144.75 label -text [barrage<br>à Castors]
 
 point 215.0 1199.75 blocks
 
-point 558.75 266.5 blocks
+line wall -subtype invisible -outline none
+  479.5 388.25
+  484.25 380.0
+endline
 
-point 484.25 254.0 blocks
+line rock-border -reverse on
+  479.5 388.25
+  479.5 388.25 485.0 388.75 486.0 388.5
+  487.0 388.25 490.5 389.5 490.75 388.0
+  491.0 386.5 491.25 385.25 490.25 385.25
+  489.25 385.25 488.5 385.25 487.0 385.25
+  485.5 385.25 486.0 382.0 486.0 382.0
+  smooth off
+  486.0 382.0 485.25 380.0 484.25 380.0
+  smooth off
+endline
 
-point 503.0 213.25 blocks
+point 435.5 269.25 blocks
 
-point 492.0 158.5 blocks
+line rock-border
+  491.75 244.75
+  484.75 244.75
+endline
 
-point 501.25 159.0 blocks
+line rock-border
+  474.5 244.25
+  463.0 244.25
+endline
+
+point 487.75 251.25 blocks -scale s
+
+point 460.5 160.0 blocks
+
+line rock-border
+  477.75 485.0
+  473.25 480.0 466.5 475.5 467.25 471.75
+  468.0 468.0 479.75 470.25 479.75 470.25
+  smooth off
+endline
+
+line rock-border
+  501.0 362.75
+  501.0 362.75 501.75 343.25 501.75 342.0
+  501.75 340.75 501.75 337.25 505.5 337.0
+  511.98 336.57 510.25 337.0 510.25 337.0
+  smooth off
+endline
+
+line rock-border
+  504.0 369.0
+  504.0 369.0 499.25 368.75 498.0 368.75
+  496.75 368.75 495.75 365.5 495.75 363.75
+  495.75 362.0 501.5 363.25 503.0 363.25
+  smooth off
+endline
+
+point 478.25 159.25 blocks -scale s
 
 line wall -subtype unsurveyed -outline in
   397.5 530.25
@@ -610,19 +690,24 @@ endline
 line wall
 endline
 
-point 505.05 171.73700000000008 station -name 0@castor-lames
+line wall -reverse on -subtype invisible
+  413.0 391.25
+  439.0 391.25
+endline
 
-point 476.38 166.067 station -name 1@castor-lames
+point 467.28 171.65699999999998 station -name 0@castor-lames
 
-point 476.38 247.39700000000005 station -name 2@castor-lames
+point 495.95 166.067 station -name 1@castor-lames
 
-point 476.38 252.20700000000005 station -name 3@castor-lames
+point 495.95 247.327 station -name 2@castor-lames
 
-point 554.72 264.64700000000005 station -name 6@castor-lames
+point 495.95 252.12699999999998 station -name 3@castor-lames
 
-point 541.41 327.797 station -name 5@castor-lames
+point 430.22 264.647 station -name 6@castor-lames
 
-point 489.0 366.45700000000005 station -name 4@castor-lames
+point 443.5400000000001 327.797 station -name 5@castor-lames
+
+point 495.95000000000005 366.457 station -name 4@castor-lames
 
 point 493.12 391.497 station -name 7@castor-lames
 
@@ -634,17 +719,17 @@ point 413.32 488.02700000000004 station -name 11@castor-lames
 
 point 413.23 491.02700000000004 station -name 10@castor-lames
 
-point 419.25 347.39700000000005 station -name 23@castor-entree
+point 357.81000000000006 347.407 station -name 23@castor-entree
 
-point 426.733 377.09700000000004 station -name 22@castor-entree
+point 357.81000000000006 376.85699999999997 station -name 22@castor-entree
 
-point 421.65 377.637 station -name 21@castor-entree
+point 362.55 377.637 station -name 21@castor-entree
 
-point 413.02 406.21700000000004 station -name 20@castor-entree
+point 371.17 406.227 station -name 20@castor-entree
 
-point 407.41 420.317 station -name 19@castor-entree
+point 376.79 420.23699999999997 station -name 19@castor-entree
 
-point 381.69 424.01700000000005 station -name 19A@castor-entree
+point 402.5 424.017 station -name 19A@castor-entree
 
 point 392.09000000000003 444.01700000000005 station -name 18@castor-entree
 
@@ -689,6 +774,349 @@ point 194.203 1251.497 station -name 2A@castor-entree
 point 236.223 1191.027 station -name 2@castor-entree
 
 point 236.223 1259.847 station -name 1@castor-entree
+
+endscrap
+
+
+
+scrap SC-castor-2 -projection extended -scale [-128.0 -128.0 285.48040000000003 -128.0 0.0 0.0 10.50240216 0.0 m]
+
+point 807.3000000000001 -463.703 station -name 8@castor-fond
+
+point 793.0500000000001 -419.60299999999995 station -name 9@castor-fond
+
+point 783.6200000000001 -405.74300000000005 station -name 10@castor-fond
+
+point 781.0500000000001 -377.403 station -name 11@castor-fond
+
+point 771.86 -365.59299999999996 station -name 12@castor-fond
+
+point 750.62 -351.33299999999997 station -name 13@castor-fond
+
+point 719.59 -330.153 station -name 14@castor-fond
+
+point 713.3800000000001 -265.663 station -name 15@castor-fond
+
+point 706.23 -261.33299999999997 station -name 16@castor-fond
+
+point 698.4000000000001 -228.26300000000003 station -name 17@castor-fond
+
+point 679.25 -189.683 station -name 18@castor-fond
+
+point 672.82 -184.33299999999997 station -name 19@castor-fond
+
+point 666.6500000000001 -182.36300000000006 station -name 20@castor-fond
+
+point 636.4000000000001 -171.25300000000004 station -name 21@castor-fond
+
+point 634.97 -171.25300000000004 station -name 21@castor-fond
+
+point 633.25 -129.44299999999998 station -name 22@castor-fond
+
+point 610.8900000000001 -93.07299999999998 station -name 23@castor-fond
+
+point 597.62 -65.113 station -name 24@castor-fond
+
+point 585.69 -42.20300000000003 station -name 25@castor-fond
+
+point 562.0300000000001 21.10699999999997 station -name 26@castor-fond
+
+point 539.08 142.517 station -name 27@castor-fond
+
+point 526.4000000000001 142.677 station -name 28@castor-fond
+
+point 514.6700000000001 147.637 station -name 29@castor-fond
+
+point 515.75 126.25 air-draught -orientation 304.3 -scale xs -subtype summer
+
+line wall
+  553.0 141.25
+  550.75 141.25 541.75 143.25 540.0 143.5
+  altitude .
+  538.25 143.75 528.75 145.25 527.0 145.75
+  525.25 146.25 515.34 145.77 514.6700000000001 147.637
+  514.0 149.5 506.75 156.25 506.75 156.25
+  smooth off
+endline
+
+point 779.0 -430.5 dig
+
+point 750.75 -372.0 dig
+
+point 671.5 -169.25 dig
+
+point 587.25 -96.75 dig
+
+point 527.5 159.5 dig
+
+point 639.75 -81.25 label -text etr.
+
+point 648.75 -197.25 label -text etr.
+
+point 714.0 -420.0 label -text [<center>Puits de<br>la jonction<br>(P7)]
+
+point 782.5 -350.0 label -text etr.
+
+point 793.5 -386.0 water-flow -orientation 167.2
+
+point 733.75 -294.5 water-flow -orientation 181.2
+
+point 569.75 62.5 water-flow -orientation 169.5
+
+point 788.0 -249.75 label -text [<center>Puits des<br>Montgolfières<br>(P13)]
+
+point 655.75 -115.75 height -value [-14 m] -scale s
+
+point 636.5 76.0 label -text [<center>Puits Pince-mi<br>(P26)]
+
+point 692.0 -310.5 air-draught -orientation 0.0 -subtype summer -scale xs
+
+line wall
+  815.0 -456.0
+  813.5 -456.5 807.5 -458.25 807.5 -457.25
+  807.5 -456.25 794.6 -422.71 793.0500000000001 -419.60299999999995
+  791.5 -416.5 791.5 -408.0 791.5 -405.0
+  791.5 -402.0 783.0 -378.25 782.25 -376.5
+  781.5 -374.75 773.22 -367.19 771.86 -365.59299999999996
+  770.5 -364.0 754.25 -348.0 752.25 -346.5
+  750.25 -345.0 728.25 -332.75 726.25 -331.5
+  724.25 -330.25 722.5 -329.0 722.75 -326.5
+  723.0 -324.0 722.75 -272.75 721.75 -267.75
+  720.75 -262.75 717.0 -236.5 716.25 -234.75
+  715.5 -233.0 706.0 -221.0 704.0 -220.0
+  702.0 -219.0 697.0 -214.0 694.75 -212.25
+  692.5 -210.5 688.5 -200.75 687.75 -198.0
+  687.0 -195.25 683.25 -186.5 680.75 -185.0
+  678.25 -183.5 676.14 -185.67 672.82 -184.33299999999997
+  669.5 -183.0 650.75 -174.25 648.0 -173.25
+  645.25 -172.25 643.25 -170.25 643.0 -169.0
+  642.75 -167.75 636.75 -132.25 634.75 -128.25
+  632.75 -124.25 621.5 -100.5 620.5 -98.0
+  619.5 -95.5 619.5 -94.0 618.25 -89.0
+  617.0 -84.0 611.25 -70.25 608.75 -68.5
+  606.25 -66.75 600.75 -66.5 599.75 -64.0
+  altitude .
+  598.75 -61.5 588.0 -44.25 587.75 -42.0
+  587.5 -39.75 569.5 16.0 568.5 21.75
+  567.5 27.5 553.0 91.25 551.5 97.75
+  550.0 104.25 543.5 137.75 543.5 137.75
+  smooth off
+  553.25 138.0
+endline
+
+line wall
+  794.75 -466.75
+  797.25 -467.0 803.75 -476.0 807.0 -476.0
+  altitude .
+  810.25 -476.0 810.5 -472.25 812.25 -468.0
+  813.56 -464.81 818.75 -461.75 818.75 -461.75
+  smooth off
+endline
+
+line wall
+  794.5 -461.25
+  796.75 -460.75 803.0 -460.5 799.5 -454.5
+  smooth off
+endline
+
+line wall -subtype debris
+  654.25 -249.75
+  681.0 -249.75
+endline
+
+point 809.25 -372.25 label -text R5 -scale s
+
+line wall
+  681.0 -249.75
+  680.75 -248.5 682.25 -233.0 682.0 -230.5
+  681.75 -228.0 682.75 -226.5 684.75 -227.0
+  686.75 -227.5 695.75 -230.75 695.75 -230.75
+  smooth off
+  695.75 -230.75 696.0 -260.0 696.0 -262.0
+  696.0 -264.0 697.25 -264.75 700.25 -265.25
+  703.25 -265.75 706.0 -265.0 706.5 -267.75
+  707.0 -270.5 709.75 -299.0 709.5 -304.5
+  709.25 -310.0 708.75 -327.25 710.0 -329.25
+  711.25 -331.25 715.25 -335.5 717.75 -337.0
+  altitude .
+  720.25 -338.5 748.75 -355.75 750.5 -357.75
+  752.25 -359.75 764.25 -363.5 765.25 -364.75
+  766.25 -366.0 768.5 -371.48 768.5 -374.75
+  768.5 -392.75 777.0 -403.5 777.5 -405.5
+  778.0 -407.5 780.0 -411.75 782.25 -414.5
+  784.5 -417.25 785.0 -418.5 786.0 -421.75
+  787.0 -425.0 799.5 -454.5 799.5 -454.5
+  smooth off
+endline
+
+point 700.25 -190.0 label -text R5 -scale s
+
+line wall
+  636.75 -177.25
+  636.75 -177.25 653.0 -180.5 656.5 -181.75
+  660.0 -183.0 665.0 -184.5 667.25 -185.25
+  669.5 -186.0 674.5 -189.25 674.5 -189.25
+  smooth off
+  674.5 -189.25 656.5 -223.5 655.0 -233.5
+  653.5 -243.5 654.25 -249.75 654.25 -249.75
+  smooth off
+endline
+
+line wall
+  593.75 -64.0
+  593.75 -64.0 597.25 -74.25 597.25 -77.0
+  597.25 -79.75 596.75 -83.0 596.75 -86.75
+  596.75 -90.5 599.25 -94.25 601.75 -96.75
+  604.25 -99.25 610.0 -103.75 614.0 -112.25
+  618.0 -120.75 615.0 -126.0 618.0 -131.25
+  621.0 -136.5 631.75 -165.25 632.5 -167.75
+  633.25 -170.25 633.75 -175.75 636.75 -177.25
+  smooth off
+  altitude .
+endline
+
+line wall
+  503.75 151.0
+  503.75 151.0 513.0 142.25 515.0 141.75
+  517.0 141.25 526.25 138.0 526.25 138.0
+  smooth off
+  538.5 138.0
+  538.5 138.0 542.75 100.0 543.0 98.0
+  543.25 96.0 543.75 93.75 545.0 93.0
+  546.25 92.25 547.25 89.0 547.25 89.0
+  smooth off
+  547.25 89.0 560.25 23.25 561.0 20.5
+  561.75 17.75 570.5 -20.0 573.5 -23.75
+  576.5 -27.5 578.0 -30.0 578.75 -34.25
+  579.5 -38.5 583.0 -50.75 585.25 -53.25
+  587.5 -55.75 593.75 -62.5 593.75 -64.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap SC-castor-3 -projection extended -scale [-128.0 -128.0 285.48040000000003 -128.0 0.0 0.0 10.50240216 0.0 m]
+
+point 1095.41 -410.193 station -name 0@castor-fond
+
+point 1040.93 -408.50300000000004 station -name 1@castor-fond
+
+point 860.75 -489.0 label -align right -text [Vers le Puits<br>des Funambules]
+
+point 729.75 -494.25 label -align left -text [Vers le Puits<br>des Parapentistes]
+
+line arrow
+  987.25 -267.75
+  892.5 -396.5
+endline
+
+point 1001.25 -251.0 label -text [Accès à la Vire du <br>Haut de Coeur et au<br>Puits des Funambules]
+
+line arrow
+  742.5 -482.0
+  788.0 -465.25
+endline
+
+line arrow
+  852.5 -481.5
+  835.75 -461.75
+endline
+
+line arrow
+  1108.75 -449.5
+  1104.75 -425.0
+endline
+
+point 1111.25 -456.75 label -text [Vers P15 puis le<br>Puits des Parapentistes] -align bottom-right
+
+point 1019.0 -360.75 label -text [Salle supérieure<br>(Scialet Candy)]
+
+line wall -reverse on
+  831.25 -462.25
+  829.0 -462.25 818.75 -461.75 818.75 -461.75
+  smooth off
+endline
+
+point 1095.75 -413.5 debris
+
+point 921.75 -416.25 debris
+
+point 1066.25 -410.25 debris
+
+point 971.0 -416.25 debris
+
+point 947.5 -414.0 blocks
+
+point 1017.5 -416.0 blocks
+
+point 1041.5 -414.25 blocks -scale s
+
+point 846.75 -435.75 blocks -scale s
+
+point 870.25 -424.75 blocks
+
+line arrow
+  1135.25 -389.75
+  1099.75 -408.75
+endline
+
+point 1139.5 -387.5 label -align right -text cairn
+
+line wall
+endline
+
+line wall -reverse on
+  1100.75 -418.5
+  1102.25 -416.75 1101.75 -415.75 1101.75 -415.75
+  smooth off
+  1101.75 -415.75 1101.75 -413.5 1099.5 -413.5
+  1097.25 -413.5 1031.25 -416.5 1022.75 -417.5
+  1014.25 -418.5 971.25 -418.25 959.5 -418.25
+  947.75 -418.25 902.5 -417.75 897.0 -417.75
+  891.5 -417.75 874.54 -418.8 874.75 -421.5
+  875.25 -428.0 856.0 -429.25 854.25 -430.5
+  852.5 -431.75 826.75 -457.5 826.75 -457.5
+  smooth off
+  831.5 -457.25
+endline
+
+line wall
+  1106.5 -418.25
+  1107.75 -414.75 1109.25 -411.25 1106.75 -409.0
+  1104.25 -406.75 1097.75 -401.75 1094.5 -401.25
+  1091.25 -400.75 1058.25 -394.25 1052.5 -393.5
+  1046.75 -392.75 1043.0 -391.5 1029.0 -394.0
+  1015.0 -396.5 995.25 -398.5 988.75 -398.75
+  982.25 -399.0 921.5 -404.75 916.0 -404.25
+  910.5 -403.75 883.5 -399.75 880.25 -399.5
+  877.0 -399.25 870.75 -404.5 865.0 -406.5
+  859.25 -408.5 854.25 -410.75 850.25 -410.75
+  846.25 -410.75 821.75 -416.25 821.75 -416.25
+  smooth off
+endline
+
+line wall -reverse on
+  815.0 -456.0
+  820.25 -452.25 834.0 -435.75 836.5 -433.0
+  839.0 -430.25 844.25 -424.25 844.25 -424.25
+  smooth off
+  821.0 -429.25
+endline
+
+point 983.5799999999999 -416.37300000000005 station -name 2@castor-fond
+
+point 915.01 -414.783 station -name 3@castor-fond
+
+point 876.84 -407.403 station -name 4@castor-fond
+
+point 851.96 -421.96299999999997 station -name 5@castor-fond
+
+point 821.08 -456.923 station -name 7@castor-fond
+
+line rock-border
+endline
 
 endscrap
 
