@@ -39,7 +39,7 @@ survey Castor -title "Scialet du Grand Castor  - CAF-159" # -entrance 0@topo_202
 
        # raccords des dessins de la coupe
        join SC-castor-1 SC-castor-2
-       join castor SC-castor-2 SC-castor-3
+       join SC-castor-2 SC-castor-3
 
        input castor-maps.th	
 endsurvey
