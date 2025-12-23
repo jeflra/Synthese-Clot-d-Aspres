@@ -252,7 +252,7 @@ layout my_layout-coupe
    # les points et le nom des stations topos
 
    symbol-hide line survey
-   symbol-hide point cave-station
+   #symbol-hide point cave-station
    debug station-names
 
    # Specifier qu il faut imprimer une grille
@@ -296,9 +296,9 @@ endlayout
 
 # EXPORTS
 
-#export map -o Outputs/Castor-plan.pdf -layout my_layout
-#export map -fmt xvi -layout xviexport -o Outputs/castor-plan.xvi -layout-scale 1 500
-export map -proj extended -fmt xvi -layout xviexport -o Data/castor_coupe.xvi
+export map -o Outputs/Castor-plan.pdf -layout my_layout
+export map -fmt xvi -layout xviexport -o Outputs/castor-plan.xvi -layout-scale 1 500
+#export map -proj extended -fmt xvi -layout xviexport -o Data/castor_coupe.xvi
 
 #export model -format loch 	-o Outputs/castor.lox
 #export map -proj plan -fmt kml -o Outputs/Castor.kml -layout my_layout

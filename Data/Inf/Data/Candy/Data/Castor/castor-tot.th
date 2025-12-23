@@ -15,22 +15,22 @@ survey Castor -title "Scialet du Grand Castor  - CAF-159" # -entrance 0@topo_202
        ### Plan
        
        # import des dessins du plan
-       input Data/castor.th2
-       input Data/lames.th2
-
+       # input Data/castor.th2
+       # input Data/lames.th2
+       input Data/castor-plan.th2
 
        # raccords des dessins du plan
-       join l-manieres-2:7 l-entree-2:2
-       join l-manieres-2:10 l-entree-1:1
-       join SP-entree-2 SP-entree-3
+       # join l-manieres-2:7 l-entree-2:2
+       # join l-manieres-2:10 l-entree-1:1
+       # join SP-entree-2 SP-entree-3
 
-       join l-manieres-1:0 l-alcove-1:end
-       join l-manieres-2:end l-alcove-2:0
+       # join l-manieres-1:0 l-alcove-1:end
+       # join l-manieres-2:end l-alcove-2:0
 
-       join SP-entree-3 SP-entree-4
-       join SP-entree-4 SP-entree-5
+       # join SP-entree-3 SP-entree-4
+       # join SP-entree-4 SP-entree-5
 
-       join l-lames-0:0 l-lames-1:0
+       # join l-lames-0:0 l-lames-1:0
 
        ### Coupe
 
