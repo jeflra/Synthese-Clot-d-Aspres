@@ -7,6 +7,62 @@ encoding  utf-8
 
 scrap SP-castor-1 -projection plan -author 2025 "Jean-Florent Raymond" -scale [1968.51 25 m] -station-names "" @castor-entree
 
+point 387.0252 118.7126 label -text P10
+
+point 374.6732 52.5974 label -text [<center>le barrage<br>à castors]
+
+point 410.8333 75.9055 dig
+
+point 381.2386 95.2198 debris
+
+point 407.605 99.1782 debris
+
+point 448.3731 122.2149 air-draught -orientation 27.687 -subtype summer
+
+point 437.7655 122.5029 entrance -orientation 201.032
+
+point 395.1335 76.4456 water-flow -orientation 264.776
+
+point 470.7764 93.1403 water-flow -orientation 241.024
+
+point 363.7106 111.123 debris
+
+point 421.1254 83.8788 debris
+
+point 431.9023 80.1289 debris
+
+point 449.1902 85.114 debris
+
+line arrow
+  376.7802 60.2705
+  387.9102 88.3505
+endline
+
+line pit
+  374.762 111.4745
+  373.6251 107.122
+endline
+
+line floor-step
+  415.3161 81.1396
+  417.2274 89.8795
+endline
+
+line gradient
+  382.5969 94.9037
+  367.4469 106.7837
+endline
+
+line gradient
+  411.5794 86.952
+  396.905 92.286
+endline
+
+line gradient
+  430.5439 106.1049
+  429.3784 89.7224
+endline
+
 line wall -subtype unsurveyed
   387.7361 76.2052
   390.3133 77.2009 392.4383 78.7531 392.8273 82.4419
@@ -95,7 +151,8 @@ line wall
   395.3729 95.9335 407.91 91.5424 409.501 91.1605
   411.092 90.7787 418.3469 89.8241 420.3834 89.2513
   smooth off
-  420.1623 105.1114
+  421.0243 94.3951 421.1277 100.9675 420.075 106.846
+  smooth off
 endline
 
 line wall
@@ -135,11 +192,11 @@ endline
 
 line pit -outline none
   420.075 106.846
-  419.2651 99.9418 429.6928 99.9392 440.705 98.506
+  421.2724 100.6457 430.2251 100.1258 440.705 98.506
   smooth off
 endline
 
-line pit
+line pit -outline out
   440.705 98.506
   442.5645 121.3589 421.5598 117.0785 420.075 106.846
   smooth off
@@ -169,11 +226,11 @@ endscrap
 
 scrap SP-castor-2 -projection plan -author 2025 "Jean-Florent Raymond" -scale [1968.51 25 m] -station-names "" @castor-entree
 
-point 347.0165 139.9949 label -text [Puits des<br>Bonnes Manières<br>(P52)]
+point 279.0038 123.2627 label -orientation 15.871 -text [laminoir imp.]
 
-point 368.0842 75.418 label -orientation 24.458 -text [imp.]
+point 371.084 73.171 label -orientation 25.512 -text [imp.]
 
-point 271.2145 127.2726 label -orientation 23.916 -text [laminoir imp.]
+point 344.7848 136.0827 label -text [<center>Puits des Bonnes<br>Manières (P52)]
 
 point 365.7807 96.6453 water-flow -orientation 241.018
 
@@ -214,6 +271,11 @@ point 303.3106 124.8943 debris
 point 327.6313 107.997 debris
 
 point 334.9915 103.5431 debris
+
+line arrow
+  348.4178 127.3421
+  356.4878 105.9221
+endline
 
 line floor-step
   370.4563 115.9866
